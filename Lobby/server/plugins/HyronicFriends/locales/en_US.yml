@@ -1,0 +1,799 @@
+PREFIX: '&8[&eHʏʀᴏɴɪᴄFʀɪᴇɴᴅs&8] &8→ &r'
+RAW_PREFIX: '<dark_gray>[<yellow>HʏʀᴏɴɪᴄFʀɪᴇɴᴅs</yellow>] →</dark_gray> '
+
+STATUS:
+  unknown: '&cᴜɴᴋɴᴏᴡɴ'
+  enabled: '&aᴇɴᴀʙʟᴇᴅ'
+  disabled: '&cᴅɪsᴀʙʟᴇᴅ'
+  allowed: '&aᴀʟʟᴏᴡᴇᴅ'
+  disallowed: '&cᴅɪsᴀʟʟᴏᴡᴇᴅ'
+  online: '&aᴏɴʟɪɴᴇ'
+  offline: '&cᴏꜰꜰʟɪɴᴇ'
+  expired: '&cᴇxᴘɪʀᴇᴅ'
+  waiting: '&6ᴡᴀɪᴛɪɴɢ'
+  accepted: '&aᴀᴄᴄᴇᴘᴛᴇᴅ'
+  declined: '&cᴅᴇᴄʟɪɴᴇᴅ'
+  cancelled: '&cᴄᴀɴᴄᴇʟʟᴇᴅ'
+  received: '&6ʀᴇᴄᴇɪᴠᴇᴅ'
+  sent: '&6sᴇɴᴛ'
+  read: '&aʀᴇᴀᴅ'
+  unlimited: '&6ᴜɴʟɪᴍɪᴛᴇᴅ'
+
+FORMAT:
+  years: 'year(s)'
+  months: 'month(s)'
+  weeks: 'week(s)'
+  days: 'day(s)'
+  hours: 'hour(s)'
+  minutes: 'minute(s)'
+  seconds: 'second(s)'
+
+HELP:
+  header: '&8&l------=====[ &eHʏʀᴏɴɪᴄFʀɪᴇɴᴅs v{version} &8&l]=====------'
+  help: '&8 > &c/{label} <help|?> [page] &f: &7Show help page commands.'
+  footer: '&8&l---------------------------------------'
+  Page_1:
+    main: '&8 > &c/{label} &f: &7Open main menu.'
+    toggle: '&8 > &c/{label} toggle &f: &7Toggle receive friend request.'
+    add: '&8 > &c/{label} add <player> &f: &7Send a friend request.'
+    accept: '&8 > &c/{label} accept <player> &f: &7Accept a friend request.'
+    decline: '&8 > &c/{label} decline <player> &f: &7Decline a friend request.'
+    cancel: '&8 > &c/{label} cancel <player> &f: &7Cancel the sent friend request.'
+    list: '&8 > &c/{label} list &f: &7Open your friend list.'
+  Page_2:
+    unfriend: '&8 > &c/unfriend <player> &f: &7Unfriend a player.'
+    notify: '&8 > &c/{label} notify &f: &7Turn on/off notify your friend online status.'
+    blockedlist: '&8 > &c/blockedlist &f: &7List of blocked players.'
+    block: '&8 > &c/block <player> &f: &7Block a player.'
+    unblock: '&8 > &c/unblock <player> &f: &7Unblock a player.'
+    mail: '&8 > &c/fmail help &f: &7View the list of mail commands.'
+    reload: '&8 > &c/{label} reload &f: &7Reload the configuration.'
+  Page_3:
+    teleport: '&8 > &c/ftp <player> &f: &7Teleport to your friend.'
+    toggletp: '&8 > &c/toggletp <player> &f: &7Allow/Disallow your friend to teleport to you.'
+    togglemail: '&8 > &c/togglemail <player> &f: &7Allow/Disallow your friend to send mail to you.'
+    togglemsg: '&8 > &c/togglemsg <player> &f: &7Enable/Disable receiving your friend message.'
+    message: '&8 > &c/fmsg <player> <message> &f: &7Send private message to your friend.'
+    reply: '&8 > &c/freply <message> &f: &7Quick reply to the most recent message.'
+  MAIL:
+    help: '&8 > &c/{label} [help|?] &f: &7Show this help page.'
+    mailbox: '&8 > &c/mailbox &f: &7Open mailbox.'
+    list: '&8 > &c/{label} <player> &f: &7See all mails sent/received to/from a player.'
+    send: '&8 > &c/{label} send <player> <content> &f: &7Send mail to your friend.'
+    read: '&8 > &c/{label} read <player> &f: &7Read the recently received mail.'
+
+BROADCAST:
+  friend-online: '{prefix}&6Your friend, &a{player} &6just online!'
+  friend-offline: '{prefix}&cYour friend, &e{player} &cjust offline!'
+
+  no-mail-received: '{prefix}&6You have no mail!'
+
+#Available color tags: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, or white.
+#Please take a look at (https://docs.advntr.dev/minimessage/format.html#click) once before editing this section.
+RAW:
+  friend-request-accept: '<hover:show_text:''<green>Accept friend request''><click:run_command:/friend accept {player}><green>Accept</green></click></hover>'
+  friend-request-decline: '<hover:show_text:''<red>Decline friend request''><click:run_command:/friend decline {player}><red>Decline</red></click></hover>'
+  friend-request-cancel: '<hover:show_text:''<gold>Cancel friend request''><click:run_command:/friend cancel {player}><gold>Cancel</gold></click></hover>'
+
+  request-sent: '{raw_prefix}<green>A friend request has been sent to <yellow>{player}</yellow>.</green> <dark_gray>[{fr_cancel_raw}]</dark_gray>'
+  request-friend: '{raw_prefix}<gold>The player <yellow>{player}</yellow> wants to make friend with you.</gold> <dark_gray>[{fr_accept_raw} | {fr_decline_raw}]</dark_gray>'
+
+  read-mail: '<hover:show_text:''<green>Read mail''><click:run_command:/fmail read {player}><green>Read Now</green></click></hover>'
+  mailbox: '<hover:show_text:''<green>Open the mailbox''><click:run_command:/mailbox><green>Mailbox</green></click></hover>'
+  quick-reply: '<hover:show_text:''<green>Quickly reply this message.''><click:suggest_command:/fmessage {player} ><green>Reply</green></click></hover>'
+
+  unread-mails: '{raw_prefix}<gold>You have received new mails!</gold> <dark_gray>[{mailbox}]</dark_gray>'
+  new-mail: '{raw_prefix}<aqua>You have received new mail from <yellow>{player}</yellow>!</aqua> <dark_gray>[{read_mail}]</dark_gray>'
+  mail-sent: '{raw_prefix}<green>Mail has been sent to <yellow>{player}</yellow>.</green> <dark_gray>[{mailbox}]</dark_gray>'
+  received-message: '<dark_gray>[<yellow>{player}</yellow> <gray>-></gray> <yellow>you</yellow>]</dark_gray> <white>{message}</white> {quick_reply}'
+
+SUCCESS:
+  config-reload: '{prefix}&aSuccessfully reloaded configs!'
+
+  friend-request-toggled: '{prefix}&7You just &r{status} &7to receive friend requests.'
+  online-notifications-toggled: '{prefix}&7You just &r{status} &7notifications when your friends are online.'
+
+  unfriend: '{prefix}&7You unfriended &e{player}&7.'
+  now-friends: '{prefix}&aYou and &e{player} &aare now friends.'
+  declined-friend-request: '{prefix}&7You declined friend request from &e{player}&7.'
+  friend-request-declined: '{prefix}&e{player} &7declined your friend request.'
+  friend-request-cancelled: '{prefix}&7You have cancelled the friend request sent to &e{player}&7.'
+
+  blocked-player: '{prefix}&7You have blocked &e{player}&7.'
+  unblocked-player: '{prefix}&7You have unblocked &e{player}&7.'
+
+  toggled-private-message: '{prefix}&7You have &r{status} &7receiving private message from &e{player}&7.'
+  private-message-sent: '&8[&eyou &7-> &e{player}&8] &f{message}'
+
+  toggled-teleport: '{prefix}&7You have &r{status} &e{player} &7to teleport to you.'
+  teleported: '{prefix}&aYou teleported to &e{player}&a.'
+  player-teleported: '{prefix}&e{player} &7teleported to you.'
+
+  cancelled-mail: '{prefix}&7You have cancelled the mail sent to &e{player}&7.'
+  toggled-sending-mail: '{prefix}&7You have &r{status} &e{player} &7to send mail to you.'
+
+  friend-online-toast: '&e{player} &6is online!'
+  friend-offline-toast: '&e{player} &cis offline!'
+  friend-request-toast: '&aYou received friend request from &e{player}&a!'
+  now-friend-toast: '&aYou and &e{player} &aare now friend!'
+  friend-request-declined-toast: '&e{player} &chas declined your friend request!'
+  new-mail-toast: '&aYou received new mail from &e{player}&a!'
+
+FAIL:
+  no-permission: '{prefix}&cYou don''t have permission to do that!'
+  wrong-syntax: '{prefix}&cYou entered the wrong syntax! Please check and try again!'
+  missing-args: '{prefix}&cMissing arguments! Usage: &e{usage}&c.'
+  only-players: '{prefix}&cOnly players can use this command!'
+  only-console: '{prefix}&cThis command can only be run by console!'
+
+  player-not-found: '{prefix}&cCould not find that player!'
+  not-yourself: '{prefix}&cYou cannot do that yourself!'
+  cannot-accept-offline: '{prefix}&cYou can only accept this friend request when &e{player} &cis online in this server!'
+  player-already-friend: '{prefix}&cThat player is already your friend!'
+  cannot-send-request: '{prefix}&e{player} &cis currently unable to receive friend request!'
+  reached-max-friends: '{prefix}&cYou have reached the maximum limit of &e{max_friends} &cfriends!'
+  player-reached-max-friends: '{prefix}&e{player} &chas reached the maximum number of friends!'
+  request-existed: '{prefix}&cPlease respond a similar request has been sent from &e{player}&c!'
+  request-already-sent: '{prefix}&cPlease wait until &e{player} &cresponds to your friend request.'
+  request-not-found: '{prefix}&cThere is no request found from &e{player}&c!'
+  request-not-sent: '{prefix}&cThere is no request sent to &e{player}&c!'
+  not-friend: '{prefix}&e{player} &cis not your friend!'
+  blocked-private-message: '{prefix}&cYou cannot send private message to &e{player}&c!'
+  blocked-teleport: '{prefix}&cYou cannot teleport to &e{player}&c!'
+  blocked-mail: '{prefix}&cYou cannot send mail to &e{player}&c!'
+  teleport-delay: '{prefix}&cPlease wait &b{time} second(s) &cto continue teleporting!'
+  player-already-blocked: '{prefix}&cYou already blocked that player!'
+  have-not-blocked: '{prefix}&cYou have not blocked that player!'
+  blocked-player: '{prefix}&cThat player was blocked by you!'
+  player-blocked: '{prefix}&cYou have been blocked!'
+  inventory-is-full: '{prefix}&cYour inventory is full!'
+  item-not-found: '{prefix}&cThis item cannot be found!'
+
+  request-expired: '{prefix}&cThis request has expired!'
+  request-already-responded: '{prefix}&cThis request has been responded before!'
+
+  message-delay: '{prefix}&cPlease wait &b{time} second(s) &cto continue chatting!'
+  no-new-message: '{prefix}&cYou have no new messages!'
+
+  item-blacklisted: '{prefix}&cThis item is prohibited from mailing!'
+  mail-delay: '{prefix}&cPlease wait &b{time} second(s) &cto send the next mail!'
+  mail-read: '{prefix}&cThis mail has been read!'
+  cannot-read-mail: '{prefix}&cYou cannot read this mail (maybe it has been cancelled)!'
+  mail-not-found: '{prefix}&cYou have not received any mail from &e{player}&c!'
+  reached-max-slots: '{prefix}&cYou have reached the maximum limit of &e{max_slots} &cslot(s) for the attached item!'
+
+#You can use any placeholder from PlaceholderAPI in this section.
+GUI:
+  #Main menu:
+  main:
+    Title: '              ᴍᴀɪɴ ᴍᴇɴᴜ'
+    RepresentItems:
+      FriendGui:
+        Name: '&bꜰʀɪᴇɴᴅ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ʏᴏᴜ ʜᴀᴠᴇ: &e{amount} ꜰʀɪᴇɴᴅ(s)'
+        - '&8 ● &7ᴍᴀx ꜰʀɪᴇɴᴅs: &e{max}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴏᴘᴇɴ ꜰʀɪᴇɴᴅ ʟɪsᴛ'
+      Mailbox:
+        Name: '&bᴍᴀɪʟʙᴏx'
+        Lore:
+        - ''
+        - '&8 ● &7ʏᴏᴜ sᴇɴᴛ: &e{total_sent}'
+        - '&8 ● &7ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇᴅ: &e{total_received}'
+        - '&8 ● &7ᴛᴏᴛᴀʟ: &e{total}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴏᴘᴇɴ ᴍᴀɪʟʙᴏx'
+      BlockedGui:
+        Name: '&bʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ʏᴏᴜ ʙʟᴏᴄᴋᴇᴅ: &e{amount} ᴘʟᴀʏᴇʀ(s)'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴏᴘᴇɴ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ'
+      FriendRequestGui:
+        Name: '&bꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛs ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ʏᴏᴜ sᴇɴᴛ: &e{total_sent}'
+        - '&8 ● &7ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇᴅ: &e{total_received}'
+        - '&8 ● &7ᴛᴏᴛᴀʟ: &e{total}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴏᴘᴇɴ ʀᴇǫᴜᴇsᴛs ʟɪsᴛ'
+      FriendRequestToggle:
+        Name: '&6ʀᴇᴄᴇɪᴠᴇ ꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&fɪꜰ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ'
+        - '&fꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛ ꜰʀᴏᴍ ᴏᴛʜᴇʀ'
+        - '&fᴘʟᴀʏᴇʀs, ᴇɴᴀʙʟᴇ ᴛʜɪs ᴏᴘᴛɪᴏɴ.'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+      ToggleNotification:
+        Name: '&6ʀᴇᴄᴇɪᴠᴇ ᴏɴʟɪɴᴇ ɴᴏᴛɪꜰɪᴄᴀᴛɪᴏɴs'
+        Lore:
+        - ''
+        - '&8 ● &7ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&fɪꜰ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴇɴ'
+        - '&fʏᴏᴜʀ ꜰʀɪᴇɴᴅ ɪs ᴏɴʟɪɴᴇ/ᴏꜰꜰʟɪɴᴇ,'
+        - '&fᴇɴᴀʙʟᴇ ᴛʜɪs ᴏᴘᴛɪᴏɴ.'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+    ControlItems:
+      Close:
+        Name: '&c&l✗ &cᴄʟᴏsᴇ ᴍᴇɴᴜ'
+        Lore: []
+  #Friend settings:
+  friend_settings:
+    Title: '         ꜰʀɪᴇɴᴅ sᴇᴛᴛɪɴɢs'
+    RepresentItems:
+      OnlinePlayer:
+        Name: '&2ꜰʀɪᴇɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        Lore:
+        - ''
+        - '&7 ● ɴᴀᴍᴇ: &e{player}'
+        - '&7 ● ᴛɪᴍᴇ: &e{time}'
+        - '&7 ● sᴛᴀᴛᴜs: &e{status}'
+        - '&7 ● ᴘʟᴀʏɪɴɢ ɪɴ: &e{server}' #Only works if your server is BungeeCord.
+      OfflinePlayer:
+        Name: '&2ꜰʀɪᴇɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        Lore:
+        - ''
+        - '&7 ● ɴᴀᴍᴇ: &e{player}'
+        - '&7 ● ᴛɪᴍᴇ: &e{time}'
+        - '&7 ● sᴛᴀᴛᴜs: &e{status}'
+        - '&7 ● ʟᴀsᴛ ᴏɴʟɪɴᴇ: &e{last_online}'
+    ControlItems:
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ꜰʀɪᴇɴᴅ ʟɪsᴛ'
+        Lore: []
+      Unfriend:
+        Name: '&cᴜɴꜰʀɪᴇɴᴅ'
+        Lore: []
+      MailList:
+        Name: '&6sᴇᴇ ʀᴇʟᴀᴛᴇᴅ ᴍᴀɪʟs'
+        Lore:
+        - ''
+        - '&fᴛʜᴇ ʟɪsᴛ ᴏꜰ ᴍᴀɪʟs ᴛʜᴀᴛ ʏᴏᴜ sᴇɴᴛ'
+        - '&fᴏʀ ʀᴇᴄᴇɪᴠᴇᴅ ꜰʀᴏᴍ ᴛʜɪs ᴘʟᴀʏᴇʀ.'
+      CanTeleport:
+        Name: '&3ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴘʟᴀʏᴇʀ'
+        Lore: []
+      CannotTeleport:
+        Name: '&cʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴛᴇʟᴇᴘᴏʀᴛ'
+        Lore: []
+      AllowReceivingMessage:
+        Name: '&6ʀᴇᴄᴇɪᴠɪɴɢ ᴘʀɪᴠᴀᴛᴇ ᴍᴇssᴀɢᴇ'
+        Lore:
+        - ''
+        - '&7 ● ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+      DisallowReceivingMessage:
+        Name: '&6ʀᴇᴄᴇɪᴠɪɴɢ ᴘʀɪᴠᴀᴛᴇ ᴍᴇssᴀɢᴇ'
+        Lore:
+        - ''
+        - '&7 ● ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+      ToggleTeleportAllowed:
+        Name: '&6ᴀʟʟᴏᴡ ᴛᴇʟᴇᴘᴏʀᴛ'
+        Lore:
+        - ''
+        - '&7 ● ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+      ToggleTeleportDisallowed:
+        Name: '&6ᴀʟʟᴏᴡ ᴛᴇʟᴇᴘᴏʀᴛ'
+        Lore:
+        - ''
+        - '&7 ● ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+      ToggleMailingAllowed:
+        Name: '&6ᴀʟʟᴏᴡ sᴇɴᴅɪɴɢ ᴍᴀɪʟ'
+        Lore:
+        - ''
+        - '&7 ● ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+      ToggleMailingDisallowed:
+        Name: '&6ᴀʟʟᴏᴡ sᴇɴᴅɪɴɢ ᴍᴀɪʟ'
+        Lore:
+        - ''
+        - '&7 ● ᴄᴜʀʀᴇɴᴛʟʏ: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄʜᴀɴɢᴇ sᴛᴀᴛᴜs'
+  #The list of friend requests:
+  request_list:
+    Title: '     ʟɪsᴛ ᴏꜰ ꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛs'
+    RepresentItems:
+      SentRequest:
+        Name: '&aꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛ sᴇɴᴛ'
+        Lore:
+        - ''
+        - '&7> &fᴛᴏ: &e{player}'
+        - '&7> &fᴛɪᴍᴇ: &e{time}'
+        - '&7> &fsᴛᴀᴛᴜs: &e{status}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴄᴀɴᴄᴇʟ ʀᴇǫᴜᴇsᴛ'
+      ReceivedRequest:
+        Name: '&aꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛ ʀᴇᴄᴇɪᴠᴇᴅ'
+        Lore:
+        - ''
+        - '&7> &fꜰʀᴏᴍ: &e{player}'
+        - '&7> &fᴛɪᴍᴇ: &e{time}'
+        - '&7> &fsᴛᴀᴛᴜs: &e{status}'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ᴀᴄᴄᴇᴘᴛ ʀᴇǫᴜᴇsᴛ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴅᴇᴄʟɪɴᴇ ʀᴇǫᴜᴇsᴛ'
+    ControlItems:
+      PreviousPage:
+        Name: '&2<< &aᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      NextPage:
+        Name: '&aɴᴇxᴛ ᴘᴀɢᴇ &2>>'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ'
+        Lore: []
+      SwitchToFriendListGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʟɪsᴛ'
+        Lore: []
+      SwitchToMailboxGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ᴍᴀɪʟʙᴏx'
+        Lore: []
+      SwitchToBlockedGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ'
+        Lore: []
+      SwitchToFriendRequestGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛs ʟɪsᴛ &8[&aᴏᴘᴇɴɪɴɢ&8]'
+        Lore: []
+      FilterAll:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&2→ &aᴀʟʟ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs sᴇɴᴛ'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ sᴇɴᴛ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ʀᴇᴄᴇɪᴠᴇᴅ ʀᴇǫᴜᴇsᴛs'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterRequestsSent:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ʀᴇǫᴜᴇsᴛs'
+        - '&2→ &aʀᴇǫᴜᴇsᴛs sᴇɴᴛ'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ sᴇɴᴛ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ʀᴇᴄᴇɪᴠᴇᴅ ʀᴇǫᴜᴇsᴛs'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterRequestsReceived:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs sᴇɴᴛ'
+        - '&2→ &aʀᴇǫᴜᴇsᴛs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ sᴇɴᴛ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ʀᴇᴄᴇɪᴠᴇᴅ ʀᴇǫᴜᴇsᴛs'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterRecentlySentRequests:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs sᴇɴᴛ'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&2→ &aʀᴇᴄᴇɴᴛʟʏ sᴇɴᴛ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ʀᴇᴄᴇɪᴠᴇᴅ ʀᴇǫᴜᴇsᴛs'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterRecentlyReceivedRequests:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ʀᴇǫᴜᴇsᴛs'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs sᴇɴᴛ'
+        - '&8 ● &7ʀᴇǫᴜᴇsᴛs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ sᴇɴᴛ ʀᴇǫᴜᴇsᴛs'
+        - '&2→ &aʀᴇᴄᴇɴᴛʟʏ ʀᴇᴄᴇɪᴠᴇᴅ ʀᴇǫᴜᴇsᴛs'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+  #The list of friends:
+  friend_list:
+    Title: '          ʟɪsᴛ ᴏꜰ ꜰʀɪᴇɴᴅs'
+    RepresentItems:
+      OnlinePlayers:
+        Name: '&2ꜰʀɪᴇɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        Lore:
+        - ''
+        - '&7 ● ɴᴀᴍᴇ: &e{player}'
+        - '&7 ● ᴛɪᴍᴇ: &e{time}'
+        - '&7 ● sᴛᴀᴛᴜs: &e{status}'
+        - '&7 ● ᴘʟᴀʏɪɴɢ ɪɴ: &e{server}' #Only works if your server is BungeeCord.
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴏᴘᴇɴ ꜰʀɪᴇɴᴅ sᴇᴛᴛɪɴɢs'
+      OfflinePlayers:
+        Name: '&2ꜰʀɪᴇɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        Lore:
+        - ''
+        - '&7 ● ɴᴀᴍᴇ: &e{player}'
+        - '&7 ● ᴛɪᴍᴇ: &e{time}'
+        - '&7 ● sᴛᴀᴛᴜs: &e{status}'
+        - '&7 ● ʟᴀsᴛ ᴏɴʟɪɴᴇ: &e{last_online}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴏᴘᴇɴ ꜰʀɪᴇɴᴅ sᴇᴛᴛɪɴɢs'
+    ControlItems:
+      PreviousPage:
+        Name: '&2<< &aᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      NextPage:
+        Name: '&aɴᴇxᴛ ᴘᴀɢᴇ &2>>'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ'
+        Lore: []
+      SwitchToFriendListGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʟɪsᴛ &8[&aᴏᴘᴇɴɪɴɢ&8]'
+        Lore: []
+      SwitchToMailboxGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ᴍᴀɪʟʙᴏx'
+        Lore: []
+      SwitchToBlockedGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ'
+        Lore: []
+      SwitchToFriendRequestGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛs ʟɪsᴛ'
+        Lore: []
+      FilterDefault:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&2→ &aᴅᴇꜰᴀᴜʟᴛ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ᴏɴʟɪɴᴇ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ᴀᴅᴅᴇᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterPlayerOnline:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴅᴇꜰᴀᴜʟᴛ'
+        - '&2→ &aᴘʟᴀʏᴇʀ ᴏɴʟɪɴᴇ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ᴀᴅᴅᴇᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterNameAscending:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴅᴇꜰᴀᴜʟᴛ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ᴏɴʟɪɴᴇ'
+        - '&2→ &aᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ᴀᴅᴅᴇᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterNameDescending:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴅᴇꜰᴀᴜʟᴛ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ᴏɴʟɪɴᴇ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&2→ &aᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ʀᴇᴄᴇɴᴛʟʏ ᴀᴅᴅᴇᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterRecentlyAdded:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴅᴇꜰᴀᴜʟᴛ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ᴏɴʟɪɴᴇ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - '&2→ &aʀᴇᴄᴇɴᴛʟʏ ᴀᴅᴅᴇᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+  #The list of blocked players:
+  blocked_list:
+    Title: '    ʟɪsᴛ ᴏꜰ ʙʟᴏᴄᴋᴇᴅ ᴘʟᴀʏᴇʀs'
+    RepresentItem:
+      Name: '&2ᴘʟᴀʏᴇʀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+      Lore:
+      - ''
+      - '&7> &fɴᴀᴍᴇ: &e{player}'
+      - ''
+      - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴜɴʙʟᴏᴄᴋ ᴛʜɪs ᴘʟᴀʏᴇʀ'
+    ControlItems:
+      PreviousPage:
+        Name: '&2<< &aᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      NextPage:
+        Name: '&aɴᴇxᴛ ᴘᴀɢᴇ &2>>'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ'
+        Lore: []
+      SwitchToFriendListGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʟɪsᴛ'
+        Lore: []
+      SwitchToMailboxGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ᴍᴀɪʟʙᴏx'
+        Lore: []
+      SwitchToBlockedGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ &8[&aᴏᴘᴇɴɪɴɢ&8]'
+        Lore: []
+      SwitchToFriendRequestGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛs ʟɪsᴛ'
+        Lore: []
+      FilterDefault:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&2→ &aᴅᴇꜰᴀᴜʟᴛ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterNameAscending:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴅᴇꜰᴀᴜʟᴛ'
+        - '&2→ &aᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterNameDescending:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ʟɪsᴛ'
+        Lore:
+        - ''
+        - '&8 ● &7ᴅᴇꜰᴀᴜʟᴛ'
+        - '&8 ● &7ᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴀsᴄᴇɴᴅɪɴɢ'
+        - '&2→ &aᴘʟᴀʏᴇʀ ɴᴀᴍᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+  #Mailbox:
+  mailbox:
+    Title: '               ᴍᴀɪʟʙᴏx'
+    RepresentItems:
+      MailsSent:
+        Name: '&aᴍᴀɪʟs sᴇɴᴛ'
+        Lore:
+        - ''
+        - '&7> &fᴛᴏ: &e{player}'
+        - '&7> &fᴛɪᴍᴇ: &e{time}'
+        - '&7> &fsᴛᴀᴛᴜs: &e{status}'
+        - ''
+        - '&7> &fᴄᴏɴᴛᴇɴᴛ:'
+        - '{content}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴠɪᴇᴡ ᴅᴇᴛᴀɪʟs'
+        - '&8[&6sʜɪꜰᴛ ᴄʟɪᴄᴋ&8] &7ᴄᴀɴᴄᴇʟ ᴛʜɪs ᴍᴀɪʟ'
+      MailsReceived:
+        Name: '&aᴍᴀɪʟs ʀᴇᴄᴇɪᴠᴇᴅ'
+        Lore:
+        - ''
+        - '&7> &fꜰʀᴏᴍ: &e{player}'
+        - '&7> &fᴛɪᴍᴇ: &e{time}'
+        - '&7> &fsᴛᴀᴛᴜs: &e{status}'
+        - ''
+        - '&7> &fᴄᴏɴᴛᴇɴᴛ:'
+        - '{content}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ʀᴇᴀᴅ ᴛʜɪs ᴍᴀɪʟ'
+    ControlItems:
+      PreviousPage:
+        Name: '&2<< &aᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      NextPage:
+        Name: '&aɴᴇxᴛ ᴘᴀɢᴇ &2>>'
+        Lore:
+        - '&8(&a{page} &7/ &c{max_pages}&8)'
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ'
+        Lore: []
+      SwitchToFriendListGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʟɪsᴛ'
+        Lore: []
+      SwitchToMailboxGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ᴍᴀɪʟʙᴏx &8[&aᴏᴘᴇɴɪɴɢ&8]'
+        Lore: []
+      SwitchToBlockedGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ'
+        Lore: []
+      SwitchToFriendRequestGui:
+        Name: '&3sᴡɪᴛᴄʜ ᴛᴏ ꜰʀɪᴇɴᴅ ʀᴇǫᴜᴇsᴛs ʟɪsᴛ'
+        Lore: []
+      FilterAll:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ᴍᴀɪʟʙᴏx'
+        Lore:
+        - ''
+        - '&2→ &aᴀʟʟ ᴍᴀɪʟs'
+        - '&8 ● &7ᴍᴀɪʟs sᴇɴᴛ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ᴄᴀɴᴄᴇʟʟᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴀᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterMailsSent:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ᴍᴀɪʟʙᴏx'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ᴍᴀɪʟs'
+        - '&2→ &aᴍᴀɪʟs sᴇɴᴛ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ᴄᴀɴᴄᴇʟʟᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴀᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterMailsReceived:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ᴍᴀɪʟʙᴏx'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ᴍᴀɪʟs'
+        - '&8 ● &7ᴍᴀɪʟs sᴇɴᴛ'
+        - '&2→ &aᴍᴀɪʟs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ᴄᴀɴᴄᴇʟʟᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴀᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterMailsCancelled:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ᴍᴀɪʟʙᴏx'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ᴍᴀɪʟs'
+        - '&8 ● &7ᴍᴀɪʟs sᴇɴᴛ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&2→ &aᴍᴀɪʟs ᴄᴀɴᴄᴇʟʟᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴀᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+      FilterMailsRead:
+        Name: '&eꜰɪʟᴛᴇʀ ᴛʜᴇ ᴍᴀɪʟʙᴏx'
+        Lore:
+        - ''
+        - '&8 ● &7ᴀʟʟ ᴍᴀɪʟs'
+        - '&8 ● &7ᴍᴀɪʟs sᴇɴᴛ'
+        - '&8 ● &7ᴍᴀɪʟs ʀᴇᴄᴇɪᴠᴇᴅ'
+        - '&8 ● &7ᴍᴀɪʟs ᴄᴀɴᴄᴇʟʟᴇᴅ'
+        - '&2→ &aᴍᴀɪʟs ʀᴇᴀᴅ'
+        - ''
+        - '&8[&6ʟᴇꜰᴛ ᴄʟɪᴄᴋ&8] &7ɴᴇxᴛ ꜰɪʟᴛᴇʀ'
+        - '&8[&6ʀɪɢʜᴛ ᴄʟɪᴄᴋ&8] &7ᴘʀᴇᴠɪᴏᴜs ꜰɪʟᴛᴇʀ'
+  #Envelopes (when sending, used to store mailed items):
+  send_mail:
+    Title: '              ᴇɴᴠᴇʟᴏᴘᴇ'
+    RepresentItems:
+      AttachedItem:
+        Lore:
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ʀᴇᴍᴏᴠᴇ ᴛʜɪs ɪᴛᴇᴍ'
+        - '&8[&6sʜɪꜰᴛ ᴄʟɪᴄᴋ&8] &7ʀᴇᴍᴏᴠᴇ ᴀʟʟ sɪᴍɪʟᴀʀ ɪᴛᴇᴍs'
+      LockedSlot:
+        Name: '&cʟᴏᴄᴋᴇᴅ sʟᴏᴛ'
+        Lore: []
+    ControlItems:
+      Receiver:
+        Name: '&eʀᴇᴄᴇɪᴠᴇʀ: &f{player}'
+        Lore: []
+      Confirm:
+        Name: '&aᴄᴏɴꜰɪʀᴍ sᴇɴᴅɪɴɢ'
+        Lore:
+        - ''
+        - '&7> &fsᴇɴᴅ ᴛᴏ: &e{player}'
+        - '&7> &fɴᴜᴍʙᴇʀ ᴏꜰ ɪᴛᴇᴍs: &ex{amount}'
+        - ''
+        - '&7> &fᴄᴏɴᴛᴇɴᴛ:'
+        - '{content}'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7sᴇɴᴅ ᴍᴀɪʟ'
+      TakeAll:
+        Name: '&aᴛᴀᴋᴇ ᴀʟʟ ɪᴛᴇᴍs'
+        Lore: []
+  #Envelopes (for reader):
+  read_mail:
+    Title: '              ᴇɴᴠᴇʟᴏᴘᴇ'
+    RepresentItems:
+      Lore:
+      - ''
+      - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴛᴀᴋᴇ ᴛʜɪs ɪᴛᴇᴍ'
+    ControlItems:
+      Information:
+        Name: '&aᴍᴀɪʟ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        Lore:
+        - ''
+        - '&7> &fꜰʀᴏᴍ: &e{player}'
+        - '&7> &fɴᴜᴍʙᴇʀ ᴏꜰ ɪᴛᴇᴍs: &ex{amount}'
+        - ''
+        - '&7> &fᴄᴏɴᴛᴇɴᴛ:'
+        - '{content}'
+      Sender:
+        Name: '&esᴇɴᴅᴇʀ: &f{player}'
+        Lore: []
+      Receiver:
+        Name: '&eʀᴇᴄᴇɪᴠᴇʀ: &f{player}'
+        Lore: []
+      TakeAll:
+        Name: '&aᴛᴀᴋᴇ ɪᴛᴇᴍs'
+        Lore:
+        - ''
+        - '&fᴡɪᴛʜᴅʀᴀᴡ ᴀʟʟ ɪᴛᴇᴍs ᴀʀᴇ'
+        - '&fᴀᴛᴛᴀᴄʜᴇᴅ ᴛᴏ ᴛʜɪs ᴍᴀɪʟ.'
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ᴛᴀᴋᴇ ᴀʟʟ ɪᴛᴇᴍs'
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ᴍᴀɪʟʙᴏx'
+        Lore: []
+  #Mail details:
+  mail_details:
+    Title: '            ᴍᴀɪʟ ᴅᴇᴛᴀɪʟs'
+    RepresentItems:
+      Lore:
+      - ''
+      - '&8[&6ᴄʟɪᴄᴋ&8] &7ʀᴇᴠᴏᴋᴇ ᴛʜɪs ɪᴛᴇᴍ'
+    ControlItems:
+      Information:
+        Name: '&aᴍᴀɪʟ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        Lore:
+        - ''
+        - '&7> &fᴛᴏ: &e{player}'
+        - '&7> &fɴᴜᴍʙᴇʀ ᴏꜰ ɪᴛᴇᴍs: &ex{amount}'
+        - ''
+        - '&7> &fᴄᴏɴᴛᴇɴᴛ:'
+        - '{content}'
+      Sender:
+        Name: '&esᴇɴᴅᴇʀ: &f{player}'
+        Lore: []
+      Receiver:
+        Name: '&eʀᴇᴄᴇɪᴠᴇʀ: &f{player}'
+        Lore: []
+      RevokeAll:
+        Name: '&aʀᴇᴠᴏᴋᴇ ɪᴛᴇᴍs'
+        Lore:
+        - ''
+        - '&8[&6ᴄʟɪᴄᴋ&8] &7ʀᴇᴠᴏᴋᴇ ᴀʟʟ ɪᴛᴇᴍs'
+      Back:
+        Name: '&2< &aʙᴀᴄᴋ ᴛᴏ ᴍᴀɪʟʙᴏx'
+        Lore: []
+
+# 9L49tO0eKtvztV/jKypuyXCXJ6ZcZjnBCONjLvthJdPfqrluKvVKEZOLrQGIJhcShyQvFOp4067Y87NJovOtRr6tKnYRCEQamStd46k2Q70=

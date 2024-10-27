@@ -1,0 +1,23 @@
+# List of all achievement categories
+global:
+  name: "Global"
+  description:
+    - "&7Achievements that can be completed"
+    - "&7across all servers."
+  servers:
+    - ALL
+  item:
+    material: COMPASS
+    slot: 12
+survival:
+  name: "Survival"
+  description:
+    - "&7Achievements that can be completed"
+    - "&7on the Survival server."
+  permission: "achievements.survival"
+  servers:
+    - survival
+  item:
+    material: CLOCK
+    slot: 14
+# /4q4dBIFi6as+uMmfZsv2LBw1ovpDaTSQysjeACel/9VPtuvxyfHTqX4qGa3Jo7Ac2OLUCzKhvTKiy/E3odZ98rhI9OfmLFbVkTsbTKksUA=

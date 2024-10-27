@@ -1,0 +1,300 @@
+# Unique identifier for the crop
+tomato:
+  # Type of the item
+  # Options: BLOCK or FURNITURE
+  type: BLOCK
+  # Specifies which pots the crop can be planted on
+  pot-whitelist:
+    - default
+  # The seed item used to plant the crop
+  seed: customcrops:tomato_seeds
+  # Enables random rotation when planting; applicable only in FURNITURE mode
+  random-rotation: true
+  # Requirements for planting or breaking the crop
+  requirements:
+    break: {} # No specific requirements for breaking
+    plant:
+      requirement_1:
+        type: season
+        value:
+          - Spring
+          - Autumn
+        not-met-actions:
+          message_action:
+            type: message
+            value: '<red><bold>[X] It''s not a good season to plant tomato'
+  # Event settings for actions like planting and breaking
+  events:
+    plant:
+      # Plays a hand-swing animation when planting
+      swing_hand_action:
+        type: swing-hand
+        value: true
+      # Plays a sound when planting the crop
+      sound_action:
+        type: sound
+        value:
+          source: player
+          key: minecraft:item.hoe.till
+          volume: 1
+          pitch: 1
+    break:
+      # Plays a sound when breaking the crop
+      sound_action:
+        type: sound
+        value:
+          source: player
+          key: minecraft:block.crop.break
+          volume: 1
+          pitch: 1
+  # Maximum growth stage for the crop
+  max-points: 6
+  # Actions and settings for each growth stage of the crop
+  points:
+    0:
+      # Model representing the crop at this growth stage
+      model: customcrops:tomato_stage_1
+      # Adjusts hologram position to match the crop model's height
+      hologram-offset-correction: 0.2
+      # Events triggered when the crop is broken at this stage
+      events:
+        break:
+          # 30% chance to drop tomato seeds when broken
+          action_1:
+            type: drop-item
+            value:
+              ignore-fertilizer: true
+              item: customcrops:tomato_seeds
+              min: 1
+              max: 1
+            chance: 0.3
+    1:
+      model: customcrops:tomato_stage_2
+      hologram-offset-correction: 0.2
+      events:
+        break:
+          # 50% chance to drop tomato seeds when broken
+          action_1:
+            type: drop-item
+            value:
+              ignore-fertilizer: true
+              item: customcrops:tomato_seeds
+              min: 1
+              max: 1
+            chance: 0.5
+    3:
+      model: customcrops:tomato_stage_3
+      hologram-offset-correction: 0.2
+      events:
+        break:
+          # 70% chance to drop tomato seeds when broken
+          action_1:
+            type: drop-item
+            value:
+              ignore-fertilizer: true
+              item: customcrops:tomato_seeds
+              min: 1
+              max: 1
+            chance: 0.7
+    5:
+      model: customcrops:tomato_stage_4
+      hologram-offset-correction: 0.2
+      events:
+        interact:
+          # Actions triggered upon interacting with the crop
+          action_1:
+            type: conditional
+            value:
+              conditions:
+                requirement_1:
+                  type: item-in-hand
+                  value:
+                    item: "AIR"
+              actions:
+                action_1:
+                  type: break
+                  value: true
+                action_2:
+                  type: swing-hand
+                  value: true
+                action_3:
+                  type: plant
+                  value:
+                    point: 0
+                    crop: tomato
+        grow:
+          # Rare chance to change to a special "golden" variant upon growth
+          action_1:
+            type: variation
+            value:
+              golden:
+                item: customcrops:tomato_stage_golden
+                type: BLOCK
+                chance: 0.01
+        break:
+          # 100% chance to drop 1-2 tomato seeds when broken
+          action_1:
+            type: drop-item
+            value:
+              ignore-fertilizer: true
+              item: customcrops:tomato_seeds
+              min: 1
+              max: 2
+            chance: 1
+          # Quality crop drop logic, varying the output
+          action_2:
+            type: quality-crops
+            value:
+              min: 1
+              max: 4
+              items:
+                1: customcrops:tomato
+                2: customcrops:tomato_silver_star
+                3: customcrops:tomato_golden_star
+    6:
+      # Additional growth events beyond normal max-points
+      events:
+        grow:
+          action_1:
+            type: variation
+            value:
+              gigantic:
+                item: customcrops:gigantic_tomato
+                type: BLOCK
+                chance: 0.02
+    # Special configuration for a non-standard growth stage (e.g., rare or unique crops)
+    99:
+      model: customcrops:tomato_stage_golden
+      # Stage-specific interact and break requirements
+      requirements:
+        break:
+          requirement_1:
+            type: item-in-hand
+            value:
+              item: GOLDEN_HOE
+              amount: 1
+            not-met-actions:
+              actionbar_action:
+                type: actionbar
+                value: "<red><bold>[X] Hold a golden hoe to harvest the golden tomato"
+      events:
+        break:
+          # Drops and other actions when breaking the crop at this special stage
+          action_1:
+            type: drop-item
+            value:
+              ignore-fertilizer: true
+              item: customcrops:tomato_seeds
+              min: 1
+              max: 2
+            chance: 1
+          action_2:
+            type: drop-item
+            value:
+              ignore-fertilizer: false
+              item: customcrops:golden_tomato
+              min: 1
+              max: 4
+            chance: 1
+          # Reduces item durability upon interaction
+          action_3:
+            type: durability
+            value: -1
+        interact:
+          action_1:
+            type: conditional
+            value:
+              conditions:
+                requirement_1:
+                  type: item-in-hand
+                  value:
+                    item: GOLDEN_HOE
+                    amount: 1
+              actions:
+                action_1:
+                  type: break
+                  value: true
+                action_2:
+                  type: swing-hand
+                  value: true
+                action_3:
+                  type: plant
+                  value:
+                    point: 0
+                    crop: tomato
+  # Conditions under which the crop can grow
+  grow-conditions:
+    default:
+      point: 1
+      conditions:
+        season_condition:
+          type: suitable-season
+          value:
+            - Spring
+            - Autumn
+        water_condition:
+          type: water-more-than
+          value: 0
+  # Conditions that may cause the crop to die
+  death-conditions:
+    no_water:
+      # Custom model for the death stage, triggered by lack of water
+      model: customcrops:crop_stage_death
+      conditions:
+        '&&':
+          condition_1:
+            type: water-less-than
+            value: 1
+          condition_2:
+            type: random
+            value: 0.7
+    unsuitable_season:
+      # Crop dies in unsuitable seasons
+      model: customcrops:crop_stage_death
+      conditions:
+        condition_1:
+          type: unsuitable-season
+          value:
+            - Winter
+    crow_attack:
+      # Crop removal due to crow attack
+      conditions:
+        condition_1:
+          type: crow-attack
+          value:
+            chance: 0.005
+            fly-model: customcrops:crow_fly
+            stand-model: customcrops:crow_stand
+      # Delay before the crop is removed after a crow attack
+      delay: 150
+  # Custom settings for bone meal use
+  custom-bone-meal:
+    bone_meal_1:
+      item: BONE_MEAL
+      # Allows use with a dispenser
+      dispenser: true
+      chance:
+        2: 0.2
+        1: 0.6
+      actions:
+        swing_action:
+          type: swing-hand
+          value: true
+        particle_action:
+          type: particle
+          value:
+            particle: VILLAGER_HAPPY
+            x: 0.5
+            y: 0.5
+            z: 0.5
+            count: 5
+            offset-x: 0.3
+            offset-y: 0.3
+            offset-z: 0.3
+        sound_action:
+          type: sound
+          value:
+            source: player
+            key: minecraft:item.bone_meal.use
+            volume: 1
+            pitch: 1

@@ -1,0 +1,93 @@
+#优先级（从上而下）
+Priority:
+- Admin
+- VIP
+- Default
+
+#用户组配置
+Groups:
+    #示例组，可自行创建
+    'Default':
+        #用户组权限
+        Permission: globalmarketplus.group.default
+        #是否为默认的权限组
+        Default: true
+        #能够同时上架的最多的出售类商品的数量
+        #删除选项将判定为无限制
+        Maximum-Of-Merchandises:Selling: 10
+        #能够同时上架的最多的收购类商品的数量
+        #删除选项将判定为无限制
+        Maximum-Of-Merchandises:Purchasing: 10
+        #能够同时发起的拍卖数量
+        #删除选项将判定为无限制
+        Maximum-Of-Merchandises:Bidding: 2
+        #商品税率（百分比）出售类
+        #删除选项将判定为无税率
+        Tax-Rate:Selling: 0.05
+        #商品税率（百分比）收购类
+        #删除选项将判定为无税率
+        Tax-Rate:Purchasing: 0.05
+        #商品税率（百分比）拍卖类
+        #删除选项将判定为无税率
+        Tax-Rate:Bidding: 0.05
+        #最低价格（出售类商品）
+        #删除选项将判定为无限制
+        Lowest-Price:Selling: 1.0
+        #最高售价（出售类商品）
+        #删除选项将判定为无限制
+        Highest-Price:Selling: 10000000.0
+        #最低价格（收购类商品）
+        #删除选项将判定为无限制
+        Lowest-Price:Purchasing: 1.0
+        #最高售价（收购类商品）
+        #删除选项将判定为无限制
+        Highest-Price:Purchasing: 10000000.0
+        #最低价格（拍卖）
+        #删除选项将判定为无限制
+        Lowest-Price:Bidding: 1.0
+        #最高售价（拍卖）
+        #删除选项将判定为无限制
+        Highest-Price:Bidding: 10000000.0
+        #邮件数量上限
+        #删除选项将判定为无限制
+        Mail-Quantity-Limit: 30
+        #邮件有效期
+        #格式：[时长+单位]
+        #示例：1d 14h 5m 14s 指邮件发送后在1天14小时5分钟14秒后失效
+        Expiration-Date:Mail: 15d
+        #商品有效期（出售类商品）
+        #格式：[时长+单位]
+        #示例：1d 14h 5m 14s 指商品上架后在1天14小时5分钟14秒后下架
+        Expiration-Date:Selling: 10d
+        #商品有效期（收购类商品）
+        #格式：[时长+单位]
+        #示例：1d 14h 5m 14s 指商品上架后在1天14小时5分钟14秒后下架
+        Expiration-Date:Purchasing: 10d
+        #商品有效期（拍卖）
+        #格式：[时长+单位]
+        Expiration-Date:Bidding: 3m
+    'VIP':
+        Permission: globalmarketplus.group.vip
+        Default: false
+        Maximum-Of-Merchandises:Selling: 20
+        Maximum-Of-Merchandises:Purchasing: 20
+        Maximum-Of-Merchandises:Bidding: 3
+        Tax-Rate:Selling: 0.02
+        Tax-Rate:Purchasing: 0.02
+        Tax-Rate:Bidding: 0.02
+        Lowest-Price:Selling: 1.0
+        Highest-Price:Selling: 10000000.0
+        Lowest-Price:Purchasing: 1.0
+        Highest-Price:Purchasing: 10000000.0
+        Lowest-Price:Bidding: 1.0
+        Highest-Price:Bidding: 10000000.0
+        Mail-Quantity-Limit: 100
+        Expiration-Date:Mail: 30d
+        Expiration-Date:Selling: 30d
+        Expiration-Date:Purchasing: 30d
+        Expiration-Date:Bidding: 3m
+    'Admin':
+        #不填写各类选项则无任何限制
+        Permission: globalmarketplus.group.admin
+        Default: false
+        Expiration-Date:Bidding: 3m

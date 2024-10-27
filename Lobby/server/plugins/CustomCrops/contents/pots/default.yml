@@ -1,0 +1,133 @@
+# Unique identifier for the pot
+default:
+  # Maximum capacity for storing water in the pot
+  max-water-storage: 5
+  # Basic settings for pot appearance and behavior
+  base:
+    # Models for the pot's appearance
+    dry: customcrops:dry_pot  # Model ID when the pot is dry
+    wet: customcrops:wet_pot  # Model ID when the pot is wet
+  # Determines if the pot absorbs rainwater when it rains
+  absorb-rainwater: true
+  # Determines if water from nearby sources can wet the pot
+  absorb-nearby-water: false
+  # Maximum number of fertilizers that can be applied to the pot
+  max-fertilizers: 1
+  # Custom appearances for pots with different fertilizer effects
+  fertilized-pots:
+    quality:
+      dry: customcrops:dry_pot  # Model ID for dry pot with 'quality' fertilizer effect
+      wet: customcrops:wet_pot  # Model ID for wet pot with 'quality' fertilizer effect
+    yield_increase:
+      dry: customcrops:dry_pot  # Model ID for dry pot with 'yield increase' fertilizer effect
+      wet: customcrops:wet_pot  # Model ID for wet pot with 'yield increase' fertilizer effect
+    variation:
+      dry: customcrops:dry_pot  # Model ID for dry pot with 'variation' fertilizer effect
+      wet: customcrops:wet_pot  # Model ID for wet pot with 'variation' fertilizer effect
+    soil_retain:
+      dry: customcrops:dry_pot  # Model ID for dry pot with 'soil retain' fertilizer effect
+      wet: customcrops:wet_pot  # Model ID for wet pot with 'soil retain' fertilizer effect
+    speed_grow:
+      dry: customcrops:dry_pot  # Model ID for dry pot with 'speed grow' fertilizer effect
+      wet: customcrops:wet_pot  # Model ID for wet pot with 'speed grow' fertilizer effect
+  # Methods available to refill the watering can with water
+  fill-method:
+    # Customizable refill method 1
+    method_1:
+      # Item required to refill
+      item: WATER_BUCKET
+      # Item returned after refilling (optional)
+      return: BUCKET
+      # Amount of water added with this method
+      amount: 3
+      actions:
+        # Sound effect to play when refilling
+        sound_action:
+          type: sound
+          value:
+            source: player
+            key: minecraft:item.bucket.fill
+            volume: 1
+            pitch: 1
+        # Action of swinging hand during refill
+        swing_hand_action:
+          type: swing-hand
+          value: true
+    # Customizable refill method 2
+    method_2:
+      item: POTION
+      return: GLASS_BOTTLE
+      amount: 1
+      actions:
+        sound_action:
+          type: sound
+          value:
+            source: player
+            key: minecraft:item.bottle.fill
+            volume: 1
+            pitch: 1
+        swing_hand_action:
+          type: swing-hand
+          value: true
+  # Configuration for the visual display of water levels
+  water-bar:
+    left: '뀂'   # Left cap character for the water bar
+    full: '뀁뀃' # Character sequence representing a full water segment
+    empty: '뀁뀄' # Character sequence representing an empty water segment
+    right: '뀁뀅' # Right cap character for the water bar
+  # Event settings to handle interactions and effects
+  events:
+    add_water:
+      particle_action:
+        type: particle
+        value:
+          particle: WATER_SPLASH  # Particle effect when water is added
+          x: 0.5
+          y: 1.3
+          z: 0.5
+          count: 5
+          offset-x: 0.3
+          offset-z: 0.3
+    interact:
+      # Action to display a hologram when holding a specified item
+      conditional_action:
+        type: conditional
+        value:
+          conditions:
+            requirement_1:
+              type: item-in-hand
+              value:
+                amount: 1
+                item: customcrops:soil_surveyor
+          actions:
+            # Display hologram for fertilizer status if fertilizer exists
+            conditional_fertilizer_action:
+              type: conditional
+              value:
+                conditions:
+                  requirement_1:
+                    type: fertilizer
+                    value:
+                      has: true
+                actions:
+                  fertilizer_hologram:
+                    type: hologram
+                    value:
+                      duration: 20  # Duration the hologram remains visible
+                      text: '<font:customcrops:default>{icon}</font> {left_times}/{max_times}'
+                      apply-correction: true
+                      x: 0.5
+                      y: 0.83
+                      z: 0.5
+                      visible-to-all: false
+            # Display hologram showing current water level in the pot
+            water_hologram:
+              type: hologram
+              value:
+                duration: 20  # Duration the hologram remains visible
+                text: '<font:customcrops:default>{water_bar}</font>'
+                apply-correction: true
+                x: 0.5
+                y: 0.6
+                z: 0.5
+                visible-to-all: false

@@ -1,0 +1,216 @@
+#默认情况下使用的分类
+Default: '默认'
+
+#分类
+Categories:
+    #默认分类，可参考其格式添加新的分类
+    默认:
+        #分类的显示名称
+        Display-Name: '&7&l默认分类'
+        #白名单模式
+        #启用后，在集合中的物品归属此分类，反之则是集合外的所有物品归属分类
+        Whitelist: false
+        #使用这个分类的权限（删除或改成false即为无需权限）
+        Permission: false
+        #是否匹配潜影盒内的物品
+        Match-Shulker-Box: true
+        #商品的类型（出售：SELLING、收购：PURCHASING、拍卖：BIDDING）
+        Merchandise-Type: []
+        #邮件的状态（正常：NORMAL、已签收：PICKED_UP、已过期：EXPIRED）
+        Item-Mail-State: []
+        #物品ID列表
+        #前缀为"regex:"的元素将视为正则表达式匹配
+        Materials: []
+        #显示名称（物品显示名中包含以下关键词则属于本分类）
+        #前缀为"regex:"的元素将视为正则表达式匹配
+        Display-Name-Keywords: []
+        #物品简介行（物品简介行中包含以下关键词则属于本分类）
+        #前缀为"regex:"的元素将视为正则表达式匹配
+        Display-Lore-Keywords: []
+        #附魔列表（物品若包含列表中的任何一项附魔则属于本分类）
+        #前缀为"regex:"的元素将视为正则表达式匹配
+        Enchantments: []
+        #特殊选项（1.8+）（物品若包含列表中的任何一项特殊选项则属于本分类）
+        #可用（1.16.5为例）：HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS
+        Options: []
+        #自定义模型参数（1.14+）（物品若包含以下模型参数则属于本分类）
+        Custom-Model-Data: []
+        #模块列表（填写其他分类的名字）
+        #作用是使用其他分类的内容
+        Modules: []
+        #内部模块列表（Bukkit自带的分类，不可更改）
+        #当前可用：Foods（所有食物）、Blocks（所有方块）、Record（所有唱片）、Interactive（功能性方块，如按钮、熔炉、附魔台等）
+        Internal-Modules: []
+        #序列化的物品（命令/gmp admin item）
+        #填写序列化的物品名字，同款物品则会归属到此分类中（注意匹配名字的大小写）
+        Serialized-Items: []
+    其它: 
+        Display-Name: '&3&l其它'
+        Whitelist: false
+        Permission: false
+        Match-Shulker-Box: true
+        Modules:
+        - 盔甲
+        - 武器
+        - 工具
+        - 食物
+        - 药水
+        - 方块
+        - 唱片
+        - 资源
+    盔甲:
+        Display-Name: '&6&l盔甲'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Materials:
+        - LEATHER_HELMET
+        - LEATHER_CHESTPLATE
+        - LEATHER_LEGGINGS
+        - LEATHER_BOOTS
+        - GOLDEN_HELMET
+        - GOLDEN_CHESTPLATE
+        - GOLDEN_LEGGINGS
+        - GOLDEN_BOOTS
+        - CHAINMAIL_HELMET
+        - CHAINMAIL_CHESTPLATE
+        - CHAINMAIL_LEGGINGS
+        - CHAINMAIL_BOOTS
+        - IRON_HELMET
+        - IRON_CHESTPLATE
+        - IRON_LEGGINGS
+        - IRON_BOOTS
+        - TURTLE_HELMET
+        - DIAMOND_HELMET
+        - DIAMOND_CHESTPLATE
+        - DIAMOND_LEGGINGS
+        - DIAMOND_BOOTS
+        - NETHERITE_HELMET
+        - NETHERITE_CHESTPLATE
+        - NETHERITE_LEGGINGS
+        - NETHERITE_BOOTS
+    武器:
+        Display-Name: '&d&l武器'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Materials:
+        - WOODEN_SWORD
+        - STONE_SWORD
+        - IRON_SWORD
+        - GOLDEN_SWORD
+        - DIAMOND_SWORD
+        - NETHERITE_SWORD
+        - WOODEN_AXE
+        - STONE_AXE
+        - IRON_AXE
+        - GOLDEN_AXE
+        - DIAMOND_AXE
+        - BOW
+        - TRIDENT
+        - CROSSBOW
+        - SHIELD
+        - ARROW
+        - TIPPED_ARROW
+        - SPECTRAL_ARROW
+    工具:
+        Display-Name: '&c&l工具'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Materials:
+        - WOODEN_PICKAXE
+        - WOODEN_AXE
+        - WOODEN_SHOVEL
+        - WOODEN_HOE
+        - GOLDEN_PICKAXE
+        - GOLDEN_AXE
+        - GOLDEN_SHOVEL
+        - GOLDEN_HOE
+        - STONE_PICKAXE
+        - STONE_AXE
+        - STONE_SHOVEL
+        - STONE_HOE
+        - DIAMOND_PICKAXE
+        - DIAMOND_AXE
+        - DIAMOND_SHOVEL
+        - DIAMOND_HOE
+        - IRON_PICKAXE
+        - IRON_AXE
+        - IRON_SHOVEL
+        - IRON_HOE
+        - NETHERITE_PICKAXE
+        - NETHERITE_AXE
+        - NETHERITE_SHOVEL
+        - NETHERITE_HOE
+        - FISHING_ROD
+        - SHEARS
+        - LEAD
+        - NAME_TAG
+        - FLINT_AND_STEEL
+        - COMPASS
+        - CLOCK
+        - SPYGLASS
+    食物:
+        Display-Name: '&1&l食物'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Internal-Modules:
+        - 'Foods'
+    药水:
+        Display-Name: '&b&l药水'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Materials:
+        - POTION
+        - SPLASH_POTION
+        - LINGERING_POTION
+    方块:
+        Display-Name: '&5&l方块'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Internal-Modules:
+        - 'Blocks'
+    唱片:
+        Display-Name: '&e&l唱片'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Internal-Modules:
+        - 'Record'
+    资源:
+        Display-Name: '&2&l资源'
+        Whitelist: true
+        Permission: false
+        Match-Shulker-Box: true
+        Materials:
+        - 'TURTLE_EGG'
+        - 'CONDUIT'
+        - 'SCUTE'
+        - 'COAL'
+        - 'CHARCOAL'
+        - 'DIAMOND'
+        - 'EMERALD'
+        - 'LAPIS_LAZULI'
+        - 'QUARTZ'
+        - 'AMETHYST_SHARD'
+        - 'RAW_IRON'
+        - 'RAW_GOLD'
+        - 'IRON_INGOT'
+        - 'GOLD_INGOT'
+        - 'RAW_COPPER'
+        - 'COPPER_INGOT'
+        - 'NETHERITE_INGOT'
+        - 'NETHERITE_SCRAP'
+        - 'NETHER_BRICK'
+        - 'NAUTILUS_SHELL'
+        - 'HEART_OF_THE_SEA'
+        - 'FLINT'
+        - 'CLAY_BALL'
+        - 'BRICK'
+        - 'SNOWBALL'
+        - 'SLIME_BALL'
+        

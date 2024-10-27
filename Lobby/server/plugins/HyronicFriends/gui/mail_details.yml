@@ -1,0 +1,44 @@
+Settings:
+  #Rows on GUI:
+  # * The value can only be from 1 to 6.
+  Rows: 6
+
+  #Plays a sound when the player interacts on GUI:
+  #Empty the string (like below) will disable this feature.
+  #Sound: ''
+  Sound: ui_button_click
+
+  #List of positions showing mailed items:
+  Slots: [1-45]
+
+ControlItems:
+  Information:
+    Material: BOOK
+    Slot: 54
+  Sender:
+    Texture: '%player%'
+    Slot: 49
+  Receiver:
+    Texture: '%player%'
+    Slot: 51
+  RevokeAll:
+    Material: ORANGE_WOOL
+    Slot: 50
+  Back:
+    Material: ARROW
+    Slot: 46
+
+#These are decorative items, which will make your GUI more beautiful!
+#You can add/delete items in this section.
+# * You can add the "Commands" option to these item.
+# * Use %player% to get the executor's name.
+# * You can also use placeholder from PlaceholderAPI in this section.
+#- '<command>' - Execute the command as normal player.
+#- 'OP: <command>' - Execute the command as an administrator.
+#- 'CONSOLE: <command>' - Execute the command on Console.
+DecorateItems:
+  border:
+    Material: BLACK_STAINED_GLASS_PANE
+    Name: ' '
+    Slots: [46-48, 52-53]
+    Commands: []

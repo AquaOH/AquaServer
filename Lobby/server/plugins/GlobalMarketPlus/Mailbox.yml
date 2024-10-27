@@ -1,0 +1,60 @@
+#玩家邮箱相关设置
+#命令：/gmp mailbox
+
+#邮件排序方式
+#· ACCORDING_TO_THE_STATE：根据状态排列（正常状态的邮件在最前，后接已签收的邮件，再者是已过期的邮件）
+#· ACCORDING_TO_SENDING_TIME：根据赠送时间排列（最近赠送的在前）
+#· ACCORDING_TO_EXPIRE_TIME：根据到期时间排序（即将到期的在前）
+#· ACCORDING_TO_ITEM_AMOUNT：根据物品的数量（多的在前）
+#· RANDOM：随机排列
+Default-Sorting: ACCORDING_TO_THE_STATE
+
+#是否自动清除到期的邮件
+Auto-Delete-Expired-Mails: false
+
+#是否启用登入消息以提示未签收的邮件
+Join-Messages: true
+
+#是否在玩家离开服务器时清理缓存
+Clear-Cache-When-Quiting: true
+
+#是否在签收邮件时自动删除邮件
+Auto-Delete-When-Picking-Up: false
+
+#GUI中“可移动”的物品是否在关闭后发送至邮箱
+#默认当玩家背包满时，物品将丢弃在地上
+#启用此选项后，物品将发送至玩家邮箱
+Return-Movable-Buttons-to-Mailbox: false
+
+#物品参数黑名单（禁止发送某些包含特殊参数的物品到其他人邮箱中）
+Item-Parameters-Blacklist:
+    #是否启用
+    Enabled: false
+    #白名单模式
+    #启用后，在集合中的物品归属此名单，反之则是集合外的所有物品归属此名单
+    Whitelist: false
+    #是否扫描潜影盒内的物品
+    Scan-Shulker-Box: true
+    #物品ID列表（以下物品将被禁止发送）
+    #前缀为"regex:"的元素将视为正则表达式匹配
+    Materials:
+    - COMMAND_BLOCK
+    - BEDROCK
+    - BARRIER
+    #显示名称（物品显示名中包含以下关键词将被禁止发送）
+    #前缀为"regex:"的元素将视为正则表达式匹配
+    Display-Name-Keywords: 
+    - '已绑定'
+    #物品简介行（物品简介行中包含以下关键词将被禁止发送）
+    #前缀为"regex:"的元素将视为正则表达式匹配
+    Display-Lore-Keywords: 
+    - '已绑定'
+    #附魔列表（物品若包含列表中的任何一项附魔将被禁止发送）
+    #前缀为"regex:"的元素将视为正则表达式匹配
+    Enchantments: []
+    #特殊选项（1.8+）（物品若包含列表中的任何一项特殊选项将被禁止发送）
+    #可用（1.16.5为例）：HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS
+    Options: 
+    - 'HIDE_ENCHANTS'
+    #自定义模型参数（1.14+）（物品若包含以下模型参数将被禁止发送）
+    Custom-Model-Data: []
