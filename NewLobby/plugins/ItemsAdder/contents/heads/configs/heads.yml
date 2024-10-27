@@ -1,0 +1,70 @@
+info:
+  namespace: heads
+items:
+  player_head_gui_size_1:
+    enabled: true
+    display_name: Head 1x1 GUI 
+    resource:
+      generate: false
+      model_path: item/player_head_gui_size_1
+      material: PLAYER_HEAD
+    lore:
+      - '&7Put this into a GUI to show the player skull.'
+      - " "
+      - "&7Hold this item and use the EssentialsX"
+      - "&7command `/skull PLAYERNAME` to change"
+      - "&7the owner of this skull and change its texture."
+  player_head_gui_size_4:
+    enabled: true
+    display_name: Big Head 2x2 GUI 
+    resource:
+      generate: false
+      model_path: item/player_head_gui_size_4
+      material: PLAYER_HEAD
+    lore:
+      - "&7Put this into a GUI to show the player skull."
+      - " "
+      - "&7Hold this item and use the EssentialsX"
+      - "&7command `/skull PLAYERNAME` to change"
+      - "&7the owner of this skull and change its texture."
+  player_head_block_size_item_frame:
+    enabled: true
+    display_name: Head ItemFrame size
+    resource:
+      generate: false
+      model_path: item/player_head_block_size_item_frame
+      material: PLAYER_HEAD
+    lore:
+      - '&7Put this into an "Invisible:1b" and'
+      - '&7"Fixed:1b" ItemFrame.'
+      - " "
+      - "&7Hold this item and use the EssentialsX"
+      - "&7command `/skull PLAYERNAME` to change"
+      - "&7the owner of this skull and change its texture."
+  player_head_hand_size_2:
+    enabled: true
+    display_name: Big Head
+    resource:
+      generate: false
+      model_path: item/player_head_hand_size_2
+      material: PLAYER_HEAD
+    lore:
+      - "&7Hold this item in mainhand or offhand"
+      - "&7to wear it automatically."
+      - " "
+      - "&7Hold this item and use the EssentialsX"
+      - "&7command `/skull PLAYERNAME` to change"
+      - "&7the owner of this skull and change its texture."
+  player_head_gui_size_4_for9:
+    enabled: true
+    display_name: Big Head 2x2 GUI for 9
+    resource:
+      generate: false
+      model_path: item/player_head_gui_size_4_for9
+      material: PLAYER_HEAD
+    lore:
+      - "&7Put this into a GUI to show the player skull."
+      - " "
+      - "&7Hold this item and use the EssentialsX"
+      - "&7command `/skull PLAYERNAME` to change"
+      - "&7the owner of this skull and change its texture."

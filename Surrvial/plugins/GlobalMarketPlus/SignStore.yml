@@ -1,0 +1,29 @@
+#你可设置和创建多个不同功能的木牌
+#你需要在Config.yml中启用“Sign-Store”功能才能使用木牌商店！
+#请按照以下格式进行编辑
+Sign-Scripts:
+    #如果你放置了一个牌子并在第一行写上此本文，
+    #牌子将自动识别为脚本木牌。
+    '[我的商店]':
+        #创建木牌的权限设置
+        Permission:
+            Default: false
+            Permission: globalmarketplus.signscript.create
+        #木牌的本文设置
+        #成功创建商店木牌后，所使用的木牌将自动变为以下本文
+        Sign-Text:
+            Line-1: '&0&l[{storeName}&0&l]'
+            Line-2: '&0&l点击打开'
+            Line-3: ''
+            Line-4: ''
+        #触发命令的设置
+        #格式： "[执行类型]:[命令]"
+        #"执行类型" 可以是 "op" 、 "server"、 无
+        #分别对应 "玩家以OP权限执行命令"、 "执行控制台命令"、"玩家执行命令"
+        #示例： 
+        # "server:say hello" 在控制台中执行"say hello"命令
+        # "op:gamemode creative" 玩家以OP权限执行"gamemode creative"命令
+        # "spawn" 玩家正常执行"spawn"命令
+        #支持PlaceholderAPI变量
+        Commands:
+        - 'gmp store view {player}'

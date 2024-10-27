@@ -1,0 +1,1317 @@
+[22:31:18] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.2
+[22:31:18] [main/INFO]: Loading 89 mods:
+	- banner 728
+	   |-- adventure-platform-fabric 5.9.0
+	   |    \-- net_kyori_adventure-platform-api 4.3.0
+	   |-- com_github_wdog5_mixin-tools 1.0.1
+	   |-- com_googlecode_json-simple_json-simple 1.1.1
+	   |-- com_mohistmc_dynamicenum 0.3
+	   |-- com_mohistmc_i18n 0.6
+	   |-- com_mohistmc_json 0.5
+	   |-- com_mohistmc_tools 0.5.1
+	   |-- com_mysql_mysql-connector-j 8.0.33
+	   |-- commons-codec_commons-codec 1.16.0
+	   |-- commons-lang_commons-lang 2.6-mohist
+	   |-- io_izzel_tools 1.3.0
+	   |-- javax_inject_javax_inject 1
+	   |-- jline_jline 2.14.6
+	   |-- net_fabricmc_mapping-io 0.3.0
+	   |-- net_kyori_adventure-api 4.14.0
+	   |-- net_kyori_adventure-key 4.14.0
+	   |-- net_kyori_adventure-text-logger-slf4j 4.14.0
+	   |-- net_kyori_adventure-text-minimessage 4.14.0
+	   |-- net_kyori_adventure-text-serializer-ansi 4.14.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.14.0
+	   |-- net_kyori_adventure-text-serializer-json 4.14.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.14.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.14.0
+	   |-- net_kyori_ansi 1.0.3
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_md-5_bungeecord-chat 1.16-R0.4
+	   |-- net_md-5_specialsource 1.11.2
+	   |-- net_sf_jopt-simple_jopt-simple 5.0.4
+	   |-- org_apache_logging_log4j_log4j-iostreams 2.20.0
+	   |-- org_checkerframework_checker-qual 3.12.0
+	   |-- org_fusesource_jansi_jansi 1.18
+	   |-- org_xerial_sqlite-jdbc 3.42.0.0
+	   \-- org_yaml_snakeyaml 2.0
+	- bluemap 5.3
+	- chunky 1.3.146
+	- chunkyborder 1.1.53
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.16.2
+	   \-- mixinextras 0.4.1
+	- forgeconfigapiport 8.0.0
+	- java 21
+	- minecraft 1.20.1
+	- openpac-bluemap-integration-remapped 1.0.3
+	   \-- org_quiltmc_qup_json 0.2.0
+	- openpartiesandclaims 0.23.1
+	- xaerominimap 24.2.0
+	- xaeroworldmap 1.38.8
+[22:31:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Reisen/Desktop/MC/Server/Frame/NEWNEW/NewLobby/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:31:18] [main/INFO]: Compatibility level set to JAVA_17
+[22:31:19] [main/INFO]:  _____       ___   __   _   __   _   _____   _____   
+[22:31:19] [main/INFO]: |  _  \     /   | |  \ | | |  \ | | | ____| |  _  \  
+[22:31:19] [main/INFO]: | |_| |    / /| | |   \| | |   \| | | |__   | |_| |  
+[22:31:19] [main/INFO]: |  _  {   / / | | | |\   | | |\   | |  __|  |  _  /  
+[22:31:19] [main/INFO]: | |_| |  / /  | | | | \  | | | \  | | |___  | | \ \  
+[22:31:19] [main/INFO]: |_____/ /_/   |_| |_|  \_| |_|  \_| |_____| |_|  \_\ 
+[22:31:19] [main/INFO]: »¶Ó­À´µ½ Banner 1.20.1 - 728, Java(65.0) 21.0.3 PID: 15084
+
+[22:31:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:31:38] [main/INFO]: Saved OpenPaC BlueMap config
+[22:31:38] [main/INFO]: ÕıÔÚ×¢²áBannerÊÂ¼ş´«µİÆ÷...
+[22:31:38] [main/INFO]: Loading Open Parties and Claims!
+[22:31:39] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22:31:39] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22:31:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:31:40] [main/WARN]: gammautils:bright missing from registry, but requested!
+[22:31:40] [main/WARN]: gammautils:dim missing from registry, but requested!
+[22:31:40] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[22:31:40] [main/INFO]: Loaded 7 recipes
+[22:31:41] [main/INFO]: Loaded 1271 advancements
+[22:31:41] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.634 ms
+[22:31:41] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:31:41] [Server thread/INFO]: Loading properties
+[22:31:41] [Server thread/INFO]: Default game type: ADVENTURE
+[22:31:41] [Server thread/INFO]: Generating keypair
+[22:31:41] [Server thread/INFO]: Starting Minecraft server on *:25585
+[22:31:41] [Server thread/INFO]: Using default channel type
+[22:31:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:31:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:31:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:31:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:31:42] [Server thread/INFO]: This server is running Banner version 728 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[22:31:42] [Server thread/INFO]: ÕıÔÚÏò Bukkit ×¢²á ...
+[22:31:42] [Server thread/INFO]: ×¢²áÁË 0 ¸öĞÂµÄÎïÆ·
+[22:31:42] [Server thread/INFO]: ×¢²áÁË 0 ¸öĞÂµÄ·½¿é
+[22:31:42] [Server thread/INFO]: ÕıÔÚ¼ÓÔØBukkit²å¼ş, ÇëµÈ´ı...
+[22:31:42] [Server thread/INFO]: Debug logging is disabled
+[22:31:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:31:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:31:43] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:31:45] [Server thread/WARN]: Legacy plugin PlayTime v3.6 does not specify an api-version.
+[22:31:45] [Server thread/INFO]: [RewardsLite] ¼ÓÔØ 1 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:31:53] [Server thread/INFO]: [RewardsLite] ¼ÓÔØ 0 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:31:53] [Server thread/INFO]: [RewardsLite] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:31:54] [Server thread/INFO]: [IronElevators] ¼ÓÔØ 1 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:31:54] [Server thread/INFO]: [IronElevators] ¼ÓÔØ 1 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:31:54] [Server thread/INFO]: [IronElevators] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\github\cryptomorin\XSeries\11.3.0\XSeries-11.3.0.jar
+[22:31:54] [Server thread/INFO]: [IronElevators] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:31:55] [Server thread/INFO]: [HuskSync] ¼ÓÔØ 6 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:31:58] [Server thread/INFO]: [HuskSync] ¼ÓÔØ 10 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-core\5.1.0\mongodb-driver-core-5.1.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-sync\5.1.0\mongodb-driver-sync-5.1.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\github\cryptomorin\XSeries\11.3.0\XSeries-11.3.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mariadb\jdbc\mariadb-java-client\3.4.0\mariadb-java-client-3.4.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson\5.1.0\bson-5.1.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson-record-codec\5.1.0\bson-record-codec-5.1.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\mysql\mysql-connector-j\8.4.0\mysql-connector-j-8.4.0.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\json\json\20231013\json-20231013.jar
+[22:32:01] [Server thread/INFO]: [HuskSync] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\redis\clients\jedis\5.1.3\jedis-5.1.3.jar
+[22:32:02] [Server thread/INFO]: [HuskHomes] ¼ÓÔØ 5 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:03] [Server thread/INFO]: [HuskHomes] ¼ÓÔØ 14 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-core\5.1.0\mongodb-driver-core-5.1.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-sync\5.1.0\mongodb-driver-sync-5.1.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\github\cryptomorin\XSeries\11.3.0\XSeries-11.3.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mariadb\jdbc\mariadb-java-client\3.4.0\mariadb-java-client-3.4.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson\5.1.0\bson-5.1.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson-record-codec\5.1.0\bson-record-codec-5.1.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\mysql\mysql-connector-j\8.4.0\mysql-connector-j-8.4.0.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\h2database\h2\2.2.220\h2-2.2.220.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\json\json\20231013\json-20231013.jar
+[22:32:07] [Server thread/INFO]: [HuskHomes] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\redis\clients\jedis\5.1.3\jedis-5.1.3.jar
+[22:32:07] [Server thread/INFO]: [BattlePass] ¼ÓÔØ 3 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:08] [Server thread/INFO]: [BattlePass] ¼ÓÔØ 18 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-core\5.1.0\mongodb-driver-core-5.1.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-sync\5.1.0\mongodb-driver-sync-5.1.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\github\cryptomorin\XSeries\11.3.0\XSeries-11.3.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mariadb\jdbc\mariadb-java-client\3.4.0\mariadb-java-client-3.4.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson\5.1.0\bson-5.1.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson-record-codec\5.1.0\bson-record-codec-5.1.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\mysql\mysql-connector-j\8.4.0\mysql-connector-j-8.4.0.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\h2database\h2\2.2.220\h2-2.2.220.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\json\json\20231013\json-20231013.jar
+[22:32:12] [Server thread/INFO]: [BattlePass] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\redis\clients\jedis\5.1.3\jedis-5.1.3.jar
+[22:32:12] [Server thread/INFO]: [ItemsAdder] ¼ÓÔØ 1 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:15] [Server thread/INFO]: [ItemsAdder] ¼ÓÔØ 26 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-core\5.1.0\mongodb-driver-core-5.1.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\junit\junit\3.8.1\junit-3.8.1.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-sync\5.1.0\mongodb-driver-sync-5.1.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson\5.1.0\bson-5.1.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson-record-codec\5.1.0\bson-record-codec-5.1.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\httpcomponents\httpcore\4.2.2-atlassian1\httpcore-4.2.2-atlassian1.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\mysql\mysql-connector-j\8.4.0\mysql-connector-j-8.4.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\h2database\h2\2.2.220\h2-2.2.220.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\json\json\20231013\json-20231013.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\redis\clients\jedis\5.1.3\jedis-5.1.3.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\github\cryptomorin\XSeries\11.3.0\XSeries-11.3.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\commons-codec\commons-codec\20041127.091804\commons-codec-20041127.091804.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mariadb\jdbc\mariadb-java-client\3.4.0\mariadb-java-client-3.4.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\commons-logging\commons-logging\1.3.4\commons-logging-1.3.4.jar
+[22:32:20] [Server thread/INFO]: [ItemsAdder] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar
+[22:32:20] [Server thread/INFO]: [HyronicFriends] ¼ÓÔØ 5 ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:25] [Server thread/INFO]: [HyronicFriends] ¼ÓÔØ 40 ¸ö¶îÍâ¿âÎÄ¼şÖĞ... ÇëµÈ´ı
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-core\5.1.0\mongodb-driver-core-5.1.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\junit\junit\3.8.1\junit-3.8.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-api\4.17.0\adventure-api-4.17.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\mongodb-driver-sync\5.1.0\mongodb-driver-sync-5.1.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-text-serializer-bungeecord\4.3.3\adventure-text-serializer-bungeecord-4.3.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-text-serializer-gson\4.13.1\adventure-text-serializer-gson-4.13.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-platform-viaversion\4.3.3\adventure-platform-viaversion-4.3.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson\5.1.0\bson-5.1.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-platform-facet\4.3.3\adventure-platform-facet-4.3.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mongodb\bson-record-codec\5.1.0\bson-record-codec-5.1.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\httpcomponents\httpcore\4.2.2-atlassian1\httpcore-4.2.2-atlassian1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-text-minimessage\4.17.0\adventure-text-minimessage-4.17.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-platform-api\4.3.3\adventure-platform-api-4.3.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\mysql\mysql-connector-j\8.4.0\mysql-connector-j-8.4.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\h2database\h2\2.2.220\h2-2.2.220.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\json\json\20231013\json-20231013.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\redis\clients\jedis\5.1.3\jedis-5.1.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\com\github\cryptomorin\XSeries\11.3.0\XSeries-11.3.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\commons-codec\commons-codec\20041127.091804\commons-codec-20041127.091804.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\mariadb\jdbc\mariadb-java-client\3.4.0\mariadb-java-client-3.4.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-platform-bukkit\4.3.3\adventure-platform-bukkit-4.3.3.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-api\4.13.1\adventure-api-4.13.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\jetbrains\annotations\22.0.0\annotations-22.0.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\commons-logging\commons-logging\1.3.4\commons-logging-1.3.4.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\net\kyori\adventure-key\4.17.0\adventure-key-4.17.0.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar
+[22:32:36] [Server thread/INFO]: [HyronicFriends] ÒÑ¼ÓÔØ¿âÎÄ¼ş libraries\spigot-lib\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar
+[22:32:36] [Server thread/INFO]: Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22
+[22:32:36] [Server thread/INFO]: Loading library org.jetbrains.kotlin:kotlin-stdlib:1.8.22
+[22:32:36] [Server thread/INFO]: Loading library org.jetbrains:annotations:13.0
+[22:32:39] [Server thread/INFO]: Loading library org.slf4j:slf4j-api:2.0.8
+[22:32:39] [Server thread/INFO]: Loading library com.zaxxer:HikariCP:4.0.3
+[22:32:39] [Server thread/INFO]: Loading library org.openjdk.nashorn:nashorn-core:15.4
+[22:32:39] [Server thread/INFO]: Loading library org.ow2.asm:asm-commons:7.3.1
+[22:32:39] [Server thread/INFO]: Loading library org.ow2.asm:asm-tree:7.3.1
+[22:32:39] [Server thread/INFO]: Loading library org.ow2.asm:asm:7.3.1
+[22:32:39] [Server thread/INFO]: Loading library org.ow2.asm:asm-util:7.3.1
+[22:32:39] [Server thread/INFO]: Loading library org.apache.commons:commons-jexl3:3.2.1
+[22:32:39] [Server thread/INFO]: Loading library redis.clients:jedis:4.2.3
+[22:32:39] [Server thread/WARN]: [TrChat] Loaded class org.json.JSONObject from HuskHomesGUI v2.3 which is not a depend or softdepend of this plugin.
+[22:32:39] [Server thread/INFO]: Loading library org.yaml:snakeyaml:2.2
+[22:32:39] [Server thread/INFO]: Loading library com.typesafe:config:1.4.3
+[22:32:39] [Server thread/INFO]: Loading library com.electronwill.night-config:core:3.6.7
+[22:32:39] [Server thread/INFO]: Loading library com.electronwill.night-config:toml:3.6.7
+[22:32:39] [Server thread/INFO]: Loading library com.electronwill.night-config:json:3.6.7
+[22:32:39] [Server thread/INFO]: Loading library com.typesafe:config:1.4.2
+[22:32:39] [Server thread/INFO]: Loading library com.electronwill.night-config:hocon:3.6.7
+[22:32:40] [Server thread/INFO]: Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.9.23
+[22:32:40] [Server thread/INFO]: Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0
+[22:32:40] [Server thread/INFO]: Loading library org.jetbrains.kotlin:kotlin-stdlib:1.9.23
+[22:32:40] [Server thread/INFO]: Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0
+[22:32:40] [Server thread/INFO]: Loading library org.jetbrains:annotations:13.0
+[22:32:41] [Server thread/WARN]: [TrMenu] Loaded class com.electronwill.nightconfig_3_6_7.core.ConfigFormat from TrChat v2.1.0 which is not a depend or softdepend of this plugin.
+[22:32:43] [Server thread/WARN]: [TrMenu] Loaded class org.json.JSONObject from HuskHomesGUI v2.3 which is not a depend or softdepend of this plugin.
+[22:32:43] [Server thread/INFO]: Loading library org.openjdk.nashorn:nashorn-core:15.4
+[22:32:43] [Server thread/INFO]: Loading library org.ow2.asm:asm-commons:7.3.1
+[22:32:43] [Server thread/INFO]: Loading library org.ow2.asm:asm-tree:7.3.1
+[22:32:43] [Server thread/INFO]: Loading library org.ow2.asm:asm:7.3.1
+[22:32:43] [Server thread/INFO]: Loading library org.ow2.asm:asm-util:7.3.1
+[22:32:44] [Server thread/INFO]: [Law] ÕıÔÚ¼ÓÔØ Law v2.4.0
+[22:32:44] [Server thread/INFO]: [PlaceholderAPI] ÕıÔÚ¼ÓÔØ PlaceholderAPI v2.11.6
+[22:32:44] [Server thread/INFO]: [PlayTime] ÕıÔÚ¼ÓÔØ PlayTime v3.6
+[22:32:44] [Server thread/INFO]: [EClean] ÕıÔÚ¼ÓÔØ EClean v1.18.1
+[22:32:44] [Server thread/INFO]: [NBTAPI] ÕıÔÚ¼ÓÔØ NBTAPI v2.13.1
+[22:32:44] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[22:32:44] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[22:32:44] [Server thread/INFO]: [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[22:32:44] [Server thread/INFO]: [EZColors] ÕıÔÚ¼ÓÔØ EZColors v2.2.5
+[22:32:44] [Server thread/INFO]: [LuckPerms] ÕıÔÚ¼ÓÔØ LuckPerms v5.4.137
+[22:32:44] [Server thread/INFO]: [VoidGen] ÕıÔÚ¼ÓÔØ VoidGen v2.2.1
+[22:32:44] [Server thread/INFO]: [RewardsLite] ÕıÔÚ¼ÓÔØ RewardsLite v3.1.10_bc-1.13-1.20.4
+[22:32:44] [Server thread/INFO]: [AquaFixDrop] ÕıÔÚ¼ÓÔØ AquaFixDrop v1.0-SNAPSHOT
+[22:32:44] [Server thread/INFO]: [IronElevators] ÕıÔÚ¼ÓÔØ IronElevators v1.6.2
+[22:32:44] [Server thread/INFO]: [LoneLibs] ÕıÔÚ¼ÓÔØ LoneLibs v1.0.55
+[22:32:44] [Server thread/INFO]: [ProtocolLib] ÕıÔÚ¼ÓÔØ ProtocolLib v5.2.0-SNAPSHOT-679
+[22:32:46] [Thread-4/WARN]: [NBTAPI] Error while checking for updates! Error: api.spiget.org
+[22:32:46] [Server thread/INFO]: [LiteSignIn] ÕıÔÚ¼ÓÔØ LiteSignIn v1.8.1.4
+[22:32:46] [Server thread/INFO]: [AquaTeleport] ÕıÔÚ¼ÓÔØ AquaTeleport v1.3-SNAPSHOT
+[22:32:46] [Server thread/INFO]: [CustomJoinAndQuitMessages] ÕıÔÚ¼ÓÔØ CustomJoinAndQuitMessages v1.8.0-b0
+[22:32:46] [Server thread/INFO]: [Vault] ÕıÔÚ¼ÓÔØ Vault v1.7.3-b131
+[22:32:46] [Server thread/INFO]: [LiteAnnouncer] ÕıÔÚ¼ÓÔØ LiteAnnouncer v1.3.1.3
+[22:32:46] [Server thread/INFO]: [ChestShop] ÕıÔÚ¼ÓÔØ ChestShop v3.12.2 (build 353)
+[22:32:46] [Server thread/INFO]: [TogglePvp] ÕıÔÚ¼ÓÔØ TogglePvp v8.1
+[22:32:46] [Server thread/INFO]: [AquaColor] ÕıÔÚ¼ÓÔØ AquaColor v1.0-SNAPSHOT
+[22:32:46] [Server thread/INFO]: [GlobalMarketPlus] ÕıÔÚ¼ÓÔØ GlobalMarketPlus v1.2.10.5
+[22:32:46] [Server thread/INFO]: [TAB-Bridge] ÕıÔÚ¼ÓÔØ TAB-Bridge v5.0.7
+[22:32:46] [Server thread/INFO]: [PlayerTitle] ÕıÔÚ¼ÓÔØ PlayerTitle v4.1.3
+[22:32:46] [Server thread/INFO]: [HuskSync] ÕıÔÚ¼ÓÔØ HuskSync v3.6.6
+[22:32:46] [Server thread/INFO]: [HuskSync] Initializing plugin config & locale files...
+[22:32:46] [Server thread/INFO]: [HuskSync] Successfully initialized plugin config & locale files
+[22:32:46] [Server thread/INFO]: [HeadDatabase] ÕıÔÚ¼ÓÔØ HeadDatabase v4.19.8
+[22:32:46] [Server thread/INFO]: [MapModCompanion] ÕıÔÚ¼ÓÔØ MapModCompanion v0.10.0
+[22:32:46] [Server thread/INFO]: [XConomy] ÕıÔÚ¼ÓÔØ XConomy v2.26.3
+[22:32:46] [Server thread/INFO]: [Multiverse-Core] ÕıÔÚ¼ÓÔØ Multiverse-Core v4.3.1-b861
+[22:32:46] [Server thread/INFO]: [Citizens] ÕıÔÚ¼ÓÔØ Citizens v2.0.32-SNAPSHOT (build 3202)
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] ÕıÔÚ¼ÓÔØ ajLeaderboards v2.9.0
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[22:32:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[22:32:46] [Server thread/INFO]: [HuskHomes] ÕıÔÚ¼ÓÔØ HuskHomes v4.7
+[22:32:46] [Server thread/INFO]: [HuskHomesGUI] ÕıÔÚ¼ÓÔØ HuskHomesGUI v2.3
+[22:32:46] [Server thread/INFO]: [PlayerWarp] ÕıÔÚ¼ÓÔØ PlayerWarp v1.3.9
+[22:32:46] [Server thread/INFO]: [CitizensCMD] ÕıÔÚ¼ÓÔØ CitizensCMD v2.7.1
+[22:32:46] [Server thread/INFO]: [BattlePass] ÕıÔÚ¼ÓÔØ BattlePass v4.6.7
+[22:32:46] [Server thread/INFO]: [DecentHolograms] ÕıÔÚ¼ÓÔØ DecentHolograms v2.8.11
+[22:32:46] [Server thread/INFO]: [PlayerWarps] ÕıÔÚ¼ÓÔØ PlayerWarps v7.5.3
+[22:32:47] [Server thread/INFO]: [WorldBorder] ÕıÔÚ¼ÓÔØ WorldBorder v1.2
+[22:32:47] [Server thread/INFO]: [CustomFishing] ÕıÔÚ¼ÓÔØ CustomFishing v2.2.29
+[22:32:47] [customfishing-worker-0/INFO]: [CustomFishing] Downloading dependency(asm-9.7.1.jar)[https://maven.aliyun.com/repository/public/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar]
+[22:32:47] [customfishing-worker-2/INFO]: [CustomFishing] Downloading dependency(jar-relocator-1.7.jar)[https://maven.aliyun.com/repository/public/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar]
+[22:32:47] [customfishing-worker-1/INFO]: [CustomFishing] Downloading dependency(asm-commons-9.7.1.jar)[https://maven.aliyun.com/repository/public/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar]
+[22:32:47] [customfishing-worker-1/INFO]: [CustomFishing] Successfully downloaded asm-commons-9.7.1.jar
+[22:32:47] [customfishing-worker-2/INFO]: [CustomFishing] Successfully downloaded jar-relocator-1.7.jar
+[22:32:47] [customfishing-worker-0/INFO]: [CustomFishing] Successfully downloaded asm-9.7.1.jar
+[22:32:47] [customfishing-worker-0/INFO]: [CustomFishing] Downloading dependency(boosted-yaml-1.3.7.jar)[https://maven.aliyun.com/repository/public/dev/dejvokep/boosted-yaml/1.3.7/boosted-yaml-1.3.7.jar]
+[22:32:47] [customfishing-worker-11/INFO]: [CustomFishing] Downloading dependency(exp4j-0.4.8.jar)[https://maven.aliyun.com/repository/public/net/objecthunter/exp4j/0.4.8/exp4j-0.4.8.jar]
+[22:32:47] [customfishing-worker-14/INFO]: [CustomFishing] Downloading dependency(mysql-connector-j-9.0.0.jar)[https://maven.aliyun.com/repository/public/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar]
+[22:32:47] [customfishing-worker-10/INFO]: [CustomFishing] Downloading dependency(jedis-5.1.5.jar)[https://maven.aliyun.com/repository/public/redis/clients/jedis/5.1.5/jedis-5.1.5.jar]
+[22:32:47] [customfishing-worker-6/INFO]: [CustomFishing] Downloading dependency(gson-2.11.0.jar)[https://maven.aliyun.com/repository/public/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar]
+[22:32:47] [customfishing-worker-5/INFO]: [CustomFishing] Downloading dependency(commons-pool-2.12.0.jar)[https://maven.aliyun.com/repository/public/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.jar]
+[22:32:47] [customfishing-worker-8/INFO]: [CustomFishing] Downloading dependency(cloud-brigadier-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-brigadier/2.0.0-beta.10/cloud-brigadier-2.0.0-beta.10.jar]
+[22:32:47] [customfishing-worker-7/INFO]: [CustomFishing] Downloading dependency(cloud-core-2.0.0.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-core/2.0.0/cloud-core-2.0.0.jar]
+[22:32:47] [customfishing-worker-15/INFO]: [CustomFishing] Downloading dependency(cloud-minecraft-extras-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-minecraft-extras/2.0.0-beta.10/cloud-minecraft-extras-2.0.0-beta.10.jar]
+[22:32:47] [customfishing-worker-13/INFO]: [CustomFishing] Downloading dependency(cloud-services-2.0.0.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-services/2.0.0/cloud-services-2.0.0.jar]
+[22:32:47] [customfishing-worker-12/INFO]: [CustomFishing] Downloading dependency(caffeine-3.1.8.jar)[https://maven.aliyun.com/repository/public/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar]
+[22:32:47] [customfishing-worker-4/INFO]: [CustomFishing] Downloading dependency(cloud-bukkit-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-bukkit/2.0.0-beta.10/cloud-bukkit-2.0.0-beta.10.jar]
+[22:32:47] [customfishing-worker-9/INFO]: [CustomFishing] Downloading dependency(cloud-paper-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-paper/2.0.0-beta.10/cloud-paper-2.0.0-beta.10.jar]
+[22:32:47] [customfishing-worker-3/INFO]: [CustomFishing] Downloading dependency(geantyref-1.3.16.jar)[https://maven.aliyun.com/repository/public/io/leangen/geantyref/geantyref/1.3.16/geantyref-1.3.16.jar]
+[22:32:47] [customfishing-worker-2/INFO]: [CustomFishing] Downloading dependency(bstats-base-3.0.2.jar)[https://maven.aliyun.com/repository/public/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar]
+[22:32:47] [customfishing-worker-1/INFO]: [CustomFishing] Downloading dependency(bstats-bukkit-3.0.2.jar)[https://maven.aliyun.com/repository/public/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar]
+[22:32:48] [customfishing-worker-11/INFO]: [CustomFishing] Successfully downloaded exp4j-0.4.8.jar
+[22:32:48] [customfishing-worker-11/INFO]: [CustomFishing] Remapping exp4j-0.4.8.jar
+[22:32:48] [customfishing-worker-11/INFO]: [CustomFishing] Successfully remapped exp4j-0.4.8.jar
+[22:32:48] [customfishing-worker-11/INFO]: [CustomFishing] Downloading dependency(mariadb-java-client-3.4.1.jar)[https://maven.aliyun.com/repository/public/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar]
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Successfully downloaded cloud-paper-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Remapping cloud-paper-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-6/INFO]: [CustomFishing] Successfully downloaded gson-2.11.0.jar
+[22:32:48] [customfishing-worker-6/INFO]: [CustomFishing] Downloading dependency(sqlite-driver-3.46.1.0.jar)[https://maven.aliyun.com/repository/public/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar]
+[22:32:48] [customfishing-worker-12/INFO]: [CustomFishing] Successfully downloaded caffeine-3.1.8.jar
+[22:32:48] [customfishing-worker-12/INFO]: [CustomFishing] Remapping caffeine-3.1.8.jar
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Successfully remapped cloud-paper-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Downloading dependency(slf4j-2.0.16.jar)[https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar]
+[22:32:48] [customfishing-worker-8/INFO]: [CustomFishing] Successfully downloaded cloud-brigadier-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-8/INFO]: [CustomFishing] Remapping cloud-brigadier-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-1/INFO]: [CustomFishing] Successfully downloaded bstats-bukkit-3.0.2.jar
+[22:32:48] [customfishing-worker-1/INFO]: [CustomFishing] Remapping bstats-bukkit-3.0.2.jar
+[22:32:48] [customfishing-worker-1/INFO]: [CustomFishing] Successfully remapped bstats-bukkit-3.0.2.jar
+[22:32:48] [customfishing-worker-1/INFO]: [CustomFishing] Downloading dependency(slf4j-simple-2.0.16.jar)[https://maven.aliyun.com/repository/public/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar]
+[22:32:48] [customfishing-worker-8/INFO]: [CustomFishing] Successfully remapped cloud-brigadier-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-8/INFO]: [CustomFishing] Downloading dependency(h2-driver-2.2.224.jar)[https://maven.aliyun.com/repository/public/com/h2database/h2/2.2.224/h2-2.2.224.jar]
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Successfully downloaded cloud-minecraft-extras-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Remapping cloud-minecraft-extras-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-3/INFO]: [CustomFishing] Successfully downloaded geantyref-1.3.16.jar
+[22:32:48] [customfishing-worker-3/INFO]: [CustomFishing] Remapping geantyref-1.3.16.jar
+[22:32:48] [customfishing-worker-0/INFO]: [CustomFishing] Successfully downloaded boosted-yaml-1.3.7.jar
+[22:32:48] [customfishing-worker-0/INFO]: [CustomFishing] Remapping boosted-yaml-1.3.7.jar
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Successfully downloaded cloud-services-2.0.0.jar
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Remapping cloud-services-2.0.0.jar
+[22:32:48] [customfishing-worker-3/INFO]: [CustomFishing] Successfully remapped geantyref-1.3.16.jar
+[22:32:48] [customfishing-worker-3/INFO]: [CustomFishing] Downloading dependency(mongodb-driver-core-5.1.4.jar)[https://maven.aliyun.com/repository/public/org/mongodb/mongodb-driver-core/5.1.4/mongodb-driver-core-5.1.4.jar]
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Successfully remapped cloud-minecraft-extras-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Downloading dependency(mongodb-driver-sync-5.1.4.jar)[https://maven.aliyun.com/repository/public/org/mongodb/mongodb-driver-sync/5.1.4/mongodb-driver-sync-5.1.4.jar]
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Successfully remapped cloud-services-2.0.0.jar
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Downloading dependency(mongodb-bson-5.1.4.jar)[https://maven.aliyun.com/repository/public/org/mongodb/bson/5.1.4/bson-5.1.4.jar]
+[22:32:48] [customfishing-worker-4/INFO]: [CustomFishing] Successfully downloaded cloud-bukkit-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-4/INFO]: [CustomFishing] Remapping cloud-bukkit-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-10/INFO]: [CustomFishing] Successfully downloaded jedis-5.1.5.jar
+[22:32:48] [customfishing-worker-10/INFO]: [CustomFishing] Remapping jedis-5.1.5.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Successfully downloaded bstats-base-3.0.2.jar
+[22:32:48] [customfishing-worker-5/INFO]: [CustomFishing] Successfully downloaded commons-pool-2.12.0.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Remapping bstats-base-3.0.2.jar
+[22:32:48] [customfishing-worker-5/INFO]: [CustomFishing] Remapping commons-pool-2.12.0.jar
+[22:32:48] [customfishing-worker-7/INFO]: [CustomFishing] Successfully downloaded cloud-core-2.0.0.jar
+[22:32:48] [customfishing-worker-7/INFO]: [CustomFishing] Remapping cloud-core-2.0.0.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Successfully remapped bstats-base-3.0.2.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Downloading dependency(hikari-cp-5.1.0.jar)[https://maven.aliyun.com/repository/public/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar]
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Successfully downloaded slf4j-2.0.16.jar
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Downloading dependency(lz4-java-1.8.0.jar)[https://maven.aliyun.com/repository/public/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar]
+[22:32:48] [customfishing-worker-4/INFO]: [CustomFishing] Successfully remapped cloud-bukkit-2.0.0-beta.10.jar
+[22:32:48] [customfishing-worker-5/INFO]: [CustomFishing] Successfully remapped commons-pool-2.12.0.jar
+[22:32:48] [customfishing-worker-0/INFO]: [CustomFishing] Successfully remapped boosted-yaml-1.3.7.jar
+[22:32:48] [customfishing-worker-1/INFO]: [CustomFishing] Successfully downloaded slf4j-simple-2.0.16.jar
+[22:32:48] [customfishing-worker-12/INFO]: [CustomFishing] Successfully remapped caffeine-3.1.8.jar
+[22:32:48] [customfishing-worker-14/INFO]: [CustomFishing] Successfully downloaded mysql-connector-j-9.0.0.jar
+[22:32:48] [customfishing-worker-14/INFO]: [CustomFishing] Remapping mysql-connector-j-9.0.0.jar
+[22:32:48] [customfishing-worker-7/INFO]: [CustomFishing] Successfully remapped cloud-core-2.0.0.jar
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Successfully downloaded mongodb-driver-sync-5.1.4.jar
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Remapping mongodb-driver-sync-5.1.4.jar
+[22:32:48] [customfishing-worker-8/INFO]: [CustomFishing] Successfully downloaded h2-driver-2.2.224.jar
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Successfully downloaded mongodb-bson-5.1.4.jar
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Remapping mongodb-bson-5.1.4.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Successfully downloaded hikari-cp-5.1.0.jar
+[22:32:48] [customfishing-worker-11/INFO]: [CustomFishing] Successfully downloaded mariadb-java-client-3.4.1.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Remapping hikari-cp-5.1.0.jar
+[22:32:48] [customfishing-worker-11/INFO]: [CustomFishing] Remapping mariadb-java-client-3.4.1.jar
+[22:32:48] [customfishing-worker-15/INFO]: [CustomFishing] Successfully remapped mongodb-driver-sync-5.1.4.jar
+[22:32:48] [customfishing-worker-3/INFO]: [CustomFishing] Successfully downloaded mongodb-driver-core-5.1.4.jar
+[22:32:48] [customfishing-worker-3/INFO]: [CustomFishing] Remapping mongodb-driver-core-5.1.4.jar
+[22:32:48] [customfishing-worker-2/INFO]: [CustomFishing] Successfully remapped hikari-cp-5.1.0.jar
+[22:32:48] [customfishing-worker-6/INFO]: [CustomFishing] Successfully downloaded sqlite-driver-3.46.1.0.jar
+[22:32:48] [customfishing-worker-13/INFO]: [CustomFishing] Successfully remapped mongodb-bson-5.1.4.jar
+[22:32:48] [customfishing-worker-10/INFO]: [CustomFishing] Successfully remapped jedis-5.1.5.jar
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Successfully downloaded lz4-java-1.8.0.jar
+[22:32:48] [customfishing-worker-9/INFO]: [CustomFishing] Remapping lz4-java-1.8.0.jar
+[22:32:49] [customfishing-worker-11/INFO]: [CustomFishing] Successfully remapped mariadb-java-client-3.4.1.jar
+[22:32:49] [customfishing-worker-9/INFO]: [CustomFishing] Successfully remapped lz4-java-1.8.0.jar
+[22:32:49] [customfishing-worker-3/INFO]: [CustomFishing] Successfully remapped mongodb-driver-core-5.1.4.jar
+[22:32:49] [customfishing-worker-14/INFO]: [CustomFishing] Successfully remapped mysql-connector-j-9.0.0.jar
+[22:32:49] [Server thread/INFO]: [EpicAchievements] ÕıÔÚ¼ÓÔØ EpicAchievements v1.5.4
+[22:32:49] [Server thread/INFO]: [ItemsAdder] ÕıÔÚ¼ÓÔØ ItemsAdder v3.6.4
+[22:32:49] [Server thread/INFO]: [HyronicFriends] ÕıÔÚ¼ÓÔØ HyronicFriends v1.3.17
+[22:32:49] [Server thread/INFO]: [TrChat] ÕıÔÚ¼ÓÔØ TrChat v2.1.0
+[22:32:49] [Server thread/INFO]: 
+[22:32:49] [Server thread/INFO]: ÕıÔÚ¼ÓÔØ TrChat... 1.20.1-R0.1-SNAPSHOT
+[22:32:49] [Server thread/INFO]: 
+[22:32:49] [Server thread/INFO]: [VendingMachines] ÕıÔÚ¼ÓÔØ VendingMachines v1.5.5
+[22:32:49] [Server thread/INFO]: [CustomCrops] ÕıÔÚ¼ÓÔØ CustomCrops v3.6.16
+[22:32:49] [customcrops-worker-2/INFO]: [CustomCrops] Downloading dependency(jar-relocator-1.7.jar)[https://maven.aliyun.com/repository/public/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar]
+[22:32:49] [customcrops-worker-1/INFO]: [CustomCrops] Downloading dependency(asm-commons-9.7.1.jar)[https://maven.aliyun.com/repository/public/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar]
+[22:32:49] [customcrops-worker-0/INFO]: [CustomCrops] Downloading dependency(asm-9.7.1.jar)[https://maven.aliyun.com/repository/public/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar]
+[22:32:49] [customcrops-worker-2/INFO]: [CustomCrops] Successfully downloaded jar-relocator-1.7.jar
+[22:32:50] [customcrops-worker-0/INFO]: [CustomCrops] Successfully downloaded asm-9.7.1.jar
+[22:32:50] [customcrops-worker-1/INFO]: [CustomCrops] Successfully downloaded asm-commons-9.7.1.jar
+[22:32:50] [customcrops-worker-1/INFO]: [CustomCrops] Downloading dependency(boosted-yaml-1.3.7.jar)[https://maven.aliyun.com/repository/public/dev/dejvokep/boosted-yaml/1.3.7/boosted-yaml-1.3.7.jar]
+[22:32:50] [customcrops-worker-2/INFO]: [CustomCrops] Downloading dependency(bstats-bukkit-3.0.2.jar)[https://maven.aliyun.com/repository/public/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar]
+[22:32:50] [customcrops-worker-7/INFO]: [CustomCrops] Downloading dependency(zstd-jni-1.5.6-6.jar)[https://maven.aliyun.com/repository/public/com/github/luben/zstd-jni/1.5.6-6/zstd-jni-1.5.6-6.jar]
+[22:32:50] [customcrops-worker-6/INFO]: [CustomCrops] Downloading dependency(exp4j-0.4.8.jar)[https://maven.aliyun.com/repository/public/net/objecthunter/exp4j/0.4.8/exp4j-0.4.8.jar]
+[22:32:50] [customcrops-worker-15/INFO]: [CustomCrops] Downloading dependency(geantyref-1.3.16.jar)[https://maven.aliyun.com/repository/public/io/leangen/geantyref/geantyref/1.3.16/geantyref-1.3.16.jar]
+[22:32:50] [customcrops-worker-8/INFO]: [CustomCrops] Downloading dependency(gson-2.11.0.jar)[https://maven.aliyun.com/repository/public/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar]
+[22:32:50] [customcrops-worker-12/INFO]: [CustomCrops] Downloading dependency(cloud-bukkit-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-bukkit/2.0.0-beta.10/cloud-bukkit-2.0.0-beta.10.jar]
+[22:32:50] [customcrops-worker-4/INFO]: [CustomCrops] Downloading dependency(cloud-services-2.0.0.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-services/2.0.0/cloud-services-2.0.0.jar]
+[22:32:50] [customcrops-worker-10/INFO]: [CustomCrops] Downloading dependency(cloud-paper-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-paper/2.0.0-beta.10/cloud-paper-2.0.0-beta.10.jar]
+[22:32:50] [customcrops-worker-13/INFO]: [CustomCrops] Downloading dependency(cloud-minecraft-extras-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-minecraft-extras/2.0.0-beta.10/cloud-minecraft-extras-2.0.0-beta.10.jar]
+[22:32:50] [customcrops-worker-0/INFO]: [CustomCrops] Downloading dependency(bstats-base-3.0.2.jar)[https://maven.aliyun.com/repository/public/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar]
+[22:32:50] [customcrops-worker-11/INFO]: [CustomCrops] Downloading dependency(caffeine-3.1.8.jar)[https://maven.aliyun.com/repository/public/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar]
+[22:32:50] [customcrops-worker-9/INFO]: [CustomCrops] Downloading dependency(cloud-brigadier-2.0.0-beta.10.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-brigadier/2.0.0-beta.10/cloud-brigadier-2.0.0-beta.10.jar]
+[22:32:50] [customcrops-worker-5/INFO]: [CustomCrops] Downloading dependency(cloud-core-2.0.0.jar)[https://maven.aliyun.com/repository/public/org/incendo/cloud-core/2.0.0/cloud-core-2.0.0.jar]
+[22:32:50] [customcrops-worker-15/INFO]: [CustomCrops] Successfully downloaded geantyref-1.3.16.jar
+[22:32:50] [customcrops-worker-9/INFO]: [CustomCrops] Successfully downloaded cloud-brigadier-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-15/INFO]: [CustomCrops] Remapping geantyref-1.3.16.jar
+[22:32:50] [customcrops-worker-9/INFO]: [CustomCrops] Remapping cloud-brigadier-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-13/INFO]: [CustomCrops] Successfully downloaded cloud-minecraft-extras-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-13/INFO]: [CustomCrops] Remapping cloud-minecraft-extras-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-8/INFO]: [CustomCrops] Successfully downloaded gson-2.11.0.jar
+[22:32:50] [customcrops-worker-15/INFO]: [CustomCrops] Successfully remapped geantyref-1.3.16.jar
+[22:32:50] [customcrops-worker-9/INFO]: [CustomCrops] Successfully remapped cloud-brigadier-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-5/INFO]: [CustomCrops] Successfully downloaded cloud-core-2.0.0.jar
+[22:32:50] [customcrops-worker-13/INFO]: [CustomCrops] Successfully remapped cloud-minecraft-extras-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-5/INFO]: [CustomCrops] Remapping cloud-core-2.0.0.jar
+[22:32:50] [customcrops-worker-0/INFO]: [CustomCrops] Successfully downloaded bstats-base-3.0.2.jar
+[22:32:50] [customcrops-worker-0/INFO]: [CustomCrops] Remapping bstats-base-3.0.2.jar
+[22:32:50] [customcrops-worker-2/INFO]: [CustomCrops] Successfully downloaded bstats-bukkit-3.0.2.jar
+[22:32:50] [customcrops-worker-2/INFO]: [CustomCrops] Remapping bstats-bukkit-3.0.2.jar
+[22:32:50] [customcrops-worker-2/INFO]: [CustomCrops] Successfully remapped bstats-bukkit-3.0.2.jar
+[22:32:50] [customcrops-worker-6/INFO]: [CustomCrops] Successfully downloaded exp4j-0.4.8.jar
+[22:32:50] [customcrops-worker-12/INFO]: [CustomCrops] Successfully downloaded cloud-bukkit-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-6/INFO]: [CustomCrops] Remapping exp4j-0.4.8.jar
+[22:32:50] [customcrops-worker-12/INFO]: [CustomCrops] Remapping cloud-bukkit-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-4/INFO]: [CustomCrops] Successfully downloaded cloud-services-2.0.0.jar
+[22:32:50] [customcrops-worker-10/INFO]: [CustomCrops] Successfully downloaded cloud-paper-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-4/INFO]: [CustomCrops] Remapping cloud-services-2.0.0.jar
+[22:32:50] [customcrops-worker-0/INFO]: [CustomCrops] Successfully remapped bstats-base-3.0.2.jar
+[22:32:50] [customcrops-worker-10/INFO]: [CustomCrops] Remapping cloud-paper-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-4/INFO]: [CustomCrops] Successfully remapped cloud-services-2.0.0.jar
+[22:32:50] [customcrops-worker-1/INFO]: [CustomCrops] Successfully downloaded boosted-yaml-1.3.7.jar
+[22:32:50] [customcrops-worker-1/INFO]: [CustomCrops] Remapping boosted-yaml-1.3.7.jar
+[22:32:50] [customcrops-worker-6/INFO]: [CustomCrops] Successfully remapped exp4j-0.4.8.jar
+[22:32:50] [customcrops-worker-10/INFO]: [CustomCrops] Successfully remapped cloud-paper-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-12/INFO]: [CustomCrops] Successfully remapped cloud-bukkit-2.0.0-beta.10.jar
+[22:32:50] [customcrops-worker-11/INFO]: [CustomCrops] Successfully downloaded caffeine-3.1.8.jar
+[22:32:50] [customcrops-worker-11/INFO]: [CustomCrops] Remapping caffeine-3.1.8.jar
+[22:32:50] [customcrops-worker-5/INFO]: [CustomCrops] Successfully remapped cloud-core-2.0.0.jar
+[22:32:50] [customcrops-worker-1/INFO]: [CustomCrops] Successfully remapped boosted-yaml-1.3.7.jar
+[22:32:50] [customcrops-worker-11/INFO]: [CustomCrops] Successfully remapped caffeine-3.1.8.jar
+[22:32:50] [customcrops-worker-7/INFO]: [CustomCrops] Successfully downloaded zstd-jni-1.5.6-6.jar
+[22:32:50] [Server thread/INFO]: [WkKit] ÕıÔÚ¼ÓÔØ WkKit v1.3.0
+[22:32:50] [Server thread/INFO]: [ShopGUIPlus] ÕıÔÚ¼ÓÔØ ShopGUIPlus v1.98.1
+[22:32:50] [Server thread/INFO]: [CustomNameplates] ÕıÔÚ¼ÓÔØ CustomNameplates v2.3.3.9
+[22:32:51] [Server thread/INFO]: [TrMenu] ÕıÔÚ¼ÓÔØ TrMenu v3.3.0b-SNAPSHOT
+[22:32:51] [Server thread/INFO]: 
+[22:32:51] [Server thread/INFO]: ÕıÔÚ¼ÓÔØ TrMenu Fix... 728 (MC: 1.20.1)
+[22:32:51] [Server thread/INFO]: 
+[22:32:51] [Server thread/INFO]: [LuckPerms] ÕıÔÚÆôÓÃ LuckPerms v5.4.137
+[22:32:52] [Server thread/INFO]:         __    
+[22:32:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
+[22:32:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Banner
+[22:32:52] [Server thread/INFO]: 
+[22:32:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:32:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[22:32:53] [Server thread/INFO]: luckperms-hikari - Starting...
+[22:32:53] [Server thread/INFO]: luckperms-hikari - Start completed.
+[22:32:53] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[22:32:54] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:32:54] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:32:54] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3198ms)
+[22:32:54] [Server thread/INFO]: [VoidGen] ÕıÔÚÆôÓÃ VoidGen v2.2.1
+[22:32:54] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[22:32:54] [Server thread/INFO]: [LoneLibs] ÕıÔÚÆôÓÃ LoneLibs v1.0.55
+[22:32:54] [Server thread/INFO]: [ProtocolLib] ÕıÔÚÆôÓÃ ProtocolLib v5.2.0-SNAPSHOT-679
+[22:32:54] [Server thread/INFO]: [Vault] ÕıÔÚÆôÓÃ Vault v1.7.3-b131
+[22:32:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:32:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:32:55] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:32:55] [Server thread/INFO]: [XConomy] ÕıÔÚÆôÓÃ XConomy v2.26.3
+[22:32:55] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[22:32:55] [Server thread/INFO]: [XConomy] Language: CHINESE
+[22:32:55] [Server thread/INFO]: [XConomy] Êı¾İ±£´æ·½Ê½ - MySQL
+[22:32:55] [Server thread/INFO]: [XConomy] MySQLÁ¬½ÓÕı³£
+[22:32:55] [Server thread/INFO]: [XConomy] XConomy¼ÓÔØ³É¹¦
+[22:32:55] [Server thread/INFO]: [XConomy] ·¢ÏÖ PlaceholderAPI
+[22:32:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[22:32:55] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[22:32:55] [Server thread/INFO]: [XConomy] ÒÑ¿ªÆôBungeeCordÍ¬²½
+[22:32:55] [Server thread/INFO]: [XConomy] ===== YiC =====
+[22:32:55] [Server thread/INFO]: Preparing level "world"
+[22:32:55] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[22:32:55] [Server thread/INFO]: Loading server info!
+[22:32:55] [Server thread/INFO]: Loading player configs...
+[22:32:55] [Server thread/INFO]: Loaded player configs!
+[22:32:55] [Server thread/INFO]: Loading parties...
+[22:32:55] [Server thread/INFO]: Loaded parties!
+[22:32:55] [Server thread/INFO]: Fixing party inconsistencies...
+[22:32:55] [Server thread/INFO]: Registered party system for OPAC: default
+[22:32:56] [Server thread/INFO]: ÕıÔÚÎªÎ¬¶È×¼±¸³öÉúµãÇøÓò minecraft:overworld
+[22:32:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:58] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[22:32:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:32:58] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[22:32:58] [Worker-Main-5/INFO]: Preparing spawn area: 15%
+[22:32:58] [Server thread/INFO]: Time elapsed: 2314 ms
+[22:32:58] [Server thread/INFO]: ÕıÔÚÎªÎ¬¶È×¼±¸³öÉúµãÇøÓò minecraft:the_end
+[22:32:59] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:32:59] [Worker-Main-14/INFO]: Preparing spawn area: 9%
+[22:32:59] [Worker-Main-3/INFO]: Preparing spawn area: 78%
+[22:32:59] [Server thread/INFO]: Time elapsed: 1234 ms
+[22:33:00] [Server thread/INFO]: ÕıÔÚÎªÎ¬¶È×¼±¸³öÉúµãÇøÓò minecraft:the_nether
+[22:33:00] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:33:00] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:33:01] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[22:33:01] [Worker-Main-6/INFO]: Preparing spawn area: 72%
+[22:33:02] [Worker-Main-10/INFO]: Preparing spawn area: 77%
+[22:33:02] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:33:03] [Worker-Main-11/INFO]: Preparing spawn area: 88%
+[22:33:03] [Worker-Main-3/INFO]: Preparing spawn area: 95%
+[22:33:03] [Server thread/INFO]: Time elapsed: 3867 ms
+[22:33:03] [Server thread/INFO]: [Law] ÕıÔÚÆôÓÃ Law v2.4.0
+[22:33:03] [Server thread/INFO]: [PlaceholderAPI] ÕıÔÚÆôÓÃ PlaceholderAPI v2.11.6
+[22:33:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:33:04] [Server thread/INFO]: [PlayTime] ÕıÔÚÆôÓÃ PlayTime v3.6
+[22:33:04] [Server thread/INFO]: [PlayTime] PlaceholderAPI was found! Registering Placeholders.
+[22:33:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playtime [3.6]
+[22:33:04] [Server thread/INFO]: [EClean] ÕıÔÚÆôÓÃ EClean v1.18.1
+[22:33:04] [Server thread/INFO]: [ÇåÀí] ÉèÖÃÇåÀíÈÎÎñ, ¼ä¸ô600Ãë
+[22:33:04] [Server thread/INFO]: [ÇåÀí] ÉèÖÃÇåÀíÇ°60ÃëÌáĞÑ: ½«ÔÚ1·ÖÖÓºó½øĞĞÇåÀí
+[22:33:04] [Server thread/INFO]: [ÇåÀí] ÉèÖÃÇåÀíÇ°30ÃëÌáĞÑ: ½«ÔÚ30Ãëºó½øĞĞÇåÀí
+[22:33:04] [Server thread/INFO]: [ÇåÀí] ÉèÖÃÇåÀíÇ°10ÃëÌáĞÑ: ½«ÔÚ10Ãëºó½øĞĞÇåÀí
+[22:33:04] [Server thread/INFO]: [ÇåÀí] ÉèÖÃÇåÀíÇ°0ÃëÌáĞÑ: ÕıÔÚÇåÀí
+[22:33:04] [Server thread/INFO]: [ÇåÀí] É¨Ãèµ½ÒÀÀµPlaceholderAPI, ÒÑÆôÓÃÏà¹ØÖ§³Ö
+[22:33:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: eclean [1.18.1]
+[22:33:04] [Server thread/INFO]: [ÇåÀí]  ______     ______     __         ______     ______     __   __   
+[22:33:04] [Server thread/INFO]: [ÇåÀí] /\  ___\   /\  ___\   /\ \       /\  ___\   /\  __ \   /\ "-.\ \  
+[22:33:04] [Server thread/INFO]: [ÇåÀí] \ \  __\   \ \ \____  \ \ \____  \ \  __\   \ \  __ \  \ \ \-.  \ 
+[22:33:04] [Server thread/INFO]: [ÇåÀí]  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_\\"\_\
+[22:33:04] [Server thread/INFO]: [ÇåÀí]   \/_____/   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/ \/_/
+[22:33:04] [Server thread/INFO]: [ÇåÀí] ¼ÓÔØÍê³É, ×÷Õß404E, ¸ĞĞ»Ê¹ÓÃ
+[22:33:04] [Server thread/INFO]: [NBTAPI] ÕıÔÚÆôÓÃ NBTAPI v2.13.1
+[22:33:04] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[22:33:04] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[22:33:04] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[22:33:04] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[22:33:04] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[22:33:04] [Server thread/INFO]: [EZColors] ÕıÔÚÆôÓÃ EZColors v2.2.5
+[22:33:05] [Server thread/INFO]:  Failed to download languages online. Fetching local languages! (These may be outdated)
+[22:33:05] [Server thread/INFO]:  Loading EZColors v2.2.5!
+[22:33:05] [Server thread/INFO]:  Found a compatible version. Hooking into V1_20_R1!
+[22:33:05] [Server thread/INFO]:  Using HIGH as the Chat Listener.
+[22:33:05] [Server thread/INFO]:  Found PlaceholderAPI. Loading hook!
+[22:33:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ezcolors [1.0.0]
+[22:33:05] [Server thread/INFO]:  Successfully Loaded EZColors v2.2.5 in 103ms!
+[22:33:05] [Server thread/INFO]: [RewardsLite] ÕıÔÚÆôÓÃ RewardsLite v3.1.10_bc-1.13-1.20.4
+[22:33:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rewardslite [1.0.0]
+[22:33:05] [Server thread/INFO]: HikariPool-1 - Starting...
+[22:33:05] [Server thread/INFO]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a49285f
+[22:33:05] [Server thread/INFO]: HikariPool-1 - Start completed.
+[22:33:05] [Server thread/INFO]: [RewardsLite] Loaded 1 reward.
+[22:33:05] [Server thread/INFO]: [AquaFixDrop] ÕıÔÚÆôÓÃ AquaFixDrop v1.0-SNAPSHOT
+[22:33:05] [Server thread/INFO]: [IronElevators] ÕıÔÚÆôÓÃ IronElevators v1.6.2
+[22:33:12] [Server thread/INFO]: [LiteSignIn] ÕıÔÚÆôÓÃ LiteSignIn v1.8.1.4
+[22:33:12] [Server thread/INFO]: [LiteSignIn] ÓïÑÔĞÅÏ¢ÒÑ¼ÓÔØ¡£
+[22:33:12] [Server thread/INFO]: [LiteSignIn] ÒÑÆôÓÃ ÃüÁî¼àÌıÆ÷ ¡£
+[22:33:12] [Server thread/INFO]: [LiteSignIn] ÒÑÆôÓÃ ÊÂ¼ş¼àÌıÆ÷ ¡£
+[22:33:12] [Server thread/INFO]: ?³É¹¦Á¬½Óµ½ MySQL ·şÎñÆ÷.
+[22:33:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: litesignin [1.0.0]
+[22:33:12] [Server thread/INFO]: ?ÕÒµ½ PlaceholderAPI £¬ ×¼±¸¾ÍĞ÷¡£
+[22:33:12] [Server thread/INFO]: ?Òì²½Ïß³Ì¿ªÊ¼ÔËĞĞ
+[22:33:12] [Thread-13/INFO]: ?Íæ¼ÒÊı¾İÒÑ±£´æ!
+[22:33:12] [Server thread/INFO]: ?²å¼ş¼ÓÔØÍê³É¡£
+[22:33:12] [Server thread/INFO]: [AquaTeleport] ÕıÔÚÆôÓÃ AquaTeleport v1.3-SNAPSHOT
+[22:33:12] [Server thread/INFO]: [AquaTeleport] Database connection established.
+[22:33:12] [Server thread/INFO]: [AquaTeleport] Database table checked/created.
+[22:33:12] [Server thread/INFO]: [CustomJoinAndQuitMessages] ÕıÔÚÆôÓÃ CustomJoinAndQuitMessages v1.8.0-b0
+[22:33:12] [Server thread/INFO]: [LiteAnnouncer] ÕıÔÚÆôÓÃ LiteAnnouncer v1.3.1.3
+[22:33:12] [Server thread/INFO]: [LiteAnnouncer] ÓïÑÔĞÅÏ¢ÒÑ¼ÓÔØ¡£
+[22:33:12] [Server thread/INFO]: LiteAnnouncer >>> ÕÒµ½ PlaceholderAPI £¬ ×¼±¸¾ÍĞ÷¡£
+[22:33:12] [Server thread/INFO]: LiteAnnouncer >>> ÒÑ¼ÓÔØ 1 ¸ö·şÎñÆ÷¹«¸æ¡£
+[22:33:12] [Server thread/INFO]: LiteAnnouncer >>> ÒÑ¼ÓÔØ 1 ¸öJSONÔª¼şÉèÖÃ¡£
+[22:33:12] [Server thread/INFO]: [ChestShop] ÕıÔÚÆôÓÃ ChestShop v3.12.2 (build 353)
+[22:33:12] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
+[22:33:13] [Server thread/INFO]: [ChestShop] Using XConomy as the Economy provider now.
+[22:33:13] [Server thread/WARN]: [ChestShop] Loaded class javax.annotation.Nullable from PlayerWarps v7.5.3 which is not a depend or softdepend of this plugin.
+[22:33:13] [Server thread/INFO]: [ChestShop] Vault loaded!
+[22:33:13] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
+[22:33:13] [Server thread/INFO]: [TogglePvp] ÕıÔÚÆôÓÃ TogglePvp v8.1
+[22:33:13] [Server thread/INFO]: [TogglePvp] Registering PlaceholderAPI Expansions
+[22:33:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: togglepvp [1.0.0]
+[22:33:13] [Server thread/INFO]: [TogglePvp] Enabled TogglePvp
+[22:33:13] [Server thread/INFO]: [AquaColor] ÕıÔÚÆôÓÃ AquaColor v1.0-SNAPSHOT
+[22:33:13] [Server thread/ERROR]: [AquaColor] ³É¹¦Æô¶¯
+[22:33:13] [Server thread/INFO]: [GlobalMarketPlus] ÕıÔÚÆôÓÃ GlobalMarketPlus v1.2.10.5
+[22:33:13] [Server thread/INFO]: [GlobalMarketPlus] ²å¼şºËĞÄÅäÖÃÎÄ¼ş¼ÓÔØÍê³É
+[22:33:13] [Server thread/INFO]: [GlobalMarketPlus] ²å¼ş¿ªÊ¼¼ÓÔØ...
+[22:33:13] [Server thread/INFO]: [GlobalMarketPlus] ÒÑÆôÓÃ ÊÂ¼ş¼àÌıÆ÷ ¡£
+[22:33:13] [Server thread/INFO]: [GlobalMarketPlus] ÒÑÆôÓÃ ÃüÁî¼àÌıÆ÷ ¡£
+[22:33:13] [Server thread/INFO]:   _____  _         _            _    __  __               _           _      _____   _
+[22:33:13] [Server thread/INFO]:  / ____|| |       | |          | |  |  \/  |             | |         | |    |  __ \ | |
+[22:33:13] [Server thread/INFO]: | |  __ | |  ___  | |__   __ _ | |  | \  / |  __ _  _ __ | | __  ___ | |_   | |__) || | _   _  ___
+[22:33:13] [Server thread/INFO]: | | |_ || | / _ \ | '_ \ / _` || |  | |\/| | / _` || '__|| |/ / / _ \| __|  |  ___/ | || | | |/ __|
+[22:33:13] [Server thread/INFO]: | |__| || || (_) || |_) | (_| || |  | |  | || (_| || |   |   < |  __/| |_   | |     | || |_| |\__ \
+[22:33:13] [Server thread/INFO]:  \_____||_| \___/ |_.__/ \__,_||_|  |_|  |_| \__,_||_|   |_|\_\ \___| \__|  |_|     |_| \__,_||___/
+[22:33:13] [Server thread/INFO]: 
+[22:33:13] [Server thread/INFO]: [GlobalMarketPlus] Loading plugins\GlobalMarketPlus-1.2.10.5.jar L=1614118
+[22:33:13] [Server thread/INFO]: [TAB-Bridge] ÕıÔÚÆôÓÃ TAB-Bridge v5.0.7
+[22:33:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [5.0.7]
+[22:33:13] [Server thread/INFO]: [PlayerTitle] ÕıÔÚÆôÓÃ PlayerTitle v4.1.3
+[22:33:14] [Server thread/INFO]: [PlayerTitle] ³É¹¦¼ÓÔØVault,ÆôÓÃ¾­¼ÃÏà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerTitle [4.1.3]
+[22:33:14] [Server thread/INFO]: [PlayerTitle] ³É¹¦¼ÓÔØplaceholderApi,ÆôÓÃ×Ô¶¨Òå±äÁ¿¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½PlayerPoints,Î´ÆôÓÃµãÈ¯Ïà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½attributePlus,Î´ÆôÓÃÊôĞÔ±êÇ©Ïà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½AttributeSystem,Î´ÆôÓÃÊôĞÔ±êÇ©Ïà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½SXAttribute,Î´ÆôÓÃÊôĞÔ±êÇ©Ïà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½SuperTrails,Î´ÆôÓÃÁ£×ÓĞ§¹ûÏà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½MmoItems,Î´ÆôÓÃMmoItems buffÏà¹Ø¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Î´ÕÒµ½PlayerParticles,Î´ÆôÓÃPlayerParticlesÁ£×ÓĞ§¹û¹¦ÄÜ!
+[22:33:14] [Server thread/INFO]: [PlayerTitle] 
+[22:33:14] [Server thread/INFO]: [PlayerTitle]  ____  _                      _____ _ _   _      
+[22:33:14] [Server thread/INFO]: [PlayerTitle]  |  _ \| | __ _ _   _  ___ _ _|_   _(_) |_| | ___ 
+[22:33:14] [Server thread/INFO]: [PlayerTitle]  | |_) | |/ _` | | | |/ _ \ '__|| | | | __| |/ _ \
+[22:33:14] [Server thread/INFO]: [PlayerTitle]  |  __/| | (_| | |_| |  __/ |   | | | | |_| |  __/
+[22:33:14] [Server thread/INFO]: [PlayerTitle]  |_|   |_|\__,_|\__, |\___|_|   |_| |_|\__|_|\___|
+[22:33:14] [Server thread/INFO]: [PlayerTitle]                 |___/                             
+[22:33:14] [Server thread/INFO]: [PlayerTitle] ÒÑ³É¹¦ÔØÈë·şÎñÆ÷£¡
+[22:33:14] [Server thread/INFO]: [PlayerTitle] Author:handy WIKI: https://ricedoc.handyplus.cn/wiki/PlayerTitle/README/
+[22:33:14] [Server thread/INFO]: [HuskSync] ÕıÔÚÆôÓÃ HuskSync v3.6.6
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing commands...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized commands
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing data adapter...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized data adapter
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing data serializers...
+[22:33:15] [Server thread/WARN]: [HuskSync] Disabled husksync:attributes syncing as the following types need to be on: husksync:potion_effects
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized data serializers
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing data migrators/converters...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized data migrators/converters
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing MySQL database connection...
+[22:33:15] [Server thread/INFO]: HuskSyncHikariPool - Starting...
+[22:33:15] [Server thread/INFO]: HuskSyncHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@375060dd
+[22:33:15] [Server thread/INFO]: HuskSyncHikariPool - Start completed.
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized MySQL database connection
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing Redis server connection...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized Redis server connection
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing data syncer...
+[22:33:15] [husksync:redis_subscriber/INFO]: [HuskSync] Redis subscribed to channel 'husksync:::update_user_data'
+[22:33:15] [husksync:redis_subscriber/INFO]: [HuskSync] Redis subscribed to channel 'husksync:::request_user_data'
+[22:33:15] [husksync:redis_subscriber/INFO]: [HuskSync] Redis subscribed to channel 'husksync:::return_user_data'
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized data syncer
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing events...
+[22:33:15] [Server thread/INFO]: [HuskSync] Using ProtocolLib to cancel packets for locked players
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized events
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing hooks...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized hooks
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing api...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized api
+[22:33:15] [Server thread/INFO]: [HuskSync] Initializing metrics...
+[22:33:15] [Server thread/INFO]: [HuskSync] Successfully initialized metrics
+[22:33:15] [Server thread/INFO]: [HeadDatabase] ÕıÔÚÆôÓÃ HeadDatabase v4.19.8
+[22:33:16] [ForkJoinPool.commonPool-worker-6/WARN]: [HuskSync] A new version of HuskSync is available: v3.7 (running v3.6.6)
+[22:33:23] [Server thread/INFO]: [HeadDatabase] ¡ìbUsing default ¡ì3"en_US.lang" ¡ìbcreated by ¡ì6Arcaniax
+[22:33:23] [Server thread/WARN]: [HeadDatabase] Economy was not loaded, some features will be disabled!
+[22:33:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hdb [4.19.8]
+[22:33:23] [Server thread/INFO]: [MapModCompanion] ÕıÔÚÆôÓÃ MapModCompanion v0.10.0
+[22:33:23] [Server thread/INFO]: world_id handler will not be available (couldn't register incoming plugin channel: world_id (can be safely ignored on 1.13+))
+[22:33:23] [Server thread/INFO]: [Multiverse-Core] ÕıÔÚÆôÓÃ Multiverse-Core v4.3.1-b861
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:33:23] [Server thread/INFO]: [Multiverse-Core] ¡ìaWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] Invalid world name 'The Celestial City by Kaizen87'
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] World name should not contain spaces or special characters!
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] Invalid world name 'The Celestial City by Kaizen87_the_end'
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] World name should not contain spaces or special characters!
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] Invalid world name 'The Celestial City by Kaizen87_nether'
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] World name should not contain spaces or special characters!
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_the_end
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[22:33:23] [Server thread/WARN]: java.lang.RuntimeException: java.io.IOException: ÁíÒ»¸ö³ÌĞòÒÑËø¶¨ÎÄ¼şµÄÒ»²¿·Ö£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.createWorld(CraftServer.java:1086)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:704)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:406)
+[22:33:23] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:486)
+[22:33:23] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:467)
+[22:33:23] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:442)
+[22:33:23] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:770)
+[22:33:23] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:313)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:482)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:534)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:456)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.handler$zca000$banner$enablePlugins(MinecraftServer.java:2208)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:339)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.class_3176.method_3823(class_3176.java:169)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:2061)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+[22:33:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:33:23] [Server thread/WARN]: Caused by: java.io.IOException: ÁíÒ»¸ö³ÌĞòÒÑËø¶¨ÎÄ¼şµÄÒ»²¿·Ö£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+[22:33:23] [Server thread/WARN]: 	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+[22:33:23] [Server thread/WARN]: 	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75)
+[22:33:23] [Server thread/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[22:33:23] [Server thread/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81)
+[22:33:23] [Server thread/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[22:33:23] [Server thread/WARN]: 	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.class_5125.method_26803(class_5125.java:37)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.class_32$class_5143.<init>(class_32.java:398)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.class_32.method_27002(class_32.java:382)
+[22:33:23] [Server thread/WARN]: 	at net.minecraft.class_32.validateAndCreateAccess(class_32.java:535)
+[22:33:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.createWorld(CraftServer.java:1084)
+[22:33:23] [Server thread/WARN]: 	... 18 more
+[22:33:23] [Server thread/ERROR]: [Multiverse-Core] The world 'world' could NOT be loaded because it contains errors and is probably corrupt!
+[22:33:23] [Server thread/ERROR]: [Multiverse-Core] Try using Minecraft Region Fixer to repair your world! 'world'
+[22:33:23] [Server thread/ERROR]: [Multiverse-Core] https://github.com/Fenixin/Minecraft-Region-Fixer
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_nether
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[22:33:23] [Server thread/INFO]: [Multiverse-Core] 0 - World(s) loaded.
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] The world specified as the spawn world (world) did not exist!!
+[22:33:23] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[22:33:23] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[22:33:23] [Server thread/INFO]: [Citizens] ÕıÔÚÆôÓÃ Citizens v2.0.32-SNAPSHOT (build 3202)
+[22:33:23] [Server thread/INFO]: [Citizens] Loading external libraries
+[22:33:23] [GlobalMarketPlus-Loading/INFO]: [Verify]: java.net.UnknownHostException: api.trc.studio
+[22:33:23] [GlobalMarketPlus-Loading/INFO]: [GlobalMarketPlus] ÕıÔÚ½ûÓÃ GlobalMarketPlus v1.2.10.5
+[22:33:23] [GlobalMarketPlus-Loading/ERROR]: Error occurred (in the plugin loader) while disabling GlobalMarketPlus v1.2.10.5 (Is it up to date?)
+java.lang.IllegalStateException: PluginDisableEvent cannot be triggered asynchronously from another thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:587) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:504) ~[banner-1.20.1-728.jar:?]
+	at studio.trc.bukkit.globalmarketplus.n.n.a(Unknown Source) ~[?:?]
+	at studio.trc.bukkit.globalmarketplus.Main.a(Unknown Source) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:33:23] [GlobalMarketPlus-Loading/INFO]: ?³õÊ¼»¯ NMS Íê³É£º1.20.1-R0.1-SNAPSHOT
+[22:33:23] [GlobalMarketPlus-Loading/INFO]: ?Òì²½Ïß³Ì¿ªÊ¼ÔËĞĞ
+[22:33:23] [GlobalMarketPlus-Loading/INFO]: {prefix}²å¼ş¼ÓÔØÍê³É£¬ºÄÊ± 10241ms ¡£
+[22:33:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[22:33:24] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[22:33:24] [Server thread/INFO]: [ajLeaderboards] ÕıÔÚÆôÓÃ ajLeaderboards v2.9.0
+[22:33:25] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[22:33:26] [placeholderapi-io-#0/WARN]: [PlaceholderAPI] Failed to download expansion information
+java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:280) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:386) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:408) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1304) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1052) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at java.net.URL.openStream(URL.java:1325) ~[?:?]
+	at com.google.common.io.Resources$UrlByteSource.openStream(Resources.java:68) ~[guava-31.1-jre.jar:?]
+	at com.google.common.io.ByteSource.read(ByteSource.java:296) ~[guava-31.1-jre.jar:?]
+	at com.google.common.io.ByteSource$AsCharSource.read(ByteSource.java:486) ~[guava-31.1-jre.jar:?]
+	at com.google.common.io.Resources.toString(Resources.java:107) ~[guava-31.1-jre.jar:?]
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.lambda$fetch$4(CloudExpansionManager.java:182) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:33:26] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[22:33:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[22:33:26] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[22:33:26] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[22:33:26] [Server thread/INFO]: [HuskHomes] ÕıÔÚÆôÓÃ HuskHomes v4.7
+[22:33:26] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[22:33:26] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[22:33:26] [Server thread/INFO]: [HuskHomes] Initializing MySQL database connection...
+[22:33:26] [Server thread/INFO]: HuskHomesHikariPool - Starting...
+[22:33:26] [Server thread/INFO]: HuskHomesHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@20623a86
+[22:33:26] [Server thread/INFO]: HuskHomesHikariPool - Start completed.
+[22:33:26] [Server thread/INFO]: [HuskHomes] Successfully initialized MySQL database connection
+[22:33:26] [Server thread/INFO]: [HuskHomes] Initializing Redis message broker...
+[22:33:26] [Server thread/INFO]: [HuskHomes] Successfully initialized Redis message broker
+[22:33:26] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[22:33:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: huskhomes [4.7]
+[22:33:26] [Server thread/INFO]: [HuskHomes] Registered 1 plugin hooks: PlaceholderAPI
+[22:33:26] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[22:33:26] [Server thread/INFO]: [HuskHomes] Initializing events...
+[22:33:26] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[22:33:26] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[22:33:27] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[22:33:27] [Server thread/INFO]: [HuskHomes] Initializing API...
+[22:33:27] [Server thread/INFO]: [HuskHomes] Successfully initialized API
+[22:33:27] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[22:33:27] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[22:33:27] [Server thread/INFO]: [HuskHomesGUI] ÕıÔÚÆôÓÃ HuskHomesGUI v2.3
+[22:33:27] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.3
+[22:33:27] [Server thread/INFO]: [PlayerWarp] ÕıÔÚÆôÓÃ PlayerWarp v1.3.9
+[22:33:27] [Server thread/INFO]: [PlayerWarp] ÒÑ³É¹¦¼ÓÔØplaceholderApi
+[22:33:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerWarp [1.3.9]
+[22:33:27] [Server thread/INFO]: [PlayerWarp] ÒÑ³É¹¦¼ÓÔØVault ÆôÓÃ¾­¼ÃÏà¹Ø¹¦ÄÜ.
+[22:33:27] [Server thread/INFO]: [PlayerWarp] ÄãµÄ·şÎñ¶ËÃ»ÓĞ°²×°PlayerPoints Î´ÆôÓÃµãÈ¯Ïà¹Ø¹¦ÄÜ.
+[22:33:27] [Server thread/INFO]: [PlayerWarp] ÒÑ³É¹¦¼ÓÔØMultiverseCore ÆôÓÃÊÀ½çÃû·­Òë¹¦ÄÜ.
+[22:33:28] [Server thread/INFO]: [PlayerWarp] ÒÑ³É¹¦ÔØÈë·şÎñÆ÷£¡
+[22:33:28] [Server thread/INFO]: [PlayerWarp] Author:handy Ê¹ÓÃÎÄµµ: https://ricedoc.handyplus.cn/wiki/PlayerWarp/README/
+[22:33:28] [Server thread/INFO]: [CitizensCMD] ÕıÔÚÆôÓÃ CitizensCMD v2.7.1
+[22:33:28] [Server thread/INFO]: [CitizensCMD] CitizensCMD 2.7.1
+[22:33:28] [Server thread/INFO]: [CitizensCMD] by Mateus Moreira @LichtHund & Maintained by HexedHero
+[22:33:28] [Server thread/INFO]: [CitizensCMD] Using English messages!
+[22:33:28] [Server thread/INFO]: [CitizensCMD] Using PlaceholderAPI!
+[22:33:28] [Server thread/INFO]: [CitizensCMD] Using Vault!
+[22:33:29] [Server thread/INFO]: [CitizensCMD] A new version of CitizensCMD is now available:
+[22:33:29] [Server thread/INFO]: [CitizensCMD] https://www.spigotmc.org/resources/30224
+[22:33:29] [Server thread/INFO]: [BattlePass] ÕıÔÚÆôÓÃ BattlePass v4.6.7
+[22:33:29] [Server thread/INFO]: battlepass-hikari - Starting...
+[22:33:29] [Server thread/INFO]: battlepass-hikari - Start completed.
+[22:33:29] [Server thread/INFO]: Successfully connected to MySQL.
+[22:33:29] [Server thread/INFO]: battlepass-hikari - Starting...
+[22:33:29] [Server thread/INFO]: battlepass-hikari - Start completed.
+[22:33:29] [Server thread/INFO]: Successfully connected to MySQL.
+[22:33:29] [Server thread/INFO]: battlepass-hikari - Starting...
+[22:33:29] [Server thread/INFO]: battlepass-hikari - Start completed.
+[22:33:29] [Server thread/INFO]: Successfully connected to MySQL.
+[22:33:30] [Server thread/INFO]: [BattlePass] Finished loading the daily quests. All quests loaded successfully.
+[22:33:30] [Server thread/INFO]: [BattlePass] Finished loading the week-1 quests. All quests loaded successfully.
+[22:33:30] [Server thread/INFO]: [BattlePass] Finished loading the week-pool quests. All quests loaded successfully.
+[22:33:30] [Server thread/INFO]: [BattlePass] Finished loading the week-2 quests. All quests loaded successfully.
+[22:33:30] [Server thread/INFO]: [BattlePass] Finished loading the week-3 quests. All quests loaded successfully.
+[22:33:30] [Server thread/INFO]: [BattlePass] Finished loading the week-4 quests. All quests loaded successfully.
+[22:33:30] [Server thread/INFO]: [ChestShop] Using internal version as PluginVersion{major=3, minor=12, bugfix=2} for loading ChestShop.
+[22:33:30] [Server thread/INFO]: [ChestShop] Hooked into ChestShop
+[22:33:30] [Server thread/INFO]: [Citizens] Hooked into Citizens
+[22:33:30] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: free
+[22:33:30] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: premium
+[22:33:30] [Server thread/WARN]: [BattlePass] Daily quests reset is set disabled.
+[22:33:30] [Server thread/INFO]: [BattlePass] Register PlaceholderAPI placeholders
+[22:33:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: battlepass [1.1]
+[22:33:30] [Server thread/INFO]: [BattlePass] Hooked into vault
+[22:33:30] [Server thread/INFO]: [DecentHolograms] ÕıÔÚÆôÓÃ DecentHolograms v2.8.11
+[22:33:30] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[22:33:30] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[22:33:30] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[22:33:30] [Server thread/INFO]: [PlayerWarps] ÕıÔÚÆôÓÃ PlayerWarps v7.5.3
+[22:33:31] [Server thread/INFO]: [PlayerWarps] This plugin is licensed to b0b0b0 (1) from Black-Minecraft.COM!
+[22:33:31] [Server thread/INFO]: [PlayerWarps] Vault found, now enabling PlayerWarps...
+[22:33:32] [Server thread/INFO]: [PlayerWarps] There has been an issue while trying to download files from https://cdn.olziedev.com/playerwarps/configuration/: cdn.olziedev.com. Turn on debug mode in the config.yml for the stack trace.
+[22:33:32] [Server thread/INFO]: [PlayerWarps] Found 0 config files to load!
+[22:33:32] [Server thread/INFO]: [PlayerWarps] No config files found! Either there is a problem with our server (https://cdn.olziedev.com) or there is a problem on your end.
+ Please make sure to have the website added to your firewall.
+If it is our end, please contact us.
+[22:33:41] [Server thread/INFO]: [PlayerWarps] There has been an issue while trying to get the latest version for essentialsexpansion.jar: Read timed out. Turn on debug mode in the config.yml for the stack trace.
+[22:33:49] [Server thread/INFO]: [PlayerWarps] There has been an issue while trying to get the latest version for vaultcurrency.jar: Read timed out. Turn on debug mode in the config.yml for the stack trace.
+[22:33:54] [pool-20-thread-1/WARN]: [ajLeaderboards] Unable to check for update: Connection timed out: connect
+[22:33:54] [Server thread/INFO]: [PlayerWarps] There has been an issue while trying to get the latest version for itemcurrency.jar: Connect timed out. Turn on debug mode in the config.yml for the stack trace.
+[22:33:59] [Server thread/INFO]: [PlayerWarps] There has been an issue while trying to get the latest version for xpcurrency.jar: Connect timed out. Turn on debug mode in the config.yml for the stack trace.
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Permissions plugin found! (LuckPerms)
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Economy plugin found! (XConomy)
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Chat plugin found! (LuckPerms)
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Found PlaceholderAPI integrating support...
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Found Item Currency integrating support...
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Found Vault Currency integrating support...
+[22:33:59] [Server thread/INFO]: [PlayerWarps] Found XP Currency integrating support...
+[22:34:00] [Server thread/INFO]: [PlayerWarps] MySQL database is enabling...
+[22:34:00] [Server thread/INFO]: [PlayerWarps] Loading Metrics...
+[22:34:00] [Server thread/INFO]: [PlayerWarps] Successfully loaded Metrics!
+[22:34:00] [Server thread/INFO]: [WorldBorder] ÕıÔÚÆôÓÃ WorldBorder v1.2
+[22:34:00] [Server thread/INFO]: [WorldBorder] ERROR: Unable to create world border world because this world does not exist
+[22:34:00] [Server thread/INFO]: [WorldBorder] ERROR: Unable to create world border world_the_end because this world does not exist
+[22:34:00] [Server thread/INFO]: [CustomFishing] ÕıÔÚÆôÓÃ CustomFishing v2.2.29
+[22:34:00] [Server thread/ERROR]: Error occurred while enabling CustomFishing v2.2.29 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart.getInstance(SparrowHeart.java:34) ~[?:?]
+	at net.momirealms.customfishing.bukkit.BukkitCustomFishingPluginImpl.enable(BukkitCustomFishingPluginImpl.java:117) ~[?:?]
+	at net.momirealms.customfishing.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:482) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:534) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:456) ~[banner-1.20.1-728.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zca000$banner$enablePlugins(MinecraftServer.java:2208) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:339) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:169) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:2061) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.RuntimeException: Failed to initialize sparrow heart
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:65) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:40) ~[?:?]
+	... 14 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:63) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:40) ~[?:?]
+	... 14 more
+Caused by: java.lang.RuntimeException: Failed to get send packet method
+	at net.momirealms.customfishing.bukkit.nms.impl.reobf_1_20_r1.Heart.<init>(Heart.java:129) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:63) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:40) ~[?:?]
+	... 14 more
+Caused by: java.lang.NoSuchMethodException: net.minecraft.class_2535.sendPacket(net.minecraft.class_2596,net.minecraft.class_7648,java.lang.Boolean)
+	at java.lang.Class.getDeclaredMethod(Class.java:2848) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.impl.reobf_1_20_r1.Heart.<init>(Heart.java:126) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:63) ~[?:?]
+	at net.momirealms.customfishing.bukkit.nms.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:40) ~[?:?]
+	... 14 more
+[22:34:00] [Server thread/INFO]: [CustomFishing] ÕıÔÚ½ûÓÃ CustomFishing v2.2.29
+[22:34:00] [Server thread/ERROR]: Error occurred while disabling CustomFishing v2.2.29 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "net.momirealms.customfishing.api.mechanic.event.EventManager.disable()" because "this.eventManager" is null
+	at net.momirealms.customfishing.bukkit.BukkitCustomFishingPluginImpl.disable(BukkitCustomFishingPluginImpl.java:219) ~[?:?]
+	at net.momirealms.customfishing.bukkit.BukkitBootstrap.onDisable(BukkitBootstrap.java:40) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:269) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:366) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:504) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:341) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:482) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:534) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:456) ~[banner-1.20.1-728.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zca000$banner$enablePlugins(MinecraftServer.java:2208) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:339) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:169) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:2061) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:34:00] [Server thread/INFO]: [EpicAchievements] ÕıÔÚÆôÓÃ EpicAchievements v1.5.4
+[22:34:01] [Server thread/INFO]: [EpicAchievements] Connected to the database.
+[22:34:01] [Server thread/INFO]: [EpicAchievements] Loaded 2 categories.
+[22:34:01] [Server thread/INFO]: [EpicAchievements] Loaded 4 achievements.
+[22:34:01] [Server thread/INFO]: [EpicAchievements] Hooked into Vault.
+[22:34:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: achievements [1.5.4]
+[22:34:01] [Server thread/INFO]: [EpicAchievements] Hooked into PlaceholderAPI.
+[22:34:01] [Server thread/INFO]: [ItemsAdder] ÕıÔÚÆôÓÃ ItemsAdder v3.6.4
+[22:34:01] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[22:34:01] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[22:34:01] [Server thread/INFO]: [NBTAPI] Using the plugin 'LoneLibs' to create a bStats instance!
+[22:34:03] [Server thread/INFO]: [ItemsAdder] [m[0;36;1m
+[0;36;1m  ___  ___        __        __   __   ___  __  [0;32;22m    ItemsAdder[0;37;22m 3.6.4
+[0;36;1m|  |  |__   |\/| /__`  /\  |  \ |  \ |__  |__) [0;32;22m    LoneLibs[0;37;22m 1.0.55
+[0;36;1m|  |  |___  |  | .__/ /--\ |__/ |__/ |___ |  \ [0;30;1m    Banner 728 (MC: 1.20.1)
+[0;36;1m                                               [m
+[22:34:03] [Server thread/INFO]: [ItemsAdder] [mRegistered Citizens NPC Trait: customentity[m
+[22:34:03] [Server thread/INFO]: [ItemsAdder] [m[0;36;1m[Host] Starting self-host webserver on port: 8163[m
+[22:34:03] [Server thread/WARN]: [ItemsAdder] Loaded class javax.annotation.Nullable from PlayerWarps v7.5.3 which is not a depend or softdepend of this plugin.
+[22:34:04] [Server thread/INFO]: [HyronicFriends] ÕıÔÚÆôÓÃ HyronicFriends v1.3.17
+[22:34:05] [Server thread/INFO]: HikariPool-2 - Starting...
+[22:34:05] [Server thread/INFO]: HikariPool-2 - Start completed.
+[22:34:05] [Server thread/INFO]: [HyronicFriends] Established MySQL connection.
+[22:34:05] [Server thread/INFO]: [HyronicFriends] Database setup completed!
+[22:34:05] [Server thread/INFO]: [HyronicFriends] Successfully loaded all player data.
+[22:34:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hfriends [1.3.17]
+[22:34:05] [Server thread/INFO]: [HyronicFriends] Hooked into PlaceholderAPI v2.11.6
+[22:34:05] [Server thread/INFO]: [HyronicFriends] Plugin loaded successfully!
+[22:34:05] [Server thread/INFO]: [TrChat] ÕıÔÚÆôÓÃ TrChat v2.1.0
+[22:34:05] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
+[22:34:05] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[22:34:05] [Server thread/WARN]: SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[22:34:05] [Server thread/WARN]: Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[22:34:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: trchat [2.1.0]
+[22:34:05] [Server thread/INFO]: [TrChat] ¹Ò¹³ | ÈíÒÀÀµ ItemsAdder ÒÑ¼æÈİ.
+[22:34:06] [Server thread/INFO]: [TrChat] ÁÄÌì | ³É¹¦ÔØÈë 13 ¸öÁÄÌì¹¦ÄÜ... [8 Ms]
+[22:34:06] [Server thread/INFO]: [TrChat] ¹ıÂËÆ÷ | ÒÑÔØÈë±¾µØÃô¸Ğ´Ê¿â×Ü¼Æ 3 ¸ö.
+[22:34:06] [Server thread/INFO]: [TrChat] ÁÄÌì | ³É¹¦ÔØÈë 4 ¸öÁÄÌìÆµµÀ... [10 Ms]
+[22:34:06] [Server thread/INFO]: [TrChat] ĞÅÏ¢ | ¼ÓÔØÍê±Ï. TrChat v2.1.0 ÏÖÒÑÆôÓÃ, ¾´ÇëÊ¹ÓÃ.
+[22:34:06] [Server thread/INFO]: [VendingMachines] ÕıÔÚÆôÓÃ VendingMachines v1.5.5
+[22:34:06] [Server thread/INFO]: VendingMachines v1.5.5 is loading...
+[22:34:06] [Server thread/INFO]: [VendingMachines] Using ItemsAdder! :D
+[22:34:06] [Server thread/INFO]: [VendingMachines] vending_machine IA content found!
+[22:34:06] [Server thread/INFO]: [CustomCrops] ÕıÔÚÆôÓÃ CustomCrops v3.6.16
+[22:34:06] [Server thread/ERROR]: Error occurred while enabling CustomCrops v3.6.16 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart.getInstance(SparrowHeart.java:34) ~[?:?]
+	at net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:149) ~[?:?]
+	at net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:482) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:534) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:456) ~[banner-1.20.1-728.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zca000$banner$enablePlugins(MinecraftServer.java:2208) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:339) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:169) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:2061) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.RuntimeException: Failed to initialize sparrow heart
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:67) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:42) ~[?:?]
+	... 14 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:65) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:42) ~[?:?]
+	... 14 more
+Caused by: java.lang.RuntimeException: Failed to get send packet method
+	at net.momirealms.customcrops.libraries.sparrow.impl.reobf_1_20_r1.Heart.<init>(Heart.java:129) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:65) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:42) ~[?:?]
+	... 14 more
+Caused by: java.lang.NoSuchMethodException: net.minecraft.class_2535.sendPacket(net.minecraft.class_2596,net.minecraft.class_7648,java.lang.Boolean)
+	at java.lang.Class.getDeclaredMethod(Class.java:2848) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.impl.reobf_1_20_r1.Heart.<init>(Heart.java:126) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.getHeart(SparrowHeart.java:65) ~[?:?]
+	at net.momirealms.customcrops.libraries.sparrow.SparrowHeart$SingletonHolder.<clinit>(SparrowHeart.java:42) ~[?:?]
+	... 14 more
+[22:34:06] [Server thread/INFO]: [CustomCrops] ÕıÔÚ½ûÓÃ CustomCrops v3.6.16
+[22:34:06] [Server thread/ERROR]: Error occurred while disabling CustomCrops v3.6.16 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "net.momirealms.customcrops.api.core.world.WorldManager.disable()" because "this.worldManager" is null
+	at net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.disable(BukkitCustomCropsPluginImpl.java:206) ~[?:?]
+	at net.momirealms.customcrops.bukkit.BukkitBootstrap.onDisable(BukkitBootstrap.java:40) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:269) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:366) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:504) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:341) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:482) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:534) ~[banner-1.20.1-728.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:456) ~[banner-1.20.1-728.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zca000$banner$enablePlugins(MinecraftServer.java:2208) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:339) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:169) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:2061) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:34:06] [Server thread/INFO]: [WkKit] ÕıÔÚÆôÓÃ WkKit v1.3.0
+[22:34:07] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[22:34:07] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[22:34:07] [Server thread/INFO]: [NBTAPI] Using the plugin 'WkKit' to create a bStats instance!
+[22:34:07] [Server thread/INFO]: [WkKit] 
+[22:34:07] [Server thread/INFO]: [WkKit]  __ __ __   ___   ___   ___   ___   ________  _________  
+[22:34:07] [Server thread/INFO]: [WkKit] /_//_//_/\ /___/\/__/\ /___/\/__/\ /_______/\/________/\ 
+[22:34:07] [Server thread/INFO]: [WkKit] \:\\:\\:\ \\::.\ \\ \ \\::.\ \\ \ \\__.::._\/\__.::.__\/ 
+[22:34:07] [Server thread/INFO]: [WkKit]  \:\\:\\:\ \\:: \/_) \ \\:: \/_) \ \  \::\ \    \::\ \   
+[22:34:07] [Server thread/INFO]: [WkKit]   \:\\:\\:\ \\:. __  ( ( \:. __  ( (  _\::\ \__  \::\ \  
+[22:34:07] [Server thread/INFO]: [WkKit]    \:\\:\\:\ \\: \ )  \ \ \: \ )  \ \/__\::\__/\  \::\ \ 
+[22:34:07] [Server thread/INFO]: [WkKit]     \_______\/ \__\/\__\/  \__\/\__\/\________\/   \__\/ 
+[22:34:07] [Server thread/INFO]: [WkKit] 
+[22:34:07] [Server thread/INFO]: [WkKit] Version: 1.3.0 | Author: WekyJay | QQ Group: 945144520
+[22:34:07] [Server thread/INFO]: [WkKit] ÌØ±ğÃùĞ»£ºBiulay Gentry (ÅÅÃû²»·ÖÏÈºó)
+[22:34:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: wkkit [1.3.0]
+[22:34:07] [Server thread/INFO]: [WkKit] ¡ì7ÒÑ³É¹¦Óë ¡ì6Vault ¡ì7¹Ò¹³ ¡ì6Economy ¡ì7·şÎñ.
+[22:34:07] [Server thread/INFO]: [WkKit] ÆôÓÃÈÕÖ¾¹ÜÀí
+[22:34:07] [Server thread/INFO]: [ShopGUIPlus] ÕıÔÚÆôÓÃ ShopGUIPlus v1.98.1
+[22:34:07] [Server thread/INFO]: [CustomNameplates] ÕıÔÚÆôÓÃ CustomNameplates v2.3.3.9
+[22:34:08] [Server thread/WARN]: [CustomNameplates] No requirement type found at unlimited.tag_2.viewer-conditions.condition_1
+[22:34:08] [Server thread/INFO]: CustomNameplatesHikariPool - Starting...
+[22:34:09] [Server thread/INFO]: CustomNameplatesHikariPool - Added connection net.momirealms.customnameplates.libraries.mysql.cj.jdbc.ConnectionImpl@642f773
+[22:34:09] [Server thread/INFO]: CustomNameplatesHikariPool - Start completed.
+[22:34:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: nameplates [2.3]
+[22:34:10] [Server thread/INFO]: [TrMenu] ÕıÔÚÆôÓÃ TrMenu v3.3.0b-SNAPSHOT
+[22:34:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: TrMenu [3.3.0b-SNAPSHOT]
+[22:34:11] [pool-26-thread-6/INFO]: [CustomNameplates] Update is available: https://polymart.org/resource/2543
+[22:34:12] [ForkJoinPool.commonPool-worker-5/INFO]: [TrMenu] Á¼ºÃ | 16 ¸ö²Ëµ¥ÒÑ¼ÓÔØ (1516 ms)
+[22:34:12] [Server thread/WARN]: [TrChat] Loaded class net.momirealms.customnameplates.libraries.mysql.cj.jdbc.Driver from CustomNameplates v2.3.3.9 which is not a depend or softdepend of this plugin.
+[22:34:12] [Server thread/INFO]: [TrMenu] Á¼ºÃ | ²å¼şÆôÓÃ. µ±Ç°ÔËĞĞ°æ±¾ 3.3.0b-SNAPSHOT.
+[22:34:12] [Server thread/INFO]: [TrMenu] °æ±¾ | ÄãÕıÔÚÊ¹ÓÃÉçÇøÎ¬»¤°æ±¾:
+[22:34:12] [Server thread/INFO]: https://github.com/Dreeam-qwq/TrMenu
+[22:34:12] [Server thread/INFO]: [TrMenu] ¹Ò¹³ | ÈíÒÀÀµ Vault ÒÑ¼æÈİ.
+[22:34:12] [Server thread/INFO]: [TrMenu] ¹Ò¹³ | ÈíÒÀÀµ NBTAPI ÒÑ¼æÈİ.
+[22:34:12] [Server thread/INFO]: [TrMenu] ¹Ò¹³ | ÈíÒÀÀµ HeadDatabase ÒÑ¼æÈİ.
+[22:34:12] [Server thread/INFO]: [TrMenu] ¹Ò¹³ | ÈíÒÀÀµ ItemsAdder ÒÑ¼æÈİ.
+[22:34:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:34:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:34:12] [Server thread/INFO]: Done (149.492s)! For help, type "help"
+[22:34:12] [BlueMap-Plugin-Loading/INFO]: Loading BlueMap...
+[22:34:12] [Server thread/WARN]: No saved borders found.
+[22:34:12] [Server thread/INFO]: Loading claims...
+[22:34:12] [Server thread/INFO]: Loaded claims in 3ms
+[22:34:12] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
+[22:34:12] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
+[22:34:12] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[22:34:12] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22:34:12] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22:34:12] [Server thread/INFO]: LiteAnnouncer >>> ÒÑ¿ªÊ¼°´Ë³Ğò²¥±¨ 1¸ö ·şÎñÆ÷¹«¸æ¡£
+[22:34:12] [Server thread/INFO]: {prefix}ÅäÖÃÎÄ¼ş¼ÓÔØÍê³É£¬ÆôÓÃÓïÑÔ ¼òÌåÖĞÎÄ
+[22:34:12] [Server thread/INFO]: {prefix}¼ÓÔØÁË 28 ¸öÅäÖÃÎÄ¼ş£¬ ¹ÊÕÏ 0 ¸ö¡£
+[22:34:12] [Server thread/INFO]: {prefix}ÒÑ¼ÓÔØËùÓĞÌØÊâGUIÓë{guiAmount}¸ö×Ô¶¨ÒåGUIÉèÖÃ
+[22:34:12] [Server thread/INFO]: {prefix}ÒÑÆôÓÃÊı¾İ¿â {databaseName} ¡£
+[22:34:12] [Server thread/INFO]: {prefix}¼ÓÔØÁË {components} ¸öJSONÏûÏ¢Ôª¼ş
+[22:34:12] [Server thread/INFO]: {prefix}¼ÓÔØÁË {groupAmount} ¸öÓÃ»§×éÉèÖÃ
+[22:34:12] [Server thread/INFO]: {prefix}¼ÓÔØÁË {categoryAmount} ¸ö·ÖÀàÉèÖÃ
+[22:34:12] [Server thread/INFO]: {prefix}²å¼ş³õÊ¼»¯Íê±Ï£¬ µ±Ç°°æ±¾ v1.2.10.5
+[22:34:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gmpapi [1.0.0]
+[22:34:12] [Server thread/INFO]: ?ÕÒµ½ PlaceholderAPI £¬×¼±¸¾ÍĞ÷¡£
+[22:34:12] [Server thread/INFO]: ?ÕÒµ½ Vault £¬×¼±¸¾ÍĞ÷¡£
+[22:34:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pw [7.5.3]
+[22:34:12] [Craft Scheduler Thread - 11/INFO]: [EpicAchievements] Checking for updates...
+[22:34:12] [Server thread/INFO]: [ItemsAdder] [m[0;36;1m[Pack] Extracting internal contents from .jar[m
+[22:34:12] [Craft Scheduler Thread - 9/INFO]: [DecentHolograms] Loading holograms... 
+[22:34:12] [Craft Scheduler Thread - 12/INFO]: [PlayerWarps] Loading player warps...
+[22:34:12] [Craft Scheduler Thread - 9/INFO]: [DecentHolograms] Loaded 2 holograms!
+[22:34:12] [Server thread/INFO]: [ItemsAdder] [m[0;32;1m[Pack] DONE extracting internal contents from .jar[m
+[22:34:12] [Craft Scheduler Thread - 6/INFO]: [PlayerTitle] | ×îĞÂ°æ±¾: 4.1.7 µ±Ç°°æ±¾: 4.1.3 µã»÷´Ë´¦²é¿´¸üĞÂÄÚÈİ |
+
+[22:34:13] [BlueMap-Plugin-Loading/INFO]: Loading resources...
+[22:34:13] [Craft Scheduler Thread - 3/INFO]: [PlayTime] Latest version is installed! - v3.6
+[22:34:13] [Craft Scheduler Thread - 7/INFO]: [PlayerWarps] [ÏµÍ³µØ±ê] PlayerWarps v7.6.1 is out! You are still running v7.5.3!
+[22:34:13] [ForkJoinPool.commonPool-worker-9/INFO]: [EpicAchievements] There is a new update available: 1.6.2
+[22:34:13] [LiteSignIn-Updater/INFO]: ?ÎŞ·¨»ñÈ¡²å¼ş×îĞÂ°æ±¾, Çë¼ì²éÄãµÄÍøÂçÊÇ·ñÕı³£! 
+[22:34:13] [BlueMap-Plugin-Loading/INFO]: Loading textures...
+[22:34:14] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [m[0;32;1m[License] Spigot product licensed to: [0;36;1mPatih1775 (1382100)[m
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [m [m
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [m[0;32;1mUPDATE available: [0;36;1mhttps://www.spigotmc.org/resources/73355/[m
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [m[0;30;1mCurrent version: 3.6.4[0;30;1m | Online version: 4.0.2-beta-release-12[m
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [m [m
+[22:34:14] [Craft Scheduler Thread - 14/INFO]: [WkKit] ÕıÔÚ½øĞĞ¼ì²é¸üĞÂ...
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [WkKit] Êı¾İ¿âÕıÔÚÁ¬½ÓÖĞ...
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[22:34:14] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.137 which is not a depend or softdepend of this plugin.
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[22:34:14] [Server thread/INFO]: 5 placeholder hook(s) registered!
+[22:34:14] [Server thread/INFO]: [Citizens] ÒÑÔØÈë 0 ¸öNPC.
+[22:34:14] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mLoaded [0;36;1m85[0;33;1m items[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mUsed [0;36;1m0[0;33;1m/[0;36;1m188[0;33;1m REAL block IDs[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mUsed [0;36;1m0[0;33;1m/[0;36;1m750[0;33;1m REAL_NOTE block IDs[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mUsed [0;36;1m0[0;33;1m/[0;36;1m63[0;33;1m REAL_TRANSPARENT block IDs[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mUsed [0;36;1m0[0;33;1m/[0;36;1m127[0;33;1m REAL_WIRE block IDs[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mUsed [0;36;1m0[0;33;1m/[0;36;1m14[0;33;1m FIRE block IDs[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;33;1mUsed [0;36;1m127[0;33;1m/[0;36;1m6608[0;33;1m font_images[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;32;1m[Init] Loaded [0;36;1m2[0;33;1m categories[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;32;1m[Init] Loaded successfully.[m
+[22:34:14] [Craft Scheduler Thread - 4/INFO]: [ItemsAdder] [m[0;32;1m[Pack] Resourcepack URL (self-host): http://127.0.0.1:8163/generated.zip[m
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: img [1.0.1]
+[22:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: iaplayerstat [1.0.1]
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [WkKit] Êı¾İ¿âÁ¬½Ó³É¹¦
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [WkKit] ÒÑ¼ÓÔØÀñ°üÊıÁ¿: 3
+[22:34:14] [Craft Scheduler Thread - 15/INFO]: [WkKit] ÒÑ¼ÓÔØ²Ëµ¥ÊıÁ¿: 4
+[22:34:15] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[22:34:15] [BlueMap-Plugin-Loading/INFO]: Baking resources...
+[22:34:15] [BlueMap-Plugin-Loading/INFO]: Resources loaded.
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: Loading map 'world'...
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: Loading map 'world_the_end'...
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: Loading map 'world_the_nether'...
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: WebServer bound to all network interfaces on port 8100
+[22:34:16] [Thread-25/INFO]: WebServer started.
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: Refreshing OpenPaC BlueMap markers
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: Refreshed OpenPaC BlueMap markers
+[22:34:16] [BlueMap-Plugin-Loading/INFO]: BlueMap loaded!
+[22:34:17] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/
+[22:34:17] [Craft Scheduler Thread - 4/INFO]: [TrChat] ÄãÕıÔÚÔËĞĞ×îĞÂ°æµÄ TrChat.
+[22:34:17] [Craft Scheduler Thread - 8/INFO]: [HeadDatabase] Successfully loaded 77691 heads!
+[22:34:18] [Craft Scheduler Thread - 8/INFO]: [HeadDatabase] Successfully loaded 18 featured tags!
+[22:34:18] [Craft Scheduler Thread - 8/WARN]: [HeadDatabase] ¡ìcYou are using an outdated version!
+[22:34:18] [Craft Scheduler Thread - 8/WARN]: [HeadDatabase] Latest version: ¡ìa4.20.4¡ìe. You are on version: ¡ìc4.19.8¡ìe.
+[22:34:18] [Craft Scheduler Thread - 8/WARN]: [HeadDatabase] Update here: ¡ìbhttps://www.spigotmc.org/resources/head-database.14280/
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.98.1 ]================================
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus]  
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Vault economy registered.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Vault economy enabled.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Enabled item provider for HeadDatabase.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Enabled item provider for ItemsAdder.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded 10 main menu items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded 0 permission-based price modifiers.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] Loaded 7 sounds.
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus]  
+[22:34:18] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[22:34:24] [Craft Scheduler Thread - 10/INFO]: [PlayerWarp] ÄúÕıÔÚÊ¹ÓÃPlayerWarp²å¼şÃâ·Ñ°æ,¸ĞĞ»ÄúµÄÖ§³Ö
+[22:34:24] [Craft Scheduler Thread - 1/INFO]: [PlayerTitle] ÄúÕıÔÚÊ¹ÓÃPlayerTitle²å¼şÃâ·Ñ°æ,¸ĞĞ»ÄúµÄÖ§³Ö
+[22:34:30] [Craft Scheduler Thread - 14/INFO]: [WkKit] ¼ì²é¸üĞÂÊ§°Ü£¬Çë¼ì²éÄúµÄÍøÂç£¡
+[22:43:12] [Thread-13/INFO]: ?Íæ¼ÒÊı¾İÒÑ±£´æ!
+[22:43:12] [Server thread/INFO]: [ÇåÀí] ½«ÔÚ1·ÖÖÓºó½øĞĞÇåÀí
+[22:43:42] [Server thread/INFO]: [ÇåÀí] ½«ÔÚ30Ãëºó½øĞĞÇåÀí
+[22:44:02] [Server thread/INFO]: [ÇåÀí] ½«ÔÚ10Ãëºó½øĞĞÇåÀí
+[22:44:12] [Server thread/INFO]: [ÇåÀí] ÕıÔÚÇåÀí
+[22:44:12] [Server thread/INFO]: [ÇåÀí] µôÂäÎïÇåÀíÍê³É, ÒÑÇåÀí2/2
+[22:44:13] [Server thread/INFO]: Refreshing OpenPaC BlueMap markers
+[22:44:13] [Server thread/INFO]: Refreshed OpenPaC BlueMap markers

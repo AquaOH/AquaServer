@@ -1,0 +1,106 @@
+visitedit:
+  # 是否启用GUI？
+  enabled: true
+  # GUI的名称是什么？
+  name: "visitedit"
+  # GUI的标题 (可以使用颜色代码)
+  title: "&b&l管理访问"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 27
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+
+  clickable-items:
+    menu:
+      name: "&b返回菜单"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d点击&b返回主菜单。"
+      slot: 22
+      amount: 1
+      glowing: false
+
+  items:
+    # 放置在GUI中的装饰物品
+    1:
+      # 物品名称
+      name: " "
+      # 物品材质
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      # 物品数据值
+      data: 3
+      # 可以添加说明
+      # 示例:
+      # lore:
+      #   - "&b这是一个装饰物品。"
+      slot: [0, 2, 4, 6, 8, 18, 20, 24, 26]
+      # 物品堆叠数量
+      amount: 1
+      # 点击时执行的命令。
+      # [server] 表示以控制台执行命令
+      # [player] 表示以玩家执行命令
+      # commands:
+      #   - "[server] msg %player% 你点击了这个物品！"
+      glowing: false
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [1, 3, 5, 7, 9, 17, 19, 21, 23, 25]
+      amount: 1
+    3:
+      name: "&b评分"
+      material: DIAMOND
+      data: 0
+      slot: 10
+      amount: 1
+      lore:
+        - "&b点击为&d[warp_display]&b评分"
+      # [server] 表示以控制台执行命令
+      # [player] 表示以玩家执行命令
+      commands:
+        - "[chat_wait] &b请输入一个评分 (0-5):[player] !color pwarp rate %warp% %value%"
+        - "[close]"
+      back: false
+    4:
+      name: "&b查看评分"
+      material: EMERALD
+      data: 0
+      slot: 12
+      amount: 1
+      lore:
+        - "&b点击查看&d[warp_display]&b的评分"
+      # [server] 表示以控制台执行命令
+      # [player] 表示以玩家执行命令
+      commands:
+        - "[server] %cmd% 打开 rate -warp %warp% -player %player%"
+      back: false
+    5:
+      name: "&b传送"
+      material: ENDER_EYE
+      data: 0
+      slot: 14
+      amount: 1
+      lore:
+        - "&b点击传送到&d[warp_display]"
+      # [server] 表示以控制台执行命令
+      # [player] 表示以玩家执行命令
+      commands:
+        - "[player] %cmd% %warp%"
+      back: false
+    6:
+      name: "&b收藏"
+      material: NETHER_STAR
+      data: 0
+      slot: 16
+      amount: 1
+      lore:
+        - "&b点击切换收藏&d[warp_display]"
+      # [server] 表示以控制台执行命令
+      # [player] 表示以玩家执行命令
+      commands:
+        - "[player] %cmd% 收藏 %warp%"
+      back: false

@@ -1,0 +1,91 @@
+prefix: '&a[Kauppa] &r'
+shopinfo: |-
+  &aKaupan tiedot:
+  &fOmistaja: &7%owner
+  &fVarasto: &7%stock
+  &fTavara: &7%item
+shopinfo_buy: '&fOsta m盲盲r盲 &7%amount &fhintaan &7%price'
+shopinfo_sell: '&fMyy m盲盲r盲 &7%amount &fhintaan &7%price'
+iteminfo: '&aTavaran tiedot: &r'
+iteminfo_fullname: '&fKoko nimi: &7%item'
+iteminfo_shopname: '&fKaupan kyltti: &7%item'
+iteminfo_repaircost: '&fKorjaus maksaa: &7%cost'
+iteminfo_book: |-
+  &fKirjan otsikko: &7%title
+  &fKirjan tekij盲: &7%author
+  &fKirjan sivum盲盲r盲: &7%pages
+iteminfo_book_generation: '&fKirjan sukupolvi: &7%generation'
+iteminfo_lore: |-
+  &fInfoteksti:
+  &r%lore
+METRICS: |-
+  &a[Kauppa] &fMetriikat:
+  &K盲ytt盲ji盲: &7%accounts
+  &fOstotapahtumia keskim盲盲rin: &7%totalTransactions &f(ostoja: &7%buyTransactions &fmyyntej盲: &7%sellTransactions&f)
+  &fTavaroita vaihdettu keskim盲盲rin: &7%totalItems &f(ostettu: &7%boughtItems &fmyyty: &7%soldItems&f)
+ACCESS_DENIED: Sinulla ei ole lupaa k盲ytt盲盲 kyseisen kaupan arkkua!
+TRADE_DENIED: Sinulla ei ole lupaa tehd盲 vaihtokauppaa kyseisess盲 kaupassa!
+TRADE_DENIED_ACCESS_PERMS: Et voi tehd盲 vaihtokauppaa kauppojen kanssa, joihin sinulla
+  on p盲盲sy!
+TRADE_DENIED_CREATIVE_MODE: Et voi tehd盲 vaihtokauppaa kauppojen kanssa, kun olet
+  luovassa tilassa!
+NOT_ENOUGH_MONEY: Sinulla ei ole tarpeeksi rahaa!
+NOT_ENOUGH_MONEY_SHOP: Kaupan omistajalla ei ole tarpeeksi rahaa!
+CLIENT_DEPOSIT_FAILED: Rahatalletus tilillesi ep盲onnistui!
+SHOP_DEPOSIT_FAILED: Rahan talletus kaupan omistajalle ep盲onnistui!
+NO_ECONOMY_ACCOUNT: Kaupan omistajalla ei ole Economy-tili盲!
+NO_BUYING_HERE: Et voi ostaa t盲st盲 kaupasta!
+NO_SELLING_HERE: Et voi myyd盲 t盲h盲n kauppaan!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Sinulla ei ole tarpeeksi tilaa tavaraluettelossa!
+NOT_ENOUGH_SPACE_IN_CHEST: Arkussa ei ole tarpeeksi tilaa!
+NOT_ENOUGH_ITEMS_TO_SELL: Sinulla ei ole tarpeeksi tuotteita myyt盲v盲ksi!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [%price %item&7 kauppa on t盲ynn盲!](&f%seller&7 yritti myyd盲 kauppaan
+  &7Maassa: &f%world
+  &7Sijainnissa: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: T盲m盲n kaupan varasto on tyhj盲.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [%price %item&7 kaupan varasto on tyhj盲!](&f%buyer&7 yritti tehd盲 ostoksen
+  &7Maassa: &f%world
+  &7Sijainnissa: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: Ostit tavaran %item pelaajalta %owner hintaan %price.
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer osti tavaran %item hintaan %price.](&7Maassa: &f%world
+  &7Sijainnissa: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: Myit tavaran %item pelaajalle %buyer hintaan %price.
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller myi tavaran %item hintaan %price.](&7Maassa: &f%world
+  &7Sijainnissa: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Et voi luoda t盲m盲n tyyppist盲 kauppaa!
+NO_CHEST_DETECTED: Arkkua ei l枚ydetty!
+INVALID_SHOP_DETECTED: Kauppaa ei voi k盲ytt盲盲!
+INVALID_SHOP_PRICE: Kaupassa on virheellinen hinta!
+INVALID_SHOP_QUANTITY: Kaupassa on virheellinen tavaram盲盲r盲!
+CANNOT_ACCESS_THE_CHEST: Sinulla ei ole oikeuksia k盲ytt盲盲 t盲t盲 arkkua!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: Sell price is above the buy price!
+SELL_PRICE_ABOVE_MAX: Sell price %price is above maximum %maxprice!
+SELL_PRICE_BELOW_MIN: Sell price %price is below minimum %minprice!
+BUY_PRICE_ABOVE_MAX: Buy price %price is above maximum %maxprice!
+BUY_PRICE_BELOW_MIN: Buy price %price is below minimum %minprice!
+CLICK_TO_AUTOFILL_ITEM: Napsauta kyltti盲 tuotteen kanssa, jota t盲m盲 kauppa ostaa/myy!
+NO_ITEM_IN_HAND: Sinulla ei ole kohdetta k盲dess盲si automaattista t盲ytt盲mist盲 varten!
+PROTECTED_SHOP: Suojattu kauppa onnistuneesti LWC:ll盲!
+PROTECTED_SHOP_SIGN: Suojattu kauppakyltti onnistuneesti LWC:ll盲!
+SHOP_CREATED: Kauppa luotiin onnistuneesti!
+SHOP_FEE_PAID: Sinulta on veloitettu %amount
+SHOP_REFUNDED: Sinulle on hyvitetty %amount.
+ITEM_GIVEN: Annettiin tavara %item pelaajalle %player.
+RESTRICTED_SIGN_CREATED: Kyltti luotu onnistuneesti!
+PLAYER_NOT_FOUND: Pelaajaa ei l枚ydety!
+NO_PERMISSION: Sinulla ei ole siihen oikeuksia!
+INCORRECT_ITEM_ID: Olet m盲盲ritt盲nyt virheellisen kohteen tunnuksen!
+INVALID_CLIENT_NAME: K盲ytt盲j盲nimesi ei ole kelvollinen Minecraft-k盲ytt盲j盲tunnus!
+NOT_ENOUGH_PROTECTIONS: Suojausta ei voitu luoda!
+NO_SHOP_FOUND: Kauppaa ei l枚ytynyt.
+CANNOT_CREATE_SHOP_HERE: Et voi luoda kauppaa t盲盲ll盲!
+TOGGLE_MESSAGES_OFF: Et en盲盲 saa viestej盲 kaupoistasi.
+TOGGLE_MESSAGES_ON: Saat nyt viestej盲 kaupoistasi.
+TOGGLE_ACCESS_ON: Et voi en盲盲 tehd盲 vaihtokauppaa kauppojen kanssa, joihin sinulla
+  on p盲盲sy
+TOGGLE_ACCESS_OFF: Voit nyt tehd盲 vaihtokauppaa kauppojen kanssa, joihin sinulla on
+  p盲盲sy

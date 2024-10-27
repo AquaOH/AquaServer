@@ -1,0 +1,330 @@
+# 插件前缀
+Prefix: '&f쀄'
+
+# 插件语言
+# 可用语言: Simplified-Chinese（简体中文）、Traditional-Chinese（繁體中文）、English
+Language: Simplified-Chinese
+
+# 货币系统设置
+Economy-Settings:
+  # 默认货币系统，用于获取与判断玩家在全球市场的账户余额
+  # 以下为可选的货币模式: 
+  #  1. Default: 插件自带的货币系统（命令为/gmp money）
+  #  2. Vault: 以Vault插件作为经济前置的插件（例如Essentials、CMI等）
+  #  3. PlayerPoints: 经典点数经济插件
+  Default-Currency-System: Vault
+  # 是否启用多货币模式
+  # 启用后，玩家可自己选择以哪款货币系统作为商品的价格单位
+  # 注意，若启用该选项，“默认货币模式”将不可再使用“Default”，请更改为其他货币系统
+  Multiple-Currencies-System: false
+  # 多货币模式对应的各个插件的开关
+  # 此功能仅在启用上方Multiple-Currencies-System选项时生效
+  Multiple-Currencies-System-List:
+    Vault: true
+    PlayerPoints: true
+  # 多货币对应的符号（也可以是其它的词语）
+  # 用于在上架商品时快速识别对应货币，无需再经过手动设置目标货币系统
+  # 例：当下方设置Vault: "$" 时，"/market sell 100$" 可直接被识别为以Vault为货币单位上架商品
+  # 例：当下方设置PlayerPoints: "金币" 时，"/market sell 100金币" 可直接被识别为以PlayerPoints为货币单位上架商品
+  # 此功能仅在启用上方Multiple-Currencies-System选项时生效
+  Multiple-Currencies-Symbols:
+    Vault: ￥
+    PlayerPoints: €
+  # 经济系统管理员列表，支持填写玩家名字或UUID
+  # 在此列表中的玩家将不会进行余额操作，
+  # 通常只有将某个商家作为系统商店的时候需要将商家名写入此列表中。
+  Operators: []
+  Separate-Servers:
+    Enabled: false
+
+# 模块开关（功能开关）
+# 你可以选择禁用一些不需要的功能模块
+# 此选项不会影响到其他插件的使用，仅能控制本插件的功能
+Module-Switches:
+  # 全球市场（命令/gmp market）
+  GlobalMarket: true
+  # 玩家邮箱（命令/gmp mailbox）
+  # 若“全球市场”模块开启，此模块也会自动开启
+  Mailbox: true
+  # 记录器（命令/gmp admin recorder）
+  Recorder: true
+  # 玩家档案（命令/gmp profile）
+  # 若“全球市场”模块开启，此模块也会自动开启
+  Profile: true
+  # 余额操作（命令/gmp money）
+  # 若“玩家档案”模块关闭，请使用其他插件的货币系统
+  Money: true
+  # 自定义GUI（命令/gmp gui）
+  # 不包含其他模块自带的GUI
+  Custom-GUI: true
+  # 牌子商店（在配置文件SignStore.yml中设置相关参数）
+  Sign-Store: false
+
+# 进入服务器后的命令冷却（单位：秒）
+# 玩家进入服务器后需要等待多少秒才能够使用本插件的命令
+Commands-Cooldown-After-Login: 3
+
+# 执行命令的冷却（单位：秒）
+# 在这里写上需要添加冷却的子命令，可以防止玩家频繁执行命令
+Commands-Cooldown:
+  Enabled: true
+  # 命令列表，格式为：“[命令]:[冷却时间]”
+  List:
+  - mailbox pickup: 1.0
+  - mailbox send: 1.0
+  - mailbox delete: 1.0
+  - market sell: 1.0
+  - market buy: 1.0
+  - market bid: 1.0
+  - market sellinventory: 3.0
+  - market buyinventory: 3.0
+  - transaction confirm: 1.0
+  - auction start: 1.0
+  - auction bid: 1.0
+  - auction confirm: 1.0
+  - money pay: 1.0
+  - category set: 1.0
+  - profile set: 1.0
+
+# 是否启用全部GUI里的按钮标签
+# 该功能将会在Lore上为每个GUI中的按钮添加上识别码，
+# 以防止玩家在特殊环境或模组的影响下将GUI内的按钮取出至背包中。
+# 建议模组服务器、插件较为混杂的服务器启用该选项
+# 你也可以在GUI设置中启用“Buttons-Label”选项以单独对某个GUI生效
+Enabled-All-GUI-Buttons-Label: false
+
+# PlaceholderAPI设置
+PlaceholderAPI:
+  # 是否使用
+  Enabled: true
+  # 占位符缓存更新的延迟（秒）
+  # 由于部分占位符需要不断地读取数据库的数据，
+  # 此选项用于防止频繁调用PAPI占位符对数据库IO造成的巨大负担
+  Cache-Update-Delay: 10.0
+  # 例外的占位符（不进行缓存的）
+  Exceptions:
+  - merchant_balance
+
+# 日志记录器（设为false则不记录）
+# 本功能可用于记录插件所有数据库数据的操作记录
+# 例如全球市场的交易记录、邮件来往、转账记录等
+# 使用命令: /gmp admin recorder 可查看所有记录
+Recorder:
+  # 邮件交互（玩家发送、商品到期下架等邮件）
+  Mail-Exchange: true
+  # 邮件签收（玩家领取、管理员领取）
+  Mail-Pickup: true
+  # 商品下架（玩家下架、管理员下架）
+  Merchandise-Remove: true
+  # 商品上架（玩家上架）
+  Merchandise-Upload: true
+  # 转账记录（仅使用本插件的/gmp money 、/money 命令时有效）
+  # 若使用其他的货币系统， 可以禁用其他插件的转账命令权限， 只允许玩家使用本插件的转账命令
+  Payment: true
+  # 商品交易
+  Transaction: true
+  # 拍卖交易
+  Auction: true
+  # 余额变动
+  Balance-Change: true
+
+# SQLite 数据储存设置（默认）
+SQLite-Storage:
+  # 数据库文件名
+  Database-File: Database.db
+  # 数据库文件夹路径（不可以多个服务器使用同一个数据库文件）
+  Database-Path: plugins/GlobalMarketPlus
+  # 数据表名称
+  Tables:
+    GlobalMarket: GlobalMarket
+    Merchant: Merchant
+    Mailbox: Mailbox
+    Recorder: Recorder
+  # 多数据库储存模式，用于把不同类型的数据区分为多个数据库文件
+  # 与默认储存模式的区别在于，默认所有数据都会存入同一个数据库中
+  # 而此功能可以将不同类型的数据区分拆分为不同的数据库文件进行储存
+  Multi-Storage:
+    Enabled: false
+    # 数据库文件夹路径
+    Database-Path:
+      GlobalMarket: plugins/GlobalMarketPlus
+      Merchant: plugins/GlobalMarketPlus
+      Mailbox: plugins/GlobalMarketPlus
+      Recorder: plugins/GlobalMarketPlus/Database
+    # 数据库文件名称（允许不同的数据类型储存使用同一个数据库文件）
+    Database-File:
+      GlobalMarket: Database.db
+      Merchant: Database.db
+      Mailbox: Database.db
+      Recorder: Recorder.db
+
+# 分裂储存，可将不同类型的数据分为不同的储存模式
+Split-Storage:
+  Enabled: false
+  # 数据库类型
+  # 可选: SQLite（本地数据库）、MySQL（联网数据库）
+  Database-Type:
+    GlobalMarket: MySQL
+    Merchant: MySQL
+    Mailbox: MySQL
+    Recorder: MySQL
+
+# MySQL 数据库设置
+MySQL-Storage:
+  # 是否启用（若分裂储存启用且填写数据库类型为MySQL，将自动启用MySQL）
+  Enabled: false
+  # 主机名
+  Hostname: 192.168.6.230
+  # 端口
+  Port: 3306
+  # 用户名
+  Username: globalmarketplus
+  # 密码
+  Password: Aqua7296
+  # 数据库名称
+  Database: globalmarketplus
+  # 连接超时时间
+  Wait-Timeout: 18000
+  # 自动刷新缓存（单位: 秒）
+  # 若有多个MC服务器共用同一个MySQL，建议启用
+  # Tip: 进行数据库操作时会自动刷新缓存（商品交易、发送邮件等）
+  #     改为 -1 即为不刷新
+  Auto-Refresh:
+    Enabled: true
+    GlobalMarket: 10.0
+    Merchant: 10.0
+    Mailbox: 10.0
+  # 数据表名称
+  Tables:
+    GlobalMarket: GlobalMarket
+    Merchant: Merchant
+    Mailbox: Mailbox
+    Recorder: Recorder
+  # 连接参数，如果你不是一名开发者，并且不熟知JDBC，请不要修改它
+  Options:
+    useSSL: false
+    useUnicode: true
+    allowMultiQueries: true
+    allowPublicKeyRetrieval: true
+    characterEncoding: utf8
+    autoReconnect: true
+  # 多数据库储存模式，用于把不同类型的数据区分为多个数据库
+  # 与默认储存模式的区别在于，默认所有数据都会存入同一个数据库中
+  # 而此功能可以将不同类型的数据区分拆分为不同的数据库进行储存
+  Multi-Storage:
+    Enabled: false
+    Databases:
+      GlobalMarket: GlobalMarketPlus_GlobalMarket
+      Merchant: GlobalMarketPlus_Merchant
+      Mailbox: GlobalMarketPlus_Mailbox
+      Recorder: GlobalMarketPlus_Recorder
+
+# 异步线程的设置
+# 若不清楚这什么是异步线程，请不要修改这个选项！
+Async-Thread-Settings:
+  # 更新执行器的执行延迟（单位是秒，可以有小数）
+  # 主要处理动态GUI、邮件和商品的状态更新
+  # 例如检测商品是否过期，过期了就自动下架
+  Updater-Thread-Delay: 1.0
+  # 任务执行器的执行延迟（单位是秒，可以有小数）
+  # 主要处理提交的新任务（主要是命令、事件、数据库IO操作等任务）
+  Task-Thread-Delay: 0.1
+  # 异步任务设置
+  # 你可以选择将某些任务归类为异步任务
+  Async-Task-Settings:
+    # 是否启用全局异步任务处理（即全部任务均在异步线程上进行）
+    # 启用本选项后，可忽略下方的其他选项
+    Global-Async-Task: false
+    # 命令任务
+    # 说明: 在此列表中填入的子命令，代表该子命令为异步任务
+    # 注意: 有部分任务仅被允许在主线程上处理，因此本功能效果有限
+    # 示例: 
+    # Commands:
+    # - 'admin recorder' 即代表命令“/gmp admin recorder”为异步任务
+    Commands:
+    - admin recorder
+    # 监听器任务
+    # 说明: 在此列表中填入的事件名字，若插件使用了相关的事件监听器，则代表该事件允许成为异步事件
+    # 注意: 此选项的设置需要你对插件开发有一定的了解！
+    #      有部分事件仅被允许在主线程上处理，因此本功能效果有限
+    # 示例: 
+    # Custom-Events: 
+    # - 'PlayerJoinEvent' 即代表本插件所有使用了“PlayerJoinEvent”的事件监听器允许成为异步任务
+    Listener: []
+
+# 数据管理设置
+# 配合命令/gmp admin database 使用
+Database-Management:
+  # 备份
+  Backup:
+    # 是否开启自动备份（每一次服务器关闭时进行）
+    Auto-Backup: true
+    # 自动备份的类型（默认备份市场）
+    # 备份类型可以是ALL（全部）, GLOBALMARKET（全球市场）, MERCHANT（商家/玩家数据）, MAILBOX（邮件）, RECORDER（记录器）
+    Auto-Backup-Types:
+    - GLOBALMARKET
+    # 备份文件夹路径（不可以包含以下字符: / \ * " ? : > < |）
+    Backup-Folder-Path: plugins/GlobalMarketPlus/Database/Backup/
+    # 备份文件名称（不可以包含以下字符: / \ * " ? : > < |）
+    Backup-File: Backup-{types}-{time}
+    # 时间格式（不可以包含以下字符: / \ * " ? : > < |）
+    Time-Format: yyyy-MM-dd-HH-mm-ss
+  # 回档
+  RollBack:
+    # 备份文件夹路径（将从此处选择备份文件进行回档）
+    Backup-Folder-Path: plugins/GlobalMarketPlus/Database/Backup/
+    # 执行回档前，是否先进行备份
+    Rollback-With-Backup: true
+  # 下载
+  Download:
+    # 时间格式（不可以包含以下字符: / \ * " ? : > < |）
+    Time-Format: yyyy-MM-dd-HH-mm-ss
+    # 下载的文件的目录（不可以包含以下字符: / \ * " ? : > < |）
+    Download-Folder-Path:
+      GlobalMarket: plugins/GlobalMarketPlus/Database/Downloads/GlobalMarket/
+      Merchant: plugins/GlobalMarketPlus/Database/Downloads/Merchant/
+      Mailbox: plugins/GlobalMarketPlus/Database/Downloads/Mailbox/
+    # 下载的文件名（不可以包含以下字符: / \ * " ? : > < |）
+    Download-File:
+      GlobalMarket: UID={uid}-{time}.yml
+      Merchant: '{name}-{uuid}.yml'
+      Mailbox: '{name}-{uuid}.yml'
+  # 上传
+  Upload:
+    # 当数据库中不存在与上传的文件的标识码相匹配的数据时，是否重新写入
+    # 例如欲上传名为Player的玩家档案，而数据库中不存在这个玩家，则新建并使用上传的这份数据
+    Rewrite: true
+    # 下载的文件的目录（不可以包含以下字符: / \ * " ? : > < |）
+    # 执行上传命令后，将从这个路径中选择文件进行上传
+    Download-Folder-Path:
+      GlobalMarket: plugins/GlobalMarketPlus/Database/Downloads/GlobalMarket/
+      Merchant: plugins/GlobalMarketPlus/Database/Downloads/Merchant/
+      Mailbox: plugins/GlobalMarketPlus/Database/Downloads/Mailbox/
+  # 清空数据库
+  Clear:
+    # 是否在清除数据前下载一份数据到本地作为备份
+    Backup-Before-Cleaning: true
+    # 是否在清空数据库前备份
+    Backup-Before-Cleaning-All: true
+
+# 是否检查更新
+# 仅在启动服务器时运行，将自动检测插件的最新版本及信息，并汇报给控制台及有拥有对应权限的玩家
+# 此功能并不会造成服务器产生过多流量（每次检测产生约不到1kb网络流量）
+# 注意: 某些旧版本可能会在某个版本更新后被禁用！
+Updater: false
+
+# 是否启用Metrics
+# 详见https://bstats.org/plugin/bukkit/GlobalMarketPlus/
+Metrics: true
+
+# 物品的序列化方法
+# 部分模组服务器中无法正常序列化模组物品，因此插件对部分核心做了特殊兼容以解决问题
+# 此选项一般不需要修改，如有以上情况，请在工作人员或帮助文档的指示下进行修改
+# 更改此选项后可能会导致现有的所有物品数据不再可用，因此建议在初始化插件时修改
+# 设置参考:
+#    Bukkit/Spigot 系列的插件端核心: DEFAULT
+#    CatServer/Arclight 等其他混合核心: DEFAULT
+#    Crucible: io.github.crucible.util.ItemUtil
+Item-Serialization-Method: DEFAULT
+Commands-Delay:
+  Enabled: false

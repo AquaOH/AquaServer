@@ -1,0 +1,112 @@
+name: 'Premium :)'
+default-points-required: 100
+required-permission: 'battlepass.premium'
+
+items:
+  doesnt-have-pass-item: # The item if a player does not have the premium pass.
+    material: 'gold_nugget'
+    customModelData: 508
+    #customModelData: 0 #Set custom model data
+    name: '&eTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &eNot Eligible'
+      - '&cPurchase the battle pass to'
+      - '&cbe able to earn premium rewards.'
+  locked-tier-item: # The item if the player has not yet reached the tier.
+    material: 'gold_nugget'
+    customModelData: 508
+    name: '&eTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &cLocked'
+  unlocked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 503
+    name: '&aTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &aUnlocked'
+  claimed-tier-item:
+    material: 'gold_nugget'
+    customModelData: 504
+    name: '&aTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &aClaimed'
+
+tier-up-actions:
+  - '[message] {:bp: &7You reached tier &e%tier%}'
+
+tiers:
+  '1':  
+    rewards: ['6', '8']
+
+  '2':  
+    rewards: ['6', '8']
+
+  '3':  
+    rewards: ['6', '8']
+
+  '4':  
+    rewards: ['6', '8']
+
+  '5':  
+    rewards: ['6', '8']
+
+  '6':  
+    rewards: ['6', '8']
+
+  '7':  
+    rewards: ['6', '8']
+
+  '8':  
+    rewards: ['6', '8']
+
+  '9':  
+    rewards: ['6', '8']
+
+  '10':  
+    rewards: ['6', '8']
+
+  '11':  
+    rewards: ['6', '8']
+
+  '12':  
+    rewards: ['6', '8']
+
+  '13':  
+    rewards: ['6', '8']
+
+  '14':  
+    rewards: ['6', '8']
+
+  '15':  
+    rewards: ['6', '8']
+
+  '16':  
+    rewards: ['6', '8']
+
+  '17':  
+    rewards: ['6', '8']
+
+  '18':  
+    rewards: ['6', '8']
+
+  '19':  
+    rewards: ['6', '8']
+
+  '20':  
+    rewards: ['6', '8']

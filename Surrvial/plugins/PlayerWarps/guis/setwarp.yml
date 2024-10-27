@@ -1,0 +1,117 @@
+setwarp:
+  # 是否启用GUI？
+  enabled: false
+  # GUI的名称是什么？
+  name: "setwarp"
+  # GUI的标题 (可以使用颜色代码)
+  title: "&b&l设置传送点"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 27
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+
+  clickable-items:
+    name:
+      name: "&b设置名称"
+      material: OAK_SIGN
+      data: 0
+      lore:
+        - "&d点击&b设置传送点的名称。"
+        - " "
+        - "&7当前名称: &b[warp_display]"
+      slot: 4
+      amount: 1
+      glowing: false
+      sign:
+        lines:
+          - "%search%"
+          - "----------------"
+          - "请输入"
+          - "名称。"
+    description:
+      name: "&b设置描述"
+      material: PAPER
+      data: 0
+      lore:
+        - "&d点击&b设置传送点的描述。"
+        - " "
+        - "&7当前描述: &b[desc]"
+      slot: 11
+      amount: 1
+      glowing: false
+      message: "&b请输入传送点的描述。"
+    cost:
+      name: "&b设置费用"
+      material: GOLD_INGOT
+      data: 0
+      lore:
+        - "&d点击&b设置传送点的费用。"
+        - " "
+        - "&7当前费用: &b[cost_set]"
+      slot: 13
+      amount: 1
+      glowing: false
+      sign:
+        lines:
+          - "%search%"
+          - "----------------"
+          - "请输入"
+          - "价格。"
+    category:
+      name: "&b设置类别"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d左键点击&b为传送点添加类别。"
+        - "&d右键点击&b从传送点移除类别。"
+        - " "
+        - "&7当前类别: &b[category]"
+      slot: 15
+      amount: 1
+      glowing: false
+      sign:
+        lines:
+          - "%search%"
+          - "----------------"
+          - "请输入"
+          - "类别。"
+    set:
+      name: "&b设置传送点"
+      material: LIME_WOOL
+      data: 5
+      lore:
+        - "&d点击&b设置传送点。"
+      slot: 22
+      amount: 1
+      glowing: false
+
+  items:
+    # 放置在GUI中的装饰物品
+    1:
+      # 物品名称
+      name: " "
+      # 物品材质
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      # 物品数据值
+      data: 3
+      # 可以添加说明
+      # 示例:
+      # lore:
+      #   - "&b这是一个装饰物品。"
+      slot: [0, 2, 6, 8, 18, 20, 24, 26]
+      # 物品堆叠数量
+      amount: 1
+      # 点击时执行的命令。
+      # [server] 表示以控制台执行命令
+      # [player] 表示以玩家执行命令
+      # commands:
+      #   - "[server] msg %player% 你点击了这个物品！"
+      glowing: false
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [1, 3, 5, 7, 9, 17, 19, 21, 23, 25]
+      amount: 1

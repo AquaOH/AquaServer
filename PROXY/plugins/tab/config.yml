@@ -1,0 +1,231 @@
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  header:
+  - <#FFFFFF>&m                                                </#FFFF00>
+  - ''
+  - '&f%img_logo_1_1%&f%img_logo_1_2%&f%img_logo_1_3%&f%img_logo_1_4%&f%img_logo_1_5%&f%img_logo_1_6%&f%img_logo_1_7%&f%img_logo_1_8%'
+  - '%img_offset_2%&f%img_logo_2_1%&f%img_logo_2_2%&f%img_logo_2_3%&f%img_logo_2_4%&f%img_logo_2_5%&f%img_logo_2_6%&f%img_logo_2_7%&f%img_logo_2_8%'
+  - ""
+  - ""
+  - ""
+  - ""
+  - "%animation:koishi%%animation:suica%"
+  footer:
+  - ""
+  - "<#1E90FF>在线: %bungee_total%"
+  - ""
+  - ""
+  - "&f<#00BFFF>%server_time_MM/dd | hh:mm:ss%"
+  - "&3❆<#00BFFF>&m                                            </#FFFFFF><#FFFFFF>&m                                            </#00BFFF>&3❆" 
+  disable-condition: '%world%=disabledworld'
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  per-server:
+    server1:
+      header:
+      - an example of server with custom header
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: true
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+  unlimited-nametag-mode:
+    enabled: false
+    disable-on-boats: true
+    disable-condition: '%world%=disabledworld'
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+playerlist-objective:
+  enabled: false
+  value: '%ping%'
+  fancy-value: '&7Ping: %ping%'
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&cHealth'
+  fancy-display-players: '&c%health%'
+  fancy-display-default: NPC
+  disable-condition: '%world%=disabledworld'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    scoreboard-1.20.3+:
+      title: <#E0B11E>MyServer</#FF0000>
+      display-condition: '%player-version-id%>=765;%bedrock%=false'
+      lines:
+      - '&7%date%'
+      - '%animation:MyAnimation1%'
+      - '&6Online:'
+      - '* &eOnline&7:||%online%'
+      - '* &eCurrent World&7:||%worldonline%'
+      - '* &eStaff&7:||%staffonline%'
+      - ''
+      - '&6Personal Info:'
+      - '* &bRank&7:||%group%'
+      - '* &bPing&7:||%ping%&8ms'
+      - '* &bWorld&7:||%world%'
+      - '%animation:MyAnimation1%'
+    scoreboard:
+      title: <#E0B11E>MyServer</#FF0000>
+      lines:
+      - '&7%date%'
+      - '%animation:MyAnimation1%'
+      - '&6Online:'
+      - '* &eOnline&7: &f%online%'
+      - '* &eCurrent World&7: &f%worldonline%'
+      - '* &eStaff&7: &f%staffonline%'
+      - ''
+      - '&6Personal Info:'
+      - '* &bRank&7: &f%group%'
+      - '* &bPing&7: &f%ping%&8ms'
+      - '* &bWorld&7: &f%world%'
+      - '%animation:MyAnimation1%'
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1
+  layouts:
+    default:
+      fixed-slots:
+      - 1|&e&l玩家列表|mineskin:1105851698
+      - 21|&e&l玩家列表|mineskin:1105851698
+      - 41|&e&l玩家列表|mineskin:1105851698
+      - 61|&e&l冒险信息|mineskin:1074335506
+      - 63|&6&l个人信息
+      - 64|&b权限：%vault_prefix%
+      - 65|&b硬币：&a%vault_eco_balance%
+      - 66|&b点券：&a%playerpoints_points%
+      - 69|&6&l等级信息
+      - 70|&b职业：&a%mmocore_class%
+      - 71|&b等级：&a%mmocore_level%
+      - 72|&b经验：&a%mmocore_experience%/%mmocore_next_level%
+      - 75|&6&l通行证
+      - 76|&b类型：&a%battlepass_pass_type%
+      - 77|&b等级：&a%battlepass_tier%
+      - 78|&b经验：&a%battlepass_points%/%battlepass_next_tier_points_required_free%
+      groups:
+        players:
+          slots:
+          - 2-60
+ping-spoof:
+  enabled: false
+  value: 0
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+permission-refresh-interval: 1000
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+  useSSL: true
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: true
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true

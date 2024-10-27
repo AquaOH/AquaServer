@@ -1,0 +1,48 @@
+# 在此下载: https://black-minecraft.com/resources/6135/
+# EpicAchievements 配置文件
+update-checker:
+  enabled: true
+  check-interval: 3600 # 检查更新的时间间隔（以秒为单位）
+# 服务器的ID
+server: lobby
+# 如果启用，每个成就奖励的点数将显示在物品数量中
+show-points-in-item-amount: true
+# 点击解锁消息时执行的命令
+achievement-unlock-message-command: "achievements menu {category_id} {achievement_type}"
+# 点击进度消息时执行的命令
+achievement-progress-message-command: "achievements menu {category_id} {achievement_type}"
+# 如果启用，玩家将在以下情况下收到未领取奖励的通知
+notify-unclaimed-rewards:
+  on-join: true # 玩家加入时通知
+  on-reward-unlock: true # 解锁奖励时通知
+# 任务设置
+tasks:
+  placeholder:
+    # 占位符检查的频率（以游戏刻为单位）
+    interval: 20
+  playtime:
+    # 玩耍时间更新的频率（以游戏刻为单位）
+    interval: 1200
+# 音效设置
+sounds:
+  achievement-unlock:
+    - FIREWORK_TWINKLE # 成就解锁时的音效
+    - NOTE_PLING # 成就解锁时的另一种音效
+  switch-page: ITEM_BOOK_PAGE_TURN # 翻页时的音效
+  sorting-item: UI_BUTTON_CLICK # 排序项目时的音效
+  unclaimed-rewards: BLOCK_NOTE_PLING # 有未领取奖励时的音效
+  reward-claimed: ENTITY_PLAYER_LEVELUP # 成功领取奖励时的音效
+  cannot-claim-reward: NOTE_BASS # 无法领取奖励时的音效
+# 存储设置
+storage:
+  type: MYSQL # 可用类型：MONGODB、MYSQL、SQLITE
+  mysql:
+    host: 192.168.6.230
+    port: 3306
+    database: epicachievements
+    username: epicachievements
+    password: Aqua7296
+    ssl: false
+  mongodb:
+    uri: "mongodb://localhost:27017/" # MongoDB的URI
+    database: achievements

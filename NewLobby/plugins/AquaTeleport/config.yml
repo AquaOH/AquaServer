@@ -1,0 +1,7 @@
+server: lobby
+ip: 192.168.6.230
+port: 3306
+database: aquateleport
+username: aquateleport
+password: Aqua7296
+delay: "10"

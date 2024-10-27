@@ -1,0 +1,128 @@
+rate:
+  # 是否启用GUI？
+  enabled: true
+  # GUI的名称是什么？
+  name: "rate"
+  # GUI的标题 (可以使用颜色代码)
+  title: "&b&l传送点评分 - ([page]/[pages])"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 54
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+  # 如果页面上有按钮，是否应移除页面项。例如，你在第0页，它不会显示上一页按钮。
+  # 你也可以在页面项位置放置一个物品，它只会在页面项不显示时出现。
+  show-needed-page-items: false
+  # 评分项目不会出现在GUI中的黑名单槽位是什么？
+  # 这是为了在GUI中间留空位而不添加物品。
+  blacklisted-slots:
+    - ""
+
+  # 通过GUI搜索玩家
+  search:
+    # 是否启用此功能？
+    # 启用此功能需要ProtocolLib。
+    enabled: true
+    # 搜索界面的标题是什么？
+    title: "&b&l搜索 [search] - ([page]/[pages])"
+    # 命令牌上的预设行是什么？
+    # %search% 是玩家必须输入的变量，请确保这一行没有其他内容。
+    # 如果它不包含此变量，插件会假定第一行是用户输入。颜色代码也不起作用。
+    lines:
+      - "%search%"
+      - "----------------"
+      - "请输入玩家名称。"
+    # 用于搜索的命令牌材质。这只能是一个告示牌。
+    material: OAK_SIGN
+
+    item:
+      material: OAK_SIGN
+      data: 0
+      name: "&b搜索"
+      lore:
+        - "&d点击&b搜索玩家。"
+      slot: 45
+      amount: 1
+      glowing: false
+
+  icon:
+    # 默认的图标是否是玩家头颅？
+    skull: true
+    # 如果上面的选项禁用了，你可以选择默认物品材质。
+    material: DIAMOND_AXE
+    # 物品的ID是什么？
+    data: 0
+
+    # 这是GUI中头颅的名称。
+    name: "&b[rater]的评分"
+    # 你可以添加多行说明。
+    # 如果你使用SQL，你可以使用占位符 [server] 来显示服务器信息。
+    lore:
+      - "[删除评分]"
+      - "&b评分者: &d[rater]"
+      - "&b评分: &d[rate]"
+      - "&b星级: &d[rate_stars]"
+      - "&b描述: "
+      - "&d[desc]"
+    # 是否添加物品的附魔光效？
+    glowing: false
+
+    # 这里是可用的物品标记：https://javadocs.olziedev.com/spigot/latest/org/bukkit/inventory/ItemFlag.html
+    item-flags:
+      - HIDE_ATTRIBUTES
+    # 如果玩家有权限删除评分，变量 "[删除评分]" 将显示以下消息。
+    del-rate: "&d点击&b删除此评分。"
+    # 如果玩家没有权限删除评分，变量 "[删除评分]" 将显示以下消息。
+    del-not-rate: ""
+    # 当玩家点击评分时执行的命令。
+    commands: []
+
+  clickable-items:
+    next-page:
+      name: "&b下一页"
+      material: ARROW
+      data: 0
+      lore:
+        - "&d点击&b进入下一页。"
+      slot: 50
+      amount: 1
+      glowing: false
+
+    previous-page:
+      name: "&b上一页"
+      material: BARRIER
+      data: 0
+      lore:
+        - "&d点击&b返回上一页。"
+      slot: 48
+      amount: 1
+      glowing: false
+
+  items:
+    1:
+      name: " "
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
+      slot: [45, 47, 51, 53]
+      amount: 1
+      glowing: false
+
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [46, 52]
+      amount: 1
+
+    3:
+      name: "&b返回"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d点击&b返回。"
+      slot: 49
+      amount: 1
+      glowing: false
+      commands:
+        - "[server] %cmd% open visitedit -warp %warp% -player %player%"

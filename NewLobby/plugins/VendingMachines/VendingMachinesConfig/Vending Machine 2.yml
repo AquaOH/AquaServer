@@ -1,0 +1,24 @@
+Identifier: Vending Machine 2
+CustomUI_Default: Default UI
+CustomUI_IA: IA UI 3
+CustomUI_Oraxen: Oraxen UI 3
+MaxRandomRotation: 0
+ItemLocations: []
+DropAnimation: true
+DropAnimationVector:
+  ==: Vector
+  x: 0.0
+  y: 0.2
+  z: -1.0
+DropAnimationVelocity:
+  ==: Vector
+  x: 0.0
+  y: 0.2
+  z: -0.1
+DropAnimationSound: ENTITY_ITEM_PICKUP
+Type: Block
+LightLevel: 5
+Material: vending_machine_2
+CustomModelData: 0
+FreeRotation: true
+Tintable: true

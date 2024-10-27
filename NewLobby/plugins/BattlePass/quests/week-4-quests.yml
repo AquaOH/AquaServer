@@ -1,0 +1,135 @@
+quests:
+  '1':
+    name: 第4周 - 魔法
+    type: regenerate
+    variable: none
+    required-progress: 50
+    points: 100
+    item:
+      material: apple:0
+      amount: 1
+      name: '&e魔法'
+      lore:
+      - '&7恢复 &e50 点生命值'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '2':
+    name: 第4周 - 探险家
+    type: move
+    variable: none
+    required-progress: 10000
+    points: 100
+    item:
+      material: paper:0
+      amount: 1
+      name: '&e探险家'
+      lore:
+      - '&7行走 &e10000 米'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '3':
+    name: 第4周 - 游泳健将
+    type: swim
+    variable: none
+    required-progress: 500
+    points: 100
+    item:
+      material: water_bucket:0
+      amount: 1
+      name: '&e游泳健将'
+      lore:
+      - '&7在聊天中说 &e500 次'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '4':
+    name: 第4周 - 活跃
+    type: login
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: clock:0
+      name: '&e活跃'
+      lore:
+      - '&7登录 &e100 次'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '5':
+    name: 第4周 - 杀手
+    type: kill-player
+    variable: none
+    required-progress: 1
+    points: 100
+    item:
+      material: wooden_sword:0
+      name: '&e杀手'
+      lore:
+      - '&7击杀 &e1 名玩家'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '6':
+    name: 第4周 - 削磨者
+    type: kill-mob
+    variable: zombie
+    required-progress: 100
+    points: 100
+    item:
+      material: gold_sword:0
+      name: '&e削磨者'
+      lore:
+      - '&7击杀 &e100 只僵尸'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '7':
+    name: 第4周 - 破损
+    type: item-break
+    variable: stone_pickaxe
+    required-progress: 1
+    points: 100
+    item:
+      material: stone_pickaxe:0
+      name: '&e破损'
+      lore:
+      - '&7损坏 &e1 把石镐'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '8':
+    name: 第4周 - 削磨者 2
+    type: gain-experience
+    variable: none
+    required-progress: 500
+    points: 100
+    item:
+      material: experience_bottle:0
+      name: '&e削磨者 2'
+      lore:
+      - '&7获得 &e500 经验值'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '9':
+    name: 第4周 - 渔夫
+    type: fish
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: fishing_rod:0
+      name: '&e渔夫'
+      lore:
+      - '&7钓到 &e100 件物品'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '100':
+    name: 第4周 - 新人
+    type: execute-command
+    variable: /help
+    required-progress: 1
+    points: 100
+    item:
+      material: saddle:0
+      name: '&e新人'
+      lore:
+      - '&7执行命令 &e/help'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+actions-version: 2

@@ -1,0 +1,199 @@
+# gui标题
+title: "&0地标点赞"
+size: 54
+
+# 我的评分
+info:
+  enable: true
+  index: 4
+  name: "      &8[&e我的评分&8]"
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10033
+  lore:
+    - '&f- &7当前地标评分: &a${like}'
+
+one:
+  enable: true
+  index: 29
+  material: PAPER
+  isEnchant: true
+  amount: 1
+  name: "   &8[&5ℑ&8] ▪ &8[&c非常差&8]"
+  custom-model-data: 10038
+  lore:
+    - ''
+    - '&8▪ &7评分: &c非常差'
+
+two:
+  enable: true
+  index: 30
+  material: PAPER
+  isEnchant: true
+  amount: 1
+  name: "   &8[&5ℑ&8] ▪ &8[&c差&8]"
+  custom-model-data: 10039
+  lore:
+    - ''
+    - '&8▪ &7评分: &c差'
+
+three:
+  enable: true
+  index: 31
+  material: PAPER
+  isEnchant: true
+  amount: 1
+  name: "   &8[&5ℑ&8] ▪ &8[&a一般&8]"
+  custom-model-data: 10040
+  lore:
+    - ''
+    - '&8▪ &7评分: &a一般'
+
+four:
+  enable: true
+  index: 32
+  material: PAPER
+  isEnchant: true
+  amount: 1
+  name: "   &8[&5ℑ&8] ▪ &8[&e满意&8]"
+  custom-model-data: 10041
+  lore:
+    - ''
+    - '&8▪ &7评分: &e满意'
+
+five:
+  enable: true
+  index: 33
+  material: PAPER
+  isEnchant: true
+  amount: 1
+  name: "   &8[&5ℑ&8] ▪ &8[&e非常满意&8]"
+  custom-model-data: 10042
+  lore:
+    - ''
+    - '&8▪ &7评分: &e非常满意'
+
+# 顶(月円)
+top:
+  enable: true
+  index: 21
+  material: POPPY
+  isEnchant: true
+  name: "   &8[&5ℑ&8] ▪ &8[&e顶一下&8]"
+  custom-model-data: 0
+  lore:
+    - ''
+    - "&f- &7点击对该商店顶一下,增加热力值"
+    - ''
+    - '&7▪ 当前热力值 &8[&a${thermal_value}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  price: 10000
+
+# 顶(点券)
+pointTop:
+  enable: false
+  index: 20
+  material: POPPY
+  isEnchant: true
+  name: "   &8[&5ℑ&8] ▪ &8[&e顶一下&8]"
+  custom-model-data: 0
+  lore:
+    - ''
+    - "&f- &7点击对该商店顶一下,增加热力值"
+    - ''
+    - '&7▪ 当前热力值 &8[&a${thermal_value}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7点券'
+    - '&8▪ &7当前拥有 &a${myPrice} &7点券'
+    - ''
+    - '${button}'
+  price: 1000
+
+# 收藏
+collection:
+  enable: true
+  index: 22
+  material: PAPER
+  isEnchant: true
+  name: "   &8[&5ℑ&8] ▪ &8[&e收藏地标&8]"
+  custom-model-data: 10015
+  lore:
+    - ''
+    - "&f- &7点击收藏/取消收藏"
+    - ''
+    - '&7▪ 当前 &8[&a${collection}&8]'
+
+# 踩(月円)
+stepOn:
+  enable: true
+  index: 23
+  material: POPPY
+  isEnchant: true
+  name: "   &8[&5ℑ&8] ▪ &8[&e踩一下&8]"
+  custom-model-data: 0
+  lore:
+    - ''
+    - "&f- &7点击对该商店踩一下,减少热力值"
+    - ''
+    - '&7▪ 当前热力值 &8[&a${thermal_value}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  price: 20000
+
+# 踩(点券)
+pointStepOn:
+  enable: false
+  index: 24
+  material: POPPY
+  isEnchant: true
+  name: "   &8[&5ℑ&8] ▪ &8[&e踩一下&8]"
+  custom-model-data: 0
+  lore:
+    - ''
+    - "&f- &7点击对该商店踩一下,减少热力值"
+    - ''
+    - '&7▪ 当前热力值 &8[&a${thermal_value}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7点券'
+    - '&8▪ &7当前拥有 &a${myPrice} &7点券'
+    - ''
+    - '${button}'
+  price: 2000
+
+# 返回按钮
+back:
+  enable: true
+  index: 49
+  name: "   &8[&a返回&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - '&f- &7点击返回'
+  custom-model-data: 10006
+
+# 自定义按钮 你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  # 分隔板
+  pane:
+    enable: true
+    index: 0,1,2,3,5,6,7,8,9,18,27,36,45,17,26,35,44,46,47,48,50,51,52,53
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "        &8[&7分割板&8]"
+    lore:
+      - "&7哎呀,不要随便戳人家啦"
+    custom-model-data: 0
+
+yesCollection: "已收藏"
+noCollection: "未收藏"
+yesButton: "&8[&a✔&8] &7点击确定"
+noButton: "&8[&c✘&8] &7没有足够资金操作"
+likeSucceedMsg: "&8[&a✔&8] &7地标评价成功"
+noLike: "&a未评分"

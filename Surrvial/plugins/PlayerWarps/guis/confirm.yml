@@ -1,0 +1,86 @@
+confirm:
+  # 是否启用分类GUI，意味着玩家必须将他们的传送点分类？
+  enabled: false
+  # GUI的名称是什么？ 
+  name: "confirm"
+  # GUI的标题 (可以使用颜色代码)
+  title: "&b&l确认传送"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 27
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+  # 玩家要传送到的传送点图标应该放在哪个槽位？
+  slot-warping: 13
+  # 关闭此菜单时是否应该重新打开之前的菜单？
+  open-previous: true
+
+  icon:
+    # 这是GUI中头颅的名称。
+    name: "&b[warp_display]"
+    # 在菜单中显示的图标描述是什么？
+    lore:
+      - "&b位置: &d[world], [location]"
+      - "&b访问次数: &d[visits]"
+      - "&b描述: "
+      - "&d[desc]"
+      - "&b创建时间: &d[date]"
+      - "&b分类: &d[category]"
+      - "&b评分: &d[rates]"
+      - "&b平均评分: &d[rates_average]"
+      - "&b传送费用: &d[cost]"
+      - "&b密码: &d[password]"
+    # 物品是否显示发光效果？
+    glowing: false
+
+  clickable-items:
+    accept:
+      # 如果希望禁用这些，请将材质设置为 "AIR"
+      name: "&a确认传送"
+      # 这是下一页按钮的材质。有效的材质名称：https://javadocs.olziedev.com/spigot/latest/org/bukkit/Material.html
+      material: LIME_WOOL
+      data: 5
+      lore:
+        - "&d点击&b传送到 &d[warp_display]&b，费用 &d[cost]&b！"
+      amount: 1
+      slot: 11
+      glowing: false
+    deny:
+      name: "&c取消传送"
+      material: RED_WOOL
+      data: 14
+      lore:
+        - "&c点击取消此传送。"
+      amount: 1
+      slot: 15
+      glowing: false
+
+  items:
+    # 这些是放置在GUI中的物品，用于美化界面。
+    1:
+      # 这是物品的名称。
+      name: " "
+      # 这是物品的材质。
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      # 这是物品的数据值。
+      data: 3
+      # 你可以添加说明！
+      # 示例：
+      # lore:
+      #   - "&b这是一个玻璃板。"
+      slot: [0, 2, 4, 6, 8, 18, 20, 22, 24, 26]
+      # 物品堆叠数量是多少？
+      amount: 1
+      # 点击时将执行的命令。
+      # [server] 表示命令由控制台执行
+      # [player] 表示命令由玩家执行
+      # commands:
+      #   - "[server] msg %player% 你点击了这个物品！"
+      glowing: false
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [1, 3, 5, 7, 9, 17, 19, 21, 23, 25]
+      amount: 1

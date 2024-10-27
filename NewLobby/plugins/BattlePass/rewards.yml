@@ -1,0 +1,81 @@
+'1': # 奖励的 ID
+  type: command # 奖励类型为命令
+  name: '第一个奖励 (%value%)' # 奖励名称
+  variables:
+    value: "(2 * %tier%) * (1 + (%booster% / 100))" # 计算变量
+  lore-addon: # 额外的说明
+    - '&7 - &e一个很酷的信息 (%value%)'
+  commands:
+    - 'msg %player% 很棒的奖励 x%value%!'
+
+'2':
+  type: item # 奖励类型为物品
+  variables:
+    value: "(8 * %tier%) * (1 + (%booster% / 100))" # 计算变量
+  lore-addon: # 额外的说明
+    - '&7 - &e哇哦！也许有些酷东西 (可能是 %value%)'
+  items:
+    '1': # 第一个物品奖励 (必需项)
+      material: diamond_block:0 # 物品材质为钻石块
+      amount: 1 # 数量为1
+      name: '' # 如果留空，物品将使用Minecraft的默认名称。
+      lore: [] # 如果留空，物品将没有说明。
+      glow: true # 是否为物品添加附魔“光芒”效果
+    '2': # 第二个物品奖励 (非必需) -> 可以有超过两个奖励
+      material: coal_block:0 # 物品材质为煤炭块
+      amount: '%value%' # 数量为计算得到的 %value%
+      name: '' # 如果留空，物品将使用Minecraft的默认名称。
+      lore: # 物品的说明
+        - '&7一个 &b很棒的 &7说明，给一个 &e很棒的 &7煤炭块'
+
+'3':
+  type: command # 奖励类型为命令
+  lore-addon: # 额外的说明
+    - '&6 - &e传承物品赠送'
+  commands:
+    - 'give %player% diamond_block 32' # 命令：给予玩家32个钻石块
+
+'4':
+  type: command # 奖励类型为命令
+  lore-addon: # 额外的说明
+    - '&6 - 公布你的成就。'
+  commands:
+    - 'broadcast &6%player% 达到了BattlePass的关键等级！！' # 命令：全服广播玩家的成就
+
+'5':
+  type: command # 奖励类型为命令
+  lore-addon: # 额外的说明
+    - '&6 - 奖励500月円'
+  commands:
+    - 'money give %player% 500' # 命令：全服广播玩家的成就
+
+'6':
+  type: command # 奖励类型为命令
+  lore-addon: # 额外的说明
+    - '&6 - 奖励1000月円'
+  commands:
+    - 'money give %player% 1000' # 命令：全服广播玩家的成就
+
+'7':
+  type: item # 奖励类型为命令
+  lore-addon: # 额外的说明
+    - '&6 - 奖励一组面包'
+  items:
+    '1': # 第一个物品奖励 (必需项)
+      material: bread # 物品材质为钻石块
+      amount: 64 # 数量为1
+      name: '' # 如果留空，物品将使用Minecraft的默认名称。
+      lore: [] # 如果留空，物品将没有说明。
+      glow: true # 是否为物品添加附魔“光芒”效果
+
+'8':
+  type: item # 奖励类型为命令
+  lore-addon: # 额外的说明
+    - '&6 - 奖励一颗附魔金苹果'
+  items:
+    '1': # 第一个物品奖励 (必需项)
+      material: enchanted_golden_apple # 物品材质为附魔金苹果
+      amount: 1 # 数量为1
+      name: '' # 如果留空，物品将使用Minecraft的默认名称。
+      lore: [] # 如果留空，物品将没有说明。
+      glow: true # 是否为物品添加附魔“光芒”效果

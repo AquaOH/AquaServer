@@ -1,0 +1,37 @@
+info:
+  namespace: vending_machine
+font_images:
+  gui_vending:
+    symbol: "⚠"
+    path: gui_vending
+    scale_ratio: 140
+    y_position: 19
+  gui_vending_halloween:
+    symbol: "♳"
+    path: gui_vending_halloween
+    scale_ratio: 140
+    y_position: 19
+  gui_vending_christmas:
+    symbol: "♴"
+    path: gui_vending_halloween
+    scale_ratio: 140
+    y_position: 19
+items:
+  vm_icon_right:
+    enabled: true
+    display_name: §aBack
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - arrow_right
+  vm_icon_left:
+    enabled: true
+    display_name: §aNext
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - arrow_left
+
+# S5HkTx89BM94tq6rv2/nuqIxf60L/BHfCfqqukAxy5GrvQnMgusL/fS+ALqV+ZVhwDGJrNDmPqWjVIRk6DyD0hTQQw52jDOveYuaZg5LWcU=

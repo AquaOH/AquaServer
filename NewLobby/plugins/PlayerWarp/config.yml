@@ -1,0 +1,83 @@
+# 语言文件 [可选 中文简体:zh_CN]
+language: zh_CN
+
+# 是否开启更新提醒,建议开启
+isCheckUpdate: true
+
+# op登录时候是否发送更新提醒
+isCheckUpdateToOpMsg: true
+
+# 跨服传送标识-每个服必须跟bc里配置的一样(BC服必须先配置完这个在开始添加地标)
+serverName: "lobby"
+
+# 地标默认logo
+defaultLogo: APPLE
+
+# 地标名称是否唯一
+nameOnly: true
+
+# 是否每日清理地标热度
+clearThermalValue: true
+
+# 传送税率 0.2 表示百分之20
+taxRate: 0.2
+
+# 玩家可设置的最大的访问价格
+maxPrice: 10000
+
+# 传送前执行的命令 例如: say 你好啊 (配置为空表示不执行) ${player} 表示玩家名 ${name} 表示地标名  同时可解析papi变量
+command:
+  - ""
+
+# 传送后执行的命令 例如: say 你好啊 (配置为空表示不执行)  ${player} 表示玩家名 ${name} 表示地标名 同时可解析papi变量
+tpAfterCommand:
+  - ""
+
+# 禁止创建地标的世界列表
+notWorld:
+  - "not"
+
+# 传送延迟时间(单位秒)(可无限扩展和修改子节点，权限格式: playerWarp.delayTime.vip1)
+delayTime:
+  # 默认玩家的时间
+  default: 3
+  # vip1的上限 需要权限 playerWarp.delayTime.vip1
+  vip1: 2
+  # vip2的上限 需要权限 playerWarp.delayTime.vip2
+  vip2: 1
+  # vip3的上限 需要权限 playerWarp.delayTime.vip3
+  vip3: 0
+
+# 传送等待时间(单位秒)(可无限扩展和修改子节点，权限格式: playerWarp.waitTime.vip1)
+waitTime:
+  # 默认玩家的时间
+  default: 60
+  # vip1的上限 需要权限 playerWarp.waitTime.vip1
+  vip1: 30
+  # vip2的上限 需要权限 playerWarp.waitTime.vip2
+  vip2: 10
+  # vip3的上限 需要权限 playerWarp.waitTime.vip3
+  vip3: 0
+
+# 一个玩家可以创建的地标上限(可无限扩展和修改子节点，权限格式: playerWarp.number.vip1)
+warpNumber:
+  # 默认玩家的上限
+  default: 10
+  # vip1的上限 需要权限 playerWarp.number.vip1
+  vip1: 20
+  # vip2的上限 需要权限 playerWarp.number.vip2
+  vip2: 30
+  # vip3的上限 需要权限 playerWarp.number.vip3
+  vip3: 50
+
+# 传送需要权限 用于op创建的地板 玩家获取权限后解锁
+# 配置格式 1 为地标的ID  true开启，false关闭
+permission:
+  1: false
+  2: false
+
+# 激活码
+sign: 123456
+
+# 玩家创建地标是否显示 true显示 false隐藏
+display: true

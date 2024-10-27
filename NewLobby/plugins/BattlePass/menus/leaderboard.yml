@@ -1,0 +1,40 @@
+menu-title: '排行榜'
+menu-rows: 4
+
+leaderboard:
+  slots: '11,12,13,14,15,20,21,22,23,24'
+
+item:
+  material: head:%battlepass_top_quests_name_%position%%
+  name: '&e✦ &a&l%battlepass_top_quests_name_%position%% &a#%position% '
+  lore:
+    - '&7已完成的任务: &a%battlepass_top_quests_value_%position%%'
+
+menu:
+  '27':
+    item:
+      material: arrow:0
+      name: '&e返回主菜单'
+      lore:
+        - ''
+        - '&7&o(( 点击进入菜单 ))'
+    actions:
+      - '[menu]{portal}' # 如果当前页是第1页，则带他们进入传送门页面
+  '31':
+    item:
+      material: book:0
+      name: '&e我的统计'
+      lore:
+        - '&7我已完成的任务: &e%battlepass_top_quests_value_me%'
+        - '&7我的位置: &e#%battlepass_top_quests_place_me%'
+    actions: []
+  filler2:
+    slots: '9...26'
+    item:
+      material: black_stained_glass_pane
+      name: '&r '
+  filler:
+    slots: fill # 这将填充所有空槽。你也可以使用'起始槽...结束槽'，例如'2...8'，来填充第2到第8槽。
+    item:
+      material: gray_stained_glass_pane
+      name: '&r '

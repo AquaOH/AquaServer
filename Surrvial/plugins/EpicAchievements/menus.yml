@@ -1,0 +1,392 @@
+# Main Categories Menu
+main-menu:
+  title: "Achievements"
+  rows: 4
+  items:
+    category:
+      name: "&a{category_name} Achievements"
+      lore:
+        - "{category_description}"
+        - ""
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+        - ""
+        - "&eClick to view achievements!"
+      flags:
+        - HIDE_ATTRIBUTES
+    rewards:
+      material: GOLD_INGOT
+      name: "&6Achievement Rewards"
+      lore:
+        - "&7Unlock exclusive rewards for"
+        - "&7achievement hunting efforts."
+      slot: 27
+    close:
+      material: ARROW
+      name: "&cClose"
+      lore:
+        - "&7Close The Menu"
+      slot: 30
+    summary:
+      material: DIAMOND
+      name: "&aAchievements Completion"
+      lore:
+        - "&7Player: {player}"
+        - ""
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+      slot: 31
+    tracking:
+      material: REPEATER
+      name: "&cAchievements Tracking"
+      lore:
+        - "&7Track achievements to access"
+        - "&7them quickly in this menu and"
+        - "&7get instant feedback of your"
+        - "&7progress."
+      slot: 32
+    search:
+      material: OAK_SIGN
+      name: "&aSearch"
+      lore:
+        - "&7Search for an achievement by"
+        - "&7name, description or category."
+      slot: 35
+  custom-items: {}
+# Category Menu
+category-menu:
+  title: "{category_name} Achievements"
+  rows: 4
+  items:
+    challenge:
+      material: DIAMOND
+      name: "&aChallenge Achievements"
+      lore:
+        - "&8{category_name}"
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+        - ""
+        - "&7Challenge achievements may be"
+        - "&7completed a single time."
+        - ""
+        - "&eClick to view achievements!"
+      slot: 11
+    tiered:
+      material: DIAMOND_BLOCK
+      name: "&aTiered Achievements"
+      lore:
+        - "&8{category_name}"
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+        - ""
+        - "&7Tiered achievements are completed"
+        - "&7over multiple tiers."
+        - ""
+        - "&eClick to view achievements!"
+      slot: 15
+    back:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To Achievements"
+      slot: 30
+    summary:
+      name: "&aTotal Completion"
+      lore:
+        - "&8{category_name}"
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+      slot: 31
+  custom-items: {}
+# Challenge Achievements Menu
+challenge-achievements-menu:
+  title: "{category_name} Challenge Achievements"
+  rows: 6
+  items:
+    achievement:
+      unlocked:
+        material: DIAMOND
+        name: "&a{achievement_name}"
+        lore:
+          - "&f{achievement_description}"
+          - ""
+          - "&7Progress: &aDONE! &7(&a{tier_requirement}&7)"
+          - "&7Rewards:"
+          - "{tier_rewards}"
+          - ""
+          - "&aAchievement unlocked!"
+      locked:
+        material: COAL
+        name: "&c{achievement_name}"
+        lore:
+          - "&f{achievement_description}"
+          - ""
+          - "&7Progress: &a{achievement_progress}&7/&a{tier_requirement}"
+          - "&8[{tier_progress_bar}&8]"
+          - ""
+          - "&7Rewards:"
+          - "{tier_rewards}"
+          - ""
+          - "&cAchievement locked!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+    sorting:
+      material: HOPPER
+      name: "&6Sorted by: &a{sorting_type}"
+      lore:
+        - "&f{sorting_description}"
+        - ""
+        - "&7Next Sort: &a{next_sorting_type}"
+        - "&eLeft click to use!"
+        - ""
+        - "&7Completion sort: {completion_sorting_type}"
+        - "&eRight click to cycle!"
+      slot: 47
+    back:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To {category_name} Achievements"
+      slot: 48
+    summary:
+      name: "&aChallenge Achievements"
+      lore:
+        - "&8{category_name}"
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+      slot: 49
+    switch-type:
+      material: DIAMOND_BLOCK
+      name: "&aGo to Tiered Achievements"
+      lore:
+        - "&7Click to view {category_name} Tiered"
+        - "&7Achievements."
+      slot: 50
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 53
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 45
+  custom-items: {}
+# Tiered Achievements Menu
+tiered-achievements-menu:
+  title: "{category_name} Tiered Achievements"
+  rows: 6
+  items:
+    achievement:
+      slots:
+        1: [37,28,19,10,1]
+        2: [38,29,20,11,2]
+        3: [39,30,21,12,3]
+        4: [40,31,22,13,4]
+        5: [41,32,23,14,5]
+        6: [42,33,24,15,6]
+        7: [43,34,25,16,7]
+      unlocked:
+        material:
+          final-tier: "texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNhODI5M2M4MzI1MTRmMjUzNDM4OTU4YmI0M2NhY2E4OWU2ZGQyZjllNDI3ZTMwZmEwZmY1ZjFhN2QyOGY1MSJ9fX0="
+          normal-tier: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: "&a{achievement_name} {tier_roman}"
+        lore:
+          - "&f{achievement_description}"
+          - ""
+          - "&7Progress: &aDONE! &7(&a{tier_requirement}&7)"
+          - "&7Rewards:"
+          - "{tier_rewards}"
+          - ""
+          - "&aTier unlocked!"
+      locked:
+        material:
+          final-tier: "texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlmNGVmM2YxZjI2OWUyMzM3YWMyYzRkMWZkZDBiYTk1MDUyZGUyZjMyOGU2MWYxNjUxNzhlYzJmOTQwIn19fQ=="
+          normal-tier: GRAY_STAINED_GLASS_PANE
+        name: "&c{achievement_name} {tier_roman}"
+        lore:
+          - "&f{achievement_description}"
+          - ""
+          - "&7Progress: &a{achievement_progress}&7/&a{tier_requirement}"
+          - "&8[{tier_progress_bar}&8]"
+          - ""
+          - "&7Rewards:"
+          - "{tier_rewards}"
+          - ""
+          - "&cTier locked!"
+    back:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To {category_name} Achievements"
+      slot: 48
+    summary:
+      name: "&aTiered Achievements"
+      lore:
+        - "&8{category_name}"
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+      slot: 49
+    switch-type:
+      material: DIAMOND
+      name: "&aGo to Challenge Achievements"
+      lore:
+        - "&7Click to view {category_name} Challenge"
+        - "&7Achievements."
+      slot: 50
+    sorting:
+      material: HOPPER
+      name: "&6Sorted by: &a{sorting_type}"
+      lore:
+        - "&f{sorting_description}"
+        - ""
+        - "&7Next Sort: &a{next_sorting_type}"
+        - "&eLeft click to use!"
+      slot: 51
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 53
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 45
+  custom-items: {}
+# Achievement Search Menu
+achievement-search-menu:
+  title: "Search results: {query}"
+  rows: 6
+  items:
+    result:
+      name: "&a{achievement_name}"
+      lore:
+        - "&8{category_name}"
+        - "&8{achievement_type_name}"
+        - "&f{achievement_description}"
+        - ""
+        - "&7Rewards:"
+        - "{tier_rewards}"
+        - ""
+        - "&eClick for more {category_name} achievements!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+    no-results:
+      material: BEDROCK
+      name: "&cNo results found!"
+      lore:
+        - "&7Couldn't find any matching achievement!"
+      slot: 22
+    back:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To Achievements"
+      slot: 49
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 53
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 45
+  custom-items: {}
+rewards-menu:
+  title: "Achievement Rewards"
+  rows: 6
+  items:
+    reward-slots: [0,9,18,27,28,29,20,11,2,3,4,13,22,31,32,33,24,15,6,7,8,17,26,35]
+    back:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To Achievements"
+      slot: 48
+    summary:
+      material: DIAMOND
+      name: "&aAchievements Completion"
+      lore:
+        - "&7Player: {player}"
+        - ""
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+      slot: 49
+    last-unlocked-reward:
+      material: NETHER_STAR
+      name: "&aLast Unlocked Reward"
+      lore:
+        - "&7Go to your last unlocked reward."
+      slot: 50
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 53
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 45
+  custom-items: {}
+achievement-tracking-menu:
+  title: "Achievement Tracking"
+  rows: 5
+  items:
+    achievement:
+      name: "&e{achievement_name}"
+      lore:
+        - "&f{achievement_description}"
+        - ""
+        - "&7Progress: &a{achievement_progress}&7/&a{tier_requirement}"
+        - "&7Rewards:"
+        - "{tier_rewards}"
+        - ""
+        - "&eLeft click to untrack!"
+        - "&aRight click to view {category_name} menu!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34]
+    back:
+      material: ARROW
+      name: "&cGo Back"
+      lore:
+        - "&7To Achievements"
+      slot: 39
+    summary:
+      material: DIAMOND
+      name: "&aAchievements Completion"
+      lore:
+        - "&7Player: {player}"
+        - ""
+        - "&7Unlocked: &b{unlocked_achievements}&7/&b{total_achievements} &8({unlocked_achievements_percentage}%)"
+        - "&7Points: &e{points}&7/&e{total_points} &8({points_percentage}%)"
+      slot: 40
+    untrack-all:
+      material: BARRIER
+      name: "&aUntrack All"
+      lore:
+        - "&7Untrack all achievements."
+      slot: 41
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 54
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 36
+  custom-items: {}
+# r7fg21VU8Skz696Jk3Xn+dh7K9jeHUTKs7O38km+egqUrC4MJWTtoxadfvVkg7Ul8ORGupfOWp+cozA35MF33BwFeyBdSoRryJqIilDXY8Q=

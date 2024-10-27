@@ -1,0 +1,10 @@
+{
+  "markerSetName": "Offline Players",
+  "toggleable": true,
+  "defaultHidden": false,
+  "expireTimeInHours": 0,
+  "hiddenGameModes": [
+    "SPECTATOR"
+  ],
+  "hideBannedPlayers": true
+}

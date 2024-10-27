@@ -1,0 +1,16 @@
+[22:03:23] AquaOH: ee
+[22:08:44] AquaOH: \uC000
+[22:08:53] AquaOH: 쀀
+[22:10:25] AquaOH: 쀁
+[22:10:45] AquaOH: 쀂
+[22:10:54] AquaOH: 쀃
+[22:11:00] AquaOH: \uC004쀄
+[22:11:08] AquaOH: 쀅
+[22:11:13] AquaOH: 쀆
+[22:11:19] AquaOH: 쀇
+[22:11:26] AquaOH: 쀈
+[22:11:34] AquaOH: 쀇
+[22:11:39] AquaOH: 쀆
+[22:11:53] AquaOH: 쀇
+[22:12:18] AquaOH: 쀈
+[22:47:50] AquaOH: {Count:1b,id:"minecraft:paper",tag:{CustomModelData:10008,display:{Lore:[],Name:'{"italic":false,"color":"white","text":" "}'},itemsadder:{id:"empty",namespace:"aqua_items"}}}

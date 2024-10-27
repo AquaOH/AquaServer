@@ -1,0 +1,88 @@
+prefix: '&a[袦邪谐邪蟹懈薪] &r'
+shopinfo: |-
+  &a袉薪褎芯褉屑邪褑褨褟 锌褉芯 屑邪谐邪蟹懈薪:
+  &f袙谢邪褋薪懈泻: &7%owner
+  &f袟邪谢懈褕芯泻: &7%stock
+  &f袩褉械写屑械褌: &7%item
+shopinfo_buy: '&f袩褉懈写斜邪褌懈 &7%amount &f蟹邪 &7%price'
+shopinfo_sell: '&f袩褉芯写邪褌懈 &7%amount &f蟹邪 &7%price'
+iteminfo: '&a袉薪褎芯褉屑邪褑褨褟 锌褉芯 锌褉械写屑械褌: &r'
+iteminfo_fullname: '&f袩芯胁薪邪 薪邪蟹胁邪: &7%item'
+iteminfo_shopname: '&f袧邪蟹胁邪 屑邪谐邪蟹懈薪褍: &7%item'
+iteminfo_repaircost: '&f袙邪褉褌褨褋褌褜 褉械屑芯薪褌褍: &7%cost'
+iteminfo_book: |-
+  &f袟邪谐芯谢芯胁芯泻 泻薪懈谐懈: &7%title
+  &f袗胁褌芯褉 泻薪懈谐懈: &7%author
+  &f小褌芯褉褨薪芯泻 泻薪懈谐懈: &7%pages
+iteminfo_book_generation: '&f袙械褉褋褨褟 泻薪懈谐懈: &7%generation'
+iteminfo_lore: |-
+  &f袨锌懈褋:
+  &r%lore
+METRICS: |-
+  &a[袦邪谐邪蟹懈薪] &f小褌邪褌懈褋褌懈泻邪:
+  &f袚褉邪胁褑褨胁: &7%accounts
+  &f小械褉械写薪褟 泻褨谢褜泻褨褋褌褜 褌褉邪薪褋邪泻褑褨泄: &7%totalTransactions &f(袣褍锌褨胁谢褟: &7%buyTransactions &f袩褉芯写邪卸: &7%sellTransactions&f)
+  &f小械褉械写薪褟 泻褨谢褜泻褨褋褌褜 锌褉芯写邪薪懈褏 锌褉械写屑械褌褨胁: &7%totalItems &f(袩褉懈写斜邪薪芯: &7%boughtItems &f袩褉芯写邪薪芯: &7%soldItems&f)
+ACCESS_DENIED: 袙懈 薪械 屑邪褦褌械 写芯蟹胁芯谢褍 薪邪 褌械, 褖芯斜 胁褨写泻褉懈胁邪褌懈 褋褏芯胁懈褖械 褑褜芯谐芯 屑邪谐邪蟹懈薪褍!
+TRADE_DENIED: 袙懈 薪械 屑邪褦褌械 写芯蟹胁芯谢褍 薪邪 褌芯褉谐褨胁谢褞 胁 褑褜芯屑褍 屑邪谐邪蟹懈薪褨!
+TRADE_DENIED_ACCESS_PERMS: 袙懈 薪械 屑芯卸械褌械 褌芯褉谐褍胁邪褌懈 胁 屑邪谐邪蟹懈薪邪褏, 写芯 褟泻懈褏 褍 胁邪褋 褦 写芯褋褌褍锌!
+TRADE_DENIED_CREATIVE_MODE: 袙懈 薪械 屑芯卸械褌械 褌芯褉谐褍胁邪褌懈 写芯泻懈 胁懈 胁 褉械卸懈屑褨 褌胁芯褉褔芯褋褌懈!
+NOT_ENOUGH_MONEY: 袙邪屑 薪械 胁懈褋褌邪褔邪褦 谐褉芯褕械泄!
+NOT_ENOUGH_MONEY_SHOP: 袙谢邪褋薪懈泻 屑邪谐邪蟹懈薪褍 薪械 屑邪褦 写芯褋褌邪褌薪褜芯 谐褉芯褕械泄!
+CLIENT_DEPOSIT_FAILED: 袧械 胁写邪谢芯褋褜 锌芯泻谢邪褋褌懈 谐褉芯褕褨 薪邪 胁邪褕 褉邪褏褍薪芯泻!
+SHOP_DEPOSIT_FAILED: 袧械 胁写邪谢芯褋褜 锌芯泻谢邪褋褌懈 谐褉芯褕褨 薪邪 褉邪褏褍薪芯泻 胁谢邪褋薪懈泻邪 屑邪谐邪蟹懈薪褍!
+NO_ECONOMY_ACCOUNT: 袪邪褏褍薪芯泻 胁谢邪褋薪懈泻邪 屑邪谐邪蟹懈薪褍 薪械 褨褋薪褍褦!
+NO_BUYING_HERE: 袙懈 薪械 屑芯卸械褌械 褌褍褌 薪褨褔芯谐芯 锌褉懈写斜邪褌懈!
+NO_SELLING_HERE: 袙懈 薪械 屑芯卸械褌械 褌褍褌 薪褨褔芯谐芯 锌褉芯写邪胁邪褌懈!
+NOT_ENOUGH_SPACE_IN_INVENTORY: 校 胁邪褋 薪械写芯褋褌邪褌薪褜芯 屑褨褋褑褟 胁 褨薪胁械薪褌邪褉褨!
+NOT_ENOUGH_SPACE_IN_CHEST: 袧械写芯褋褌邪褌薪褜芯 屑褨褋褑褟 胁 褋泻褉懈薪褨!
+NOT_ENOUGH_ITEMS_TO_SELL: 校 胁邪褋 薪械写芯褋褌邪褌薪褜芯 褉械褔械泄, 写谢褟 锌褉芯写邪卸褍!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [袦邪谐邪蟹懈薪 蟹 %item&7 蟹邪 %price 蟹邪锌芯胁薪械薪懈泄!](&f%seller&7 薪邪屑邪谐邪胁褋褟 蟹写褨泄褋薪懈褌懈 锌褉芯写邪卸.
+  &7校 褋胁褨褌褨: &f%world
+  &7袧邪 泻芯芯褉写懈薪邪褌邪褏: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: 孝芯胁邪褉 胁 屑邪谐邪蟹懈薪褨 蟹邪泻褨薪褔懈胁褋褟.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [袦邪谐邪蟹懈薪 蟹 %item&7 蟹邪 %price 斜褨谢褜褕械 薪械 屑邪褦 褌芯胁邪褉褍!](&f%buyer&7 薪邪屑邪谐邪胁褋褟 蟹写褨泄褋薪懈褌懈 泻褍锌褨胁谢褞.
+  &7校 褋胁褨褌褨: &f%world
+  &7袧邪 泻芯芯褉写懈薪邪褌邪褏: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: 袙懈 锌褉懈写斜邪谢懈 %item 胁褨写 %owner 蟹邪 %price.
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer 锌褉懈写斜邪胁 %item 蟹邪 %price](&7校 褋胁褨褌褨: &f%world
+  &7袧邪 泻芯芯褉写懈薪邪褌邪褏: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: 袙懈 锌褉芯写邪谢懈 %item 谐褉邪胁褑褞 %buyer 蟹邪 %price.
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller 锌褉芯写邪胁 %item 蟹邪 %price](&7校 褋胁褨褌褨: &f%world
+  &7袧邪 泻芯芯褉写懈薪邪褌邪褏: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: 袙懈 薪械 屑芯卸械褌械 褋褌胁芯褉懈褌懈 屑邪谐邪蟹懈薪 褑褜芯谐芯 褌懈锌褍!
+NO_CHEST_DETECTED: 小泻褉懈薪褞 薪械 蟹薪邪泄写械薪芯!
+INVALID_SHOP_DETECTED: 笑械泄 屑邪谐邪蟹懈薪 薪械 屑芯卸薪邪 胁懈泻芯褉懈褋褌芯胁褍胁邪褌懈!
+INVALID_SHOP_PRICE: 笑械泄 屑邪谐邪蟹懈薪 屑邪褦 薪械胁褨褉薪褍 褑褨薪褍!
+INVALID_SHOP_QUANTITY: 笑械泄 屑邪谐邪蟹懈薪 屑邪褦 薪械胁褨褉薪褍 泻褨谢褜泻褨褋褌褜!
+CANNOT_ACCESS_THE_CHEST: 袙懈 薪械 屑邪褦褌械 写芯褋褌褍锌褍 写芯 褑褨褦褩 褋泻褉懈薪褨!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: 笑褨薪邪 锌褉芯写邪卸褍 斜褨谢褜褕邪 蟹邪 褑褨薪褍 泻褍锌褨胁谢褨!
+SELL_PRICE_ABOVE_MAX: 笑褨薪邪 锌褉芯写邪卸褍 %price 斜褨谢褜褕邪 蟹邪 屑邪泻褋懈屑邪谢褜薪褍 %maxprice!
+SELL_PRICE_BELOW_MIN: 笑褨薪邪 锌褉芯写邪卸褍 %price 屑械薪褕邪 蟹邪 屑褨薪褨屑邪谢褜薪褍 %minprice!
+BUY_PRICE_ABOVE_MAX: 笑褨薪邪 泻褍锌褨胁谢褨 %price 斜褨谢褜褕邪 蟹邪 屑邪泻褋懈屑邪谢褜薪褍 %maxprice!
+BUY_PRICE_BELOW_MIN: 笑褨薪邪 泻褍锌褨胁谢褨 %price 屑械薪褕邪 蟹邪 屑褨薪褨屑邪谢褜薪褍 %minprice!
+CLICK_TO_AUTOFILL_ITEM: 袧邪褌懈褋薪褨褌褜 薪邪 褌邪斜谢懈褔泻褍 蟹 锌褉械写屑械褌芯屑 写谢褟 褟泻芯褩 锌褉懈蟹薪邪褔械薪懈泄 褑械泄
+  屑邪谐邪蟹懈薪!
+NO_ITEM_IN_HAND: 袙懈 薪械 屑邪褦褌械 锌褉械写屑械褌邪 胁 胁邪褕褨泄 褉褍褑褨 写谢褟 邪胁褌芯蟹邪锌芯胁薪械薪薪褟!
+PROTECTED_SHOP: 袦邪谐邪蟹懈薪 褍褋锌褨褕薪芯 蟹邪褏懈褖械薪懈泄 蟹 LWC!
+PROTECTED_SHOP_SIGN: 校褋锌褨褕薪芯 蟹邪褏懈褖械薪芯 褌邪斜谢懈褔泻褍 屑邪谐邪蟹懈薪褍 蟹 LWC!
+SHOP_CREATED: 袦邪谐邪蟹懈薪 褍褋锌褨褕薪芯 褋褌胁芯褉械薪懈泄!
+SHOP_FEE_PAID: 袟 胁邪褋 褋褌褟谐薪褍褌芯 %amount
+SHOP_REFUNDED: 袙邪屑 锌芯胁械褉薪械薪芯 %amount.
+ITEM_GIVEN: 袙懈写邪薪芯 %item 谐褉邪胁褑械胁褨 %player.
+RESTRICTED_SIGN_CREATED: 孝邪斜谢懈褔泻邪 褍褋锌褨褕薪芯 褋褌胁芯褉械薪邪!
+PLAYER_NOT_FOUND: 袚褉邪胁褑褟 薪械 蟹薪邪泄写械薪芯!
+NO_PERMISSION: 校 胁邪褋 薪械屑邪褦 写芯蟹胁芯谢褍 写谢褟 褑褜芯谐芯!
+INCORRECT_ITEM_ID: 袙懈 胁泻邪蟹邪谢懈 薪械锌褉邪胁懈谢褜薪懈泄 ID 锌褉械写屑械褌邪!
+INVALID_CLIENT_NAME: 袙邪褕 薪褨泻薪械泄屑 薪械 褦 写芯锌褍褋褌懈屑懈屑 Minecraft 薪褨泻薪械泄屑芯屑!
+NOT_ENOUGH_PROTECTIONS: 袧械 胁写邪谢芯褋褟 褋褌胁芯褉懈褌懈 蟹邪褏懈褋褌!
+NO_SHOP_FOUND: 袦邪谐邪蟹懈薪 薪械 蟹薪邪泄写械薪芯.
+CANNOT_CREATE_SHOP_HERE: 袙懈 薪械 屑芯卸械褌械 褋褌胁芯褉懈褌懈 屑邪谐邪蟹懈薪 褌褍褌!
+TOGGLE_MESSAGES_OFF: 袙懈 褌械锌械褉 薪械 芯褌褉懈屑褍胁邪褌懈屑械褌械 锌芯胁褨写芯屑谢械薪薪褟 胁褨写 胁邪褕懈褏 屑邪谐邪蟹懈薪褨胁.
+TOGGLE_MESSAGES_ON: 袙懈 褌械锌械褉 芯褌褉懈屑褍胁邪褌懈屑械褌械 锌芯胁褨写芯屑谢械薪薪褟 胁褨写 胁邪褕懈褏 屑邪谐邪蟹懈薪褨胁.
+TOGGLE_ACCESS_ON: 袙懈 斜褨谢褜褕械 薪械 屑芯卸械褌械 褌芯褉谐褍胁邪褌懈 胁 屑邪谐邪蟹懈薪邪褏 写芯 褟泻懈褏 褍 胁邪褋 褦 写芯褋褌褍锌
+TOGGLE_ACCESS_OFF: 袙懈 褌械锌械褉 屑芯卸械褌械 褌芯褉谐褍胁邪褌懈 蟹 屑邪谐邪蟹懈薪邪屑懈 写芯 褟泻懈褏 褍 胁邪褋 褦 写芯褋褌褍锌

@@ -1,0 +1,65 @@
+#商家档案相关设置
+#命令：/gmp profile
+
+#使用命令设置商品参数的冷却时间
+#由于设置参数将需要产生数据库IO，此选项可以防止频繁点击造成卡顿
+Cooldown-Of-Parameters-Setting: 5.0
+
+#是否在玩家离开服务器时清理缓存
+Clear-Cache-When-Quiting: true
+
+#是否开启离线任务的自动处理
+#说明：玩家离线后，若有数据操作无法在玩家离线时处理，会被记录到玩家个人档案中等待处理
+#例如：离线后的商品交易通知（玩家上线后能够自动通知离线时完成了哪些交易）与离线收款到账等
+#若关闭以下选项，则玩家需要自己通过命令/gmp profile tasks进行处理
+Automatic-Processing-of-Offline-Tasks:
+    #是否开启登入消息提醒
+    Join-Messages:
+        Enabled: true
+        #延迟（单位为秒，若设置为0为立即提示）
+        Delay: 5
+    #离线通知（交易通知）
+    Notices: true
+    #离线余额修改（主要是下方“Change-Balance-Only-When-Online”选项提交的离线账户操作）
+    Change-Balance: true
+
+#仅在在线时进行余额操作
+#当货币系统不支持离线操作玩家余额时，需要启用此选项
+#例子：当玩家离线后，无法获得出售物品获得的金钱报酬
+#目前已知需要启用此功能的插件组合是：
+#1. Essentials + Vault
+#2. CMI + Vault 且本插件与CMI都启用了MySQL储存模式
+Change-Balance-Only-When-Online: false
+
+#是否启用从GUI中读取玩家头颅数据以存入档案
+#此选项建议只在 1.8.x - 1.12.x 版本中启用
+Load-Head-Textures-From-GUIs: false
+
+#商店设置
+Store-Settings:
+    #最长商店名字字数
+    Maximum-Name-Words: 20
+    #最短商店名字字数
+    Minimum-Name-Words: 3
+    #商店描述的最大单行字数
+    Maximum-Description-Line-Words: 20
+    #商店描述的最小单行字数
+    Minimum-Description-Line-Words: 3
+    #商店描述的最大行数
+    Maximum-Description-Line: 3
+
+#商家档案默认参数
+Default-Parameters:
+    #是否隐藏商家名字
+    Hide-Merchant-Name: false
+    #是否在全球市场上隐藏商品（仅在个人商店中显示）
+    Hide-Merchandises: false
+    #是否关闭个人商店
+    Store-Closed: false
+    #是否上锁个人邮箱
+    Mailbox-Locked: false
+    #默认商店名字
+    Store-Name: '&2&l{player} &9&l的商店'
+    #默认商店描述（默认为无描述）
+    Store-Description: 
+    - '&7无描述'

@@ -1,0 +1,59 @@
+# Cron表达式生成器：http://cron.ciding.cc/
+NCKit:
+  # 礼包的展示名
+  Name: '§e新人礼包'
+  # 礼包的展示图标
+  Icon: 'CHEST'
+  # 指令可选择CMD、OP,不填则为该玩家自己发送
+  # 变量{player}代表触发指令的玩家
+  Commands: 
+     #- 'CMD:give {player} apple'
+     #- 'OP:give {player} apple'
+     #- 'give {player} apple'
+  Lore:
+     - '§b| 礼包介绍： §8送给小萌新的礼物'
+     - '§b| 礼包内含：'
+     - '§8| 苹果 * 64'
+     - '§8| 铁质套装 * 1'
+     - '§8| 面包 * 10'
+     - '§8| 牛奶 * 8'
+  Item:
+     - '{id:"minecraft:apple",Count:64b,Damage:0s}'
+     - '{id:"minecraft:iron_helmet",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_chestplate",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_leggings",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_boots",Count:1b,Damage:0s}'
+     - '{id:"minecraft:bread",Count:64b,Damage:0s}'
+     - '{id:"minecraft:milk_bucket",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_axe",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_pickaxe",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
+DailyKit:
+  Name: '§e每日礼包'
+  Permission: 'wkkit.DailyKit'
+  Icon: 'BOOK'
+  DoCron: '0 0 0 * * ? *' # Cron表达式
+  Lore:
+     - '§b| 礼包介绍： §8每天可领取一次'
+  Item:
+     - '{id:"minecraft:apple",Count:16b,Damage:0s}'
+     - '{id:"minecraft:bread",Count:16b,Damage:0s}'
+     - '{id:"minecraft:iron_axe",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_pickaxe",Count:1b,Damage:0s}'
+     - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
+MonthlyKit:
+  Name: '§e每月礼包' # 次月自动刷新
+  Permission: 'wkkit.ServerKit'
+  Icon: 'BOOK'
+  DoCron: '0 0 0 1 * ? *' # Cron表达式
+  Commands: 
+     - 'CMD:money give {player} 3000'
+     #- 'OP:give {player} apple'
+     #- 'give {player} apple'
+  Lore:
+     - '§b| 礼包介绍： §8每月可领取一次'
+  Item:
+     - '{id:"minecraft:enchanted_golden_apple",Count:4b,Damage:0s}'
+     - '{id:"minecraft:diamond_axe",Count:1b,Damage:0s}'
+     - '{id:"minecraft:diamond_pickaxe",Count:1b,Damage:0s}'
+     - '{id:"minecraft:diamond_shovel",Count:1b,Damage:0s}'

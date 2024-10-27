@@ -1,0 +1,87 @@
+prefix: '&a[Bolt] &r'
+shopinfo: |-
+  &aBolt Inform谩ci贸:
+  &fTulaj: &7%owner
+  &fK茅szlet: &7%stock
+  &fT谩rgy: &7%item
+shopinfo_buy: '&7%amount &fdarab v谩s谩rl谩sa &7%price-t'
+shopinfo_sell: '&7%amount &fdarab elad谩sa &7%price-t'
+iteminfo: '''&aT谩rgy Inform谩ci贸: &r'
+iteminfo_fullname: '&fTeljes N茅v: &7%item'
+iteminfo_shopname: '&fBolt T谩bla: &7%item'
+iteminfo_repaircost: '&fJav铆t谩si K枚lts茅g: &7%cost'
+iteminfo_book: |-
+  &fK枚nyvc铆m: &7%title
+  &fK枚nyv Szerz艖: &7%author
+  &fK枚nyvoldalak: &7%pages
+iteminfo_book_generation: '&fK枚nyv Gener谩ci贸: &7%generation'
+iteminfo_lore: |-
+  &fLore:
+  &r%lore
+METRICS: |-
+  &a[Bolt] &fMetrik谩k:
+  &fFi贸kok: &7%accounts
+  &f脕tlagos tranzakci贸k: &7%totalTransactions &f(v茅tel: &7%buyTransactions &felad谩s: &7%sellTransactions&f)
+  &f脕tlagos t谩rgy keresked茅sek: &7%totalItems &f(v谩s谩rolt: &7%boughtItems &feladott: &7%soldItems&f)
+ACCESS_DENIED: Nincs enged茅lyed hozz谩f茅rni ennek a boltnak a t谩rol贸j谩hoz!
+TRADE_DENIED: Nincs enged茅lyed kereskedni ebben a boltban!
+TRADE_DENIED_ACCESS_PERMS: Nem kereskedhetsz olyan boltokban, amelyekhez hozz谩f茅rsz!
+TRADE_DENIED_CREATIVE_MODE: Nem kereskedhetsz a boltokban kreat铆v m贸dban!
+NOT_ENOUGH_MONEY: Nincs el茅g p茅nzed!
+NOT_ENOUGH_MONEY_SHOP: A bolt tulajnak nincs el茅g p茅nze!
+CLIENT_DEPOSIT_FAILED: A sz谩ml谩dra t枚rt茅n艖 befizet茅s nem siker眉lt!
+SHOP_DEPOSIT_FAILED: A p茅nzbefizet茅s a bolt tulajnak sikertelen!
+NO_ECONOMY_ACCOUNT: A bolt tulajnak nincs gazdas谩gi sz谩ml谩ja!
+NO_BUYING_HERE: Itt nem lehet v谩s谩rolni!
+NO_SELLING_HERE: Itt nem lehet eladni!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Nincs el茅g hely a k茅szletedben!
+NOT_ENOUGH_SPACE_IN_CHEST: Nincs el茅g hely a l谩d谩ban!
+NOT_ENOUGH_ITEMS_TO_SELL: Nincs el茅g t谩rgyad az elad谩shoz!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [%price %item&7 bolt tele van!](&f%seller&7 pr贸b谩lt eladni
+  &7Ebben a vil谩gban: &f%world
+  &7Ezen a helyen: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: Ez a bolt kifogyott.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [%price %item&7 bolt kifogyott!](&f%buyer&7 pr贸b谩lt v谩s谩rolni
+  &7Ebben a vil谩gban: &f%world
+  &7Ezen a helyen: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: Vett茅l %item-t %owner-t艖l/-t贸l %price-t.
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer v谩s谩rolt %item-t %price-t.](&7Ebben a vil谩gban: &f%world
+  &7Ezen a helyen: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: Eladt谩l %item-t %buyer-nak/-nek %price-t.
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller eladott %item-t %price-t.](&7Eben a vil谩gban: &f%world
+  &7Ezen a helyen: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Nem hozhatsz l茅tre ilyen t铆pus煤 boltot!
+NO_CHEST_DETECTED: Nem tal谩lhat贸 egy l谩da!
+INVALID_SHOP_DETECTED: A bolt nem haszn谩lhat贸!
+INVALID_SHOP_PRICE: A bolt 谩ra 茅rv茅nytelen!
+INVALID_SHOP_QUANTITY: A bolt mennyis茅ge 茅rv茅nytelen!
+CANNOT_ACCESS_THE_CHEST: Nincs enged茅lyed hozz谩f茅rni ehhez a l谩d谩hoz!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: Sell price is above the buy price!
+SELL_PRICE_ABOVE_MAX: A(z) %price elad谩si 谩r meghaladja a maxim谩lis %maxprice-t!
+SELL_PRICE_BELOW_MIN: A(z) %price elad谩si 谩r a minimum %minprice alatt van!
+BUY_PRICE_ABOVE_MAX: A(z) %price v茅tel谩r meghaladja a maxim谩lis %maxprice-t!
+BUY_PRICE_BELOW_MIN: A(z) %price v茅tel谩r a minimum %minprice alatt van!
+CLICK_TO_AUTOFILL_ITEM: Kattints a t谩bl谩ra azzal a t谩rggyal, ami a bolthoz tartozik!
+NO_ITEM_IN_HAND: Nincs egy t谩rgy a kezedben az automatikus felt枚lt茅shez!
+PROTECTED_SHOP: Sikeresen lev茅dted a boltot az LWC-vel!
+PROTECTED_SHOP_SIGN: Sikeresen lev茅dted a bolt t谩bl谩t az LWC-vel!
+SHOP_CREATED: A bolt sikeresen l茅trehozva!
+SHOP_FEE_PAID: Felsz谩mol谩sra ker眉lt %amount
+SHOP_REFUNDED: Visszat茅r铆t茅sre ker眉lt %amount.
+ITEM_GIVEN: '%item adva %player-nak/-nek.'
+RESTRICTED_SIGN_CREATED: A t谩bla sikeresen l茅trehozva!
+PLAYER_NOT_FOUND: J谩t茅kos nem tal谩lhat贸!
+NO_PERMISSION: Ehhez nincs enged茅lyed!
+INCORRECT_ITEM_ID: 脡rv茅nytelen t谩rgy id-t adt谩l meg!
+INVALID_CLIENT_NAME: A felhaszn谩l贸neved nem egy 茅rv茅nyes Minecraft felhaszn谩l贸n茅v!
+NOT_ENOUGH_PROTECTIONS: Nem siker眉lt l茅trehozni egy lev茅d茅st!
+NO_SHOP_FOUND: Nem tal谩lhat贸 bolt.
+CANNOT_CREATE_SHOP_HERE: Itt nem lehet boltot l茅trehozni!
+TOGGLE_MESSAGES_OFF: Nem fogsz t枚bb 眉zeneteket kapni a boltodr贸l, vagy boltjaidr贸l.
+TOGGLE_MESSAGES_ON: Mostant贸l 眉zeneteket fogsz kapni a boltodr贸l, vagy boltjaidr贸l.
+TOGGLE_ACCESS_ON: M谩r nem kereskedhetsz olyan boltokban, amelyekhez hozz谩f茅rsz
+TOGGLE_ACCESS_OFF: Most kereskedhetsz olyan boltokban, amelyekhez hozz谩f茅rsz

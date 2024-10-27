@@ -1,0 +1,425 @@
+info:
+  namespace: "aqua_items"
+items:
+  finish_plain: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/finish_plain.png
+  blocked_plain: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/blocked_plain.png
+  enable_plain: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/enable_plain.png
+  waiting_plain: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/waiting_plain.png
+  pre_button: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/pre_button.png
+  next_button: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/next_button.png
+  back_button: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/back_button.png
+  close_button: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/close_button.png
+  empty: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/empty.png
+  change_description: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/change_description.png
+
+  change_icon: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/change_icon.png
+
+  change_location: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/change_location.png
+
+  change_name: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/change_name.png
+
+  change_price: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/change_price.png
+
+  change_type: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/change_type.png
+
+  collection: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/collection.png
+
+  global: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/global.png
+
+  hide: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/hide.png
+
+  search: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/search.png
+
+  teleport: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/teleport.png
+
+  warp_add: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/warp_add.png
+
+  warp_delete: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/warp_delete.png
+
+  warp_top_add: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/warp_top_add.png
+
+  mine: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/mine.png
+
+  tips: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/tips.png
+
+  collection_global: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/collection_global.png
+
+  money: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/money.png
+
+  like: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/like.png
+
+  dislike: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/dislike.png
+
+  num1: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/num1.png
+
+  num2: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/num2.png
+
+  num3: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/num3.png
+
+  num4: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/num4.png
+
+  num5: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/num5.png
+
+  balance: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/stat/balance.png
+
+  homes: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/stat/homes.png
+
+  ranks: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/stat/ranks.png
+
+  regions: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/stat/regions.png
+
+  stores: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/stat/stores.png
+
+  titles: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/stat/titles.png
+
+  mail: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/mail.png
+
+  refresh: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/refresh.png
+
+  category: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/category.png
+
+  categoryset: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/categoryset.png
+
+  console: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/console.png
+
+  cancel: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/cancel.png
+
+  up: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/up.png
+
+  down: 
+    display_name: " "
+    lore: " "
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/down.png

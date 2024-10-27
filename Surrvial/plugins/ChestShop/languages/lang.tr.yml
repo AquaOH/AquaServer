@@ -1,0 +1,84 @@
+prefix: '&a[Shop] &r'
+shopinfo: "&aD眉kkan Bilgisi:\n&fSahip: &7%owner \n&fStok: &7%stock \n&fE艧ya: &7%item"
+shopinfo_buy: '&7%price &f眉cret kar艧谋l谋臒谋nda &7%amount &fadet sat谋n al'
+shopinfo_sell: '&7%price &f眉cret kar艧谋l谋臒谋nda &7%amount &fadet sat'
+iteminfo: '&aE艧ya Bilgisi: &r'
+iteminfo_fullname: '&fTam 陌sim: &7%item'
+iteminfo_shopname: '&fD眉kkan Tabelas谋: &7%item'
+iteminfo_repaircost: '&fTamir 脺creti: &7%cost'
+iteminfo_book: |-
+  &fKitap Ba艧l谋臒谋: &7%title
+  &fKitap Yazar谋: &7%author
+  &fKitap Sayfalar谋: &7%pages
+iteminfo_book_generation: '&fKitap Jenerasyonu: &7%generation'
+iteminfo_lore: |-
+  &fA莽谋klama:
+  &r%lore
+METRICS: |-
+  &a[Shop] &f脰l莽眉tler:
+  &fHesaplar:&7 %accounts
+  &f陌艧lem ortalamalar谋:&7 %totalTransactions &f(al谋艧:&7 %buyTransactions &fsat谋艧:&7 %sellTransactions&f)
+  &fE艧ya ticareti ortalamalar谋:&7 %totalItems &f(al谋nan:&7 %boughtItems &fsat谋lan:&7 %soldItems&f)
+ACCESS_DENIED: Bu d眉kkan谋n depo konteynerine eri艧im izniniz yok!
+TRADE_DENIED: Bu d眉kkanda ticaret yapma izniniz yok!
+TRADE_DENIED_ACCESS_PERMS: Eri艧iminiz olan d眉kkanlarla ticarete giremezsiniz!
+TRADE_DENIED_CREATIVE_MODE: Yarat谋c谋 modda iken d眉kkanlarla ticarete giremezsiniz!
+NOT_ENOUGH_MONEY: Yeteri kadar paran谋z yok!
+NOT_ENOUGH_MONEY_SHOP: D眉kkan sahibinin yeteri kadar paras谋 yok!
+CLIENT_DEPOSIT_FAILED: Hesab谋n谋za depozito i艧leminde bir sorun meydana geldi!
+SHOP_DEPOSIT_FAILED: D眉kkan sahibine depozito i艧leminde bir sorun olu艧tu!
+NO_ECONOMY_ACCOUNT: D眉kkan sahibine ait bir ekonomi hesab谋 bulunmuyor!
+NO_BUYING_HERE: Burada bir 艧eyler sat谋n alamazs谋n谋z!
+NO_SELLING_HERE: Burada bir 艧eyler satamazs谋n谋z!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Envanterinizde yeterli bo艧luk yok!
+NOT_ENOUGH_SPACE_IN_CHEST: Sand谋kta yeterli bo艧luk yok!
+NOT_ENOUGH_ITEMS_TO_SELL: Satacak kadar yeterli e艧yan谋z yok!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [%price %item&7 d眉kkan dolul!](&f%seller&7 sat谋艧 yapmaya 莽al谋艧t谋
+  &7D眉nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: Bu d眉kkan谋n stoklar谋 t眉kenmi艧.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [%price %item&7 d眉kkan谋n stoklar谋 d眉kenmi艧!](&f%buyer&7 sat谋n almaya 莽al谋艧t谋
+  &7D眉nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: '%owner isimli ki艧iden %price para kar艧谋l谋臒谋nda %item sat谋n
+  ald谋n.'
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer %price kar艧谋l谋臒谋nda %item sat谋n ald谋.](&7D眉nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: '%buyer isimli ki艧iye %price kar艧谋l谋臒谋nda %item satt谋n谋z.'
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller %price kar艧谋l谋臒谋nda %item satt谋.](&7D眉nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Bu t眉r bir d眉kkan olu艧turamazs谋n谋z!
+NO_CHEST_DETECTED: Herhangi bir sand谋k bulunamad谋!
+INVALID_SHOP_DETECTED: D眉kkan kullan谋lamaz!
+INVALID_SHOP_PRICE: D眉kkan 眉creti ge莽ersiz!
+INVALID_SHOP_QUANTITY: D眉kkan 眉r眉n miktar谋 ge莽ersiz!
+CANNOT_ACCESS_THE_CHEST: Bu sand谋臒a eri艧ebilme yetkiniz yok!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: Sell price is above the buy price!
+SELL_PRICE_ABOVE_MAX: '%price sat谋艧 眉creti, %maxprice olan maksimum 眉cretten y眉ksek!'
+SELL_PRICE_BELOW_MIN: '%price sat谋艧 眉creti, %minprice olan minimum 眉cretten d眉艧眉k!'
+BUY_PRICE_ABOVE_MAX: '%price sat谋n alma 眉creti, %maxprice olan maksimum 眉cretten y眉ksek!'
+BUY_PRICE_BELOW_MIN: '%price sat谋n alma 眉creti, %minprice olan minimum 眉cretten d眉艧眉k!'
+CLICK_TO_AUTOFILL_ITEM: Bu d眉kkan i莽in bulunan 枚臒enin bulundu臒u tabelaya t谋klay谋n!
+NO_ITEM_IN_HAND: Otomatik doldurmak i莽in elinde bir e艧yan yok!
+PROTECTED_SHOP: D眉kkan ba艧ar谋yla LWC ile korundu!
+PROTECTED_SHOP_SIGN: D眉kkan tabelas谋 ba艧ar谋yla LWC ile korundu!
+SHOP_CREATED: D眉kkan ba艧ar谋yla olu艧turuldu!
+SHOP_FEE_PAID: '%amount 枚dedin.'
+SHOP_REFUNDED: '%amount iade ald谋n.'
+ITEM_GIVEN: '%player isimli ki艧iye %item verildi.'
+RESTRICTED_SIGN_CREATED: Tabela ba艧ar谋yla olu艧turuldu!
+PLAYER_NOT_FOUND: Oyuncu bulunamad谋!
+NO_PERMISSION: Bunu yapma yetkin yok!
+INCORRECT_ITEM_ID: Ge莽ersiz bir e艧ya kodu girdin!
+INVALID_CLIENT_NAME: Kullan谋c谋 ad谋n ge莽erli bir Minecraft kullan谋c谋 ad谋 de臒il!
+NOT_ENOUGH_PROTECTIONS: Koruma olu艧turulamad谋!
+NO_SHOP_FOUND: D眉kkan bulunamad谋.
+CANNOT_CREATE_SHOP_HERE: Burada d眉kkan olu艧turamazs谋n!
+TOGGLE_MESSAGES_OFF: Art谋k d眉kkan(lar)谋ndan bildirimler almayacaks谋n.
+TOGGLE_MESSAGES_ON: Art谋k d眉kkan(lar)谋ndan bildirimler alacaks谋n.
+TOGGLE_ACCESS_ON: Art谋k eri艧imin olan d眉kkanlarda ticaret yapamayacaks谋n.
+TOGGLE_ACCESS_OFF: Art谋k eri艧imin olan d眉kkanlarda ticaret yapabileceksin.

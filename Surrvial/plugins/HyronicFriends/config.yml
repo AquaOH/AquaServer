@@ -1,0 +1,208 @@
+# 如果启用，每当有可用更新时，会在控制台打印通知和下载链接。
+CheckForUpdates: false
+
+# 选择你想要使用的语言（写文件名，不要带扩展名）：
+# * 可用语言：en_US 和 vi_VN。
+Locale: zh_CN
+
+# 如果你想在 BungeeCord 环境中使用此插件，请启用此选项。
+# * 需要在 spigot.yml 中将 'bungeecord' 选项设置为 true，并且你已经在 BungeeCord 中安装了 'HyronicFriends-BungeeCord' 插件。
+# * 更改此选项需要重新启动服务器！
+# * 启用此选项需要使用公共数据库（MySQL）。
+MultiNetworks: false
+
+# 你希望使用哪个隐身插件来忽略加入消息？
+# * 可用选项：LiteVanish 和 EssentialsX。
+# * 留空将禁用此功能。这意味着在加入时发送的消息将不会被忽略。
+IgnoreJoinMsgOnVanish: ''
+
+# 如果你的服务器是 BungeeCord，请在此设置其名称：
+ServerName:
+  example: 'sur1'
+
+# 日期格式：
+DateFormat: yyyy/MM/dd HH:mm:ss
+
+# 自动更新玩家数据的时间（以秒为单位）：
+# * 不能禁用，默认/最小值为 10 秒。
+AutoUpdateTime: 10
+# 你是否希望在上述时间更改时重启 AutoUpdateTask？
+# 如果为 false，AutoUpdateTask 将继续运行，直到完成。
+RestartOnChange: true
+
+Database:
+  # 数据库类型：
+  # * 请在正式使用前选择类型。
+  # * 有两种类型：SQLite, MySQL 和 MariaDB（优先于 MySQL）。
+  Type: MySQL
+  # * 对于 SQLite，它将是文件名。
+  # * 对于 MySQL, MariaDB，它将是数据库名。
+  Database: hyronicfriend
+  Host: 192.168.6.230
+  Port: 3306
+  Username: hyronicfriend
+  Password: Aqua7296
+  Prefix: hfriends_
+  
+  # 此设置允许你为连接定义额外的属性。
+  # 你也可以使用此部分来禁用 SSL 连接。
+  Properties:
+    UseSSL: false
+    AutoReconnect: false
+    VerifyServerCertificate: false
+  
+  # 这些设置适用于 MySQL 连接池。
+  # * 默认值适合大多数用户。
+  # * 除非你知道自己在做什么，否则不要更改这些设置！
+  PoolSettings:
+    # 设置 MySQL 连接池的最大大小。
+    MaxPoolSize: 5
+    # 设置池中尝试保持的最小空闲连接数。
+    # * 这个值应该与 MaxPoolSize 相同。
+    MinimumIdle: 5
+    # 设置连接在池中最长的生命周期（以毫秒为单位）。
+    MaxLifetime: 900000
+    # 设置插件等待从池中获取连接的最长时间（以毫秒为单位），在超时之前。
+    ConnectionTimeout: 5000
+
+# 等待响应好友请求的时间（以秒为单位）：
+# * 设置为 -1 以禁用此功能。
+FriendRequestTimeout: 180
+
+# 你想通过右键单击其他玩家来允许玩家发送好友请求吗？
+RightClickRequest:
+  # 启用此功能？
+  Enables: true
+  # 你可以使用以下选项组合你的点击：
+  # * 可用选项：NONE, SHIFT 和 CTRL。
+  CombineType: SHIFT
+
+# 发送私人消息之间的时间间隔（以秒为单位）：
+MessageDelay: 10
+# 默认情况下，你想让玩家可以向他们的朋友发送消息吗？
+# * 玩家可以更改自己的好友设置。
+CanMessageByDefault: true
+# 启用此选项将删除私人消息中的所有颜色代码。
+RemoveColorInMessage: true
+# 启用此选项将在控制台上显示私人消息。
+PrivateMessageSpy: false
+
+# 传送之间的时间间隔（以秒为单位）：
+TeleportDelay: 30
+# 默认情况下，你想让玩家可以传送到他们的朋友那里吗？
+# * 玩家可以更改自己的好友设置。
+CanTeleportByDefault: false
+
+# 发送邮件之间的时间间隔（以秒为单位）：
+MailSendDelay: 60
+# 默认情况下，你想让玩家可以向他们的朋友发送邮件吗？
+# * 玩家可以更改自己的好友设置。
+CanMailByDefault: true
+
+# 发送邮件时允许的最大字符长度：
+MaxCharacterLength: 255
+# 对于邮件，内容可能过长导致溢出。
+# 使用此选项将内容换行到一定长度：
+WrapContentLength: 32
+# 默认内容颜色：
+ContentColor: §e
+
+# 使用通知弹窗：
+Toast:
+  # 当好友上线/下线时：
+  FriendOnline: true
+  # 当收到好友请求时：
+  FriendRequest: true
+  # 当两名玩家成为好友时：
+  NowFriend: true
+  # 当好友请求被拒绝时：
+  RequestDeclined: true
+  # 当收到新邮件时：
+  NewMail: true
+
+# 执行操作时播放声音：
+Playsound:
+  # 当收到好友请求时：
+  # * 留空将禁用此功能。
+  FriendRequest: ENTITY_EXPERIENCE_ORB_PICKUP
+  # 当好友请求被接受时：
+  # * 留空将禁用此功能。
+  FriendRequestAccepted: ENTITY_PLAYER_LEVELUP
+  # 当好友请求被拒绝时：
+  # * 留空将禁用此功能。
+  FriendRequestDeclined: ITEM_SHIELD_BREAK
+  # 当好友上线时：
+  # * 留空将禁用此功能。
+  FriendOnline: ENTITY_EXPERIENCE_ORB_PICKUP
+  # 当好友下线时：
+  # * 留空将禁用此功能。
+  FriendOffline: ''
+  # 当收到新邮件时：
+  # * 留空将禁用此功能。
+  ReceiveMail: ENTITY_EXPERIENCE_ORB_PICKUP
+  # 当收到新消息时：
+  # * 留空将禁用此功能。
+  ReceiveMessage: ENTITY_EXPERIENCE_ORB_PICKUP
+  # 当玩家传送时：
+  # * 留空将禁用此功能。
+  Teleport: ENTITY_ENDERMAN_TELEPORT
+
+# 防止玩家发送你不想要的物品。
+# * 你可以在此部分添加自己的黑名单！
+Blacklist:
+  # 组名称，写下你想要的任何名称：
+  example:
+    # 插件是否应该检查该物品必须匹配以下所有条件才能被阻止？
+    # * 如果为 'true'，物品必须符合以下所有条件才能被阻止。
+    # * 如果为 'false'，物品只需满足以下条件之一即可被阻止。
+    All: false
+    # 物品类型：
+    # * 留空以跳过此检查。
+    Material: BEDROCK
+    # 物品的自定义模型数据：
+    # * 如果要检查的物品没有自定义模型数据，此项将始终为 false。
+    # * 要跳过此检查，请删除此选项。
+    ModelData: 0
+    # 物品名称符合正则表达式：
+    Name: Bedrock Item
+  god:
+    All: false
+    Material: ''
+    Name: (?i)(god) # 这将阻止名称中包含 "God" 一词的物品。
+
+# 玩家在发送邮件前可以附加物品的槽位数量？
+# * 最大槽位数为 45。
+# * 最大槽位数量的权限是：hyronicfriends.mails.size.maximum
+LimitItemSlots:
+  # 默认限制：
+  Default: 9
+  # 以下组将使用权限 hyronicfriends.mails.size.<group> 覆盖默认限制。
+  # * 槽位数量越多，优先级越高！
+  Groups:
+    # hyronicfriends.mails.size.yousei
+    yousei: 18
+    # hyronicfriends.mails.size.yokai
+    member: 27
+    # hyronicfriends.mails.size.kami
+    kami: 36
+    # hyronicfriends.mails.size.kenja
+    vip: 45
+
+# 限制玩家的好友列表：
+# * 无限好友列表的权限是：hyronicfriends.friends.size.unlimited。
+FriendLimit:
+  # 默认限制：
+  Default: 10
+  # 以下组将使用权限 hyronicfriends.friends.size.<group> 覆盖默认限制。
+  # * 你可以在此部分添加自己的组。
+  # * 好友数量越多，优先级越高！
+  Groups:
+    # hyronicfriends.friends.size.yousei
+    yousei: 20
+    # hyronicfriends.friends.size.yokai
+    yokai: 30
+    # hyronicfriends.friends.size.kami
+    kami: 40
+    # hyronicfriends.friends.size.kenja
+    kenja: 510
+ConfigVersion: '1.1'

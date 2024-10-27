@@ -1,0 +1,147 @@
+Title:
+- '&f%img_offset_-88%&f%img_orange_wallet%'
+
+Title-Update: 1
+
+#建议每一个之间空一行，习惯，看起来不那么乱
+Layout:
+  - 'GIGHHHHHH' #菜单的边框
+  - 'GGGHABCHH'
+  - 'GGGHDEFHH'
+
+
+
+Events:
+  Open: #开启菜单的事件
+    - condition: perm *trmenu.use #检测玩家是否拥有menu.admin的权限（kether的写法）
+      actions: #拥有执行的动作（菜单正常打开）
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+        - 'delay: 2'
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+
+      deny: #没有执行的动作（菜单被return动作中断）
+        - 'tell: &c你不是管理员'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: <r#2:75:100>你还不是管理员哦！'
+        - 'return'
+  Close: #菜单关闭的事件
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+    - 'delay: 3'
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+
+
+Icons: 
+  A:
+    display:
+      material: paper
+      name: '&{#D79729}余额'
+      lore:
+        - '&f%img_paper_money_tiny%&{#C18825} %xconomy_balance%'
+        - '&{#D79729}转账命令：/pay 玩家 金额'
+        - '&{#D79729}点击查看月円排行榜'  
+      nbt:
+        CustomModelData: 10043
+    actions:
+      all: 
+        - 'force-close'
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-1'
+        - 'command: balancetop'
+
+  B:
+    display:
+      material: paper
+      name: '&{#D79729}Rank'
+      lore:
+        - '&{#C18825}Rank：%luckperms_prefix%'  
+      nbt:
+        CustomModelData: 10045    
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-1'
+        - 'force-open: perm'
+
+  C:
+    display:
+      material: paper
+      name: '&{#cf5dc9}称号 | 铭牌'
+      lore:
+        - '&{#ba54b5}称号：%playertitle_use%' 
+        - '&{#ba54b5}铭牌：%nameplates_equipped_nameplate%'
+        - '&f쀊&a：点击更换称号'
+        - '&f쀋&b：点击购买铭牌'   
+      nbt:
+        CustomModelData: 10048 
+    actions:
+      left: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-1'
+        - 'force-close'
+        - 'command: playertitle open'
+      right: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-1'
+        - 'force-close'
+        - 'force-open: nametag1'
+
+        
+  D:
+    display:
+      material: paper
+      name: '&{#27AE60}商铺'
+      lore:
+        - '&{#27AE60}点击打开个人商铺'
+      nbt:
+        CustomModelData: 10047 
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_BIT-1-1'     
+        - 'force-close'
+        - 'command: globalmarketplus profile gui'  
+  E:
+    display:
+      material: paper
+      name: '&{#B74848}圈地'
+      lore:
+        - '&{#A44141}大小：'   
+      nbt:
+        CustomModelData: 10046  
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+  F:
+    display:
+      material: paper
+      name: '&{#BE8BF4} 家'
+      lore:
+        - ' &{#815DCF} 点击打开家列表'    
+      nbt:
+        CustomModelData: 10044   
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'force-close'
+        - 'command: homes'  
+  G:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#F7B5CA}%player_name%'
+      lore:
+        - "&{#F7B5CA}累计时长：%playtime_time%"
+      update: 1
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+
+  H:
+    display:
+      material: air
+  I: 
+    display: 
+      material: 'head:%player_name%'
+      name: '&{#F7B5CA}%player_name%'
+      lore: 
+        - "&{#F7B5CA}累计时长：%playtime_time%"
+      nbt:
+        CustomModelData: 10010
+      update: 1
+    actions: 
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'

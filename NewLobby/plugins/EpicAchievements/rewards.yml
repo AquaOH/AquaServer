@@ -1,0 +1,39 @@
+rewards:
+  1-100:
+    required-points: '{level} * 100' # 所需点数：每个等级乘以100
+    rewards:
+    - VAULT:{level} * 10
+    locked-item:
+      material: COAL
+      name: '&c成就奖励' # 锁定状态的成就奖励名称
+      lore:
+      - '&8等级 {level}'
+      - '&7所需点数: &e{points}'
+      - ''
+      - '&7奖励：'
+      - '{rewards}'
+      - ''
+      - '&c你还不能领取这个奖励！'
+    claimed-item:
+      material: GOLD_NUGGET
+      name: '&a成就奖励' # 已领取状态的成就奖励名称
+      lore:
+      - '&8等级 {level}'
+      - '&7所需点数: &e{points}'
+      - ''
+      - '&7奖励：'
+      - '{rewards}'
+      - ''
+      - '&a你已领取此奖励！'
+    not-claimed-item:
+      material: GOLD_NUGGET
+      name: '&e成就奖励' # 未领取但可领取状态的成就奖励名称
+      lore:
+      - '&8等级 {level}'
+      - '&7所需点数: &e{points}'
+      - ''
+      - '&7奖励：'
+      - '{rewards}'
+      - ''
+      - '&e点击领取此奖励！'
+      glow: true # 发光效果

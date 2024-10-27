@@ -1,0 +1,150 @@
+bannedplayers:
+  # 是否启用传送点的GUI？
+  enabled: true
+  # GUI的名称是什么？
+  name: "bannedplayers"
+  # GUI的标题 (可以使用颜色代码)
+  title: "&b&l封禁玩家 ([page]/[pages])"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 36
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+  # 如果没有需要的页面项，是否应该移除页面项？例如你在第0页时，不会显示上一页按钮。
+  # 你也可以在此页面项的位置放置一个物品，它只会在页面项不在那里时显示。
+  show-needed-page-items: false
+  # 玩家不会出现在GUI中的黑名单槽位是什么？
+  # 如果你希望在GUI中间添加空槽而不是放置物品，这非常有用。
+  blacklisted-slots: ["30", "32"]
+
+  # 通过GUI搜索玩家
+  search:
+    # 是否启用此功能？
+    # 启用此功能需要ProtocolLib。
+    enabled: true
+    # 搜索界面的标题是什么？
+    title: "&b&l搜索 [search] - ([page]/[pages])"
+    # 命令牌上的预设行是什么？
+    # %search% 是玩家必须输入的变量，请确保这一行没有其他内容。
+    # 如果它不包含此变量，插件会假定第一行是用户输入。颜色代码也不起作用。
+    lines:
+      - "%search%"
+      - "----------------"
+      - "请输入玩家名称"
+      - "进行搜索。"
+    # 用于搜索的命令牌材质。这只能是一个告示牌。
+    material: OAK_SIGN
+
+    item:
+      material: OAK_SIGN
+      data: 0
+      name: "&b搜索"
+      lore:
+        - "&d点击&b以搜索玩家。"
+      slot: 27
+      amount: 1
+      glowing: false
+
+  icon:
+    # 物品的默认图标是否为他们的头像？
+    skull: true
+    # 如果上面的选项禁用了，你可以在这里选择默认物品。
+    # 物品材质是什么？
+    material: DIAMOND_AXE
+    # 物品ID是什么？
+    data: 0
+    # 如果头颅为PLAYER_HEAD并且数据为3，则这些选项生效！
+    #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODcyZDM0MWQ3N2RiZGU2ZDUzZGFkNjFiZjE5MjUyNGRiZGI5NmFmMTM1OGUwNzQ4ZmVlYTE0ODFiMWY4In19fQ== - 头像纹理
+    #owner: Warp - 头像持有者
+
+    # 这是头颅在GUI中的名称。
+    name: "&b[被封禁玩家]"
+    # 你可以添加多个说明，因为我很棒 <3
+    # 如果你使用SQL，你可以使用占位符 [server] 来告诉玩家服务器。
+    # 你总是可以使用 [world_type] ，返回的类型在config.yml中。
+    lore:
+      - "[delban]"
+      - "&b封禁原因: &d[reason]"
+      - "[timeleft]"
+    # 物品是否显示发光效果？
+    glowing: false
+
+    # 这里是可用的物品标志 https://javadocs.olziedev.com/spigot/latest/org/bukkit/inventory/ItemFlag.html
+    item-flags:
+      - HIDE_ATTRIBUTES
+    # 如果玩家有权限解除封禁，变量 "[delban]" 将显示以下消息。
+    remove-ban: "&d点击&b以解除此封禁。"
+    # 如果玩家没有权限解除封禁，变量 "[delban]" 将显示以下消息。
+    remove-not-ban: ""
+    # 如果封禁还有剩余时间，变量 "[timeleft]" 将显示以下消息。
+    time-left: "&b剩余时间: &d[timeleft]"
+    # 如果封禁没有剩余时间，变量 "[timeleft]" 将显示以下消息。
+    time-not-left: ""
+    # 当玩家点击一个玩家时运行的命令是什么？
+    commands: []
+
+  clickable-items:
+    next-page:
+      # 这是下一页按钮的名称
+      # 如果你希望禁用任何这些，请将材质设置为 "AIR"
+      name: "&b下一页"
+      # 这是下一页物品的材质。有效的材质名称: https://javadocs.olziedev.com/spigot/latest/org/bukkit/Material.html
+      material: ARROW
+      data: 0
+      lore:
+        - "&d点击&b进入下一页。"
+      slot: 32
+      amount: 1
+      glowing: false
+      # 如果头颅为PLAYER_HEAD并且数据为3，则这些选项生效！
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0ZjY4YzhmYjI3OWU1MGFiNzg2ZjlmYTU0Yzg4Y2E0ZWNmZTFlYjVmZDVmMGMzOGM1NGM5YjFjNzIwM2Q3YSJ9fX0= - 头像纹理
+      #owner: Next - 头像持有者
+    previous-page:
+      name: "&b上一页"
+      material: BARRIER
+      data: 0
+      lore:
+        - "&d点击&b返回上一页。"
+      slot: 30
+      amount: 1
+      glowing: false
+    menu:
+      name: "&b返回菜单"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d点击&b返回菜单。"
+      slot: 31
+      amount: 1
+      glowing: false
+
+  items:
+    1:
+      # 这是物品的名称。
+      name: " "
+      # 这是物品的材质。禁用此项请设置为AIR
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      # 这是物品数据
+      data: 3
+      # 你可以添加说明！
+      # lore:
+      #   - "&b这是一个玻璃板。"
+      slot: [27, 29, 33, 35]
+      # 物品堆叠数量是多少？
+      amount: 1
+      # 点击时将执行的命令。
+      # [server] 表示命令由控制台执行
+      # [player] 表示命令由玩家执行
+      # commands:
+      #   - "[server] msg %player% 你点击了这个物品！"
+      glowing: false
+      # 如果头颅为PLAYER_HEAD并且数据为3，则这些选项生效！
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmOGFmYjI3YmFmYzc3YzJiODI1OTljMmY3YjhmMWY2ODMxMGU2YWE5MDRmMDUxYjA3YWIxYzJiNmIifX19 - 头像纹理
+      #owner: Glass - 头像持有者
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [28, 34]
+      amount: 1

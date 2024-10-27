@@ -1,0 +1,48 @@
+info:
+  namespace: "aqua_menu"
+font_images:
+  main: 
+    path: "main.png" 
+    symbol: "\uD000" 
+    scale_ratio: 256
+    y_position: 48
+  tele: 
+    path: "tele.png" 
+    symbol: "\uD001" 
+    scale_ratio: 256
+    y_position: 48
+  activity: 
+    path: "activity.png" 
+    symbol: "\uD002" 
+    scale_ratio: 256
+    y_position: 48
+  orange_wallet: 
+    path: "orange_wallet.png" 
+    symbol: "\uD003" 
+    scale_ratio: 256
+    y_position: 48
+  perm: 
+    path: "perm.png" 
+    symbol: "\uD004" 
+    scale_ratio: 256
+    y_position: 48
+  nametag1: 
+    path: "nametag1.png" 
+    symbol: "\uD005" 
+    scale_ratio: 256
+    y_position: 48
+  nametag2: 
+    path: "nametag2.png" 
+    symbol: "\uD006" 
+    scale_ratio: 256
+    y_position: 48
+  nametag3: 
+    path: "nametag3.png" 
+    symbol: "\uD007" 
+    scale_ratio: 256
+    y_position: 48
+  nametag4: 
+    path: "nametag4.png" 
+    symbol: "\uD008" 
+    scale_ratio: 256
+    y_position: 48

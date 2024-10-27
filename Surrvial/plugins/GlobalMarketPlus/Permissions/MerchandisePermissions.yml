@@ -1,0 +1,70 @@
+#所有权限均可自定义，请按照以下格式进行设置与更改：
+#  Default 是否为所有玩家可用，设置为true即所有玩家拥有此权限
+#  Permission 权限节点
+#  Allowed-Groups 默认允许的组（在Groups.yml中设置）
+
+#编辑所有商品的权限
+#对应命令: /gmp merchandise set
+#默认情况下玩家只能编辑自己的商品
+#给予了该权限后将可以编辑所有商品的属性
+Edit-All:
+    #默认是否允许
+    Default: false
+    #所需权限
+    Permission: globalmarketplus.merchandise.options.editall
+    #允许使用的组
+    Allowed-Groups: 
+    - Admin
+
+#营销模式的使用权限
+#当玩家不具备对应的权限时，将无法在上架时、重定价时指定此营销模式
+Marketing-Mode:
+    #使用整售模式的权限
+    Wholesale:
+        Default: true
+        Permission: globalmarketplus.merchandise.marketing-mode.wholesale
+    #使用零售模式的权限
+    Retail:
+        Default: true
+        Permission: globalmarketplus.merchandise.marketing-mode.retail
+    
+#无视商品参数设置的冷却时间的权限
+Cooldown-Bypass:
+    #默认是否无冷却
+    Default: false
+    #所需权限
+    Permission: globalmarketplus.merchandise.cooldown-bypass
+
+#修改商品参数的权限
+Parameters:
+    #修改商品的价格
+    Change-Price:
+        Default: true
+        Permission: globalmarketplus.merchandise.options.change-price
+    #修改商品的零售价格
+    Change-Retail-Price:
+        Default: true
+        Permission: globalmarketplus.merchandise.options.change-retail-price
+    #在全球市场上隐藏商品（仅在个人商店中显示）
+    Hide-Merchandise:
+        Default: true
+        Permission: globalmarketplus.merchandise.options.hide-merchandise
+    #在商品标签上隐藏商家名字
+    Hide-Merchant-Name: 
+        Default: false
+        Permission: globalmarketplus.merchandise.options.hide-merchant-name
+        Allowed-Groups: 
+        - VIP
+        - Admin
+    #设置商品为无限个（常用于系统商店中）
+    Unlimited:
+        Default: false
+        Permission: globalmarketplus.merchandise.options.set-to-unlimited
+        Allowed-Groups: 
+        - Admin
+    #设置商品永不过期（常用于系统商店中）
+    Never-Expire:
+        Default: false
+        Permission: globalmarketplus.merchandise.options.set-to-never-expire
+        Allowed-Groups: 
+        - Admin

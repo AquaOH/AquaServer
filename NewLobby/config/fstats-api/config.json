@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "enabled": true,
+  "hideLocation": false,
+  "messages": {
+    "infos": true,
+    "warnings": true,
+    "errors": true
+  }
+}

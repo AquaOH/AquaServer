@@ -1,0 +1,42 @@
+miner:
+  type: BREAK
+  name: "Miner"
+  description:
+    - "&fMine ores!"
+  permission: "achievement.miner"
+  blocks:
+    - IRON_ORE
+    - GOLD_ORE
+    - DIAMOND_ORE
+    - EMERALD_ORE
+  game-modes:
+    - SURVIVAL
+  tiers:
+    1:
+      required-amount: 64
+      points: 25
+      rewards: []
+
+builder:
+  type: PLACE
+  name: "Builder"
+  description:
+    - "&fPlace blocks."
+  game-modes:
+    - SURVIVAL
+  tiers:
+    1:
+      required-amount: 16
+      points: 10
+    2:
+      required-amount: 32
+      points: 20
+    3:
+      required-amount: 64
+      points: 40
+    4:
+      required-amount: 128
+      points: 80
+    5:
+      required-amount: 256
+      points: 160

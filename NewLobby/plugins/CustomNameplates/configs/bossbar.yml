@@ -1,0 +1,16 @@
+# You can create as many sections as you want for more bossbars
+bossbar_1:
+  # Color (BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW)
+  color: YELLOW
+  # Overlay (It can be either "progress", "notched_6", "notched_10", "notched_12" or "notched_20")
+  overlay: PROGRESS
+  # The frequency of checking conditions for a bar, measured in ticks
+  check-frequency: 10
+  conditions:
+    permission: "bossbar.show"
+  # Bar's content would be shown as the following order
+  text-display-order:
+    2:
+      duration: 500
+      text: '%nameplates_background_server%'
+      refresh-frequency: 1

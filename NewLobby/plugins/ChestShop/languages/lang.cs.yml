@@ -1,0 +1,88 @@
+prefix: '&a[Shop] &r'
+shopinfo: |-
+  &aInformace o obchodu:
+  &fMajitel: &7%owner
+  &fSkladem: &7%stock
+  &fItem: &7%item
+shopinfo_buy: '&fKoupit &7%amount &fza &7%price'
+shopinfo_sell: '&fProdat &7%amount &fza &7%price'
+iteminfo: '&aInformace o p艡edm臎tu: &r'
+iteminfo_fullname: '&fCel媒 n谩zev: &7%item'
+iteminfo_shopname: '&fN谩kupn铆 cedule: &7%item'
+iteminfo_repaircost: '&fCena opravy: &7%cost'
+iteminfo_book: |-
+  &fTitul knihy: &7%title
+  &fAutor knihy: &7%author
+  &fPo膷et stran: &7%pages
+iteminfo_book_generation: '&fGenerace knihy: &7%generation'
+iteminfo_lore: |-
+  &fLore:
+  &r%lore
+METRICS: |-
+  &a[Shop] &fMetriky:
+  &fPo膷et 煤膷t暖: &7%accounts
+  &fPr暖m臎rn臎 transakc铆: &7%totalTransactions &f(buy: &7%buyTransactions &fsell: &7%sellTransactions&f)
+  &fPr暖m臎rn臎 sm臎n臎n媒ch p艡edm臎t暖: &7%totalItems &f(bought: &7%boughtItems &fsold: &7%soldItems&f)
+ACCESS_DENIED: Nem谩拧 opr谩vn臎n铆 k prohl铆啪en铆 obsahu tohoto kontejneru!
+TRADE_DENIED: Nem谩拧 opr谩vn臎n铆 nakupovat v tomto obchod臎!
+TRADE_DENIED_ACCESS_PERMS: Nem暖啪ete obchodovat s obchody, ke kter媒m m谩te p艡铆stup!
+TRADE_DENIED_CREATIVE_MODE: Nem暖啪ete obchodovat s obchody, kdy啪 jste v kreativn铆m
+  m贸du!
+NOT_ENOUGH_MONEY: Nem谩拧 dostatek pen臎z!
+NOT_ENOUGH_MONEY_SHOP: Majitel obchodu ji啪 nem谩 dostatek pen臎z!
+CLIENT_DEPOSIT_FAILED: P艡ips谩n铆 pen臎z na tv暖j 煤膷et selhalo!
+SHOP_DEPOSIT_FAILED: P艡ips谩n铆 pen臎z na 煤膷et prodejce selhalo!
+NO_ECONOMY_ACCOUNT: Economy 煤膷et majitele obchodu neexistuje!
+NO_BUYING_HERE: Zde nen铆 mo啪n茅 nakupovat!
+NO_SELLING_HERE: Zde nen铆 mo啪n茅 prod谩vat!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Nem谩拧 dost m铆sta v invent谩艡i!
+NOT_ENOUGH_SPACE_IN_CHEST: V truhle u啪 nen铆 dost m铆sta!
+NOT_ENOUGH_ITEMS_TO_SELL: Nem谩拧 dostatek p艡edm臎t暖 k prodeji!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [%price %item&7 obchod p艡epln臎n!](&f%seller&7 cht臎l prodat
+  &7Sv臎t: &f%world
+  &7Pozice: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: Obchod je vyprodan媒.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [%price %item&7 obchod vyprod谩n!](&f%buyer&7 cht臎l nakoupit
+  &7Sv臎t: &f%world
+  &7Pozice: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: Koupil jsi %item od hr谩膷e %owner za %price.
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer koupil %item za %price.](&7Sv臎t: &f%world
+  &7Pozice: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: Prodal jsi %item hr谩膷i %buyer za %price.
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller prodal %item za %price.](&7Sv臎t: &f%world
+  &7Pozice: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Nem暖啪e拧 vytvo艡it tento typ obchodu!
+NO_CHEST_DETECTED: Truhla nenalezena!
+INVALID_SHOP_DETECTED: Obchod nen铆 mo啪n茅 pou啪铆t!
+INVALID_SHOP_PRICE: Obchod m谩 neplatnou cenu!
+INVALID_SHOP_QUANTITY: Obchod m谩 neplatn茅 mno啪stv铆!
+CANNOT_ACCESS_THE_CHEST: Nem谩拧 pr谩vo otev铆rat tuto truhlu!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: Prodejn铆 cena je vy拧拧铆 ne啪 kupn铆 cena!
+SELL_PRICE_ABOVE_MAX: Prodejn铆 cena %price vy拧拧铆 ne啪 maxim谩ln铆 %maxprice!
+SELL_PRICE_BELOW_MIN: Prodejn铆 cena %price je ni啪拧铆 ne啪 minim谩ln铆 %minprice!
+BUY_PRICE_ABOVE_MAX: Kupn铆 cena %price vy拧拧铆 ne啪 maxim谩ln铆 %maxprice!
+BUY_PRICE_BELOW_MIN: Kupn铆 cena %price je ni啪拧铆 ne啪 minim谩ln铆 %minprice!
+CLICK_TO_AUTOFILL_ITEM: Klikni na ceduli s p艡edm臎tem, kter媒 chce拧 prod谩vat!
+NO_ITEM_IN_HAND: Nem谩拧 v ruce p艡edm臎t, automatick茅 p艡edvypln臎n铆 nen铆 mo啪n茅!
+PROTECTED_SHOP: Obchod 煤sp臎拧n臎 ochr谩n臎n pomoc铆 LWC!
+PROTECTED_SHOP_SIGN: Cedule obchodu 煤sp臎拧n臎 ochr谩n臎n铆 pomoc铆 LWC!
+SHOP_CREATED: Obchod vytvo艡en!
+SHOP_FEE_PAID: Zaplatil jsi %amount
+SHOP_REFUNDED: Bylo ti vr谩ceno %amount.
+ITEM_GIVEN: P艡edm臎t %item d谩n hr谩膷i %player.
+RESTRICTED_SIGN_CREATED: Cedule vytvo艡ena!
+PLAYER_NOT_FOUND: Hr谩膷 nenalezen!
+NO_PERMISSION: Na tuto akci nem谩拧 opr谩vn臎n铆!
+INCORRECT_ITEM_ID: Neplatn媒 ID p艡edm臎tu!
+INVALID_CLIENT_NAME: Va拧e u啪ivatelsk茅 jm茅no nen铆 platn媒m u啪ivatelsk媒m jm茅nem Minecraftu!
+NOT_ENOUGH_PROTECTIONS: Ochrana nemohla b媒t vytvo艡ena!
+NO_SHOP_FOUND: Nebyl nalezen 啪谩dn媒 obchod.
+CANNOT_CREATE_SHOP_HERE: Zde nen铆 mo啪n茅 vytvo艡it obchod!
+TOGGLE_MESSAGES_OFF: Zpr谩vy z tv媒ch obchod暖 ji啪 nebudou nad谩le zobrazov谩ny.
+TOGGLE_MESSAGES_ON: Zpr谩vy z tv媒ch obchod暖 budou zase zobrazov谩ny.
+TOGGLE_ACCESS_ON: Nad谩le ji啪 nem暖啪e拧 obchodovat s obchody, do kter媒ch m谩拧 p艡铆stup.
+TOGGLE_ACCESS_OFF: Op臎t m暖啪e拧 obchodovat s obchody, do kter媒ch m谩拧 p艡铆stup.

@@ -1,0 +1,115 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                        Notes                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+#Color codes & HEX colors can be used in all messages: https://wiki.ess3.net/mc/.
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Translations                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+#Time
+weeks: 周
+days: 天
+hours: 小时
+minutes: 分钟
+seconds: 秒
+week: 周
+day: 天
+hour: 小时
+minute: 分钟
+second: 秒
+
+#Miscellaneous
+everyone: 所有人
+allRewards: 所有奖励
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        Rewards                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+#Warning given to player if eligible for a reward but cannot be claimed in the current world.
+#Placholders: %reward_title% - %disabled_world%
+disabledWorldRedeemWarning: '&e%reward_title% 奖励无法在此世界中兑换。'
+
+#Warning given to player if eligible for a reward but inventory is too full to claim.
+#Placholders: %reward_title% - %required_spaces%
+inventoryFullRedeemWarning: '&e%reward_title% 奖励需要 %required_spaces% 个空闲库存空间才能兑换。'
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       Commands                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+noPermissionError: '&c您没有权限使用此命令。'
+
+#Error given when you need to be online to use this command.
+requireOnlinePlayerError: '&c您需要登录才能使用此命令。'
+
+#Error given when targeted player is not online.
+#Placeholders: %player%
+targetNotOnlineError: '&c%player% 当前不在线。'
+
+#Error given when targeted player has not played on the server before.
+#Placeholders: %player%
+targetNotPlayedBeforeError: '&c%player% 以前没有在服务器上玩过。'
+
+#Error given when trying to give reward that does not exist on the server.
+#Placeholders: %reward%
+rewardDoesNotExist: '&c%reward% 在此服务器上不存在。'
+
+#Header message when displaying a command usage.
+commandUsageHeader: '&8&m--------------&6 命令 &f用法 &8&m--------------'
+
+#Footer message when displaying a command usage.
+commandUsageFooter: '&8&m------------------------------------------'
+
+#Header message when using the help command.
+#Placeholders: %plugin_name%
+commandHelpHeader: '&8&m----------&6 %plugin_name% &f帮助 &8&m----------'
+
+#Footer message when using the help command.
+#Placeholders: %plugin_name%
+commandHelpFooter: '&8&m-----------------------------------'
+
+#Message send to the player upon successfully reloading the plugin.
+#Placeholders: %plugin_name%
+reloadSuccess: '&a成功重新加载 %plugin_name% 。'
+
+#Message send to the player upon successfully giving a reward.
+#Placeholders: %reward% - %player% - %amount%
+giveRewardSuccess: '&a成功给予 %player% %reward% (x%amount%)。'
+
+#Message send to the player upon successfully resetting a reward for a player.
+#Placeholders: %reward% - %player%
+resetSuccess: '&a成功重置 %player% 的 %reward% 。'
+
+#Message send to the player upon executing the /playtime command.
+#Placeholders: %player% - %playtime% - %afk_time%
+playtime: '&e%player% 玩了 &6%playtime%&e，其中 &6%afk_time%&e 是 AFK。'
+
+#How should the title of the top playtime command look like?
+#Placeholders: %entries_amount%
+topPlaytimeTitle: '&e前 &6%entries_amount% &e名玩家的在线时间&e：'
+
+#How should the title of the top afk time command look like?
+#Placeholders: %entries_amount%
+topAfkTimeTitle: '&e前 &6%entries_amount% &e名玩家的 AFK 时间&e：'
+
+#How should a single line of the top playtime command look like?
+#Placeholders: %position% - %player% - %playtime_long% - %playtime_short% - %playtime_digital%
+topPlaytimeLine: '&9%position%. &b%player%: &e%playtime_short%'
+
+#How should a single line of the top afk time command look like?
+#Placeholders: %position% - %player% - %afk_time_long% - %afk_time_short% - %afk_time_digital%
+topAfkTimeLine: '&9%position%. &b%player%: &e%afk_time_short%'

@@ -1,0 +1,78 @@
+Options:
+  # High, Normal, Low
+  Running-Performance: Normal
+  Multi-Thread: true
+  Async-Load-Menus: true
+  Static-Inventory:
+    Java: false
+    Bedrock: false
+  Packet-Inventory:
+    Create-Id: false
+
+  Placeholders:
+    JavaScript-Parse: false
+
+Database:
+  # Local: SQLITE
+  # External: SQL, MONGODB
+  Method: SQL
+  Type:
+    SQLite:
+      file-name: data
+      table: npc
+    SQL:
+      host: 192.168.6.230
+      port: 3306
+      user: trmenu
+      password: Aqua7296
+      database: trmenu
+      table: trmenu_user_data
+  Index:
+    # UUID, USERNAME
+    Player: UUID
+
+Loader:
+  Menu-Files:
+    - 'plugins/CustomMenusFolder'
+
+Menu:
+  Settings:
+    Bound-Item-Interval: 2000
+  Icon:
+    Inherit: false
+    Item:
+      Default-Name-Color: "&7"
+      Default-Lore-Color: "&7"
+      Pre-Color: false
+
+Action:
+  Using-Component: true
+  Inputer:
+    Cancel-Words:
+      - 'cancel|quit|end'
+      - 'q'
+  Kether:
+    Allow-Tolerance-Parser: true
+
+
+Shortcuts:
+  Offhand: [ ]
+  Sneaking-Offhand:
+    - condition: 'perm *trmenu.shortcut'
+      execute: 'open: main'
+      deny: 'return'
+  Right-Click-Player: [ ]
+  Sneaking-Right-Click-Player: [ ]
+  PlayerInventory-Border-Left: [ ]
+  PlayerInventory-Border-Right: [ ]
+  PlayerInventory-Border-Middle: [ ]
+
+RegisterCommands:
+  openMenus:
+    aliases:
+      - 'ecnumenu'
+      - 'cd'
+      - 'menu'
+    permission: null
+    execute:
+      - 'open: main'

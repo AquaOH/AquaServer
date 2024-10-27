@@ -1,0 +1,186 @@
+category:
+  # 是否启用分类GUI，这意味着玩家需要将他们的传送点分类？
+  enabled: true
+  # 如果你不希望分类菜单完全禁用，但你不想让它在提示时打开，
+  # 那么你可以选择默认分类，或者将其设置为main以打开主菜单。
+  prompt-category: main
+  # GUI的名称是什么？ 
+  name: "category"
+  # GUI的标题 (可以使用颜色代码)
+  title: "&b&l服务器传送点"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 27
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+  # 传送点的默认分类是什么？
+  default: "other"
+  # 当玩家没有该分类的权限时的设置。
+  no-permission:
+    # 如果玩家没有权限查看分类，物品是否应该被替换？
+    enabled: true
+    item:
+      # 如果你不希望显示物品，将材质设置为AIR。
+      name: "&c没有权限！"
+      material: BARRIER
+      data: 0
+      lore:
+        - "&c你不能查看此分类。"
+      amount: 1
+  # 你是否希望插件为每个分类自动创建子命令？例如 /pw <category> 打开该分类的GUI。
+  register-category-commands: false
+
+  sponsor:
+    # 是否启用赞助传送点？
+    enabled: true
+    # 如果启用，赞助传送点是否应显示在玩家传送点主菜单中？
+    appear-playerwarp: false
+    # 当拥有“pw.admin.sponsor”权限的玩家取消赞助时，是否应退还玩家的钱？
+    # 这仅在你将经济系统设置为货币而非物品时有效。
+    cancel-refund: false
+    # 当传送点正在赞助时显示的物品。
+    item:
+      # 如果通过 /pwarp icon 设置了自定义图标，是否应显示玩家自定义的图标？
+      show-custom-icon: true
+      name: "&b[warp_display]"
+      lore:
+        - "&b[取消赞助]"
+        - " "
+        - "&b拥有者: &d[owner]"
+        - "&b位置: &d[world], [location]"
+        - "&b访问次数: &d[visits]"
+        - "&b描述: "
+        - "&d[desc]"
+        - "&b传送费用: &d[cost]"
+        - " "
+        - "&b剩余时间: &d[time]"
+      # 变量 "[取消赞助]" 如果玩家有权限删除赞助传送点，将显示以下消息。
+      del-sponsor: "&dShift+右键&b以移除此赞助。\n[safe]"
+      # 变量 "[取消赞助]" 如果玩家没有权限删除赞助传送点，将显示以下消息。
+      del-not-sponsor: "&c[safe]"
+
+    # 当玩家处于冷却状态时显示的物品。
+    cooldown:
+      name: "&c赞助冷却"
+      material: BARRIER
+      data: 0
+      lore:
+        - "&c你当前处于冷却状态！还有 [cooldown] 时间。"
+      amount: 1
+
+  items:
+    # 这些是放置在GUI中的物品，用于美化界面。
+    1:
+      # 这是物品的名称。
+      name: "&b收藏"
+      # 这是物品的材质。
+      material: NETHER_STAR
+      # 这是物品的数据值
+      data: 0
+      # 物品的描述是什么？
+      lore:
+        - "&d点击&b查看你的收藏传送点。"
+      slot: 0
+      # 物品的堆叠数量是多少？
+      amount: 1
+      # 点击时将执行的命令。
+      # [server] 表示命令由控制台执行
+      # [player] 表示命令由玩家执行
+      commands:
+        - "[player] %cmd% 打开 收藏"
+      glowing: false
+      all: true
+
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [1, 3, 5, 7, 9, 17, 19, 21, 23, 25]
+      amount: 1
+
+    3:
+      name: " "
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
+      slot: [2, 6, 18, 20, 22, 24, 26]
+      amount: 1
+
+    4:
+      name: "&b访问过的传送点"
+      material: ENDER_EYE
+      data: 0
+      lore:
+        - "&d点击&b查看你访问过的传送点。"
+      slot: 8
+      amount: 1
+      commands:
+        - "[player] %cmd% 打开 访问过的传送点"
+
+  category-items:
+    # 点击这些物品进入特定分类？
+    # 这里使用的第一个分类将被视为“全部分类”，其中将显示所有传送点。你可以更改分类名称。
+
+    all:
+      displayname: "全部"
+      name: "&b所有传送点"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d点击&b查看所有传送点。"
+      slot: 4
+      amount: 1
+
+    houses:
+      displayname: "收藏建筑"
+      name: "&b收藏建筑传送点"
+      material: OAK_PLANKS
+      data: 0
+      lore:
+        - "&d点击&b查看所有收藏建筑传送点。"
+      slot: 11
+      amount: 1
+
+    shops:
+      displayname: "商店"
+      name: "&b商店传送点"
+      material: CHEST
+      data: 0
+      lore:
+        - "&d点击&b查看所有商店传送点。"
+      slot: 12
+      amount: 1
+      permission: pw.view.shop
+      teleport-price: -1
+      purge-time: 40
+      remove-days-time: 40
+
+    farms:
+      displayname: "农场"
+      name: "&b农场传送点"
+      material: DIAMOND_HOE
+      data: 0
+      lore:
+        - "&d点击&b查看所有农场传送点。"
+      slot: 13
+      amount: 1
+
+    pvp:
+      displayname: "PvP"
+      name: "&bPvP传送点"
+      material: DIAMOND_SWORD
+      data: 0
+      lore:
+        - "&d点击&b查看所有PvP传送点。"
+      slot: 14
+      amount: 1
+
+    other:
+      displayname: "其他"
+      name: "&b其他传送点"
+      material: PAPER
+      data: 0
+      lore:
+        - "&d点击&b查看所有其他传送点。"
+      slot: 15
+      amount: 1

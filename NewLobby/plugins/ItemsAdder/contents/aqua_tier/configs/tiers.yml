@@ -1,0 +1,28 @@
+info:
+  namespace: "aqua_tier"
+font_images:
+  ningen: # <----- 这个贴图的id
+    path: "ningen.png" # <----- 这个贴图的路径
+    symbol: "\u7200" # <----- 这个贴图替换的字符
+    scale_ratio: 9 # <----- 这个贴图的大小
+    y_position: 8 # <----- 这个贴图的上下偏移
+  yousei: 
+    path: "yousei.png" 
+    symbol: "\u7201" 
+    scale_ratio: 9 
+    y_position: 8 
+  yokai: 
+    path: "yokai.png" 
+    symbol: "\u7202" 
+    scale_ratio: 9 
+    y_position: 8 
+  kami: 
+    path: "kami.png" 
+    symbol: "\u7203" 
+    scale_ratio: 9 
+    y_position: 8 
+  kenja: 
+    path: "kenja.png" 
+    symbol: "\u7204" 
+    scale_ratio: 9 
+    y_position: 8 

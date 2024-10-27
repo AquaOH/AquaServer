@@ -1,0 +1,29 @@
+config-version: '23'
+
+messages:
+  prefix: <gradient:#2E8B57:#48D1CC>[铭牌] </gradient>
+  reload: <white>已重新加载！</white>
+  cooldown: <white>预览仍在进行中！</white>
+  generate: <white>资源包正在生成...</white>
+  generate-done: <white>资源包已生成！不要忘记重新安装你的资源包。</white>
+  no-nameplate: 没有铭牌
+  preview: <white>现在正在预览你的铭牌（切换到第三人称视角以查看）！</white>
+  
+  equip-nameplates: <white>成功装备铭牌 {Nameplate}。</white><yellow><click:run_command:/nameplates preview>[点击预览]</yellow>
+  force-equip-nameplates: <white>成功将铭牌 {Nameplate} 装备给 {Player}。</white>
+  unequip-nameplates: <white>你已移除你的铭牌</white>
+  force-unequip-nameplates: <white>成功移除了 {Player} 的铭牌！</white>
+  not-exist-nameplates: <white>该铭牌不存在！</white>
+  not-available-nameplates: <white>该铭牌当前不可用！</white>
+  available-nameplates: '<white>可用的铭牌：{Nameplate}。</white>'
+  have-no-nameplates: <white>你还没有任何铭牌</white>
+  force-preview: <white>强制 {Player} 预览了铭牌</white>
+  
+  equip-bubbles: <white>成功装备聊天气泡 {Bubble}</white>
+  force-equip-bubbles: <white>成功装备聊天气泡 {Bubble}</white>
+  unequip-bubbles: <white>你已移除你的聊天气泡</white>
+  force-unequip-bubbles: <white>成功移除了 {Player} 的聊天气泡！</white>
+  not-exist-bubbles: <white>该气泡不存在！</white>
+  not-available-bubbles: <white>该气泡当前不可用！</white>
+  available-bubbles: '<white>可用的气泡：{Bubble}</white>'
+  have-no-bubbles: <white>你还没有任何气泡</white>

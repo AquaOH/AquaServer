@@ -1,0 +1,401 @@
+editor-menu:
+  title: "成就编辑器" # 编辑器菜单的标题
+  rows: 4
+  items:
+    category:
+      name: "&6{category_name}" # 类别名称
+      lore:
+        - "&7编辑此类别及其成就。" # 提示：编辑此类别和其成就
+        - ""
+        - "&8➤ &a{category_achievements} &7已加载的成就" # 提示：显示已加载的成就数量
+        - ""
+        - "&e点击打开编辑器！" # 提示：点击打开编辑器
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+      flags:
+        - HIDE_ATTRIBUTES
+    create:
+      material: CHEST_MINECART
+      name: "&a创建类别" # 创建类别按钮的名称
+      lore:
+        - "&7创建一个新类别。" # 提示：创建一个新的类别
+        - ""
+        - "&e点击创建！" # 提示：点击创建类别
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&a上一页" # 上一页按钮的名称
+      lore:
+        - "&e第 {previous_page} 页" # 提示：显示上一页的页数
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&a下一页" # 下一页按钮的名称
+      lore:
+        - "&e第 {next_page} 页" # 提示：显示下一页的页数
+      slot: 35
+    close:
+      material: ARROW
+      name: "&c关闭" # 关闭按钮的名称
+      lore:
+        - "&7关闭编辑器。" # 提示：关闭编辑器
+      slot: 31
+
+achievement-list-menu:
+  title: "编辑成就: {category_id}" # 编辑成就列表菜单的标题
+  rows: 4
+  items:
+    achievement:
+      material: BOOK
+      name: "&6{achievement_name}" # 成就名称
+      lore:
+        - "&8{achievement_type_name}" # 成就类型名称
+        - ""
+        - "&7任务: &f{achievement_task}" # 成就任务
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑成就
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    create:
+      material: BOOK_AND_QUILL
+      name: "&a创建成就" # 创建成就按钮的名称
+      lore:
+        - "&7创建一个新成就。" # 提示：创建一个新成就
+        - ""
+        - "&e点击创建！" # 提示：点击创建成就
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&a上一页" # 上一页按钮的名称
+      lore:
+        - "&e第 {previous_page} 页" # 提示：显示上一页的页数
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&a下一页" # 下一页按钮的名称
+      lore:
+        - "&e第 {next_page} 页" # 提示：显示下一页的页数
+      slot: 35
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回类别菜单。" # 提示：返回类别菜单
+      slot: 31
+
+category-menu:
+  title: "编辑类别: {category_id}" # 编辑类别菜单的标题
+  rows: 4
+  items:
+    name:
+      material: NAME_TAG
+      name: "&6编辑名称" # 编辑名称按钮的名称
+      lore:
+        - "&7当前: &f{category_name}" # 当前类别名称
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑名称
+      slot: 10
+    description:
+      material: BOOK
+      name: "&6编辑描述" # 编辑描述按钮的名称
+      lore:
+        - "&7当前描述:" # 当前类别描述
+        - "{category_description}" # 显示类别描述
+        - ""
+        - "&e左键点击添加描述行！" # 提示：左键点击添加描述行
+        - "&c右键点击清空描述！" # 提示：右键点击清空描述
+      slot: 12
+    servers:
+      material: COMPASS
+      name: "&6编辑服务器" # 编辑服务器按钮的名称
+      lore:
+        - "&7当前服务器:" # 当前服务器
+        - "{category_servers}" # 显示服务器列表
+        - ""
+        - "&e左键点击添加服务器！" # 提示：左键点击添加服务器
+        - "&c右键点击清空服务器！" # 提示：右键点击清空服务器
+      slot: 13
+    item:
+      material: ITEM_FRAME
+      name: "&6编辑物品" # 编辑物品按钮的名称
+      lore:
+        - "&7当前物品: &f{category_item}" # 当前物品
+        - "&7槽位: &f{category_item_slot}" # 当前物品槽位
+        - ""
+        - "&e左键点击编辑物品！" # 提示：左键点击编辑物品
+        - "&e右键点击编辑槽位！" # 提示：右键点击编辑槽位
+      slot: 14
+    achievements:
+      material: CHEST
+      name: "&6编辑成就" # 编辑成就按钮的名称
+      lore:
+        - "&7点击查看并编辑成就。" # 提示：点击查看并编辑成就
+        - ""
+        - "&8➤ &a{category_achievements} &7已加载的成就" # 提示：显示已加载的成就数量
+        - ""
+        - "&e点击打开！" # 提示：点击打开成就编辑器
+      slot: 16
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回类别列表。" # 提示：返回类别列表
+      slot: 31
+    delete:
+      material: BARRIER
+      name: "&c删除类别" # 删除类别按钮的名称
+      lore:
+        - "&7删除此类别及" # 提示：删除类别
+        - "&7&n所有相关成就。" # 提示：同时删除所有成就
+        - ""
+        - "&cShift + 右键点击删除！" # 提示：Shift + 右键点击删除
+      slot: 35
+
+achievement-menu:
+  title: "编辑成就: {achievement_id}" # 编辑成就菜单的标题
+  rows: 4
+  items:
+    name:
+      material: NAME_TAG
+      name: "&6编辑名称" # 编辑名称按钮的名称
+      lore:
+        - "&7当前名称: &f{achievement_name}" # 当前成就名称
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑成就名称
+      slot: 10
+    description:
+      material: BOOK
+      name: "&6编辑描述" # 编辑描述按钮的名称
+      lore:
+        - "&7当前描述:" # 当前成就描述
+        - "{achievement_description}" # 显示成就描述
+        - ""
+        - "&e左键点击添加描述行！" # 提示：左键点击添加描述行
+        - "&c右键点击清空描述！" # 提示：右键点击清空描述
+      slot: 12
+    permission:
+      material: COMPARATOR
+      name: "&6编辑权限" # 编辑权限按钮的名称
+      lore:
+        - "&7当前权限: &f{achievement_permission}" # 当前成就权限
+        - ""
+        - "&e左键点击编辑！" # 提示：左键点击编辑权限
+        - "&c右键点击移除权限！" # 提示：右键点击移除权限
+      slot: 13
+    conditions:
+      material: HOPPER
+      name: "&6编辑条件" # 编辑条件按钮的名称
+      lore:
+        - "&7编辑成就所需的条件" # 提示：编辑进展条件
+        - "&7进度要求。" # 提示：条件与成就进度相关
+        - ""
+        - "&e点击打开！" # 提示：点击编辑条件
+      slot: 14
+    tiers:
+      material: DIAMOND
+      name: "&6编辑层级" # 编辑层级按钮的名称
+      lore:
+        - "&7点击编辑层级。" # 提示：点击编辑成就层级
+        - ""
+        - "&e点击打开！" # 提示：点击打开层级编辑器
+      slot: 16
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回成就列表。" # 提示：返回成就列表
+      slot: 31
+    delete:
+      material: BARRIER
+      name: "&c删除成就" # 删除成就按钮的名称
+      lore:
+        - "&7永久删除此成就。" # 提示：永久删除此成就
+        - ""
+        - "&cShift + 右键点击删除！" # 提示：Shift + 右键点击删除
+      slot: 35
+
+select-task-menu:
+  title: "选择任务: {achievement_id}" # 选择任务菜单的标题
+  rows: 5
+  items:
+    task-item:
+      material: PAPER
+      name: "&a{task_type}" # 任务类型名称
+    previous-page:
+      material: ARROW
+      name: "&a上一页" # 上一页按钮的名称
+      lore:
+        - "&e第 {previous_page} 页" # 提示：显示上一页的页数
+      slot: 36
+    next-page:
+      material: ARROW
+      name: "&a下一页" # 下一页按钮的名称
+      lore:
+        - "&e第 {next_page} 页" # 提示：显示下一页的页数
+      slot: 44
+    cancel:
+      material: ARROW
+      name: "&c取消" # 取消按钮的名称
+      lore:
+        - "&7返回成就列表。" # 提示：返回成就列表
+      slot: 40
+
+tier-list-menu:
+  title: "编辑层级: {achievement_id}" # 编辑层级菜单的标题
+  rows: 4
+  items:
+    tier:
+      material: BOOK
+      name: "&6层级 {tier_roman}" # 成就层级名称
+      lore:
+        - "&7要求数量: &f{tier_requirement}" # 提示：显示层级所需数量
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑层级
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    create:
+      material: BOOK_AND_QUILL
+      name: "&a创建层级" # 创建层级按钮的名称
+      lore:
+        - "&7创建一个新层级。" # 提示：创建一个新层级
+        - ""
+        - "&e点击创建！" # 提示：点击创建层级
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&a上一页" # 上一页按钮的名称
+      lore:
+        - "&e第 {previous_page} 页" # 提示：显示上一页的页数
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&a下一页" # 下一页按钮的名称
+      lore:
+        - "&e第 {next_page} 页" # 提示：显示下一页的页数
+      slot: 35
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回成就菜单。" # 提示：返回成就菜单
+      slot: 31
+
+tier-menu:
+  title: "编辑层级: {tier_roman}" # 编辑特定层级菜单的标题
+  rows: 4
+  items:
+    required-amount:
+      material: BOOK
+      name: "&6编辑要求数量" # 编辑要求数量按钮的名称
+      lore:
+        - "&7当前要求: &f{tier_requirement}" # 当前层级要求数量
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑
+      slot: 11
+    points:
+      material: BOOK_AND_QUILL
+      name: "&6编辑奖励点数" # 编辑奖励点数按钮的名称
+      lore:
+        - "&7当前点数: &f{tier_points}" # 当前层级奖励点数
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑
+      slot: 13
+    rewards:
+      material: GOLD_INGOT
+      name: "&6编辑奖励" # 编辑奖励按钮的名称
+      lore:
+        - "&7查看并编辑奖励。" # 提示：查看和编辑奖励
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑
+      slot: 15
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回成就菜单。" # 提示：返回成就菜单
+      slot: 31
+    delete:
+      material: BARRIER
+      name: "&c删除层级" # 删除层级按钮的名称
+      lore:
+        - "&7永久删除此成就层级。" # 提示：永久删除此成就层级
+        - ""
+        - "&cShift + 右键点击删除！" # 提示：Shift + 右键点击删除
+      slot: 35
+
+tier-rewards-menu:
+  title: "编辑奖励: {tier_roman}" # 编辑层级奖励菜单的标题
+  rows: 4
+  items:
+    reward:
+      material: GOLD_INGOT
+      name: "&6{reward_type}" # 奖励类型
+      lore:
+        - "&7数值: &f{reward_value}" # 奖励数值
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑奖励
+        - "&c右键点击移除！" # 提示：右键点击移除奖励
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    add:
+      material: BOOK_AND_QUILL
+      name: "&a添加奖励" # 添加奖励按钮的名称
+      lore:
+        - "&7添加一个新奖励。" # 提示：添加新奖励
+        - ""
+        - "&e点击添加！" # 提示：点击添加奖励
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&a上一页" # 上一页按钮的名称
+      lore:
+        - "&e第 {previous_page} 页" # 提示：显示上一页的页数
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&a下一页" # 下一页按钮的名称
+      lore:
+        - "&e第 {next_page} 页" # 提示：显示下一页的页数
+      slot: 35
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回成就菜单。" # 提示：返回成就菜单
+      slot: 31
+
+conditions-menu:
+  title: "编辑条件: {achievement_id}" # 编辑成就条件菜单的标题
+  rows: 4
+  items:
+    condition:
+      material: REPEATER
+      name: "&6{condition_type}" # 条件类型
+      lore:
+        - "&7数值: &f{condition_value}" # 条件数值
+        - ""
+        - "&e点击编辑！" # 提示：点击编辑条件
+        - "&c右键点击移除！" # 提示：右键点击移除条件
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    add:
+      material: BOOK_AND_QUILL
+      name: "&a添加条件" # 添加条件按钮的名称
+      lore:
+        - "&7添加一个新条件。" # 提示：添加新条件
+        - ""
+        - "&e点击添加！" # 提示：点击添加条件
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&a上一页" # 上一页按钮的名称
+      lore:
+        - "&e第 {previous_page} 页" # 提示：显示上一页的页数
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&a下一页" # 下一页按钮的名称
+      lore:
+        - "&e第 {next_page} 页" # 提示：显示下一页的页数
+      slot: 35
+    back:
+      material: ARROW
+      name: "&c返回" # 返回按钮的名称
+      lore:
+        - "&7返回成就菜单。" # 提示：返回成就菜单
+      slot: 31

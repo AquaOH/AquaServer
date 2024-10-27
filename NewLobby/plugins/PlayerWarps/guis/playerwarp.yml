@@ -1,0 +1,210 @@
+pwarp:
+  # 是否启用GUI？
+  enabled: true
+  # GUI的名称是什么？
+  name: "playerwarp"
+  # GUI的标题 (可以使用颜色代码)，变量 "[category]" 仅在启用时有效。
+  title: "&b&l服务器传送点 - [category] ([page]/[pages])"
+  # GUI的大小是多少？(只能是9的倍数，最大为54)
+  size: 54
+  # 是否让 /pwarp 命令打开GUI？如果启用，只需使用 /pwarp open
+  override-pwarp: true
+  # 当打开此菜单时的操作？
+  open-actions: []
+  # 当关闭此菜单时的操作？
+  close-actions: []
+  # 如果页面上有按钮，是否应移除页面项。例如，你在第0页，它不会显示上一页按钮。
+  # 你也可以在页面项位置放置一个物品，它只会在页面项不显示时出现。
+  show-needed-page-items: false
+  # 是否隐藏服务器传送点？
+  hide-server-warps: false
+  # 传送点不会出现在GUI中的黑名单槽位是什么？
+  # 这是为了在GUI中间留空位而不添加物品。
+  blacklisted-slots: ["48", "50"]
+
+  # 通过GUI搜索传送点
+  search:
+    # 是否启用此功能？
+    # 启用此功能需要ProtocolLib。
+    enabled: true
+    # 搜索界面的标题是什么？
+    title: "&b&l搜索 [search] - [category] ([page]/[pages])"
+    # 命令牌上的预设行是什么？
+    # %search% 是玩家必须输入的变量，请确保这一行没有其他内容。
+    # 如果它不包含此变量，插件会假定第一行是用户输入。颜色代码也不起作用。
+    lines:
+      - "%search%"
+      - "----------------"
+      - "请输入搜索结果。"
+    # 用于搜索的命令牌材质。这只能是一个告示牌。
+    material: OAK_SIGN
+
+    item:
+      material: OAK_SIGN
+      data: 0
+      name: "&b搜索"
+      lore:
+        - "&d点击&b搜索传送点。"
+        - " "
+        - "&b你可以通过以下方式搜索传送点："
+        - "&d* 完整的玩家名称"
+        - "&d* 传送点名称"
+      slot: 46
+      amount: 1
+      glowing: false
+
+  icon:
+    # 默认的图标是否是玩家头颅？
+    skull: true
+    # 如果上面的选项为false，图标是否继承分类图标？(只会复制材质)
+    # 如果传送点没有分类，且没有通过 /pwarp icon 设置自定义图标，则会显示以下图标。
+    inherit-category-icon: false
+    # 如果上面的选项禁用了，你可以选择默认物品材质。
+    material: DIAMOND_AXE
+    # 物品的ID是什么？
+    data: 0
+
+    # 这是GUI中头颅的名称。
+    name: "&b[warp_display]"
+    # 你可以添加多行说明。
+    # 如果你使用SQL，你可以使用占位符 [server] 来显示服务器信息。
+    lore:
+      - "&b[被封禁]"
+      - "&b[安全]"
+      - "&b[收藏夹]"
+      - " "
+      - "&b所有者: &d[owner]"
+      - "&b位置: &d[world], [location]"
+      - "&b访问次数: &d[visits]"
+      - "&b描述: "
+      - "&d[desc]"
+      - "&b创建时间: &d[date]"
+      - "&b分类: &d[category]"
+      - "&b评分: &d[rates]"
+      - "&b平均评分: &d[rates_average] &7(&e[rates_stars]&7)"
+      - "&b传送费用: &d[cost]"
+      - " "
+      - "&d右键点击&b查看更多信息。"
+    glowing: false
+
+    locked:
+      # 如果传送点被锁定，是否应在GUI中显示？
+      enabled: false
+      # 如果启用上述选项，传送点的图标是否应改变？
+      icon-changed: false
+
+      # 如果启用了上述选项，图标将更改为何种物品？
+      icon:
+        material: BARRIER
+        name: "&b[warp_display]"
+        lore:
+          - "&b[被封禁]"
+          - "&b[安全]"
+          - "&b[收藏夹]"
+          - " "
+          - "&b所有者: &d[owner]"
+          - "&b位置: &d[world], [location]"
+          - "&b访问次数: &d[visits]"
+          - "&b描述: "
+          - "&d[desc]"
+          - "&b创建时间: &d[date]"
+          - "&b分类: &d[category]"
+          - "&b评分: &d[rates]"
+          - "&b平均评分: &d[rates_average] &7(&e[rates_stars]&7)"
+          - "&b传送费用: &d[cost]"
+          - " "
+          - "&d右键点击&b查看更多信息。"
+
+  # 可以点击的项目
+  clickable-items:
+    next-page:
+      name: "&b下一页"
+      material: ARROW
+      data: 0
+      lore:
+        - "&d点击&b进入下一页。"
+      slot: 50
+      amount: 1
+      glowing: false
+
+    previous-page:
+      name: "&b上一页"
+      material: BARRIER
+      data: 0
+      lore:
+        - "&d点击&b返回上一页。"
+      slot: 48
+      amount: 1
+      glowing: false
+
+    refresh:
+      name: "&b刷新"
+      material: SUNFLOWER
+      data: 0
+      lore:
+        - "&d点击&b刷新面板。"
+      slot: 49
+      amount: 1
+      glowing: false
+      cooldown: 3
+
+    category:
+      name: "&b分类菜单"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d点击&b返回分类菜单。"
+      slot: 45
+      amount: 1
+      glowing: false
+
+    category-swapper:
+      name: "&b分类"
+      material: BOOK
+      data: 0
+      lore:
+        - "&d点击&b切换分类。"
+        - " "
+        - "%categories%"
+      slot: 51
+      amount: 1
+      glowing: false
+      current-category: "&b%category%"
+      other-category: "&d%category%"
+
+    mywarps:
+      name: "&b我的传送点"
+      material: ENDER_PEARL
+      data: 0
+      lore:
+        - "&d点击&b查看你的传送点。"
+      slot: 53
+      amount: 1
+      glowing: false
+
+    sort:
+      name: "&b排序"
+      material: HOPPER
+      data: 0
+      lore:
+        - "&d点击&b按特定格式排序GUI。"
+        - "&b当前排序: &d%sort%"
+      slot: 52
+      amount: 1
+      glowing: false
+
+  items:
+    1:
+      name: " "
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
+      slot: [45, 47, 51, 53]
+      amount: 1
+      glowing: false
+
+    2:
+      name: " "
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
+      slot: [46, 52]
+      amount: 1

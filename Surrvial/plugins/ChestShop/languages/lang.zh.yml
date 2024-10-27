@@ -1,0 +1,78 @@
+prefix: '&a[鍟嗗簵] &r'
+shopinfo: |-
+  &a鍟嗗簵淇℃伅:
+  &f鎷ユ湁鑰�: &7%owner
+  &f搴撳瓨: &7%stock
+  &f鐗╁搧: &7%item
+shopinfo_buy: '&f璐拱 &7%amount &f鍞环涓� &7%price'
+shopinfo_sell: '&f鍑哄敭 &7%amount &f鍞环涓� &7%price'
+iteminfo: '&a鐗╁搧淇℃伅: &r'
+iteminfo_fullname: '&f鍏ㄥ悕锛�&7%item'
+iteminfo_shopname: '&f鍟嗗簵鍛婄ず鐗�: &7%item'
+iteminfo_repaircost: '&f淇悊璐圭敤: &7%cost'
+iteminfo_book: |-
+  &f涔﹀悕: &7%title
+  &f涔︾睄浣滆��: &7%author
+  &f涔﹂〉: &7%pages
+iteminfo_book_generation: '&f鍥句功涓栦唬: &7%generation'
+iteminfo_lore: |-
+  &f鐭ヨ瘑:
+  &r%lore
+METRICS: |-
+  &a[鍟嗗簵] &f鎸囨爣锛�
+  &f璐︽埛锛�&7%accounts
+  &f骞冲潎浜ゆ槗娆℃暟锛�&7%totalTransactions &f锛坆uy锛�&7%buyTransactions &fsell锛�&7%sellTransactions&f锛�
+  &f骞冲潎浜ゆ槗鐗╁搧锛�&7%totalItems &f锛坆ought锛�&7%boughtItems &fsold锛�&7%soldItems&f锛�
+ACCESS_DENIED: 浣犳病鏈夎冻澶熺殑鏉冮檺!
+TRADE_DENIED: 鎮ㄦ病鏈夋潈闄愪笌璇ュ晢搴楄繘琛屼氦鏄擄紒
+TRADE_DENIED_ACCESS_PERMS: 鎮ㄤ笉鑳藉啀鍦ㄦ偍鏈夋潈璁块棶鐨勫晢搴楄繘琛屼氦鏄�!
+TRADE_DENIED_CREATIVE_MODE: '&c浣犱笉鑳藉湪鍒涢�犳ā寮忎笅浣跨敤鍟嗗簵浜ゆ槗銆�'
+NOT_ENOUGH_MONEY: 浣犳病鏈夎冻澶熺殑閲戦挶!
+NOT_ENOUGH_MONEY_SHOP: 鍟嗗簵鑰佹澘娌℃湁瓒冲鐨勯噾閽�!
+CLIENT_DEPOSIT_FAILED: 閲戦挶瀛樺叆浣犵殑甯愭埛澶辫触!
+SHOP_DEPOSIT_FAILED: 閲戦挶瀛樺叆鍟嗗簵鑰佹澘鐨勫笎鎴峰け璐�!
+NO_ECONOMY_ACCOUNT: 搴椾富鐨勭粡娴庤处鎴蜂笉瀛樺湪锛�
+NO_BUYING_HERE: 浣犱笉鑳藉湪杩欓噷涔�!
+NO_SELLING_HERE: 浣犱笉鑳藉湪杩欓噷鍗�!
+NOT_ENOUGH_SPACE_IN_INVENTORY: 杩欎釜绠卞瓙娌℃湁瓒冲鐨勫簱瀛�!
+NOT_ENOUGH_SPACE_IN_CHEST: 杩欎釜绠卞瓙娌℃湁瓒冲鐨勭┖闂�!
+NOT_ENOUGH_ITEMS_TO_SELL: 浣犳病鏈夎冻澶熺殑鐗╁搧鍙互鍑哄敭!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: "[%price %item&7 搴楅摵宸叉弧锛乚(&f%seller&7 灏濊瘯鍑哄敭 \n&7涓栫\
+  晫锛�&f%world\n&7鍦ㄤ綅缃細&f%x/%y/%z)"
+NOT_ENOUGH_STOCK: 杩欏鍟嗗簵鏂揣浜�.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: 浣犲晢搴楃殑 %material 鏂揣浜�!
+YOU_BOUGHT_FROM_SHOP: 浣犺姳璐� %price 涔颁笅 %owner 鐨勭墿鍝� %item .
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: '%buyer 鑺辫垂 %price 涔颁笅浣犵殑鐗╁搧 %item .'
+YOU_SOLD_TO_SHOP: 浣犱互 %price 鐨勪环鏍煎崠鍑虹墿鍝� %item 缁� %buyer .
+SOMEBODY_SOLD_TO_YOUR_SHOP: '%seller 浠� %price 鐨勪环鏍煎崠鍑虹墿鍝� %item 缁欎綘.'
+YOU_CANNOT_CREATE_SHOP: 浣犱笉鑳藉垱寤鸿繖绉嶇被鍨嬬殑鍟嗗簵!
+NO_CHEST_DETECTED: 鎵句笉鍒扮瀛�!
+INVALID_SHOP_DETECTED: 杩欎釜鍟嗗簵鏃犳硶浣跨敤!
+INVALID_SHOP_PRICE: 璇ュ晢搴楃殑浠锋牸鏃犳晥!
+INVALID_SHOP_QUANTITY: 鍟嗗簵鏈夋棤鏁堢殑鏁伴噺锛�
+CANNOT_ACCESS_THE_CHEST: 浣犳病鏈夋潈闄愭墦寮�杩欎釜绠卞瓙!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: 鍞环楂樹簬璐拱浠锋牸锛�
+SELL_PRICE_ABOVE_MAX: Sell price %price is above maximum %maxprice!
+SELL_PRICE_BELOW_MIN: Sell price %price is below minimum %minprice!
+BUY_PRICE_ABOVE_MAX: Buy price %price is above maximum %maxprice!
+BUY_PRICE_BELOW_MIN: Buy price %price is below minimum %minprice!
+CLICK_TO_AUTOFILL_ITEM: 鐐瑰嚮甯︽湁璇ュ簵閾哄晢鍝佺殑鏍囧織锛�
+NO_ITEM_IN_HAND: 鎮ㄦ墜涓婃病鏈夎鑷姩濉厖鐨勭墿鍝侊紒
+PROTECTED_SHOP: LWC鎴愬姛淇濇姢浜嗗晢搴�!
+PROTECTED_SHOP_SIGN: 鐢↙WC鎴愬姛淇濇姢浜嗗晢搴�!
+SHOP_CREATED: 鍟嗗簵鍒涘缓鎴愬姛!
+SHOP_FEE_PAID: 鎵ｉ櫎浣� %amount
+SHOP_REFUNDED: 閫�杩樹綘 %amount
+ITEM_GIVEN: 灏�%item缁欎簣涓�鍚�%player
+RESTRICTED_SIGN_CREATED: 鍛婄ず鐗屽垱寤烘垚鍔�!
+PLAYER_NOT_FOUND: 鐜╁鏈壘鍒�
+NO_PERMISSION: 浣犳病鏈夋潈闄�!
+INCORRECT_ITEM_ID: 浣犳寚瀹氱殑鐗╁搧ID鏃犳晥!
+INVALID_CLIENT_NAME: 鎮ㄧ殑鐢ㄦ埛鍚嶄笉鏄湁鏁堢殑 Minecraft 鐢ㄦ埛鍚嶏紒
+NOT_ENOUGH_PROTECTIONS: 鏃犳硶鍒涘缓淇濇姢!
+NO_SHOP_FOUND: 娌℃湁鎵惧埌鍟嗗簵
+CANNOT_CREATE_SHOP_HERE: 浣犱笉鑳藉湪杩欓噷鍒涘缓鍟嗗簵!
+TOGGLE_MESSAGES_OFF: 鎮ㄥ皢涓嶅啀鏀跺埌鏉ヨ嚜鎮ㄥ晢搴楃殑娑堟伅.
+TOGGLE_MESSAGES_ON: 鎮ㄧ幇鍦ㄥ皢鏀跺埌鏉ヨ嚜鎮ㄥ晢搴楃殑娑堟伅.
+TOGGLE_ACCESS_ON: 鎮ㄤ笉鑳藉啀鍦ㄦ偍鏈夋潈璁块棶鐨勫晢搴楄繘琛屼氦鏄�
+TOGGLE_ACCESS_OFF: 鎮ㄧ幇鍦ㄥ彲浠ュ湪鎮ㄥ彲浠ヨ闂殑鍟嗗簵杩涜浜ゆ槗

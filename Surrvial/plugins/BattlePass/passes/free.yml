@@ -1,0 +1,106 @@
+name: 'Free'
+default-points-required: 100
+dont-give-premium-free-rewards: false # This will mean that premium users will not receive free rewards
+
+items:
+  doesnt-have-pass-item: # This is ONLY shown/used if you have dont-give-premium-free-rewards: true. This is used to make it so premium users can only have premium rewards.
+    material: 'gold_nugget'
+    customModelData: 507
+    name: '&eTier %tier%'
+    lore:
+      - ''
+      - '&cYou can only claim premium rewards'
+  locked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 507
+    name: '&eTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &cLocked'
+  unlocked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 503
+    name: '&aTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &aUnlocked'
+  claimed-tier-item:
+    material: 'gold_nugget'
+    customModelData: 504
+    name: '&aTier %tier%'
+    lore:
+      - ''
+      - '&7Rewards:'
+      - '%lore_addon%'
+      - ''
+      - '&7Status: &aClaimed'
+
+tier-up-actions:
+  - '[message] {:bp: &7You reached tier &e%tier%}'
+
+tiers:
+  '1':  
+    rewards: ['5', '7']
+
+  '2':  
+    rewards: ['5', '7']
+
+  '3':  
+    rewards: ['5', '7']
+
+  '4':  
+    rewards: ['5', '7']
+
+  '5':  
+    rewards: ['5', '7']
+
+  '6':  
+    rewards: ['5', '7']
+
+  '7':  
+    rewards: ['5', '7']
+
+  '8':  
+    rewards: ['5', '7']
+
+  '9':  
+    rewards: ['5', '7']
+
+  '10':  
+    rewards: ['5', '7']
+
+  '11':  
+    rewards: ['5', '7']
+
+  '12':  
+    rewards: ['5', '7']
+
+  '13':  
+    rewards: ['5', '7']
+
+  '14':  
+    rewards: ['5', '7']
+
+  '15':  
+    rewards: ['5', '7']
+
+  '16':  
+    rewards: ['5', '7']
+
+  '17':  
+    rewards: ['5', '7']
+
+  '18':  
+    rewards: ['5', '7']
+
+  '19':  
+    rewards: ['5', '7']
+
+  '20':  
+    rewards: ['5', '7']

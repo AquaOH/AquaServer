@@ -1,0 +1,172 @@
+Title:
+- '&f%img_offset_-88%&f%img_nametag1%'
+
+Title-Update: 1
+
+#建议每一个之间空一行，习惯，看起来不那么乱
+Layout:
+  - 'AAAAAAIDI' 
+  - 'AAAAAAIII'
+  - 'BBBBBBIEI'
+  - 'BBBBBBIFI' 
+  - 'CCCCCCIII'
+  - 'CCCCCCIII'
+
+Events:
+  Open: #开启菜单的事件
+    - condition: perm *trmenu.use #检测玩家是否拥有menu.admin的权限（kether的写法）
+      actions: #拥有执行的动作（菜单正常打开）
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+        - 'delay: 2'
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+
+      deny: #没有执行的动作（菜单被return动作中断）
+        - 'tell: &c你不是管理员'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: <r#2:75:100>你还不是管理员哦！'
+        - 'return'
+  Close: #菜单关闭的事件
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+    - 'delay: 3'
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+
+
+Icons: 
+  A: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#815dcf}Sad Cat'
+      lore: 
+        - '&{#7454ba}ID: cat'
+        - '&{#7454ba}售价： 5000 月円'
+        - '&{#7454ba}余额： %xconomy_balance_value% 月円'
+      update: 1
+      icons:
+        - condition: perm *nameplates.equip.cat
+          display:
+            lore:
+              - '&{#7454ba}ID: cat'
+              - '&{#7454ba}您已经拥有了！'
+    actions: 
+      all: 
+        - condition: perm *nameplates.equip.cat
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#815dcf}哎呀！你已经有这个铭牌了 &{#815dcf}快试着装备吧 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 5000 then not perm *nameplates.equip.cat 
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#815dcf}恭喜获得Nametag! 0 50 10"
+            - 'console: money take %player_name% 5000'
+            - 'console: lp user %player_name% permission set nameplates.equip.cat'
+        - condition: if check papi "%xconomy_balance_value%" < 5000 then not perm *nameplates.equip.cat
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'
+  B: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#3c8dc3}Thank you,Cheems'
+      lore: 
+        - '&{#367faf}ID: cheems'
+        - '&{#367faf}售价： 5000 月円'
+        - '&{#367faf}余额： %xconomy_balance_value% 月円'
+      update: 1
+      icons:
+        - condition: perm *nameplates.equip.cheems
+          display:
+            lore:
+              - '&{#367faf}ID: cheems'
+              - '&{#367faf}您已经拥有了！'
+    actions: 
+      all: 
+        - condition: perm *nameplates.equip.cheems
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#3c8dc3}哎呀！你已经有这个铭牌了 &{#3c8dc3}快试着装备吧 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 5000 then not perm *nameplates.equip.cheems
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#3c8dc3}恭喜获得Nametag! 0 50 10"
+            - 'console: money take %player_name% 5000'
+            - 'console: lp user %player_name% permission set nameplates.equip.cheems'
+        - condition: if check papi "%xconomy_balance_value%" < 5000 then not perm *nameplates.equip.cheems
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'
+  C: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#5BA84D}Happy Egg'
+      lore: 
+        - '&{#529745}ID: egg'
+        - '&{#529745}售价： 5000 月円'
+        - '&{#529745}余额： %xconomy_balance_value% 月円'
+      update: 1
+      icons:
+        - condition: perm *nameplates.equip.egg
+          display:
+            lore:
+              - '&{#529745}ID: egg'
+              - '&{#529745}您已经拥有了！'
+    actions: 
+      all: 
+        - condition: perm *nameplates.equip.egg
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#5BA84D}哎呀！你已经有这个铭牌了 &{#5BA84D}快试着装备吧 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 5000 then not perm *nameplates.equip.egg
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#5BA84D}恭喜获得Nametag! 0 50 10"
+            - 'console: money take %player_name% 5000'
+            - 'console: lp user %player_name% permission set nameplates.equip.egg'
+        - condition: if check papi "%xconomy_balance_value%" < 5000 then not perm *nameplates.equip.egg
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'
+        
+  D:
+    display:
+      material: PAPER
+      name: '&aTips'
+      nbt:
+        CustomModelData: 10033 
+      lore:
+        - '&a 使用/nameplates equip <ID> 装备对应ID的Nametag' 
+        - '&a 使用/nameplates list 查看已有的Nametag'       
+
+  E:
+    display:
+      material: PAPER
+      name: '&a上一页'
+      nbt:
+        CustomModelData: 10055
+      lore:
+        - '&a当前页数：1/4'     
+
+  F:
+    display:
+      material: PAPER
+      name: '&a下一页'
+      nbt:
+        CustomModelData: 10056
+      lore:
+        - '&a当前页数：1/4'     
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'force-open: nametag2'  
+     

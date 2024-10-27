@@ -1,0 +1,76 @@
+signs:
+    top:
+        default:
+        - '&7&m       &r #{POSITION} &7&m       '
+        - '&6{NAME}'
+        - '&e{VALUE} {VALUENAME}'
+        - '&7&m                   '
+no-player-skin:
+    default: Superman00800
+formatted:
+    k: 千
+    m: 百万
+    t: 兆
+    b: 十亿
+    q: 千亿
+    qi: 量子
+    sx: 十三
+    sp: 超级
+    o: 八
+    n: 九
+    d: 十
+    ud: 无穷
+time:
+    w: '周 '
+    d: '天 '
+    h: '小时 '
+    m: '分钟 '
+    s: 秒
+noperm: 你没有权限执行此操作！
+commands:
+    reload:
+        success: '&a配置已重新加载！'
+        fail: '&c重新加载配置时发生错误。查看控制台以获取更多信息。'
+    export:
+        fileexists: '&c文件 &f{FILE}&c 已经存在！'
+        starting: '&7正在从数据库中获取所有玩家信息。这可能需要一些时间。'
+        fail: '&c导出时发生错误。查看控制台以获取更多信息。'
+        progress: '&e进度: &f{DONE}&7/&f{TOTAL}&7 个看板已获取'
+        success: '&a缓存已导出到文件 &f{FILE}&a！'
+    viewer:
+        success: |
+            &a缓存已上传，可以在此查看 &f <hover:show_text:'<yellow>点击前往&f {URL}'><click:open_url:'{URL}'><white><underlined>{URL}</click></hover>
+        uploading: '&7正在上传...'
+    import:
+        nofile: '&c文件 &f{FILE}&c 不存在！'
+        starting: '&7正在从 &f{FILE} 加载所有缓存的统计数据'
+        fail: '&c导入时发生错误。查看控制台以获取更多信息。'
+        insertprogress: '&e进度: &f{DONE}&7/&f{TOTAL}&7 个看板已导入'
+        success: '&a缓存已从文件 &f{FILE}&a 导入！'
+no-data:
+    lb:
+        name: '---'
+        value: '---'
+    extra: '---'
+    rel:
+        position: '{POSITION}'
+        name: '---'
+        value: '---'
+loading:
+    text: 加载中
+    short: -?-
+    position: ..
+    size: '...'
+updater:
+    slow-feedback: '&7正在检查更新并下载...'
+    disabled: '&c更新器已禁用！&7请在配置中启用更新器以下载更新。'
+    success: '&a更新已下载！&7重启服务器以应用更新。'
+    warnings:
+        could-not-delete-old-jar: '&a更新已下载&e 但无法删除旧的 jar 文件。&7请在重启服务器之前删除旧的 jar 文件。'
+    errors:
+        no-update-available: '&a你已经是最新版本！'
+        while-checking: '&e检查更新时发生错误。&7请查看控制台获取更多信息。'
+        already-downloaded: '&a你已经下载了更新！&7重启服务器以应用它。'
+        while-downloading: '&e下载更新时发生错误。&7请查看控制台获取更多信息。'
+        unknown: '&e发生未知错误: {ERROR}'
+        uncaught: '&c执行此命令时发生错误。&7请查看控制台。'

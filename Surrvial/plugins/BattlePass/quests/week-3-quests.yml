@@ -1,0 +1,137 @@
+quests:
+  '1': # 任务ID
+    name: 第3周 - 矿工 # 任务名称
+    type: block-break # 任务类型
+    variable: coal_ore # 玩家必须破坏的方块
+    required-progress: 100 # 玩家需要破坏煤矿方块的次数
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: diamond_pickaxe:0
+      amount: 1
+      name: '&e矿工'
+      lore:
+      - '&7开采 &e100 个煤矿'
+      - ''
+      - '&7进度 &e%progress_bar%'
+  '2': # 任务ID
+    name: 第3周 - 社交 # 任务名称
+    type: chat # 任务类型
+    variable: none # 任务变量
+    required-progress: 300 # 玩家需要在聊天中说话的次数
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: paper:0
+      amount: 1
+      name: '&e社交'
+      lore:
+      - '&7在聊天中说话 &e300 次'
+      - ''
+      - '&7进度 &e%progress_bar%'
+  '3': # 任务ID
+    name: 第3周 - 高级社交 # 任务名称
+    type: chat # 任务类型
+    variable: none # 任务变量
+    required-progress: 150 # 玩家需要在聊天中说话的次数
+    points: 100 # 任务奖励的点数
+    exclusive: premium # 仅限高级会员
+    item: # 菜单中显示的物品
+      material: paper:0
+      amount: 1
+      name: '&e仅限高级会员 - 社交'
+      lore:
+      - '&7在聊天中说话 &e150 次'
+      - '&7&o仅限高级会员。'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '4': # 任务ID
+    name: 第3周 - 金钱 # 任务名称
+    type: block-place # 任务类型
+    variable: gold_block # 玩家必须放置的方块
+    required-progress: 100 # 玩家需要放置金块的次数
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: gold_block:0
+      name: '&e金钱'
+      lore:
+      - '&7放置 &e100 个金块'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '5': # 任务ID
+    name: 第3周 - 战斗准备 # 任务名称
+    type: craft # 任务类型
+    variable: diamond_sword # 玩家必须制作的物品
+    required-progress: 1 # 玩家需要制作1把钻石剑
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: diamond_sword:0
+      name: '&e战斗准备'
+      lore:
+      - '&7制作 &e1 把钻石剑'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '6': # 任务ID
+    name: 第3周 - 农夫 # 任务名称
+    type: milk # 任务类型
+    variable: none # 任务变量
+    required-progress: 5 # 玩家需要挤奶的次数
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: milk_bucket:0
+      name: '&e农夫'
+      lore:
+      - '&7挤 &e5 头牛的奶'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '7': # 任务ID
+    name: 第3周 - 铁匠 # 任务名称
+    type: smelt # 任务类型
+    variable: iron_ingot # 玩家必须熔炼的物品
+    required-progress: 20 # 玩家需要熔炼20个铁矿石
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: iron_ingot:0
+      name: '&e铁匠'
+      lore:
+      - '&7熔炼 &e20 个铁矿石'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '8': # 任务ID
+    name: 第3周 - 农夫2 # 任务名称
+    type: shear # 任务类型
+    variable: none # 任务变量
+    required-progress: 100 # 玩家需要剪羊毛的次数
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: white_wool:0
+      name: '&e农夫2'
+      lore:
+      - '&7剪 &e100 只羊的羊毛'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '9': # 任务ID
+    name: 第3周 - 宠物 # 任务名称
+    type: tame # 任务类型
+    variable: wolf # 玩家必须驯服的生物
+    required-progress: 1 # 玩家需要驯服1只狼
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: monster_egg:0
+      name: '&e宠物'
+      lore:
+      - '&7驯服 &e1 只狼'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '100': # 任务ID
+    name: 第3周 - 马术 # 任务名称
+    type: ride-mob # 任务类型
+    variable: horse # 玩家必须骑乘的生物
+    required-progress: 1 # 玩家需要骑乘1匹马
+    points: 100 # 任务奖励的点数
+    item: # 菜单中显示的物品
+      material: saddle:0
+      name: '&e马术'
+      lore:
+      - '&7骑乘 &e1 匹马'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+actions-version: 2

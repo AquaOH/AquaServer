@@ -1,0 +1,22 @@
+Player_Buy: §a你购买了 {0} 个 {1}，共花费 {2}￥
+NoSpace: '#FF0000你的背包空间不足！'
+Ammount: '#00FF00数量: {0}'
+Price: '#00FF00购买 {0} 需要 {1}￥'
+NoMoney: §c你的钱不够！
+SellItem: §a出售 {0} 价格为 {1}￥
+NoItem: §c你没有这个物品！
+Player_Sell: §a你卖出了 {0} 个 {1}，获得 {2}￥
+ExtraItemInfo_OnlySell: §7§i按住Shift点击以出售
+ExtraItemInfo_OnlyBuy: §7§i点击购买
+ExtraItemInfo_Both: §7§i点击购买，按住Shift点击以出售
+NoBuyPermission: §c你没有权限在这个售货机中购买！
+NoSellPermission: §c你没有权限在这个售货机中出售！
+OutOfStock: §c库存不足！
+Stock: '#00FF00库存: {0}'
+NoPlacePermission: §c你没有权限放置售货机！
+ShowOutside: '§7外部显示: {0}'
+'Yes': '是'
+'No': '否'
+LeftToEdit: §a左键点击以编辑
+RightToRemove: §e右键点击以移除
+SellerNoMoney: §c卖家没有足够的钱来购买该物品！

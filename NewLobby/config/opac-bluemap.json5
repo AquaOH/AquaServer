@@ -1,0 +1,12 @@
+{
+	// How often, in ticks, the markers should be refreshed. Set to 0 to disable automatic refreshing.
+	// Default is 10 minutes (12000 ticks).
+	updateInterval: 12000,
+	// The min and max Y for the markers. If these are the same, the marker will be drawn as a flat plane.
+	// Default is 75 to 75.
+	markerMinY: 75.0,
+	markerMaxY: 75.0,
+	// If set to false, the markers won't be covered up by objects in front of it.
+	// Default is false.
+	depthTest: false
+}

@@ -1,0 +1,212 @@
+# BattlePass
+# 由 GC, Hyfe, Zak 制作
+
+# 版本: 4.5.3
+# 发布日期: 28/06/2024
+
+# 除非有指示，否则不要更改此版本。
+config-version: 1
+
+# 如果您使用的是数据库连接（如MySQL），请填写此信息。
+storage-options:
+  # 这将延迟加载用户数据半秒，以确保用户所在的服务器已经保存了他们的数据。
+  # 如果您使用的是任何非直接文件存储的数据库，请使用此功能。JSON不需要此功能。
+  bungee-fix: true
+  
+  # 每次保存之间的时间间隔（以秒为单位），以避免数据丢失。
+  auto-save-interval: 180
+  
+  # 插件如何存储数据。可以是JSON（平面文件）或MySQL（数据库）。
+  storage-method: MySQL
+  
+  # 用于连接的地址。
+  # 如果您有自定义的MySQL端口，请使用格式 'localhost:3306'
+  address: 192.168.6.230
+  
+  # 表名之前的前缀。
+  prefix: battlepass-
+  
+  # BattlePass将使用的数据库名称。
+  # 您必须手动创建此数据库，因为它不会自动生成。
+  database: battlepass
+  
+  # 用于登录的信息。
+  username: battlepass
+  password: Aqua7296
+  
+  # 这些是MySQL连接的附加设置。
+  # 只有在您了解其作用的情况下才应更改这些设置。
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    connection-timeout: 5000
+  
+  # 这些属性在大多数情况下不需要更改，除非您遇到问题。
+  connection-properties:
+    
+    # 如果您遇到SSL错误，您可能需要禁用此项，
+    # 但我们始终建议在可能的情况下使用SSL。
+    useSSL: false
+
+# 以秒为单位，您不能使用小数点
+join-message-delay: 5
+
+enable-ban-permission: false # 启用battlepass.block权限，阻止用户使用BattlePass。
+
+# 设置为 [] 以禁用任一项。
+whitelisted-worlds: []
+blacklisted-worlds: # 任务无法进展的世界名称。
+  - world_with_no_quests
+  - another_world
+
+daily-quests-enabled: true # 如果此值设置为false，将禁用每日任务的计算。
+# 从Bungee服务器获取每日任务
+# 要使其工作，Bungee代理中的一个服务器应设置为'false'，其他服务器应设置为'true'
+daily-quests-use-bungee: false
+
+permanent-daily-quest-ids: []
+
+# 每当任何玩家完成任何任务时，为该玩家运行的操作。
+# 默认情况下为空，如果您想要操作，请按以下方式设置：
+#
+# quest-completed-actions:
+#   - '[message]{Well you did something}'
+quest-completed-actions:
+- '[title]{&e任务完成!}'
+- '[subtitle]{&e%quest_name%&f 已经完成}'
+
+current-season:
+  time-zone: Asia/Shanghai # 周发布所基于的时区。
+  start-date: 01/09/2024 # 这是所有周发布的基准日期。格式: dd/mm/yyyy
+  start-time: 00:00 # 周发布所基于的当天时间。
+  notification-method: action bar & chat # 如何向玩家发送通知。选项: action bar, chat, action bar & chat 或 none。
+  auto-receive-rewards: false # 如果此值设置为false，玩家需要在界面中点击奖励来领取。
+  daily-quest-reset-time: 00:00
+  daily-quest-amount: 9 # 同时可用的每日任务数量
+  quest-glow-on-completion: true # 如果任务完成后会有附魔光效。
+  completionCustomModelData: 0
+  completionMaterial: '' # 使用""以禁用
+  notify-at-percentages:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 100
+  # 从`quests/week-pool.yml`中自动生成每周任务
+  # 插件将在启动新赛季后生成任务
+  # **插件将删除旧的周任务!**
+  #
+  # 启用此选项后启动新赛季可能会导致轻微延迟，因此请勿在服务器未空时使用
+  auto-generate-weekly-quests:
+    enable: false
+    allow-duplicated: true
+    weeks: 19
+    free-quests-per-week: 7
+    premium-quests-per-week: 4
+  unlocks:
+    require-previous-completion: true # 是否必须完成前一周的所有任务才能开始下一周的任务。
+    lock-previous-weeks: false # 新的一周发布时是否会锁定前几周。
+
+season-finished:
+  stop-daily-quests: true # 赛季结束后是否停止生成每日任务/不再计入进度。
+  stop-other-quests: false # 如果设置为true，则除每日任务外，其他任务将无法进展。与上述选项结合使用可以阻止所有任务。
+
+# disabled-plugin-hooks: # 这将禁用指定插件的任何任务加载。如果使用的是它们的过时版本并导致错误，可以使用此选项来停止它们。
+#  - 'AutoSell'
+#  - 'PlotSquared'
+
+enable-play-time: false # 如果您打算使用游戏时间任务，请将此项切换为true。
+
+reward-excess-points: # 如果设置为vault，则需要Vault和经济插件。如果设置为internal，则不需要其他插件。
+  method: vault # 将此设置为none, vault或internal。如果是internal，值将存储在BattlePass内，您必须使用命令进行添加/删除，并使用占位符获取。
+  currency-per-point: # 每获得一个多余点数所给的货币数量。
+    free: 50
+    premium: 100
+
+fixes:
+  use-improved-tier-points: true # 以前如果设置了300点给第10级，那意味着300点到第11级。这使得它更加合乎逻辑，现在是300点到达第10级。
+
+# 启用此设置以添加酿造保护。它将在酿造后为药水添加NBT标签，以确保玩家不会使用相同的药水完成任务。
+# 仅在您不使用酿造任务时禁用它。
+brewing-protection: true
+
+# 启用此设置以添加破坏保护。如果启用，玩家破坏其他玩家放置的方块将无法进展破坏任务。
+break-protection: true
+
+# 如果破坏任务在天空方块石矿/矿石生成器上无法工作，请启用此设置。
+# 它将绕过放置/破坏方块的缓存，因为一些天空方块生成器似乎无法与方块破坏兼容。
+force-skyblock-generator-support: false
+
+boss-bar:
+  enabled: false
+  persistent: false
+  hide-after: 5 # 任务进展后显示Boss条的时间（以秒为单位）。如果设置为persistent，此设置不适用
+  use-notify-percentages: true # 如果为true，Boss条将仅在达到某一进度阈值时显示
+  disabled-quest-types:
+  - fly
+  - glide
+  - sneak
+  - walk
+  - sprint
+  - move
+  # 仅适用于1.9及以上版本设置
+  color: PINK # 必须是来自 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html 的颜色，并且必须为大写字母
+  style: SOLID # 必须是来自 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html 的样式，并且必须为大写字母
+
+# 每周任务的显示项目数量是否应表示周数？例如，第3周的任务项目数量将为3
+weekly-quest-item-amounts: true
+battle-pass-aliases: []
+
+# SUM - 如果玩家拥有多个增益器，插件将对它们进行求和
+# 示例：
+# - 服务器增益器 +10%
+# - 玩家增益器 +7%
+# - 玩家增益器 +5%
+# 最终增益：10 + 7 + 5 = 22%
+#
+# SUM_DIFFERENT - 如果玩家拥有多个增益器，最高的服务器增益器将与最高的玩家增益器相加
+# 示例：
+# - 服务器增益器 +10%
+# - 玩家增益器 +7%
+# - 玩家增益器 +5%
+# 最终增益：10 + 7 = 17%
+#
+# HIGHEST - 如果玩家拥有多个增益器，插件将使用最高的增益器
+# 示例：
+# - 服务器增益器 +10%
+# - 玩家增益器 +7%
+# - 玩家增益器 +5%
+# 最终增益：10%
+#
+boosters-strategy: SUM_DIFFERENT
+# 显示周/任务的ID（权限：battlepass.debug.id）
+menu-show-id: true
+menu-auto-add-booster-lore: true
+
+# 启用此功能时，玩家需要选择任务才能完成它
+# 玩家只能选择有限数量的任务
+# 限制由默认值和使用权限指定
+# 玩家也可以取消任务，但这将导致任务进度丢失
+quest-select:
+  enable: false
+  default-limit: 1
+  limit-permission: battlepass.quest.limit.<num>
+  max-limit: 10
+  # 自动将选择状态添加到任务描述的末尾
+  # 禁用时，您需要手动将 %select_status% 占位符添加到每个任务的描述中
+  auto-add-status: true
+  # 在任务概览菜单中选定任务名称的格式
+  # 使用占位符 %selected_quests%
+  selected-quest-format: '&7» &6%name%'
+last-config-update: 4.6.7
+leaderboards:
+  # 创建排行榜缓存并每X分钟更新一次。
+  # 推荐用于有大量玩家的服务器 - 如果在这些服务器上禁用此功能，打开排行榜时插件可能会崩溃
+  # 仅在低内存服务器上禁用
+  use-cache: true
+  # 每X分钟刷新排行榜缓存
+  # 使用占位符 %battlepass_top_time% 获取刷新时间
+  cache-refresh-minutes: 10
+  # 如果插件无法在服务器缓存中找到该玩家的名称
+  not-found-name: Error

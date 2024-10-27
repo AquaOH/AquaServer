@@ -1,0 +1,315 @@
+#    ______    _____   ____    __  ___
+#   / ____/   / /   | / __ \  /  |/  /
+#  / /   __  / / /| |/ / / / / /|_/ /  作者: jonagamerpro1234
+# / /___/ /_/ / ___ / /_/ / / /  / /   版本: 1.8.0-b0
+# \____/\____/_/  |_\___\_\/_/  /_/    感谢使用 CustomJoinAndQuitMessage <3
+#
+# ● 一个简单的插件，用于个性化玩家进入和退出ECNUMC时的消息及更多功能...
+#
+# ● Spigot: https://www.spigotmc.org/resources/custom-join-and-quit-message-1-8-x-1-19-x.57006/
+# ● Modrinth: https://modrinth.com/plugin/customjoinandquitmessages
+# ● Discord: https://discord.gg/c5GhQDQCK5
+# ● 问题反馈: https://github.com/jonagamerpro1234/CustomJoinAndQuitMessages/issues
+# ● 插件统计: https://bstats.org/plugin/bukkit/CustomJoinAndQuitMessages/6318
+
+# | 设置 |
+Settings:
+
+  # 显示插件加载的重要信息
+  Debug: true
+
+  # 你可以使用插件提供的可用语言，或者添加你自己的翻译 [默认 = en_US]
+  Lang: en_US
+
+  # 此功能让你知道插件是否有更新 [不会禁用控制台消息]
+  Update:
+
+    # 你可以在这里启用或禁用此功能
+    Enabled: false
+
+    # 你将从以下位置获取更新 [spigot | gitHub]，区别如下所示：
+    # |Spigot| 只接收已发布的更新，不会接收测试版通知
+    # |Modrinth| 即将推出
+    # |GitHub| 获取发布的和测试版的更新，你将能接收两种版本的通知
+    GetFromUpdate: spigot
+
+# | Hooks |
+Hooks:
+
+  # 这里你可以配置与 LuckPerms 相关的所有内容，并且可以启用或禁用功能
+  LuckPerms:
+
+    # 你可以在这里启用或禁用此功能
+    Enabled: true
+
+    # 此功能允许插件检测玩家在设定时间段内是否改变了等级，在 [Tick] 部分定义该时间
+    AutoUpdateGroup:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      # 这里可以定义自动执行操作的时间 [默认 = 600]，600 tick = 30 秒
+      Tick: 600
+
+  # 这里你可以定义从 Minecraft 传到 Discord 的消息所在的 Discord 频道
+  DiscordSVR:
+
+    # 你可以在这里启用或禁用此功能
+    Enabled: false
+
+    # 这是用于聊天的频道 ID
+    Channel-Id: "none"
+
+  # 这里你可以更改与 EssentialsX 配合使用的每个功能的设置
+  EssentialsX:
+
+    Enabled: false
+
+    # 此选项允许你在加入或退出ECNUMC时，隐藏消息不显示给其他玩家
+    HidePlayerIsVanish: true
+
+    #
+    DisableJoinQuitSoundsInVanish: true
+
+    # 这里你可以定义从 Minecraft 传到 Discord 的消息所在的 Discord 频道
+    # (!) 需要安装 [Essentials Discord] 插件才能工作
+    EssentialsDiscord:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: FALSE
+
+      # 这是用于聊天的频道 ID
+      Channel-Id: "none"
+
+      # 它将使用 EssentialsDiscord 插件配置中定义的频道，并忽略 CustomJoinAndMessages 的 Channel-Id
+      UseDefaultChannel: false
+
+# | ChatFormat |
+# 这里你可以自定义玩家进入和退出时的消息，并可以使用各种功能进行自定义
+# (!) 对于组的自定义，你需要将类型更改为 [group]
+ChatFormat:
+
+  # 你可以启用或禁用控制台中的聊天显示
+  ShowChatInConsole: false
+
+  # 你可以配置格式类型，选项有：
+  # |normal| 用于所有玩家的输入和输出消息的一般自定义，不支持组功能
+  # |group| 用于按组自定义，禁用一般自定义并允许为每个组进行更好的定制
+  # (!) 需要安装 LuckPerms 才能使用组自定义
+  Type: normal
+
+  # | Join |
+  Join:
+
+    # 你可以在这里启用或禁用此功能
+    Enabled: true
+
+    # 你可以在这里定义进入ECNUMC时的消息
+    Format: "&e[&a+&e] &3{player} &7加入了ECNUMC"
+
+    #[即将推出]
+    JoinMessageDelay: 0
+
+    #
+    Title-Settings:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #
+      Title: "欢迎来到ECNUMC"
+
+      #
+      SubTitle: "{player}"
+
+      #
+      FadeIn: 20
+
+      #
+      Stay: 40
+
+      #
+      FadeOut: 20
+
+    #
+    Actionbar:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #[即将推出]
+      Delay: 0
+
+      #
+      Format: ""
+
+    Sound:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #
+      SendToAll: true
+
+      #
+      Name: "BLOCK_NOTE_BLOCK_PLING"
+
+      #
+      Volume: 10
+
+      #
+      Pitch: 1
+
+  # | First Join |
+  First-Join:
+
+    # 你可以在这里启用或禁用此功能
+    Enabled: true
+
+    #
+    Format: "&3欢迎加入ECNUMC，希望你在这里度过愉快的时光"
+
+    #
+    FirstJoinMessageDelay: 0
+
+    #
+    Title-Settings:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #
+      Title: ""
+
+      #
+      SubTitle: ""
+
+      #
+      FadeIn: 20
+
+      #
+      Stay: 40
+
+      #
+      FadeOut: 20
+
+    #
+    Actionbar:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #[即将推出]
+      Delay: 0
+
+      #
+      Format: ""
+
+    #
+    Sound:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #
+      SendToAll: true
+
+      #
+      Name: "BLOCK_NOTE_BLOCK_PLING"
+
+      #
+      Volume: 10
+
+      #
+      Pitch: 1
+
+  # | Quit |
+  Quit:
+
+    # 你可以在这里启用或禁用此功能
+    Enabled: true
+
+    # 你可以在这里定义退出ECNUMC时的消息
+    Format: "&e[&c-&e] &3{player} &7离开了ECNUMC"
+
+    #
+    Title-Settings:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #
+      Title: ""
+
+      #
+      SubTitle: ""
+
+      #
+      FadeIn: 20
+
+      #
+      Stay: 40
+
+      #
+      FadeOut: 20
+
+    #
+    Actionbar:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #[即将推出]
+      Delay: 0
+
+      #
+      Format: "<red>欢迎来到 &bECNUMC"
+
+    #
+    Sound:
+
+      # 你可以在这里启用或禁用此功能
+      Enabled: true
+
+      #
+      SendToAll: true
+
+      #
+      Name: "BLOCK_NOTE_BLOCK_PLING"
+
+      #
+      Volume: 10
+
+      #
+      Pitch: 1
+
+# |Welcome|
+Welcome:
+
+  # 你可以在这里启用或禁用此功能
+  Enabled: true
+
+  # 允许根据组别使用欢迎信息，并禁用常规的欢迎消息
+  UseWelcomePerGroup: false
+
+  #
+  Delay: 0
+
+  # 你可以在这里设置自己的欢迎消息
+  Text:
+    - '<gradient:#8200FC:#00FC95>=========================================</gradient>&r'
+    - '{0}'
+    - '&e> &7欢迎来到ECNUMC'
+    - '{0}'
+    - '&e> &7Wiki: <green>wiki.ecnumc.club'
+    - '&e> &7使用 &bShift + F 打开菜单'
+    - '{0}'
+    - '<gradient:#8200FC:#00FC95>=========================================</gradient>&r'
+
+# 我建议不要更改任何内容
+File-Version: 5
+
+# |> 这就是配置文件的全部内容... [-_-] 更多功能即将推出
+#
+# | 配置文件  |
+# | 版本 1.8  |

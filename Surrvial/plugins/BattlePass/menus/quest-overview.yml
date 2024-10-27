@@ -1,0 +1,95 @@
+menu-title: ':offset_-88::bp_quest_overview:'
+menu-rows: 2
+
+week-slots:
+  slots: '1...7' # ... is used to signify all of the ones in between. It functions the same as 11, 12, 13, 14, 15, 16, 17, 18
+
+menu:
+  '9':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页 &7(点击)'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {portal}' 
+      - '[menu](page ! 1) {previous-page}' 
+  '10':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页 &7(点击)'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {portal}' 
+      - '[menu](page ! 1) {previous-page}'
+  '11':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页 &7(点击)'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {portal}' 
+      - '[menu](page ! 1) {previous-page}'
+
+  '15':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e每日任务 &7(%daily_time_left%)'
+    actions:
+      - '[menu] {daily-quests}'
+  '16':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e每日任务 &7(%daily_time_left%)'
+    actions:
+      - '[menu] {daily-quests}'
+  '17':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e每日任务 &7(%daily_time_left%)'
+    actions:
+      - '[menu] {daily-quests}'
+
+#  '32':
+#    item:
+#      material: arrow:0
+#      name: '&e下一页 &7(点击)'
+#      lore:
+#        - ''
+#        - '&7&o(( 点击前往下一页 ))'
+#    actions:
+#      - '[menu] {next-page}'
+
+static-items:
+  week-item:
+    material: 'gold_nugget'
+    customModelData: 505
+    name: '&e第 %week% 周 &7(%status%&7)'
+    lore:
+      - ''
+      - '&7&o(( 点击查看任务 ))'
+  locked-week-item:
+    material: 'gold_nugget'
+    customModelData: 506
+    name: '&e第 %week% 周 &7(%status%&7)'
+    lore:
+      - ''
+      - '&7&o(( 点击查看任务 ))'
+  requires-previous-completion-item: # Only used if you have require previous completion set to true in your settings.yml.
+    material: 'gold_nugget'
+    customModelData: 506
+    name: '&e第 %week% 周 &7(%status%&7)'
+    lore:
+      - ''
+      - '&7&o(( 点击查看任务 ))'

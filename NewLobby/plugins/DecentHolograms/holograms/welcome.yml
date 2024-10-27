@@ -1,0 +1,26 @@
+location: The Celestial City by Kaizen87:-46.500:62.000:-33.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f§f쀐§r'
+    height: 0.3
+  - content: '&a&lECNU MC Utopia'
+    height: 0.3
+  - content: <#9df3c4>使用<#62d2a2><Shift> + <F><#9df3c4>组合键打开菜单
+    height: 0.3
+  - content: <#9df3c4>前方探索主城
+    height: 0.3
+  - content: <#d7fbe8>指南：wiki.ecnumc.club
+    height: 0.3
+  - content: '<#d7fbe8>QQ群: 828265225'
+    height: 0.3
+  - content: '&a祝游玩愉快！'
+    height: 0.3
+  - content: '#ICON: SPRUCE_SAPLING'
+    height: 0.6
+  actions: {}

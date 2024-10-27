@@ -1,0 +1,45 @@
+Options:
+  Check-Update: true
+  Proxy: VELOCITY
+  Log-Normal: '[{0}] {1}: {2}'
+  Log-Private: '[{0}] {1} -> {2}: {3}'
+  Log-Delete-Time: 0
+  Depend-Expansions: ['player', 'server']
+  Prevent-Tab-Complete: false
+  Component-Max-Length: 32700
+  Always-Cancel-Chat-Event: false
+  Cheat-Client-Secure-Chat: true
+  Disabled-Commands: []
+
+Channel:
+  Default: 'Normal'
+
+Database:
+  Method: SQL
+  SQL:
+    host: 192.168.6.230
+    port: 3306
+    user: trchat
+    password: Aqua7296
+    database: trchat
+    table: trchat_user_data
+
+Redis:
+  enabled: false
+  host: 192.168.6.230
+  port: 6379
+  user: ~
+  password: Aqua7296
+  connect: 32
+  timeout: 1000
+
+Chat:
+  Anti-Repeat: 0.85
+  Cooldown: '2.0s'
+  Length-Limit: 100
+
+Color:
+  Chat: true
+  Sign: true
+  Anvil: true
+  Book: true

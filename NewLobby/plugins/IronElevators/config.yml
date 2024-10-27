@@ -1,0 +1,13 @@
+UpdateMessage: true
+Spectator Disable: true
+Worlds:
+- world
+- world_nether
+- world_the_end
+CoolDownInSeconds: 0
+Elevators:
+  IRON_BLOCK:
+    minElevation: 3
+    maxElevation: 14
+    elevatorWhooshUP: ENTITY_IRON_GOLEM_ATTACK
+    elevatorWhooshDOWN: ENTITY_IRON_GOLEM_ATTACK
