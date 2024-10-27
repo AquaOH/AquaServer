@@ -1,0 +1,2 @@
+datapack disable "file/LuckyBlock"
+datapack enable "file/LuckyBlock"

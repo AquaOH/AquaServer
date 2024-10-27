@@ -1,0 +1,411 @@
+[14:27:51] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14:27:51] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[14:27:51] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14:27:51] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Reisen/Desktop/MC/Server/LuckyBlock/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[14:27:51] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: No dependencies to load found. Skipping!
+[14:27:52] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[14:27:52] [main/ERROR] [mixin]: Mixin config rei.mixins.json does not specify "minVersion" property
+[14:27:52] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments []
+[14:27:57] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[14:27:57] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[14:27:57] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.7 初始化完成
+[14:27:57] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 初始化完成
+[14:27:57] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier]: Mod uteamcore is signed with a valid certificate.
+[14:27:57] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[14:27:57] [modloading-worker-0/INFO] [In-game NBTEdit Reborn]: Loading NBTEdit ver: 5.2.7
+[14:27:57] [modloading-worker-0/INFO] [In-game NBTEdit Reborn]: NBTEdit loaded!
+[14:27:57] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier]: Mod halloween_luckyblock is signed with a valid certificate.
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[14:27:57] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[14:27:57] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[14:27:57] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[14:27:57] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items
+[14:27:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: CraftingMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: CustomConversionMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: WeatheredCopperMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: TippedArrowMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: RawOresBlacklistMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: OresBlacklistMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: CustomEMCMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: BrewingMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded EMC mapper: APICustomEMCMapper, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded RecipeType Mapper: VanillaRecipeTypes, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded RecipeType Mapper: Smithing, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded RecipeType Mapper: FallbackRecipeType, with priority -2147483648
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded NBT Processor: StoredEMCProcessor, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded NBT Processor: EnchantmentProcessor, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded NBT Processor: DecoratedPotProcessor, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded NBT Processor: DamageProcessor, with priority 2147483647
+[14:27:59] [modloading-worker-0/INFO] [moze_intel.projecte.PECore]: Found and loaded NBT Processor: ArmorTrimProcessor, with priority 0
+[14:27:59] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14:27:59] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14:27:59] [main/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14:27:59] [main/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14:27:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[14:27:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[14:27:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[14:27:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at moze_intel.projecte.integration.jade.PEJadePlugin
+[14:28:00] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:28:01] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[14:28:01] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1437 advancements
+[14:28:01] [main/INFO] [REI]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[14:28:01] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for START.
+[14:28:01] [main/INFO] [REI]: [REI] Plugins (2):
+[14:28:01] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[14:28:01] [main/INFO] [REI]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14:28:01] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for START.
+[14:28:01] [main/INFO] [REI]: [REI] Plugins (2):
+[14:28:01] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14:28:01] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for START in 1.219 ms, totaling 23.97 ms.
+[14:28:01] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for START in 300.2 μs, totaling 3.066 ms.
+[14:28:01] [main/INFO] [REI]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[14:28:01] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for END.
+[14:28:01] [main/INFO] [REI]: [REI] Plugins (2):
+[14:28:01] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[14:28:01] [main/INFO] [REI]: [REI] ----------------------------------------
+[14:28:01] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for END.
+[14:28:01] [main/INFO] [REI]: [REI] Plugins (2):
+[14:28:01] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:28:01] [main/INFO] [REI]: [REI] ----------------------------------------
+[14:28:01] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for END in 671.4 μs, totaling 22.13 ms.
+[14:28:01] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for END in 198.5 μs, totaling 5.046 ms.
+[14:28:02] [main/INFO] [moze_intel.projecte.PECore]: Considering file projecte:pe_custom_conversions/defaults.json, ID projecte:defaults
+[14:28:02] [main/INFO] [moze_intel.projecte.PECore]: Considering file projecte:pe_custom_conversions/metals.json, ID projecte:metals
+[14:28:02] [main/WARN] [moze_intel.projecte.PECore]: EMC Exploit: "0 + 9*Item: minecraft:gold_nugget => 1*Item: minecraft:gold_ingot" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*Item Tag: forge:ingots/iron => 1*Item: minecraft:gold_ingot
+[14:28:02] [main/WARN] [moze_intel.projecte.PECore]: EMC Exploit: ingredients (0 + 9*Item: minecraft:iron_nugget => 1*Item: minecraft:iron_ingot) cost 252 but output value is 256
+[14:28:02] [main/WARN] [moze_intel.projecte.PECore]: EMC Exploit: ingredients (0 + 9*Item: minecraft:disc_fragment_5 => 1*Item: minecraft:music_disc_5) cost 2043 but output value is 2048
+[14:28:02] [main/WARN] [moze_intel.projecte.PECore]: EMC Exploit: ingredients (0 + 1*Item: minecraft:cobblestone + 1*Item: minecraft:diorite => 2*Item: minecraft:andesite) cost 17 but output value is 16
+[14:28:02] [main/INFO] [moze_intel.projecte.PECore]: Registered 1395 EMC values. (took 130 ms)
+[14:28:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 正在启动的 我的世界[Minecraft] 服务器对应的客户端版本为 1.20.1
+[14:28:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 小小墨正在翻阅服务器配置文件(server.properties)...
+[14:28:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 默认游戏模式为: ADVENTURE
+[14:28:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[14:28:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 正在位于 *:25565 的网络地址启动 我的世界[Minecraft] 服务器
+[14:28:02] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using default channel type
+[14:28:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: ///!!! 小小墨警告∑( 口 || !!!///
+[14:28:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: 您的Mohist核心正处于离线模式之中，核心将不会对玩家名称进行身份验证，请确保您的服务器安全！
+[14:28:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: 得益于离线模式，您的服务器玩家只要与您处在一个Nat网络下即可加入服务器，而无需网络链接，但同时也给了黑客可乘之机！
+[14:28:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: 如果您想回到在线模式，请将 server.properties 文件中的 "online-mode" 配置项更改为 "true"！
+[14:28:02] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-858 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.7, NeoForge version 47.1.106)
+[14:28:03] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[14:28:03] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[14:28:03] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[14:28:04] [Server thread/INFO] [xyz.jpenilla.minimotd.bukkit.MiniMOTDPlugin]: [MiniMOTD] Loading MiniMOTD v2.1.2
+[14:28:04] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] Loading VoidGen v2.2.1
+[14:28:04] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v2.10.1-SNAPSHOT-820;6dd779f
+[14:28:06] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5f8ee3d1]
+[14:28:06] [Server thread/INFO] [cc.aquaoh.aquaFixDrop.AquaFixDrop]: [AquaFixDrop] Loading AquaFixDrop v1.0-SNAPSHOT
+[14:28:06] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[14:28:06] [Server thread/INFO] [com.onarandombox.MultiverseCore.MultiverseCore]: [Multiverse-Core] Loading Multiverse-Core v4.3.12
+[14:28:06] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin]: [WorldGuard] Loading WorldGuard v7.0.9+5934e49
+[14:28:06] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB]: [TAB] Loading TAB v4.1.8
+[14:28:06] [Server thread/INFO] [eu.kennytv.worldeditsui.WorldEditSUIPlugin]: [WorldEditSUI] Loading WorldEditSUI v1.7.4
+[14:28:06] [Server thread/INFO] [cc.aquaoh.aquaTeam.AquaTeam]: [AquaTeam] Loading AquaTeam v1.0-SNAPSHOT
+[14:28:06] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.3
+[14:28:06] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] 小小墨正在连接 VoidGen v2.2.1 插件
+[14:28:06] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[14:28:06] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [FastAsyncWorldEdit] 小小墨正在连接 FastAsyncWorldEdit v2.10.1-SNAPSHOT-820;6dd779f 插件
+[14:28:06] [Server thread/INFO] [com.fastasyncworldedit.core.Fawe]: LZ4 Compression Binding loaded successfully
+[14:28:06] [Server thread/INFO] [com.fastasyncworldedit.core.Fawe]: ZSTD Compression Binding loaded successfully
+[14:28:06] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:28:06] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager]: WEPIF: Using the Bukkit Permissions API.
+[14:28:08] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[14:28:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[14:28:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[14:28:09] [ProjectE Update Checker Notifier/INFO] [moze_intel.projecte.PECore]: Update check failed.
+[14:28:10] [ForkJoinPool.commonPool-worker-8/WARN] [com.fastasyncworldedit.core.util.UpdateNotification]: An update for FastAsyncWorldEdit is available. You are 117 build(s) out of date.
+You are running build 820, the latest version is build 937.
+Update at https://www.spigotmc.org/resources/13932/
+[14:28:10] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:10] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:10] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:10] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:11] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：86%
+[14:28:11] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2065 ms
+[14:28:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[14:28:12] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:12] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:12] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:12] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:13] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：9%
+[14:28:13] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2292 ms
+[14:28:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[14:28:15] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:15] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:15] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:15] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:15] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:16] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：73%
+[14:28:16] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2577 ms
+[14:28:16] [Server thread/INFO] [xyz.jpenilla.minimotd.bukkit.MiniMOTDPlugin]: [MiniMOTD] 小小墨正在连接 MiniMOTD v2.1.2 插件
+[14:28:17] [Server thread/WARN] [MiniMOTD]: ======================================================
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  MiniMOTD works better if you use Paper as your server
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  software.
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  Spigot does not include the necessary APIs for all
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  of MiniMOTD's features to operate. MiniMOTD was
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  designed to work with Paper and it's expanded API
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  for full compatibility.
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  
+[14:28:17] [Server thread/WARN] [MiniMOTD]:  Get Paper from https://papermc.io/downloads
+[14:28:17] [Server thread/WARN] [MiniMOTD]: ======================================================
+[14:28:17] [Server thread/INFO] [cc.aquaoh.aquaFixDrop.AquaFixDrop]: [AquaFixDrop] 小小墨正在连接 AquaFixDrop v1.0-SNAPSHOT 插件
+[14:28:17] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] 小小墨正在连接 PlaceholderAPI v2.11.6 插件
+[14:28:17] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[14:28:17] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: mohist [1.20.1]
+[14:28:17] [Server thread/INFO] [com.mohistmc.MohistMC]: Hook PlaceholderAPI!
+[14:28:17] [Server thread/INFO] [com.onarandombox.MultiverseCore.MultiverseCore]: [Multiverse-Core] 小小墨正在连接 Multiverse-Core v4.3.12 插件
+[14:28:17] [Server thread/WARN] [com.onarandombox.MultiverseCore.MultiverseCore]: [Multiverse-Core] Multiverse-Core v4.3.12 已为 org.bukkit.event.entity.EntityCreatePortalEvent 注册了一个监听器，方法为 public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)，但该事件已废弃。 Server performance will be affected；请通知作者 [dumptruckman, Rigby, fernferret, lithium3141, main--]。
+[14:28:17] [Server thread/INFO] [Minecraft]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:28:17] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] Generator settings have not been set. Using default values:
+[14:28:17] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[14:28:17] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] Generator settings have not been set. Using default values:
+[14:28:17] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[14:28:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:template
+[14:28:18] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:18] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:18] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:19] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1432 ms
+[14:28:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:123
+[14:28:20] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:20] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:20] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:20] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1362 ms
+[14:28:20] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] Generator settings have not been set. Using default values:
+[14:28:20] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[14:28:20] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] Generator settings have not been set. Using default values:
+[14:28:20] [Server thread/INFO] [de.xtkq.voidgen.VoidGen]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[14:28:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:void
+[14:28:20] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:23] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:23] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:23] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:23] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:23] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:23] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:25] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:25] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:25] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[14:28:25] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4891 ms
+[14:28:25] [Server thread/INFO] [Minecraft]: [Multiverse-Core] 6 - World(s) loaded.
+[14:28:25] [Server thread/WARN] [Minecraft]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[14:28:25] [Server thread/INFO] [Minecraft]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin]: [WorldGuard] 小小墨正在连接 WorldGuard v7.0.9+5934e49 插件
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'world'
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) Lava fire is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'DIM-1'
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) Lava fire is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'DIM1'
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (template) TNT ignition is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (template) Lighters are PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (template) Lava fire is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (template) Fire spread is UNRESTRICTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'template'
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (123) TNT ignition is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (123) Lighters are PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (123) Lava fire is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (123) Fire spread is UNRESTRICTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world '123'
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (void) TNT ignition is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (void) Lighters are PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (void) Lava fire is PERMITTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (void) Fire spread is UNRESTRICTED.
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'void'
+[14:28:25] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard]: [WorldGuard] Loading region data...
+[14:28:26] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB]: [TAB] 小小墨正在连接 TAB v4.1.8 插件
+[14:28:26] [Server thread/INFO] [Console]: [TAB] Loaded NMS hook in 100ms
+[14:28:26] [Server thread/INFO] [Console]: [TAB] §xEnabled in 255ms
+[14:28:26] [Server thread/INFO] [eu.kennytv.worldeditsui.WorldEditSUIPlugin]: [WorldEditSUI] 小小墨正在连接 WorldEditSUI v1.7.4 插件
+[14:28:26] [Server thread/INFO] [cc.aquaoh.aquaTeam.AquaTeam]: [AquaTeam] 小小墨正在连接 AquaTeam v1.0-SNAPSHOT 插件
+[14:28:26] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals]: [Multiverse-Portals] 小小墨正在连接 Multiverse-Portals v4.2.3 插件
+[14:28:26] [Server thread/INFO] [Minecraft]: [Multiverse-Portals] 0 - Portals(s) loaded
+[14:28:26] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[14:28:26] [Server thread/INFO] [Minecraft]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[14:28:26] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] 小小墨正在连接 Mohist v1.20.1 插件
+[14:28:26] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[14:28:26] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:28:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mohist 启动成功啦！╰(*°▽°*)╯，总耗时共 17.797s ，您可以使用 /help 命令查看服务器帮助！
+[14:28:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 小小墨提醒您: Mohist 核心已装载完毕，有任何问题可以加官方群 [158638] 进行反馈
+[14:28:26] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[14:28:26] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[14:28:26] [ProjectE UUID Checker Server/ERROR] [moze_intel.projecte.PECore]: Caught exception in UUID Checker thread!
+java.net.UnknownHostException: raw.githubusercontent.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at java.net.URL.openStream(URL.java:1325) ~[?:?]
+	at moze_intel.projecte.network.ThreadCheckUUID.run(ThreadCheckUUID.java:26) [%5B绛変环浜ゆ崲閲嶅埗鐗圿%20ProjectE-1.20.1-PE1.0.1.jar%23217!/:1.0.1]
+[14:28:26] [Server thread/WARN] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [FastAsyncWorldEdit] 从 com.sk89q.worldguard.protection.association.RegionAssociable 加载了类 WorldGuard v7.0.9+5934e49，但这不是此插件的依赖项或软依赖项。
+[14:28:26] [Server thread/INFO] [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature]: Plugin 'WorldGuard' found. Using it now.
+[14:28:26] [Server thread/INFO] [com.fastasyncworldedit.bukkit.FaweBukkit]: Attempting to use plugin 'WorldGuard'
+[14:28:26] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[14:28:26] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[14:28:26] [Server thread/INFO] [Console]: 2 placeholder hook(s) registered!
+[14:28:28] [Craft Scheduler Thread - 0/INFO] [MiniMOTD]: There is an update available for MiniMOTD!
+[14:28:28] [Craft Scheduler Thread - 0/INFO] [MiniMOTD]: This server is running version v2.1.2, which is 1 versions outdated.
+[14:28:28] [Craft Scheduler Thread - 0/INFO] [MiniMOTD]: Download the latest version, v2.1.3 from GitHub at the link below:
+[14:28:28] [Craft Scheduler Thread - 0/INFO] [MiniMOTD]: https://github.com/jpenilla/MiniMOTD/releases/tag/v2.1.3
+[14:29:24] [TAB Processing Thread/INFO] [Console]: [TAB] [WARN] Player 2031's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:29:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:29:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2031加入了游戏
+[14:29:24] [Server thread/INFO] [Jade]: Syncing config to 2031 (6e120801-fd4c-3cee-ad37-5d402eb17a1c)
+[14:29:24] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 2031[/127.0.0.1:53518] logged in with entity id 20 at ([world]0.0, 51.0, 110.0)
+[14:29:25] [TAB Processing Thread/INFO] [Console]: [TAB] [WARN] Player 2030's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:29:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:29:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030加入了游戏
+[14:29:25] [Server thread/INFO] [Jade]: Syncing config to 2030 (9cbdd7b1-87a1-3538-87f8-3bd8e64e9fdc)
+[14:29:25] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 2030[/127.0.0.1:53520] logged in with entity id 21 at ([world]0.0, 51.0, 110.0)
+[14:29:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:29:26] [TAB Processing Thread/INFO] [Console]: [TAB] [WARN] Player HanaAquaOH's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:29:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: HanaAquaOH加入了游戏
+[14:29:26] [Server thread/INFO] [Jade]: Syncing config to HanaAquaOH (7925326a-c84f-32ff-b7ba-fc505a77e04a)
+[14:29:26] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: HanaAquaOH[/127.0.0.1:53534] logged in with entity id 22 at ([world]0.0, 51.0, 110.0)
+[14:29:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030掉出了这个世界
+[14:29:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: HanaAquaOH掉出了这个世界
+[14:29:35] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2031 issued server command: /aquateam match
+[14:29:37] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@3b536b1f[id=dec7f02b-f1ba-3dc4-9586-799d91affec2,name=AquaOH,properties={},legacy=false] (/127.0.0.1:53517) lost connection: 连接中断
+[14:29:39] [TAB Processing Thread/INFO] [Console]: [TAB] [WARN] Player AquaOH's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:29:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:29:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: AquaOH加入了游戏
+[14:29:39] [Server thread/INFO] [Jade]: Syncing config to AquaOH (dec7f02b-f1ba-3dc4-9586-799d91affec2)
+[14:29:39] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: AquaOH[/127.0.0.1:53550] logged in with entity id 24 at ([world]0.0, 51.0, 110.0)
+[14:29:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2030 issued server command: /aquateam match
+[14:29:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: AquaOH掉出了这个世界
+[14:29:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: HanaAquaOH issued server command: /aquateam match
+[14:29:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /aquateam match
+[14:30:25] [Craft Scheduler Thread - 1/INFO] [Minecraft]: AquaTeam Timer0 seconds remaining
+[14:30:25] [Server thread/INFO] [Minecraft]: Executing tasks before[cc.aquaoh.aquaTeam.PriorityTaskScheduler$1@191c4dc3, cc.aquaoh.aquaTeam.PriorityTaskScheduler$2@4ba5998a]
+[14:30:25] [Server thread/INFO] [Minecraft]: Executing tasks after[cc.aquaoh.aquaTeam.PriorityTaskScheduler$2@4ba5998a]
+[14:30:25] [Server thread/INFO] [Minecraft]: Executing LuckyblockTask,Luckyblock priority: 0
+[14:30:25] [Server thread/INFO] [Minecraft]: AquaTeAam: 开始运行LuckyBlock
+[14:30:25] [Server thread/INFO] [com.sk89q.worldedit.bukkit.BukkitServerInterface]: Using com.fastasyncworldedit.bukkit.adapter.NMSRelighterFactory as relighter factory.
+[14:30:26] [Server thread/INFO] [Minecraft]: AquaTeAam: 开始设置LuckyBlock点位
+[14:30:26] [Server thread/INFO] [Minecraft]: [[-35, 67, -4], [-6, 67, -4]]
+[14:30:26] [Server thread/INFO] [Minecraft]: [[-35, 67, -229], [-6, 67, -229]]
+[14:30:26] [Server thread/INFO] [Minecraft]: AquaTeAam: 结束设置LuckyBlock点位
+[14:30:26] [Server thread/INFO] [Minecraft]: AquaTeAm: 粘贴成功
+[14:30:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将2031的游戏模式改为生存模式
+[14:30:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将2030的游戏模式改为生存模式
+[14:30:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将HanaAquaOH的游戏模式改为生存模式
+[14:30:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将AquaOH的游戏模式改为生存模式
+[14:31:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /difficulty easy
+[14:33:08] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry]: Chosen Lucky Drop: group:#rand(2,3):(ID=iron_shovel;ID=iron_pickaxe;ID=iron_axe;ID=iron_sword;ID=iron_hoe)@luck=1
+[14:33:24] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry]: Chosen Lucky Drop: group:1:(type=command,ID="/summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{\"text\":\"Boots of Wings\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}',Item:{id:\"minecraft:netherite_boots\",Count:1b,tag:{display:{Name:'{\"text\":\"Boots of Wings\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'},RepairCost:1000,Enchantments:[{id:\"minecraft:feather_falling\",lvl:5s}]}}}",commandSender="KristenStuffs";type=command,ID="/summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{\"text\":\"Boots of Roses\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}',Item:{id:\"minecraft:netherite_boots\",Count:1b,tag:{display:{Name:'{\"text\":\"Boots of Roses\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'},RepairCost:1000,Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}}}",commandSender="KristenStuffs";type=command,ID="/summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{\"text\":\"Boots of The Frozen\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}',Item:{id:\"minecraft:netherite_boots\",Count:1b,tag:{display:{Name:'{\"text\":\"Boots of The Frozen\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'},RepairCost:1000,Enchantments:[{id:\"minecraft:frost_walker\",lvl:5s}]}}}",commandSender="KristenStuffs";type=command,ID="/summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{\"text\":\"Boots of Flares\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}',Item:{id:\"minecraft:netherite_boots\",Count:1b,tag:{display:{Name:'{\"text\":\"Boots of Flare\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'},RepairCost:1000,Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s}]}}}",commandSender="KristenStuffs";type=command,ID="/summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{\"text\":\"Boots of The Souls\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}',Item:{id:\"minecraft:netherite_boots\",Count:1b,tag:{display:{Name:'{\"text\":\"Boots of The Souls\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'},RepairCost:1000,Enchantments:[{id:\"minecraft:soul_speed\",lvl:5s}]}}}",commandSender="KristenStuffs")@luck=2
+[14:33:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030被骷髅射杀
+[14:34:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /gamerule keepInventory true
+[14:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [AquaOH: 游戏规则keepInventory已被设为：true]
+[14:34:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2031被僵尸杀死了
+[14:34:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: AquaOH被僵尸杀死了
+[14:34:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030被骷髅射杀
+[14:35:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030掉出了这个世界
+[14:36:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: HanaAquaOH被僵尸杀死了
+[14:36:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: AquaOH被僵尸杀死了
+[14:37:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /gamemode creative
+[14:37:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [AquaOH: 已将自己的游戏模式设置为创造模式]
+[14:37:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030被僵尸杀死了
+[14:38:24] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /gamemode creative
+[14:39:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /tps
+[14:40:17] [Async Chat Thread - #0/INFO] [Console]: <2030> e
+[14:40:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030掉出了这个世界
+[14:40:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: HanaAquaOH被骷髅射杀
+[14:41:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /op HanaAquaOH
+[14:41:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [AquaOH: 已将HanaAquaOH设为服务器管理员]
+[14:41:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: HanaAquaOH掉出了这个世界
+[14:41:24] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: HanaAquaOH issued server command: /gamemode creative
+[14:41:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [HanaAquaOH: 已将自己的游戏模式设置为创造模式]
+[14:41:38] [Server thread/INFO] [Minecraft]: Executing tasks before[cc.aquaoh.aquaTeam.PriorityTaskScheduler$2@4ba5998a]
+[14:41:38] [Server thread/INFO] [Minecraft]: Executing tasks after[]
+[14:41:38] [Server thread/INFO] []: Executing PvPTask
+[14:41:38] [Server thread/INFO] [Minecraft]: AquaTeam: 结构Low Point: [25, 45, -65]
+[14:41:38] [Server thread/INFO] [Minecraft]: AquaTeam: 结构High Point: [113, 93, 20]
+[14:41:38] [Server thread/INFO] [Minecraft]: AquaTeAam: 开始设置PVP点位
+[14:41:38] [Server thread/INFO] [Minecraft]: [[90, 67, -43], [90, 67, -3], [47, 67, -3], [47, 67, -43], [47, 67, -23], [90, 67, -23], [68, 67, -43], [68, 67, -3], [79, 67, -32], [79, 67, -14], [58, 67, -14], [58, 67, -32], [63, 67, -26], [73, 67, -26], [73, 67, -19], [63, 67, -19]]
+[14:41:38] [Server thread/INFO] [Minecraft]: AquaTeAam: 结束设置PVP点位
+[14:41:38] [Server thread/INFO] [Minecraft]: AquaTeAm: 粘贴成功
+[14:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将HanaAquaOH的游戏模式改为生存模式
+[14:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将AquaOH的游戏模式改为生存模式
+[14:42:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH issued server command: /gamemode creative
+[14:42:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [AquaOH: 已将自己的游戏模式设置为创造模式]
+[14:43:01] [Async Chat Thread - #2/INFO] [Console]: <AquaOH> e
+[14:43:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2031被AquaOH杀死了
+[14:43:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2031被AquaOH杀死了
+[14:43:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2031被AquaOH杀死了
+[14:43:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030被AquaOH杀死了
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将2031的游戏模式改为冒险模式
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将2030的游戏模式改为冒险模式
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将HanaAquaOH的游戏模式改为冒险模式
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已将AquaOH的游戏模式改为冒险模式
+[14:43:29] [Server thread/INFO] [Minecraft]: Executing final[]
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已移除玩家AquaOH的1个物品
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 已移除玩家2030的16个物品
+[14:43:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030被AquaOH杀死了
+[14:43:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AquaOH lost connection: 连接中断
+[14:43:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: AquaOH left the game
+[14:43:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2030 lost connection: 连接中断
+[14:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030 left the game
+[14:43:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2031 lost connection: 连接中断
+[14:43:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2031 left the game
+[14:43:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: HanaAquaOH lost connection: 连接中断
+[14:43:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: HanaAquaOH left the game
+[14:44:02] [TAB Processing Thread/INFO] [Console]: [TAB] [WARN] Player 2030's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:44:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:44:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030加入了游戏
+[14:44:02] [Server thread/INFO] [Jade]: Syncing config to 2030 (9cbdd7b1-87a1-3538-87f8-3bd8e64e9fdc)
+[14:44:02] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 2030[/127.0.0.1:54196] logged in with entity id 550 at ([world]0.0, 51.0, 110.0)
+[14:44:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2030 lost connection: 连接中断
+[14:44:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030 left the game
+[14:44:09] [TAB Processing Thread/INFO] [Console]: [TAB] [WARN] Player 2030's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:44:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: clear.failed.single
+[14:44:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030加入了游戏
+[14:44:09] [Server thread/INFO] [Jade]: Syncing config to 2030 (9cbdd7b1-87a1-3538-87f8-3bd8e64e9fdc)
+[14:44:09] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 2030[/127.0.0.1:54204] logged in with entity id 551 at ([world]0.0, 51.0, 110.0)
+[14:44:10] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 2030 lost connection: 连接中断
+[14:44:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 2030 left the game

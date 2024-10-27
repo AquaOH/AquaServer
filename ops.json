@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "9ed3afff-4a1e-49a9-ac2a-d7d980bd476e",
+    "name": "AquaOH",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7925326a-c84f-32ff-b7ba-fc505a77e04a",
+    "name": "HanaAquaOH",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "dec7f02b-f1ba-3dc4-9586-799d91affec2",
+    "name": "AquaOH",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

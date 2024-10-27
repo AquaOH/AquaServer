@@ -1,0 +1,1 @@
+execute if score _team1 memberAmount = _team2 memberAmount run
