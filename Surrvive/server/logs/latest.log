@@ -1,0 +1,1206 @@
+[15:29:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[15:29:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
+[15:30:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:30:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 48 plugins
+[15:30:02] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - HuskHomes (4.7), HuskSync (3.7), HuskTowns (3.0.6)
+[15:30:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (45):
+ - AdvancedEnchantments (9.12.7), AdvancedPets (2.13.9), BattlePass (4.7.10), BeaconPlus3 (3.0.82), BetterStructures (1.7.2), ChestSort (14.2.0), CoreProtect (23.0-RC1), CustomCrops (3.6.18), CustomFishing (2.2.31), CustomJoinAndQuitMessages (1.8.0-b0), CustomNameplates (3.0.6), DecentHolograms (2.8.11), EClean (1.18.1), EZColors (2.2.6), EpicAchievements (1.6.2), FastAsyncWorldEdit (2.12.1-SNAPSHOT-952;d959778), FlipCard (3.4.0), GlobalMarketPlus (1.2.11.2), HuskHomesGUI (2.3), HyronicFriends (1.3.19), ItemsAdder (4.0.3), LevelledMobs (4.1.3 b68), LiteSignIn (1.8.4.0), LoneLibs (1.0.59), LuckPerms (5.4.145), MapModCompanion (0.10.0), PlaceholderAPI (2.11.6), PlayerTitle (4.2.1), PlayerWarp (1.4.6), PlayerWarps (7.6.1), ProtocolLib (5.3.0), RealisticSeasons (11.3.5), Reforges (6.71.1), TAB-Bridge (6.0.0), TogglePvp (8.1), TrChat (2.1.3), TrMenu (3.3.4), Ultimate_BlockRegeneration (2.0.23), Vault (1.7.3-b131), VehiclesPlusPro (2.4.7.1), ViaVersion (5.1.1), WkKit (1.3.0), WorldEditSUI (1.7.4), XConomy (2.26.3), eco (6.74.2)
+[15:30:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:30:08] [ServerMain/INFO]: Loaded 1290 recipes
+[15:30:08] [ServerMain/INFO]: Loaded 1399 advancements
+[15:30:08] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:30:08] [Server thread/INFO]: Loading properties
+[15:30:08] [Server thread/INFO]: This server is running Paper version 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[15:30:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:30:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:30:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:30:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[15:30:10] [Server thread/INFO]: Default game type: SURVIVAL
+[15:30:10] [Server thread/INFO]: Generating keypair
+[15:30:10] [Server thread/INFO]: Starting Minecraft server on *:25585
+[15:30:10] [Server thread/INFO]: Using default channel type
+[15:30:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:30:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loading 3 libraries... please wait
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar
+[15:30:10] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\sourceforge\streamsupport\speedy-math\1.0.0\speedy-math-1.0.0.jar
+[15:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loading 3 libraries... please wait
+[15:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[15:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar
+[15:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar
+[15:30:11] [Server thread/INFO]: [eco] Initializing eco
+[15:30:12] [Server thread/INFO]: [TrChat-2.1.3.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22
+[15:30:12] [Server thread/INFO]: [TrChat-2.1.3.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.8.22
+[15:30:12] [Server thread/INFO]: [TrChat-2.1.3.jar] Loading library org.jetbrains:annotations:13.0
+[15:30:12] [ForkJoinPool.commonPool-worker-5/INFO]: [TrChat-2.1.3.jar] Loading library redis.clients:jedis:4.2.3
+[15:30:12] [ForkJoinPool.commonPool-worker-4/INFO]: [TrChat-2.1.3.jar] Loading library org.apache.commons:commons-jexl3:3.2.1
+[15:30:12] [ForkJoinPool.commonPool-worker-5/INFO]: [TrChat-2.1.3.jar] Loading library org.apache.commons:commons-pool2:2.11.1
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library org.yaml:snakeyaml:2.2
+[15:30:12] [ForkJoinPool.commonPool-worker-5/INFO]: [TrChat-2.1.3.jar] Loading library org.json:json:20211205
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library com.typesafe:config:1.4.3
+[15:30:12] [ForkJoinPool.commonPool-worker-6/INFO]: [TrChat-2.1.3.jar] Loading library org.openjdk.nashorn:nashorn-core:15.4
+[15:30:12] [ForkJoinPool.commonPool-worker-6/INFO]: [TrChat-2.1.3.jar] Loading library org.ow2.asm:asm-commons:7.3.1
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library com.electronwill.night-config:core:3.6.7
+[15:30:12] [ForkJoinPool.commonPool-worker-6/INFO]: [TrChat-2.1.3.jar] Loading library org.ow2.asm:asm-tree:7.3.1
+[15:30:12] [ForkJoinPool.commonPool-worker-6/INFO]: [TrChat-2.1.3.jar] Loading library org.ow2.asm:asm:7.3.1
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library com.electronwill.night-config:toml:3.6.7
+[15:30:12] [ForkJoinPool.commonPool-worker-6/INFO]: [TrChat-2.1.3.jar] Loading library org.ow2.asm:asm-util:7.3.1
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library com.electronwill.night-config:json:3.6.7
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library com.typesafe:config:1.4.2
+[15:30:12] [ForkJoinPool.commonPool-worker-9/INFO]: [TrChat-2.1.3.jar] Loading library com.electronwill.night-config:hocon:3.6.7
+[15:30:12] [ForkJoinPool.commonPool-worker-10/INFO]: [TrChat-2.1.3.jar] Loading library org.slf4j:slf4j-api:2.0.8
+[15:30:12] [ForkJoinPool.commonPool-worker-10/INFO]: [TrChat-2.1.3.jar] Loading library com.zaxxer:HikariCP:4.0.3
+[15:30:13] [Server thread/WARN]: [TrChat] Simple-Component.Anvil not found in settings.yml
+[15:30:13] [Server thread/WARN]: [TrChat] Simple-Component.Sign not found in settings.yml
+[15:30:13] [Server thread/WARN]: [TrChat] Options.Use-Packets not found in settings.yml
+[15:30:13] [Server thread/WARN]: [TrChat] Simple-Component.Hover not found in settings.yml
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loading 5 libraries... please wait
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-api\4.17.0\adventure-api-4.17.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-key\4.17.0\adventure-key-4.17.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-platform-bukkit\4.3.3\adventure-platform-bukkit-4.3.3.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-platform-api\4.3.3\adventure-platform-api-4.3.3.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.3\adventure-text-serializer-bungeecord-4.3.3.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-text-serializer-gson\4.13.1\adventure-text-serializer-gson-4.13.1.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-platform-facet\4.3.3\adventure-platform-facet-4.3.3.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-platform-viaversion\4.3.3\adventure-platform-viaversion-4.3.3.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\net\kyori\adventure-text-minimessage\4.17.0\adventure-text-minimessage-4.17.0.jar
+[15:30:14] [Server thread/INFO]: [SpigotLibraryLoader] [HyronicFriends] Loaded library C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\libraries\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar
+[15:30:14] [Server thread/INFO]: [Reforges] Initializing Reforges
+[15:30:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[15:30:15] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[15:30:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:30:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:30:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[15:30:16] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[15:30:16] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.59
+[15:30:16] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:30:16] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[15:30:16] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.1-SNAPSHOT-952;d959778
+[15:30:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@447c99c]
+[15:30:17] [Server thread/INFO]: [ItemsAdder] Loading server plugin ItemsAdder v4.0.3
+[15:30:17] [Server thread/WARN]: [ItemsAdder] 'apply-on-join' and 'apply-during-chunk-load-phase' are both enabled. Please, disable one of them.
+[15:30:17] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.11
+[15:30:17] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v23.0-RC1
+[15:30:17] [Server thread/INFO]: [AdvancedEnchantments] Loading server plugin AdvancedEnchantments v9.12.7
+[15:30:17] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.7
+[15:30:17] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.3.5
+[15:30:17] [Server thread/INFO]: [BattlePass] Loading server plugin BattlePass v4.7.10
+[15:30:17] [Server thread/INFO]: [HuskTowns] Loading server plugin HuskTowns v3.0.6
+[15:30:17] [Server thread/INFO]: [HuskTowns] Loading early hooks...
+[15:30:17] [Server thread/INFO]: [HuskTowns] Successfully loaded 0 hooks
+[15:30:17] [Server thread/INFO]: [CustomCrops] Loading server plugin CustomCrops v3.6.18
+[15:30:17] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.2
+[15:30:17] [Server thread/INFO]: [TrChat] Loading server plugin TrChat v2.1.3
+[15:30:17] [Server thread/WARN]: me.arasple.mc.trchat.taboolib.common.inject.ClassVisitException: class me.arasple.mc.trchat.taboolib.module.nms.MinecraftVersion#init: VisitorGroup{priority=0, list=[AwakeFunction(lifeCycle=NONE), AwakeFunction(lifeCycle=CONST), AwakeFunction(lifeCycle=INIT), AwakeFunction(lifeCycle=LOAD), AwakeFunction(lifeCycle=ENABLE), AwakeFunction(lifeCycle=ACTIVE), AwakeFunction(lifeCycle=DISABLE), me.arasple.mc.trchat.taboolib.common.platform.command.SimpleCommandRegister@63827476, me.arasple.mc.trchat.taboolib.module.kether.KetherLoader@5bc33709, me.arasple.mc.trchat.taboolib.platform.compat.PlaceholderExpansion$PlaceholderRegister@70260e2d]} (LOAD)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.inject.VisitorHandler.visitMethod(VisitorHandler.java:146)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.inject.VisitorHandler.inject(VisitorHandler.java:114)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.inject.VisitorHandler.injectAll(VisitorHandler.java:77)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.inject.VisitorHandler.lambda$init$0(VisitorHandler.java:44)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.TabooLib$1.run(TabooLib.java:79)
+[15:30:17] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.TabooLib.lambda$lifeCycle$0(TabooLib.java:56)
+[15:30:17] [Server thread/WARN]: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.TabooLib.lifeCycle(TabooLib.java:56)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.platform.BukkitPlugin.onLoad(BukkitPlugin.java:73)
+[15:30:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+[15:30:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+[15:30:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[15:30:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
+[15:30:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:547)
+[15:30:17] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292)
+[15:30:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[15:30:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329)
+[15:30:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:30:17] [Server thread/WARN]: Caused by: java.lang.IllegalStateException: Unsupported Minecraft version, plugin disabled
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.module.nms.MinecraftVersion.init(MinecraftVersion.kt:211)
+[15:30:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:733)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.library.reflex.JavaClassMethod.invoke(JavaClassMethod.kt:31)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.platform.AwakeFunction.visit(AwakeFunction.kt:13)
+[15:30:17] [Server thread/WARN]: 	at TrChat-2.1.3.jar//me.arasple.mc.trchat.taboolib.common.inject.VisitorHandler.visitMethod(VisitorHandler.java:144)
+[15:30:17] [Server thread/WARN]: 	... 18 more
+[15:30:17] [Server thread/INFO]: [WorldEditSUI] Loading server plugin WorldEditSUI v1.7.4
+[15:30:17] [Server thread/INFO]: [TAB-Bridge] Loading server plugin TAB-Bridge v6.0.0
+[15:30:17] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[15:30:17] [Server thread/INFO]: [TrMenu] Loading server plugin TrMenu v3.3.4
+[15:30:17] [Server thread/INFO]: 
+[15:30:17] [Server thread/INFO]: 正在加载 TrMenu Fix... 1.21.1-128-d348cb8 (MC: 1.21.1)
+[15:30:17] [Server thread/INFO]: 
+[15:30:17] [Server thread/INFO]: [TogglePvp] Loading server plugin TogglePvp v8.1
+[15:30:17] [Server thread/INFO]: [PlayerWarp] Loading server plugin PlayerWarp v1.4.6
+[15:30:17] [Server thread/INFO]: [PlayerTitle] Loading server plugin PlayerTitle v4.2.1
+[15:30:17] [Server thread/INFO]: [LiteSignIn] Loading server plugin LiteSignIn v1.8.4.0
+[15:30:17] [Server thread/INFO]: [HyronicFriends] Loading server plugin HyronicFriends v1.3.19
+[15:30:17] [Server thread/INFO]: [HuskSync] Loading server plugin HuskSync v3.7
+[15:30:17] [Server thread/INFO]: [HuskSync] Initializing plugin config & locale files...
+[15:30:17] [Server thread/INFO]: [HuskSync] Successfully initialized plugin config & locale files
+[15:30:17] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.3
+[15:30:17] [Server thread/INFO]: [GlobalMarketPlus] Loading server plugin GlobalMarketPlus v1.2.11.2
+[15:30:17] [Server thread/INFO]: [EZColors] Loading server plugin EZColors v2.2.6
+[15:30:17] [Server thread/INFO]: [EClean] Loading server plugin EClean v1.18.1
+[15:30:17] [Server thread/INFO]: [CustomJoinAndQuitMessages] Loading server plugin CustomJoinAndQuitMessages v1.8.0-b0
+[15:30:17] [Server thread/INFO]: [CustomFishing] Loading server plugin CustomFishing v2.2.31
+[15:30:18] [Server thread/INFO]: [WkKit] Loading server plugin WkKit v1.3.0
+[15:30:18] [Server thread/INFO]: [VehiclesPlusPro] Loading server plugin VehiclesPlusPro v2.4.7.1
+[15:30:18] [Server thread/INFO]: [Ultimate_BlockRegeneration] Loading server plugin Ultimate_BlockRegeneration v2.0.23
+[15:30:18] [Server thread/INFO]: [Reforges] Loading server plugin Reforges v6.71.1
+[15:30:18] [Server thread/INFO]: [libreforge] Initializing libreforge
+[15:30:18] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.72.1
+[15:30:18] [Server thread/INFO]: [PlayerWarps] Loading server plugin PlayerWarps v7.6.1
+[15:30:18] [Server thread/INFO]: [MapModCompanion] Loading server plugin MapModCompanion v0.10.0
+[15:30:18] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.3 b68
+[15:30:18] [Server thread/INFO]: [LevelledMobs] Loading commands
+[15:30:18] [Server thread/INFO]: [FlipCard] Loading server plugin FlipCard v3.4.0
+[15:30:18] [Server thread/INFO]: [EpicAchievements] Loading server plugin EpicAchievements v1.6.2
+[15:30:18] [Server thread/INFO]: [CustomNameplates] Loading server plugin CustomNameplates v3.0.6
+[15:30:18] [Server thread/INFO]: [ChestSort] Loading server plugin ChestSort v14.2.0
+[15:30:18] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.2
+[15:30:18] [Server thread/INFO]: [BetterStructures] MagmaCore v1.0 initialized!
+[15:30:18] [Server thread/INFO]: [BetterStructures] Sanity check!
+[15:30:18] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[15:30:18] [Server thread/INFO]: [BeaconPlus] Loading server plugin BeaconPlus3 v3.0.82
+[15:30:18] [Server thread/INFO]: [BeaconPlus] Plugin API version has been changed to 1.13
+[15:30:18] [Server thread/INFO]: [AdvancedPets] Loading server plugin AdvancedPets v2.13.9
+[15:30:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:30:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[15:30:19] [Server thread/INFO]:         __    
+[15:30:19] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.145
+[15:30:19] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:30:19] [Server thread/INFO]: 
+[15:30:19] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:30:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[15:30:19] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[15:30:19] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[15:30:20] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[15:30:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:30:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:30:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2130ms)
+[15:30:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[15:30:20] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.59
+[15:30:20] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:30:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:30:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:30:21] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:30:21] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.1-SNAPSHOT-952;d959778
+[15:30:21] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:30:21] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:30:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:30:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:30:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[15:30:22] [Server thread/INFO]: [eco] Enabling eco v6.74.2
+[15:30:22] [Server thread/INFO]: [eco] Loading eco
+[15:30:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: eco [6.74.2]
+[15:30:22] [Server thread/INFO]: [eco] Loaded integrations: HuskTowns, DecentHolograms, Vault, PlaceholderAPI, ItemsAdder
+[15:30:22] [Server thread/INFO]: [eco] Scanning for conflicts...
+[15:30:22] [Server thread/INFO]: [eco] No conflicts found!
+[15:30:22] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[15:30:22] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[15:30:22] [Server thread/INFO]: [XConomy] Language: CHINESE
+[15:30:22] [Server thread/INFO]: [XConomy] 数据保存方式 - MySQL
+[15:30:22] [Server thread/INFO]: [XConomy] MySQL连接正常
+[15:30:22] [Server thread/INFO]: [XConomy] XConomy加载成功
+[15:30:22] [Server thread/INFO]: [XConomy] 发现 PlaceholderAPI
+[15:30:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[15:30:22] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[15:30:22] [Server thread/INFO]: [XConomy] 已开启BungeeCord同步
+[15:30:22] [Server thread/INFO]: [XConomy] ===== YiC =====
+[15:30:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:30:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:30:22] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:30:22] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[15:30:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:30:22] [Server thread/INFO]: Preparing level "world"
+[15:30:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:30:23] [Server thread/INFO]: Time elapsed: 859 ms
+[15:30:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:30:23] [Server thread/INFO]: Time elapsed: 94 ms
+[15:30:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:30:23] [Server thread/INFO]: Time elapsed: 71 ms
+[15:30:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[15:30:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[15:30:23] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[15:30:24] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:30:24] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v4.0.3
+[15:30:25] [Server thread/INFO]: [ItemsAdder] 
+                                                   ItemsAdder 4.0.3
+  ___  ___        __        __   __   ___  __      LoneLibs 1.0.59
+|  |  |__   |\/| /__`  /\  |  \ |  \ |__  |__)     ProtocolLib 5.3.0
+|  |  |___  |  | .__/ /--\ |__/ |__/ |___ |  \     Paper 1.21.1-128-d348cb8 (MC: 1.21.1)
+                                                   Build Date: 2024-10-23_13.54.25
+                                                   Java Version: 21.0.3
+                                                   OS: Windows 11 10.0
+[15:30:25] [Server thread/WARN]: [ItemsAdder]  
+[15:30:25] [Server thread/WARN]: [ItemsAdder] This is a test version of ItemsAdder v4 for Minecraft 1.20.6, 1.21, 1.21.1.
+[15:30:25] [Server thread/WARN]: [ItemsAdder] Please make backups before using this version.
+[15:30:25] [Server thread/WARN]: [ItemsAdder] Use this only on a test server.
+[15:30:25] [Server thread/WARN]: [ItemsAdder] I am not responsible for any damage done to your server.
+[15:30:25] [Server thread/WARN]: [ItemsAdder]  
+[15:30:25] [Server thread/INFO]: [ItemsAdder] ViaVersion detected. Do not report glitches when joining using game versions different than the server version.
+[15:30:25] [Server thread/INFO]: [ItemsAdder] More info: https://github.com/PluginBugs/Issues-ItemsAdder/issues/3683
+[15:30:25] [Server thread/INFO]: [ItemsAdder] [!] Waiting for Cyclic dependencies to load before loading ItemsAdder contents: AdvancedEnchantments
+[15:30:25] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.11
+[15:30:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[15:30:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[15:30:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[15:30:25] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.0-RC1
+[15:30:25] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[15:30:25] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[15:30:25] [Server thread/INFO]: --------------------
+[15:30:25] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[15:30:25] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[15:30:25] [Server thread/INFO]: --------------------
+[15:30:25] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v9.12.7
+[15:30:26] [Server thread/INFO]: [AdvancedEnchantments] Loading Minecraft Version MC1_21_R1
+[15:30:26] [Server thread/INFO]: [AdvancedEnchantments] Loaded 7 armor sets.
+[15:30:26] [Server thread/INFO]: [AdvancedEnchantments] Loaded 5 weapons.
+[15:30:26] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:30:32] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into economy plugin (Vault)
+[15:30:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: advancedenchantments [1.0.0]
+[15:30:33] [Server thread/INFO]: [ItemsAdder] [OK] Cyclic dependency has loaded: AdvancedEnchantments
+[15:30:33] [Server thread/INFO]: [ItemsAdder] [OK] All Cyclic dependencies loaded, now loading ItemsAdder contents...
+[15:30:33] [Server thread/WARN]: [ItemsAdder] 'apply-on-join' and 'apply-during-chunk-load-phase' are both enabled. Please, disable one of them.
+[15:30:33] [Server thread/INFO]: [ItemsAdder] [Host] Starting self-host webserver on port: 8163
+[15:30:33] [Server thread/INFO]: [ItemsAdder] [Pack] Extracting internal contents from .jar
+[15:30:33] [Server thread/INFO]: [ItemsAdder] [Pack] Done extracting internal contents from .jar
+[15:30:35] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.7
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing MySQL database connection...
+[15:30:35] [Server thread/INFO]: [net.william278.huskhomes.libraries.hikari.HikariDataSource] HuskHomesHikariPool - Starting...
+[15:30:35] [Server thread/INFO]: [net.william278.huskhomes.libraries.hikari.pool.HikariPool] HuskHomesHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3952e428
+[15:30:35] [Server thread/INFO]: [net.william278.huskhomes.libraries.hikari.HikariDataSource] HuskHomesHikariPool - Start completed.
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized MySQL database connection
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing Redis message broker...
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized Redis message broker
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[15:30:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: huskhomes [4.7]
+[15:30:35] [Server thread/INFO]: [HuskHomes] Registered 1 plugin hooks: PlaceholderAPI
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing events...
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing API...
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized API
+[15:30:35] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[15:30:35] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[15:30:35] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.3.5
+[15:30:36] [Server thread/INFO]: [BattlePass] Enabling BattlePass v4.7.10
+[15:30:36] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] battlePass-hikari - Starting...
+[15:30:36] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] battlePass-hikari - Start completed.
+[15:30:36] [Server thread/INFO]: Successfully connected to MySQL.
+[15:30:36] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] battlePass-hikari - Starting...
+[15:30:36] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] battlePass-hikari - Start completed.
+[15:30:36] [Server thread/INFO]: Successfully connected to MySQL.
+[15:30:36] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] battlePass-hikari - Starting...
+[15:30:36] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] battlePass-hikari - Start completed.
+[15:30:36] [Server thread/INFO]: Successfully connected to MySQL.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the daily quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-6 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-1 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-7 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-pool quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-2 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-3 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-5 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [BattlePass] Finished loading the week-4 quests. All quests loaded successfully.
+[15:30:37] [Server thread/INFO]: [AdvancedEnchantments] Hooked into AdvancedEnchantments
+[15:30:37] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: free
+[15:30:37] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: premium
+[15:30:37] [Server thread/INFO]: [BattlePass] Register PlaceholderAPI placeholders
+[15:30:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: battlepass [1.1]
+[15:30:37] [Server thread/INFO]: [BattlePass] Hooked into vault
+[15:30:37] [Server thread/INFO]: [HuskTowns] Enabling HuskTowns v3.0.6
+[15:30:37] [Server thread/INFO]: [net.william278.husktowns.libraries.hikari.HikariDataSource] HuskTownsHikariPool - Starting...
+[15:30:37] [Server thread/INFO]: [net.william278.husktowns.libraries.hikari.pool.HikariPool] HuskTownsHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@74aec8bf
+[15:30:37] [Server thread/INFO]: [net.william278.husktowns.libraries.hikari.HikariDataSource] HuskTownsHikariPool - Start completed.
+[15:30:37] [Server thread/INFO]: [HuskTowns] Creating MySQL database tables
+[15:30:37] [Server thread/INFO]: [HuskTowns] Created MySQL database tables
+[15:30:37] [Server thread/INFO]: [HuskTowns] Successfully initialized the MySQL database
+[15:30:37] [Server thread/INFO]: [HuskTowns] Loading hooks...
+[15:30:37] [Server thread/INFO]: [HuskTowns] Enabled LuckPerms context provider hook
+[15:30:37] [Server thread/INFO]: [HuskTowns] Enabled Vault economy hook
+[15:30:37] [Server thread/INFO]: [HuskTowns] Enabled HuskHomes teleportation hook
+[15:30:37] [Server thread/INFO]: [HuskTowns] Successfully loaded 4 hooks
+[15:30:37] [Server thread/INFO]: [HuskTowns] Loading data...
+[15:30:37] [Server thread/INFO]: [HuskTowns] Enabled HuskTowns v3.0.6
+[15:30:37] [Server thread/INFO]: [CustomCrops] Enabling CustomCrops v3.6.18
+[15:30:38] [Server thread/INFO]: [CustomCrops] ItemsAdder hooked!
+[15:30:38] [Server thread/INFO]: [CustomCrops] ItemsAdder hooked!
+[15:30:38] [Server thread/INFO]: [CustomCrops] CustomFishing hooked!
+[15:30:38] [Server thread/INFO]: [CustomCrops] RealisticSeasons hooked!
+[15:30:38] [Server thread/INFO]: [CustomCrops] Vault hooked!
+[15:30:38] [Server thread/INFO]: [CustomCrops] PlaceholderAPI hooked!
+[15:30:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: customcrops [3.6]
+[15:30:38] [Server thread/INFO]: [CustomCrops] BattlePass hooked!
+[15:30:38] [Server thread/INFO]: [CustomCrops] Hooked into customcrops
+[15:30:38] [Server thread/WARN]: [CustomCrops] Error occurs during parsing configs
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase(java.util.Locale)" because the return value of "net.momirealms.customcrops.libraries.boostedyaml.block.implementation.Section.getString(String)" is null
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.lambda$static$3(ConfigType.java:164) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.parse(ConfigType.java:337) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.loadConfigs(BukkitConfigManager.java:236) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.load(BukkitConfigManager.java:102) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.common.plugin.feature.Reloadable.reload(Reloadable.java:24) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.reload(BukkitCustomCropsPluginImpl.java:221) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:169) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:753) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:515) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:30:38] [Server thread/WARN]: [CustomCrops] Error occurs during parsing configs
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase(java.util.Locale)" because the return value of "net.momirealms.customcrops.libraries.boostedyaml.block.implementation.Section.getString(String)" is null
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.lambda$static$3(ConfigType.java:164) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.parse(ConfigType.java:337) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.loadConfigs(BukkitConfigManager.java:236) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.load(BukkitConfigManager.java:102) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.common.plugin.feature.Reloadable.reload(Reloadable.java:24) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.reload(BukkitCustomCropsPluginImpl.java:221) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:169) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:753) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:515) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:30:38] [Server thread/WARN]: [CustomCrops] Error occurs during parsing configs
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase(java.util.Locale)" because the return value of "net.momirealms.customcrops.libraries.boostedyaml.block.implementation.Section.getString(String)" is null
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.lambda$static$3(ConfigType.java:164) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.parse(ConfigType.java:337) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.loadConfigs(BukkitConfigManager.java:236) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.load(BukkitConfigManager.java:102) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.common.plugin.feature.Reloadable.reload(Reloadable.java:24) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.reload(BukkitCustomCropsPluginImpl.java:221) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:169) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:753) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:515) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:30:38] [Server thread/WARN]: [CustomCrops] Error occurs during parsing configs
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase(java.util.Locale)" because the return value of "net.momirealms.customcrops.libraries.boostedyaml.block.implementation.Section.getString(String)" is null
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.lambda$static$3(ConfigType.java:164) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.parse(ConfigType.java:337) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.loadConfigs(BukkitConfigManager.java:236) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.load(BukkitConfigManager.java:102) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.common.plugin.feature.Reloadable.reload(Reloadable.java:24) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.reload(BukkitCustomCropsPluginImpl.java:221) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:169) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:753) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:515) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:30:38] [Server thread/WARN]: [CustomCrops] Error occurs during parsing configs
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase(java.util.Locale)" because the return value of "net.momirealms.customcrops.libraries.boostedyaml.block.implementation.Section.getString(String)" is null
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.lambda$static$3(ConfigType.java:164) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.parse(ConfigType.java:337) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.loadConfigs(BukkitConfigManager.java:236) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.load(BukkitConfigManager.java:102) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.common.plugin.feature.Reloadable.reload(Reloadable.java:24) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.reload(BukkitCustomCropsPluginImpl.java:221) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:169) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:753) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:515) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:30:38] [Server thread/WARN]: [CustomCrops] Error occurs during parsing configs
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase(java.util.Locale)" because the return value of "net.momirealms.customcrops.libraries.boostedyaml.block.implementation.Section.getString(String)" is null
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.lambda$static$3(ConfigType.java:164) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.ConfigType.parse(ConfigType.java:337) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.loadConfigs(BukkitConfigManager.java:236) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.config.BukkitConfigManager.load(BukkitConfigManager.java:102) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.common.plugin.feature.Reloadable.reload(Reloadable.java:24) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.reload(BukkitCustomCropsPluginImpl.java:221) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitCustomCropsPluginImpl.enable(BukkitCustomCropsPluginImpl.java:169) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.BukkitBootstrap.onEnable(BukkitBootstrap.java:35) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:753) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:515) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:30:39] [Server thread/INFO]: [TrChat] Enabling TrChat v2.1.3
+[15:30:39] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.4
+[15:30:39] [Server thread/INFO]: [TAB-Bridge] Enabling TAB-Bridge v6.0.0
+[15:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [6.0.0-SNAPSHOT]
+[15:30:39] [Server thread/INFO]: [TrMenu] Enabling TrMenu v3.3.4
+[15:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: TrMenu [3.3.4]
+[15:30:39] [customcrops-worker-7/INFO]: [CustomCrops] You are using the latest version.
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: [TrMenu] 错误 | 载入菜单 nametag1 过程中发生错误! 定位于: MENU
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]:     java.lang.reflect.InvocationTargetException
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: 
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: [TrMenu] 错误 | 载入菜单 nametag2 过程中发生错误! 定位于: MENU
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]:     java.lang.reflect.InvocationTargetException
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: 
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: [TrMenu] 错误 | 载入菜单 nametag3 过程中发生错误! 定位于: MENU
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]:     java.lang.reflect.InvocationTargetException
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: 
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: [TrMenu] 错误 | 载入菜单 nametag4 过程中发生错误! 定位于: MENU
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]:     java.lang.reflect.InvocationTargetException
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: 
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: [TrMenu] 错误 | 载入菜单 wallet 过程中发生错误! 定位于: MENU
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]:     java.lang.reflect.InvocationTargetException
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: 
+[15:30:39] [ForkJoinPool.commonPool-worker-10/INFO]: [TrMenu] 良好 | 11 个菜单已加载 (415 ms)
+[15:30:39] [Server thread/ERROR]: [TrChat] [STDERR] SLF4J: No SLF4J providers were found.
+[15:30:39] [Server thread/WARN]: Nag author(s): '[Arasple, ItsFlicker]' of 'TrChat v2.1.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:30:39] [Server thread/ERROR]: [TrChat] [STDERR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+[15:30:39] [Server thread/ERROR]: [TrChat] [STDERR] SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[15:30:39] [Server thread/ERROR]: [STDERR] [com.mysql.jdbc.Driver] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[15:30:39] [Server thread/INFO]: [TrMenu] 良好 | 插件启用. 当前运行版本 3.3.4.
+[15:30:39] [Server thread/INFO]: [TrMenu] 版本 | 你正在使用社区维护版本:
+[15:30:39] [Server thread/INFO]: https://github.com/Dreeam-qwq/TrMenu
+[15:30:39] [Server thread/INFO]: [TrMenu] 挂钩 | 软依赖 Vault 已兼容.
+[15:30:39] [Server thread/INFO]: [TrMenu] 挂钩 | 软依赖 ItemsAdder 已兼容.
+[15:30:39] [Server thread/INFO]: [TogglePvp] Enabling TogglePvp v8.1
+[15:30:39] [Server thread/INFO]: [TogglePvp] Registering PlaceholderAPI Expansions
+[15:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: togglepvp [1.0.0]
+[15:30:39] [Server thread/INFO]: [TogglePvp] Enabled TogglePvp
+[15:30:39] [Server thread/INFO]: [PlayerWarp] Enabling PlayerWarp v1.4.6
+[15:30:40] [Server thread/INFO]: [PlayerWarp] 已成功加载placeholderApi
+[15:30:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerWarp [1.4.6]
+[15:30:40] [Server thread/INFO]: [PlayerWarp] 已成功加载Vault 启用经济相关功能.
+[15:30:40] [Server thread/INFO]: [PlayerWarp] 你的服务端没有安装PlayerPoints 未启用点券相关功能.
+[15:30:40] [Server thread/INFO]: [PlayerWarp] 你的服务端没有安装MultiverseCore 未启用世界名翻译功能.
+[15:30:40] [Server thread/INFO]: [PlayerWarp] 已成功载入服务器！
+[15:30:40] [Server thread/INFO]: [PlayerWarp] Author:handy 使用文档: https://ricedoc.handyplus.cn/wiki/PlayerWarp/README/
+[15:30:40] [Server thread/INFO]: [PlayerTitle] Enabling PlayerTitle v4.2.1
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 成功加载Vault,启用经济相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 成功加载placeholderApi,启用自定义变量功能!
+[15:30:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerTitle [4.2.1]
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到PlayerPoints,未启用点券相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到attributePlus,未启用属性标签相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到AttributeSystem,未启用属性标签相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到SXAttribute,未启用属性标签相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到SuperTrails,未启用粒子效果相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到MmoItems,未启用MmoItems buff相关功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 未找到PlayerParticles,未启用PlayerParticles粒子效果功能!
+[15:30:40] [Server thread/INFO]: [PlayerTitle] 
+[15:30:40] [Server thread/INFO]: [PlayerTitle]  ____  _                      _____ _ _   _      
+[15:30:40] [Server thread/INFO]: [PlayerTitle]  |  _ \| | __ _ _   _  ___ _ _|_   _(_) |_| | ___ 
+[15:30:40] [Server thread/INFO]: [PlayerTitle]  | |_) | |/ _` | | | |/ _ \ '__|| | | | __| |/ _ \
+[15:30:40] [Server thread/INFO]: [PlayerTitle]  |  __/| | (_| | |_| |  __/ |   | | | | |_| |  __/
+[15:30:40] [Server thread/INFO]: [PlayerTitle]  |_|   |_|\__,_|\__, |\___|_|   |_| |_|\__|_|\___|
+[15:30:40] [Server thread/INFO]: [PlayerTitle]                 |___/                             
+[15:30:41] [Server thread/INFO]: [PlayerTitle] 已成功载入服务器！
+[15:30:41] [Server thread/INFO]: [PlayerTitle] Author:handy WIKI: https://ricedoc.handyplus.cn/wiki/PlayerTitle/README/
+[15:30:41] [Server thread/INFO]: [LiteSignIn] Enabling LiteSignIn v1.8.4.0
+[15:30:41] [Server thread/INFO]: [LiteSignIn] 语言信息已加载。
+[15:30:41] [Server thread/INFO]: [LiteSignIn] 已启用 命令监听器 。
+[15:30:41] [Server thread/INFO]: [LiteSignIn] 已启用 事件监听器 。
+[15:30:41] [Server thread/INFO]: ?成功连接到 MySQL 服务器.
+[15:30:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: litesignin [1.0.0]
+[15:30:41] [Server thread/INFO]: ?找到 PlaceholderAPI ， 准备就绪。
+[15:30:41] [Server thread/INFO]: ?异步线程开始运行
+[15:30:41] [Thread-15/INFO]: ?玩家数据已保存!
+[15:30:41] [Server thread/INFO]: ?插件加载完成。
+[15:30:41] [Server thread/INFO]: [HyronicFriends] Enabling HyronicFriends v1.3.19
+[15:30:42] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[15:30:42] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1607fa6c
+[15:30:42] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[15:30:42] [Server thread/INFO]: [HyronicFriends] Established MySQL connection.
+[15:30:42] [Server thread/INFO]: [HyronicFriends] Database setup completed!
+[15:30:42] [Server thread/INFO]: [HyronicFriends] Successfully loaded all player data.
+[15:30:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hfriends [1.3.19]
+[15:30:43] [Server thread/INFO]: [HyronicFriends] Hooked into PlaceholderAPI v2.11.6
+[15:30:43] [Server thread/INFO]: [HyronicFriends] Plugin loaded successfully!
+[15:30:43] [Server thread/INFO]: [HuskSync] Enabling HuskSync v3.7
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing commands...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized commands
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing data adapter...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized data adapter
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing data serializers...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized data serializers
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing data migrators/converters...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized data migrators/converters
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing MySQL database connection...
+[15:30:43] [Server thread/INFO]: [net.william278.husksync.libraries.hikari.HikariDataSource] HuskSyncHikariPool - Starting...
+[15:30:43] [Server thread/INFO]: [net.william278.husksync.libraries.hikari.pool.HikariPool] HuskSyncHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@14ba6678
+[15:30:43] [Server thread/INFO]: [net.william278.husksync.libraries.hikari.HikariDataSource] HuskSyncHikariPool - Start completed.
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized MySQL database connection
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing Redis server connection...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized Redis server connection
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing data syncer...
+[15:30:43] [husksync:redis_subscriber/INFO]: [HuskSync] Redis subscribed to channel 'husksync:::update_user_data'
+[15:30:43] [husksync:redis_subscriber/INFO]: [HuskSync] Redis subscribed to channel 'husksync:::request_user_data'
+[15:30:43] [husksync:redis_subscriber/INFO]: [HuskSync] Redis subscribed to channel 'husksync:::return_user_data'
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized data syncer
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing events...
+[15:30:43] [Server thread/INFO]: [HuskSync] Using ProtocolLib to cancel packets for locked players
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized events
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing hooks...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized hooks
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing api...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized api
+[15:30:43] [Server thread/INFO]: [HuskSync] Initializing metrics...
+[15:30:43] [Server thread/INFO]: [HuskSync] Successfully initialized metrics
+[15:30:43] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.3
+[15:30:43] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.3
+[15:30:43] [Server thread/INFO]: [GlobalMarketPlus] Enabling GlobalMarketPlus v1.2.11.2
+[15:30:44] [Server thread/INFO]: [GlobalMarketPlus] 插件核心配置文件加载完成
+[15:30:44] [Server thread/INFO]: [GlobalMarketPlus] 插件开始加载...
+[15:30:44] [Server thread/INFO]: [GlobalMarketPlus] 已启用 事件监听器 。
+[15:30:44] [Server thread/INFO]: [GlobalMarketPlus] 已启用 命令监听器 。
+[15:30:44] [Server thread/INFO]:   _____  _         _            _    __  __               _           _      _____   _
+[15:30:44] [Server thread/INFO]:  / ____|| |       | |          | |  |  \/  |             | |         | |    |  __ \ | |
+[15:30:44] [Server thread/INFO]: | |  __ | |  ___  | |__   __ _ | |  | \  / |  __ _  _ __ | | __  ___ | |_   | |__) || | _   _  ___
+[15:30:44] [Server thread/INFO]: | | |_ || | / _ \ | '_ \ / _` || |  | |\/| | / _` || '__|| |/ / / _ \| __|  |  ___/ | || | | |/ __|
+[15:30:44] [Server thread/INFO]: | |__| || || (_) || |_) | (_| || |  | |  | || (_| || |   |   < |  __/| |_   | |     | || |_| |\__ \
+[15:30:44] [Server thread/INFO]:  \_____||_| \___/ |_.__/ \__,_||_|  |_|  |_| \__,_||_|   |_|\_\ \___| \__|  |_|     |_| \__,_||___/
+[15:30:44] [Server thread/INFO]: 
+[15:30:44] [Server thread/INFO]: [GlobalMarketPlus] Loading plugins\[Edited]GlobalMarketPlus-1.2.11.2.jar L=1614535
+[15:30:44] [Server thread/INFO]: [EZColors] Enabling EZColors v2.2.6
+[15:30:44] [Server thread/INFO]:  Failed to download languages online. Fetching local languages! (These may be outdated)
+[15:30:44] [Server thread/INFO]:  Loading EZColors v2.2.6!
+[15:30:44] [Server thread/INFO]:  Found a compatible version. Hooking into V1_21_R1!
+[15:30:44] [Server thread/INFO]:  Using HIGH as the Chat Listener.
+[15:30:44] [Server thread/INFO]:  Found PlaceholderAPI. Loading hook!
+[15:30:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ezcolors [1.0.0]
+[15:30:44] [Server thread/INFO]:  Successfully Loaded EZColors v2.2.6 in 72ms!
+[15:30:44] [Server thread/INFO]: [EClean] Enabling EClean v1.18.1
+[15:30:44] [Server thread/INFO]: [清理] 设置清理任务, 间隔600秒
+[15:30:44] [Server thread/INFO]: [清理] 设置清理前60秒提醒: 将在1分钟后进行清理
+[15:30:44] [Server thread/INFO]: [清理] 设置清理前30秒提醒: 将在30秒后进行清理
+[15:30:44] [Server thread/INFO]: [清理] 设置清理前10秒提醒: 将在10秒后进行清理
+[15:30:44] [Server thread/INFO]: [清理] 设置清理前0秒提醒: 正在清理
+[15:30:44] [Server thread/INFO]: [清理] 扫描到依赖PlaceholderAPI, 已启用相关支持
+[15:30:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: eclean [1.18.1]
+[15:30:44] [Server thread/INFO]: [清理]  ______     ______     __         ______     ______     __   __   
+[15:30:44] [Server thread/INFO]: [清理] /\  ___\   /\  ___\   /\ \       /\  ___\   /\  __ \   /\ "-.\ \  
+[15:30:44] [Server thread/INFO]: [清理] \ \  __\   \ \ \____  \ \ \____  \ \  __\   \ \  __ \  \ \ \-.  \ 
+[15:30:44] [Server thread/INFO]: [清理]  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_\\"\_\
+[15:30:44] [Server thread/INFO]: [清理]   \/_____/   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/ \/_/
+[15:30:44] [Server thread/INFO]: [清理] 加载完成, 作者404E, 感谢使用
+[15:30:44] [Server thread/INFO]: [CustomJoinAndQuitMessages] Enabling CustomJoinAndQuitMessages v1.8.0-b0
+[15:30:44] [Server thread/INFO]: [CustomFishing] Enabling CustomFishing v2.2.31
+[15:30:45] [Server thread/INFO]: [CustomFishing] ItemsAdder hooked!
+[15:30:45] [Server thread/INFO]: [CustomFishing] AdvancedEnchantments hooked!
+[15:30:45] [Server thread/INFO]: [CustomFishing] RealisticSeasons hooked!
+[15:30:45] [Server thread/INFO]: [CustomFishing] Vault hooked!
+[15:30:45] [Server thread/INFO]: [CustomFishing] BattlePass hooked!
+[15:30:45] [Server thread/INFO]: [CustomFishing] Hooked into customfishing
+[15:30:45] [Server thread/INFO]: [CustomFishing] PlaceholderAPI hooked!
+[15:30:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: customfishing [2.2]
+[15:30:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cfcompetition [2.2]
+[15:30:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: fishingstats [2.2]
+[15:30:45] [Server thread/INFO]: [net.momirealms.customfishing.libraries.hikari.HikariDataSource] CustomFishingHikariPool - Starting...
+[15:30:46] [Server thread/INFO]: [net.momirealms.customfishing.libraries.hikari.pool.HikariPool] CustomFishingHikariPool - Added connection net.momirealms.customfishing.libraries.mysql.cj.jdbc.ConnectionImpl@13e71e89
+[15:30:46] [Server thread/INFO]: [net.momirealms.customfishing.libraries.hikari.HikariDataSource] CustomFishingHikariPool - Start completed.
+[15:30:46] [Server thread/INFO]: [WkKit] Enabling WkKit v1.3.0
+[15:30:46] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[15:30:46] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[15:30:46] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'WkKit' to create a bStats instance!
+[15:30:46] [Server thread/INFO]: [WkKit] 
+[15:30:46] [Server thread/INFO]: [WkKit]  __ __ __   ___   ___   ___   ___   ________  _________  
+[15:30:46] [Server thread/INFO]: [WkKit] /_//_//_/\ /___/\/__/\ /___/\/__/\ /_______/\/________/\ 
+[15:30:46] [Server thread/INFO]: [WkKit] \:\\:\\:\ \\::.\ \\ \ \\::.\ \\ \ \\__.::._\/\__.::.__\/ 
+[15:30:46] [Server thread/INFO]: [WkKit]  \:\\:\\:\ \\:: \/_) \ \\:: \/_) \ \  \::\ \    \::\ \   
+[15:30:46] [Server thread/INFO]: [WkKit]   \:\\:\\:\ \\:. __  ( ( \:. __  ( (  _\::\ \__  \::\ \  
+[15:30:46] [Server thread/INFO]: [WkKit]    \:\\:\\:\ \\: \ )  \ \ \: \ )  \ \/__\::\__/\  \::\ \ 
+[15:30:46] [Server thread/INFO]: [WkKit]     \_______\/ \__\/\__\/  \__\/\__\/\________\/   \__\/ 
+[15:30:46] [Server thread/INFO]: [WkKit] 
+[15:30:46] [Server thread/INFO]: [WkKit] Version: 1.3.0 | Author: WekyJay | QQ Group: 945144520
+[15:30:46] [Server thread/INFO]: [WkKit] 特别鸣谢：Biulay Gentry (排名不分先后)
+[15:30:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: wkkit [1.3.0]
+[15:30:46] [Server thread/INFO]: [WkKit] §7已成功与 §6Vault §7挂钩 §6Economy §7服务.
+[15:30:46] [Server thread/INFO]: [WkKit] 已加载礼包数量: 7
+[15:30:46] [Server thread/INFO]: [WkKit] 已加载菜单数量: 3
+[15:30:46] [Server thread/INFO]: [WkKit] 启用日志管理
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Enabling VehiclesPlusPro v2.4.7.1
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] -------------------------------
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] VehiclesPlus v2.4.7.1
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Made by SBDeveloper
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Running on: (NMS: Unknown NMS | Parsed: 1.21.1 | Minecraft: 1.21.1-128-d348cb8 (MC: 1.21.1) | Bukkit: 1.21.1-R0.1-SNAPSHOT)
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Loading Vault integration...
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Loading managers...
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Loading vehicles...
+[15:30:46] [customfishing-worker-13/WARN]: [CustomFishing] Update is available: https://github.com/Xiao-MoMi/Custom-Fishing/
+[15:30:46] [Server thread/INFO]: Loaded: 7 vehicles!
+[15:30:46] [Server thread/INFO]: Loaded: 1 rims!
+[15:30:46] [Server thread/INFO]: Loaded: 1 fuels!
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Loading listeners...
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Loading API...
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] Loading commands...
+[15:30:46] [Server thread/INFO]: [VehiclesPlusPro] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:30:47] [Server thread/INFO]: [VehiclesPlusPro] Loading metrics... (disable in bStats config)
+[15:30:47] [Server thread/INFO]: [VehiclesPlusPro] Plugin enabled!
+[15:30:47] [Server thread/INFO]: [VehiclesPlusPro] -------------------------------
+[15:30:47] [Server thread/INFO]: [Ultimate_BlockRegeneration] Enabling Ultimate_BlockRegeneration v2.0.23
+[15:30:47] [Server thread/INFO]: [Ultimate_BlockRegeneration] Regions Not Found In Regions.yml
+[15:30:47] [Server thread/INFO]: ****************************
+[15:30:47] [Server thread/INFO]:       Ultimate BlockRegen     
+[15:30:47] [Server thread/INFO]:  Regenerate Blocks in Style 
+[15:30:47] [Server thread/INFO]:                             
+[15:30:47] [Server thread/INFO]:         V:2.0.23        
+[15:30:47] [Server thread/INFO]:        Made By HmmboYt      
+[15:30:47] [Server thread/INFO]:  Join Our Discord For Support  
+[15:30:47] [Server thread/INFO]: ****************************
+[15:30:47] [Server thread/INFO]: Thanks for using Black-Minecraft.com
+[15:30:47] [Server thread/INFO]: [Ultimate_BlockRegeneration] ItemsAdder Loaded
+[15:30:47] [Server thread/INFO]: [Ultimate_BlockRegeneration] Vault Loaded
+[15:30:47] [Server thread/WARN]: [Ultimate_BlockRegeneration] "Ultimate_BlockRegeneration v2.0.23" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void revxrsal.commands.bukkit.brigadier.PaperCommodore$CommandRegisterListener.onCommandRegistered(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<?>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [].
+[15:30:47] [Server thread/INFO]: [Reforges] Enabling Reforges v6.71.1
+[15:30:47] [Server thread/INFO]: [Reforges] Loading Reforges
+[15:30:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: reforges [6.71.1]
+[15:30:47] [Server thread/INFO]: [PlayerWarps] Enabling PlayerWarps v7.6.1
+[15:30:47] [GlobalMarketPlus-Loading/INFO]: ?成功连接到 SQLite 服务器.
+[15:30:47] [GlobalMarketPlus-Loading/INFO]: ?初始化 NMS 完成：1.21.1-R0.1-SNAPSHOT
+[15:30:48] [GlobalMarketPlus-Loading/INFO]: ?异步线程开始运行
+[15:30:48] [GlobalMarketPlus-Loading/INFO]: ?插件加载完成，耗时 3908ms 。
+[15:30:49] [Server thread/INFO]: [PlayerWarps] Hello
+[15:30:49] [Server thread/INFO]: [PlayerWarps] Hello
+[15:30:49] [Server thread/INFO]: [PlayerWarps] Vault found, now enabling PlayerWarps...
+[15:30:58] [Server thread/INFO]: [PlayerWarps] Found 25 config files to load!
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Permissions plugin found! (LuckPerms)
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Economy plugin found! (XConomy)
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Chat plugin found! (LuckPerms)
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Found PlaceholderAPI integrating support...
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Found Item Currency integrating support...
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Found Vault Currency integrating support...
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Found XP Currency integrating support...
+[15:31:06] [Server thread/INFO]: [PlayerWarps] SQLite database is enabling...
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Loading Metrics...
+[15:31:06] [Server thread/INFO]: [PlayerWarps] Successfully loaded Metrics!
+[15:31:06] [Server thread/INFO]: [MapModCompanion] Enabling MapModCompanion v0.10.0
+[15:31:06] [Server thread/INFO]: [MapModCompanion] world_id handler will not be available (couldn't register incoming plugin channel: world_id (can be safely ignored on 1.13+))
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.3 b68
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.1 for nametag support
+[15:31:06] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Current rules hash: cb2333130b5cd27fb056e621bfdbb4ec28bf7d7227966db48bb82dc40372aefd
+[15:31:06] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[15:31:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.1.3 b68]
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[15:31:06] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 143ms)
+[15:31:06] [Server thread/INFO]: [FlipCard] Enabling FlipCard v3.4.0
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded card texture: card1!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded card texture: card2!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded card texture: card3!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded edge: common!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded edge: rare!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded edge: very_rare!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded edge: very_very_rare!
+[15:31:07] [Server thread/INFO]: [FlipCard] Loaded custom animate: chest!
+[15:31:07] [Server thread/INFO]: ?9?8?9?8[FlipCard] Paper is found, enabled Paper only feature!
+[15:31:07] [Server thread/INFO]: [FlipCard] Hooking into PlaceholderAPI...
+[15:31:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: flipcard [1.0.0]
+[15:31:07] [Server thread/INFO]: [FlipCard] Finished hook!
+[15:31:07] [Server thread/INFO]: ?9?8?9?8[FlipCard] New AuthLib found, enabled new skull get method!
+[15:31:07] [Server thread/INFO]: ?9?8?9?8[FlipCard] Your Minecraft version is: 1.21.1!
+[15:31:07] [Server thread/INFO]: ?9?8?9?8[FlipCard] Plugin is loaded. Author: rzt1020.
+[15:31:07] [Server thread/INFO]: [EpicAchievements] Enabling EpicAchievements v1.6.2
+[15:31:08] [Server thread/INFO]: [EpicAchievements] Connected to the database.
+[15:31:08] [Server thread/INFO]: [EpicAchievements] Loaded 2 categories.
+[15:31:08] [Server thread/INFO]: [EpicAchievements] Loaded 5 achievements.
+[15:31:08] [Server thread/INFO]: [EpicAchievements] Hooked into Vault.
+[15:31:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: achievements [1.6.2]
+[15:31:08] [Server thread/INFO]: [EpicAchievements] Hooked into PlaceholderAPI.
+[15:31:08] [Server thread/INFO]: [EpicAchievements] Hooked into ItemsAdder.
+[15:31:08] [Server thread/INFO]: [CustomNameplates] Enabling CustomNameplates v3.0.6
+[15:31:09] [Server thread/INFO]: [net.momirealms.customnameplates.libraries.hikari.HikariDataSource] CustomNameplatesHikariPool - Starting...
+[15:31:09] [Server thread/INFO]: [net.momirealms.customnameplates.libraries.hikari.pool.HikariPool] CustomNameplatesHikariPool - Added connection net.momirealms.customnameplates.libraries.mysql.cj.jdbc.ConnectionImpl@821c225
+[15:31:09] [Server thread/INFO]: [net.momirealms.customnameplates.libraries.hikari.HikariDataSource] CustomNameplatesHikariPool - Start completed.
+[15:31:10] [Server thread/WARN]: [CustomNameplates] C:\Users\Reisen\Desktop\MC\Server\BigFrame 1.21.1\Surrvive\server\plugins\CustomNameplates\font\example.ttf not found
+[15:31:10] [Server thread/INFO]: [CustomNameplates] TrChat hooked!
+[15:31:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: nameplates [3.0]
+[15:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: npex [3.0]
+[15:31:12] [Server thread/INFO]: [ChestSort] Enabling ChestSort v14.2.0
+[15:31:12] [Server thread/INFO]: [ChestSort] Use permissions: true
+[15:31:12] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[15:31:12] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[15:31:12] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[15:31:12] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[15:31:12] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[15:31:12] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[15:31:12] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[15:31:12] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[15:31:12] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[15:31:12] [Server thread/INFO]: [ChestSort] Check for updates: true
+[15:31:12] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[15:31:12] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[15:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chestsort [14.2.0]
+[15:31:12] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.2
+[15:31:12] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[15:31:12] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[15:31:12] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[15:31:12] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[15:31:12] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[15:31:12] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.2!
+[15:31:12] [Server thread/INFO]: [BeaconPlus] Enabling BeaconPlus3 v3.0.82
+[15:31:12] [nameplates-worker-6/INFO]: [CustomNameplates] You are using the latest version.
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: COMMAND_EXECUTOR
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: EXP_BOOST
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: FLY
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: FURNACE_BOOST
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: CROPS_BOOST
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: MAGNET
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: POTION_EFFECT
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: POTION_DURATION_BOOST
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: STUPID_AI
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: SPAWNER_BOOST
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: FIRE_CONTROL
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: SATURATION
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: COOLDOWN_REDUCTION
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: EXP_GAIN
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: IMMORTALITY_FIELD
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: PERMISSION
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: ATTRIBUTE_MODIFIER
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Registered Effect Parser: PREVENT_MOB_SPAWNING
+[15:31:13] [Server thread/INFO]: [BeaconPlus] Uses Paper Entity Finder
+[15:31:13] [pool-63-thread-1/INFO]: [BeaconPlus] [STDOUT] Using Modern Recipe Manager
+[15:31:13] [pool-63-thread-1/WARN]: Nag author(s): '[Septogeddon]' of 'BeaconPlus3 v3.0.82' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:31:13] [pool-63-thread-1/INFO]: [BeaconPlus] Unloaded 0 chunks (0 beacons)
+[15:31:13] [Server thread/INFO]: [AdvancedPets] Enabling AdvancedPets v2.13.9
+[15:31:13] [pool-63-thread-1/INFO]: [BeaconPlus] Uses FILE data storage
+[15:31:13] [pool-63-thread-1/INFO]: [BeaconPlus] Uses WORLD beacon data storage
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Added power source: GOLD_BLOCK (1.0)
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Added power source: IRON_BLOCK (1.0)
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Added power source: EMERALD_BLOCK (3.0)
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Added power source: DIAMOND_BLOCK (2.0)
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Added power source: NETHERITE_BLOCK (4.0)
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Uses Exponential Range calculator
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: furnace
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: strength
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: invisible
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: regeneration
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: resist
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: fastdig
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: cure
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: crops
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: spawners
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: slowdown
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: speed
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: peaceful
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: nightvision
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: flying
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: exp_boost
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: luck
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: burner
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: water_breathing
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: fireExtinguisher
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: poison
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: gravity_well
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: jump
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: exp_gain
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: cooldown_reduction
+[15:31:14] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded effect: immortality
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Loaded 24,661 custom heads
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Bear.amob model wasn't loaded - it requires ModelEngine: https://mobs.advancedplugins.net/supported-plugins/modelengine 
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Mammoth.amob model wasn't loaded - it requires ModelEngine: https://mobs.advancedplugins.net/supported-plugins/modelengine 
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Reindeer.amob model wasn't loaded - it requires ModelEngine: https://mobs.advancedplugins.net/supported-plugins/modelengine 
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Loaded 15 mob configurations.
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Loaded 6 pet abilities.
+[15:31:14] [Server thread/INFO]: [AdvancedPets] Loaded 6 Skin Packs.
+[15:31:14] [Server thread/INFO]: [libreforge] Enabling libreforge v4.72.1
+[15:31:14] [Server thread/INFO]: [libreforge] Loading libreforge
+[15:31:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: libreforge [4.72.1]
+[15:31:14] [Server thread/INFO]: [libreforge] Loaded integrations: LevelledMobs, Vault
+[15:31:14] [Server thread/INFO]: [libreforge] 
+[15:31:14] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[15:31:14] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[15:31:14] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[15:31:14] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[15:31:14] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[15:31:14] [Server thread/INFO]: [libreforge] 
+[15:31:14] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[15:31:14] [Server thread/INFO]: [libreforge] 
+[15:31:14] [Server thread/INFO]: [spark] Starting background profiler...
+[15:31:14] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:31:15] [Server thread/INFO]: [Ultimate_BlockRegeneration] Regions Not Found In Regions.yml
+[15:31:15] [Server thread/INFO]: Done preparing level "world" (52.633s)
+[15:31:15] [Server thread/INFO]: Running delayed init tasks
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Loading claims from the MySQL database...
+[15:31:15] [Craft Scheduler Thread - 8 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:31:15] [Craft Scheduler Thread - 27 - PlayerWarps/INFO]: [PlayerWarps] Loading player warps...
+[15:31:15] [Craft Scheduler Thread - 12 - EpicAchievements/INFO]: [EpicAchievements] Checking for updates...
+[15:31:15] [Craft Scheduler Thread - 25 - WkKit/INFO]: [WkKit] 正在进行检查更新...
+[15:31:15] [Craft Scheduler Thread - 50 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Creating a new claim world for world in the database...
+[15:31:15] [Server thread/INFO]: [CoreProtect] FastAsyncWorldEdit logging successfully initialized.
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Loaded 0 claim(s) across 1 world(s) in 0.12 seconds
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Loading towns from the database...
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Loaded 0 town(s) with 0 member(s) in 0.003 seconds
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Validating and pruning orphan claims...
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Successfully validated and pruned orphan claims in 0.001 seconds
+[15:31:15] [Craft Scheduler Thread - 19 - HuskTowns/INFO]: [HuskTowns] Loaded data in 37.406 seconds.
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
+[15:31:15] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 249
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: husktowns [3.0.6]
+[15:31:15] [Server thread/INFO]: [CustomCrops] Registry access has been frozen
+[15:31:15] [Server thread/INFO]: ?配置文件加载完成，启用语言 简体中文
+[15:31:15] [Server thread/INFO]: ?加载了 28 个配置文件， 故障 0 个。
+[15:31:15] [Server thread/INFO]: ?已加载所有特殊GUI与0个自定义GUI设置
+[15:31:15] [Server thread/INFO]: ?已启用数据库 SQLite 。
+[15:31:15] [Server thread/INFO]: ?加载了 273 个JSON消息元件
+[15:31:15] [Server thread/INFO]: ?加载了 3 个用户组设置
+[15:31:15] [Server thread/INFO]: ?加载了 10 个分类设置
+[15:31:15] [Server thread/INFO]: ?插件初始化完毕， 当前版本 v1.2.11.2
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gmpapi [1.0.0]
+[15:31:15] [Server thread/INFO]: ?找到 PlaceholderAPI ，准备就绪。
+[15:31:15] [Server thread/INFO]: ?找到 Vault ，准备就绪。
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pw [7.6.1]
+[15:31:15] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Loaded 337 items
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Used 0/188 REAL block IDs
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Used 2/750 REAL_NOTE block IDs
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Used 4/63 REAL_TRANSPARENT block IDs
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Used 81/127 REAL_WIRE block IDs
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Used 0/14 FIRE block IDs
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] Used 148/6608 font_images
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] [Init] Loaded 21 categories
+[15:31:15] [Craft Scheduler Thread - 50 - Vault/INFO]: [Vault] No new version available
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] [Init] Loaded successfully.
+[15:31:15] [Craft Scheduler Thread - 16 - ItemsAdder/INFO]: [ItemsAdder] [Pack] Resourcepack URL (self-host): http://127.0.0.1:8163/generated.zip
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[15:31:15] [Server thread/INFO]: 5 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[15:31:15] [Craft Scheduler Thread - 45 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.2
+[15:31:15] [Craft Scheduler Thread - 45 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.2
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: img [1.0.1]
+[15:31:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: iaplayerstat [1.0.1]
+[15:31:15] [Server thread/INFO]: [EpicAchievements] ItemsAdder finished loading, reloading...
+[15:31:15] [Server thread/INFO]: Done (77.932s)! For help, type "help"
+[15:31:15] [Server thread/INFO]: Timings Reset
+[15:31:15] [Server thread/INFO]: [eco] Loaded eco
+[15:31:15] [Server thread/INFO]: [Reforges] Loaded Reforges
+[15:31:15] [Server thread/INFO]: [libreforge] Loaded libreforge
+[15:31:15] [Craft Scheduler Thread - 25 - WkKit/INFO]: [WkKit] 您的WkKit是最新版本！
+[15:31:15] [Server thread/INFO]: [BeaconPlus] Registering recipe: example_recipe
+[15:31:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[15:31:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[15:31:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'BeaconPlus3' to create a bStats instance!
+[15:31:16] [pool-63-thread-1/INFO]: [BeaconPlus] Loaded 147 chunks (0 beacons)
+[15:31:16] [Craft Scheduler Thread - 16 - FlipCard/INFO]: [FlipCard] Copying your resource pack to ItemsAdder/contents/flipcard/resourcepack/!
+[15:31:16] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into ProtocolLib, AdvancedEnchantments, PlaceholderAPI, Vault, LuckPerms, ViaVersion, ItemsAdder.
+[15:31:16] [Server thread/INFO]: [AdvancedPets] Successfully hooked into ProtocolLib, AdvancedEnchantments, PlaceholderAPI, BeaconPlus3, Vault, LuckPerms, ViaVersion, ItemsAdder.
+[15:31:16] [Craft Scheduler Thread - 45 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[15:31:16] [Craft Scheduler Thread - 16 - FlipCard/INFO]: [FlipCard] Copy finished, don't forgot reload your ItemsAdder or Oraxen or other resource pack plugin!
+[15:31:16] [Craft Scheduler Thread - 28 - PlayerWarp/INFO]: [PlayerWarp] 您正在使用PlayerWarp插件免费版,感谢您的支持
+[15:31:16] [Craft Scheduler Thread - 33 - PlayerTitle/INFO]: [PlayerTitle] 您正在使用PlayerTitle插件免费版,感谢您的支持
+[15:31:17] [Craft Scheduler Thread - 10 - ItemsAdder/INFO]: [ItemsAdder] [License] Spigot product licensed to: JordanW15 (102076)
+[15:33:20] [User Authenticator #0/INFO]: UUID of player AquaOH is 9ed3afff-4a1e-49a9-ac2a-d7d980bd476e
+[15:33:21] [Server thread/INFO]: AquaOH[/127.0.0.1:60449] logged in with entity id 17 at ([world]-5.300000011920929, 113.41999998688698, 3.909655818261688)
+[15:33:22] [Craft Scheduler Thread - 64 - HuskSync/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[15:33:22] [Craft Scheduler Thread - 64 - HuskSync/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[15:33:22] [Craft Scheduler Thread - 64 - HuskSync/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'HuskSync' to create a bStats instance!
+[15:40:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[15:40:41] [Thread-15/INFO]: ?玩家数据已保存!
+[15:40:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[15:40:46] [customfishing-worker-3/INFO]: [CustomFishing] Data Saved for online players. Took 18ms.
+[15:41:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[15:41:15] [Server thread/INFO]: [清理] 正在清理
+[15:41:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理11/11
+[15:50:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[15:50:41] [Thread-15/INFO]: ?玩家数据已保存!
+[15:50:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[15:50:46] [customfishing-worker-3/INFO]: [CustomFishing] Data Saved for online players. Took 13ms.
+[15:51:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[15:51:15] [Server thread/INFO]: [清理] 正在清理
+[15:51:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理1/1
+[16:00:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[16:00:41] [Thread-15/INFO]: ?玩家数据已保存!
+[16:00:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[16:00:46] [customfishing-worker-3/INFO]: [CustomFishing] Data Saved for online players. Took 21ms.
+[16:01:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[16:01:15] [Server thread/INFO]: [清理] 正在清理
+[16:01:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理2/2
+[16:02:43] [Server thread/INFO]: AquaOH was shot by Lvl 4 | Stray
+[16:10:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[16:10:41] [Thread-15/INFO]: ?玩家数据已保存!
+[16:10:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[16:10:46] [customfishing-worker-3/INFO]: [CustomFishing] Data Saved for online players. Took 13ms.
+[16:11:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[16:11:15] [Server thread/INFO]: [清理] 正在清理
+[16:11:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/0
+[16:14:36] [Server thread/INFO]: AquaOH issued server command: /xp add AquaOH 999999999
+[16:14:36] [Server thread/INFO]: [AquaOH: Gave 999999999 experience points to AquaOH]
+[16:14:42] [Server thread/INFO]: AquaOH issued server command: /gamemode creative
+[16:14:42] [Server thread/INFO]: [AquaOH: Set own game mode to Creative Mode]
+[16:14:45] [Server thread/INFO]: AquaOH issued server command: /kill @e
+[16:14:45] [Server thread/INFO]: AquaOH was killed
+[16:14:45] [Server thread/INFO]: [AquaOH: Killed 329 entities]
+[16:15:09] [Server thread/INFO]: AquaOH issued server command: /time set night
+[16:15:09] [Server thread/INFO]: [AquaOH: Set the time to 13000]
+[16:15:24] [Server thread/WARN]: [eco] Integration for HuskTowns threw an exception!
+[16:15:24] [Server thread/WARN]: [eco] The integration will be disabled.
+[16:15:24] [Server thread/WARN]: java.lang.NoSuchMethodError: 'net.william278.husktowns.user.OnlineUser net.william278.husktowns.api.HuskTownsAPI.getOnlineUser(org.bukkit.entity.Player)'
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.internal.spigot.integrations.antigrief.AntigriefHuskTowns.canBreakBlock(AntigriefHuskTowns.kt:20)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.antigrief.AntigriefManager.lambda$canBreakBlock$1(AntigriefManager.java:61)
+[16:15:24] [Server thread/WARN]: 	at java.base/java.util.function.Predicate.lambda$negate$1(Predicate.java:80)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.IntegrationRegistry.lambda$anySafely$2(IntegrationRegistry.java:51)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.IntegrationRegistry.executeSafely(IntegrationRegistry.java:119)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.IntegrationRegistry.executeSafely(IntegrationRegistry.java:103)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.IntegrationRegistry.anySafely(IntegrationRegistry.java:51)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.IntegrationRegistry.allSafely(IntegrationRegistry.java:136)
+[16:15:24] [Server thread/WARN]: 	at [Lib]eco-6.74.2-all.jar//com.willfp.eco.core.integrations.antigrief.AntigriefManager.canBreakBlock(AntigriefManager.java:61)
+[16:15:24] [Server thread/WARN]: 	at libreforge-4.72.1-1730537218672.jar//com.willfp.libreforge.triggers.impl.TriggerMineBlock.handle(TriggerMineBlock.kt:26)
+[16:15:24] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor872.execute(Unknown Source)
+[16:15:24] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+[16:15:24] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[16:15:24] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[16:15:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[16:15:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[16:15:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:383)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:342)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:215)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1856)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:51)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:20)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316)
+[16:15:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329)
+[16:15:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:15:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[16:15:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[16:15:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'VehiclesPlusPro' to create a bStats instance!
+[16:15:51] [Server thread/INFO]: AquaOH issued server command: /weather clear
+[16:15:51] [Server thread/INFO]: [AquaOH: Set the weather to clear]
+[16:20:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[16:20:41] [Thread-15/INFO]: ?玩家数据已保存!
+[16:20:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[16:20:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 14ms.
+[16:21:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[16:21:15] [Server thread/INFO]: [清理] 正在清理
+[16:21:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理117/122
+[16:27:32] [Server thread/INFO]: AquaOH issued server command: /leveledmobs reload
+[16:27:32] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[16:27:32] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[16:27:32] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[16:27:32] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[16:27:32] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[16:27:32] [Server thread/INFO]: [LevelledMobs] Current rules hash: 42144cdd46ffd47f32a34cd817a6244c1b273626c54df983a25200ba756bd43c
+[16:27:32] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[16:27:40] [Server thread/INFO]: AquaOH issued server command: /leveledmobs rules help-wiki
+[16:29:37] [Server thread/INFO]: AquaOH issued server command: /time set day
+[16:29:37] [Server thread/INFO]: [AquaOH: Set the time to 1000]
+[16:29:48] [Server thread/INFO]: AquaOH issued server command: /time set night
+[16:29:48] [Server thread/INFO]: [AquaOH: Set the time to 13000]
+[16:30:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[16:30:41] [Thread-15/INFO]: ?玩家数据已保存!
+[16:30:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[16:30:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 13ms.
+[16:31:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[16:31:15] [Server thread/INFO]: [清理] 正在清理
+[16:31:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理33/38
+[16:31:15] [Craft Scheduler Thread - 119 - EpicAchievements/INFO]: [EpicAchievements] Checking for updates...
+[16:32:52] [Server thread/INFO]: AquaOH lost connection: Disconnected
+[16:40:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[16:40:41] [Thread-15/INFO]: ?玩家数据已保存!
+[16:40:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[16:40:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 6ms.
+[16:41:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[16:41:15] [Server thread/INFO]: [清理] 正在清理
+[16:41:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1
+[16:50:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[16:50:41] [Thread-15/INFO]: ?玩家数据已保存!
+[16:50:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[16:50:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 5ms.
+[16:51:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[16:51:15] [Server thread/INFO]: [清理] 正在清理
+[16:51:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: java.lang.NoSuchFieldError
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.tx.a(class:4177)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.dx.a(class:2719)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.sz.a(class:1766)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.up.a(class:2019)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.qt.a(class:6560)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.Core.OtherPlugins.mmoitems.MmoItemsHook.a(class:581)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.afx.a(class:6404)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.aeb.a(class:2763)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ur.a(class:5971)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.abg.a(class:2504)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.qp.a(class:6415)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.iw.a(class:2371)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.mm.a(class:6147)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.cw.a(class:2501)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ra.a(class:4404)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.si.a(class:3793)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.aez.a(class:5496)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.aey.a(class:6027)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.tm.a(class:5497)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.Core.OtherPlugins.PAPI.PAPI_PlayerStats.a(class:2219)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.acd.a(class:964)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.Core.OtherPlugins.MythicMobs.mechanics.DismountMechanic.a(class:1903)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.aba.a(class:6524)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.cv.a(class:3993)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.Core.OtherPlugins.enchants.AeWrapper.a(class:5706)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ro.a(class:2894)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.zj.a(class:2600)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.Core.OtherPlugins.AdvancedSlimePaperWrapper.a(class:2312)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.tp.a(class:693)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ec.a(class:985)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.nk.a(class:4274)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.api.CustomFurniture.a(class:6472)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.zm.a(class:6330)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.lj.a(class:2989)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.am.a(class:5684)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ht.a(class:723)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.tb.a(class:826)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.add.a(class:1591)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.agp.a(class:1085)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.xa.a(class:1821)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.xe.a(class:3829)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.api.FontImages.FontImageWrapper.a(class:5502)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at ia.sh.io.protostuff.B64Code.a(class:140)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.jy.a(class:4067)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.om.a(class:4189)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.Main.a(class:4999)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.if.a(class:6093)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ep.a(class:4725)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.on.a(class:5576)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.bq.a(class:2826)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.aec.a(class:3055)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at dev.lone.itemsadder.api.Events.PlayerEmoteEndEvent$Cause.a(class:196)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.abc.a(class:2364)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.qv.a(class:2607)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ls.a(class:5132)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.ls.a(class:5821)
+[16:53:15] [Craft Scheduler Thread - 162 - ItemsAdder/WARN]: 	at itemsadder.m.gs.a(class:2981)
+[16:53:15] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.3
+[16:53:15] [pool-34-thread-1/INFO]: [ItemsAdder] [Host] Stopped self-host webserver on port: 8163
+[17:00:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[17:00:41] [Thread-15/INFO]: ?玩家数据已保存!
+[17:00:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[17:00:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 6ms.
+[17:01:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[17:01:15] [Server thread/INFO]: [清理] 正在清理
+[17:01:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1
+[17:10:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[17:10:41] [Thread-15/INFO]: ?玩家数据已保存!
+[17:10:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[17:10:46] [customfishing-worker-3/INFO]: [CustomFishing] Data Saved for online players. Took 8ms.
+[17:11:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[17:11:15] [Server thread/INFO]: [清理] 正在清理
+[17:11:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1
+[17:20:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[17:20:41] [Thread-15/INFO]: ?玩家数据已保存!
+[17:20:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[17:20:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 5ms.
+[17:21:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[17:21:15] [Server thread/INFO]: [清理] 正在清理
+[17:21:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1
+[17:29:53] [Server thread/WARN]: [CustomCrops] Task #327885 for CustomCrops v3.6.18 generated an exception
+java.lang.NoClassDefFoundError: dev/lone/itemsadder/api/CustomFurniture
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.integration.custom.itemsadder_r1.ItemsAdderProvider.placeCustomBlock(ItemsAdderProvider.java:43) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.bukkit.item.BukkitItemManager.placeBlock(BukkitItemManager.java:222) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.api.core.block.PotBlock.updateBlockAppearance(PotBlock.java:640) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.api.core.block.PotBlock.updateBlockAppearance(PotBlock.java:625) ~[CustomCrops-3.6.18.jar:?]
+	at CustomCrops-3.6.18.jar/net.momirealms.customcrops.api.core.block.PotBlock.lambda$tickPot$5(PotBlock.java:435) ~[CustomCrops-3.6.18.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1596) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1302) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-128-d348cb8]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: dev.lone.itemsadder.api.CustomFurniture
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[17:30:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[17:30:41] [Thread-15/INFO]: ?玩家数据已保存!
+[17:30:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[17:30:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 6ms.
+[17:31:05] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[17:31:15] [Server thread/INFO]: [清理] 正在清理
+[17:31:15] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1
+[17:31:15] [Craft Scheduler Thread - 193 - EpicAchievements/INFO]: [EpicAchievements] Checking for updates...
+[17:40:15] [Server thread/INFO]: [清理] 将在1分钟后进行清理
+[17:40:41] [Thread-15/INFO]: ?玩家数据已保存!
+[17:40:45] [Server thread/INFO]: [清理] 将在30秒后进行清理
+[17:40:46] [customfishing-worker-9/INFO]: [CustomFishing] Data Saved for online players. Took 8ms.
+[17:41:04] [Server thread/INFO]: [清理] 将在10秒后进行清理
+[17:41:14] [Server thread/INFO]: [清理] 正在清理
+[17:41:14] [Server thread/INFO]: [清理] 掉落物清理完成, 已清理0/1

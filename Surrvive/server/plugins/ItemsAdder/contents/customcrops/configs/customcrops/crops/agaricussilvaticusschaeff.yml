@@ -1,0 +1,109 @@
+info:
+  namespace: customcrops
+items:
+  agaricus_silvaticus_schaeff_stage_1:
+    display_name: "林地蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_silvaticus_schaeff_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  agaricus_silvaticus_schaeff_stage_2:
+    display_name: "林地蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_silvaticus_schaeff_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  agaricus_silvaticus_schaeff_stage_3:
+    display_name: "林地蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_silvaticus_schaeff_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  agaricus_silvaticus_schaeff_seeds:
+    #display_name: "Tomato Seeds"
+    display_name: AgaricussilvaticusSchaeffSEEDS
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_silvaticus_schaeff_seeds
+  agaricus_silvaticus_schaeff:
+    #display_name: "Tomato"
+    display_name: AgaricussilvaticusSchaeff
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/agaricus_silvaticus_schaeff
+      
+  agaricus_silvaticus_schaeff_silver_star:
+    display_name: AgaricussilvaticusSchaeff(Silver Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/agaricus_silvaticus_schaeff_silver_star
+  agaricus_silvaticus_schaeff_golden_star:
+    display_name: AgaricussilvaticusSchaeff(Golden Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/agaricus_silvaticus_schaeff_golden_star     
+      
+      
+loots:
+  blocks:
+    agaricus_silvaticus_schaeff_stage_1:
+      type: customcrops:agaricus_silvaticus_schaeff_stage_1
+      items:
+        result_1:
+          item: customcrops:agaricus_silvaticus_schaeff_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    agaricus_silvaticus_schaeff_stage_2:
+      type: customcrops:agaricus_silvaticus_schaeff_stage_2
+      items:
+        result_1:
+          item: customcrops:agaricus_silvaticus_schaeff_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    agaricus_silvaticus_schaeff_stage_3:
+      type: customcrops:agaricus_silvaticus_schaeff_stage_3
+      items:
+        result_1:
+          item: customcrops:agaricus_silvaticus_schaeff_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

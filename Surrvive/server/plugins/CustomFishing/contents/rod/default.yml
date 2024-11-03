@@ -1,0 +1,197 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+# 原版鱼竿属性
+FISHING_ROD:
+  tag: false
+  material: fishing_rod
+  effects:
+    effect_1:
+      type: wait-time-multiplier
+      value: 1.5
+
+# 自定义鱼竿
+beginner_rod:
+  material: fishing_rod
+  display:
+    name: "<b><#EEE9E9>初学者钓竿"
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 专为新手设计，初学者钓竿是新手垂钓者的最佳朋友。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 增加等待时间'
+      - '<gray> - 降低钓鱼难度'
+  custom-model-data: 50001
+  max-durability: 64
+  effects:
+    effect_1:
+      type: wait-time-multiplier
+      value: 1.5
+    effect_2:
+      type: difficulty
+      value: -8
+
+silver_rod:
+  material: fishing_rod
+  display:
+    name: "<b><#C0C0C0>银钓竿"
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 优雅制作，闪闪发光，银星钓竿是每个'
+      - '<gray> - 垂钓者梦寐以求的银星品质钓竿。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 增加获得银星鱼的机会'
+  custom-model-data: 50002
+  max-durability: 96
+  effects:
+    effect_1:
+      type: group-mod
+      value:
+        - silver_star:+8
+
+golden_rod:
+  material: fishing_rod
+  display:
+    name: "<b><#FFD700>金钓竿"
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 在阳光下闪闪发光，散发着奢华的光芒，金钓竿是'
+      - '<gray> - 高端钓鱼装备的典范。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 增加获得金星鱼的机会'
+  custom-model-data: 50003
+  max-durability: 80
+  effects:
+    effect_1:
+      type: group-mod
+      value:
+        - golden_star:+3
+
+star_rod:
+  material: fishing_rod
+  display:
+    name: "<b><#FFFF00>星钓竿"
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 由星尘雕刻而成，沐浴在宇宙能量中，'
+      - '<gray> - 星钓竿是宇宙奇观的见证。其无尽的魔法储藏'
+      - '<gray> - 确保了时间似乎静止，让垂钓者有足够的时间'
+      - '<gray> - 完美地捕获猎物。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - +15秒游戏时间'
+  custom-model-data: 50004
+  max-durability: 128
+  effects:
+    effect_1:
+      type: game-time
+      value: 15
+
+bone_rod:
+  material: fishing_rod
+  display:
+    name: "<b><#CD2626>骨钓竿"
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 由古老骷髅的骨头锻造而成，并且注入了黑暗的魔法，'
+      - '<gray> - 骨钓竿不适合胆小的人。它允许勇敢或疯狂的人在熔岩中'
+      - '<gray> - 垂钓，打破了普通钓竿的限制。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 可以在熔岩中钓鱼'
+      - '<gray> - 吸引骷髅'
+  custom-model-data: 50005
+  max-durability: 32
+  effects:
+    effect_1:
+      type: lava-fishing
+
+magical_rod:
+  material: fishing_rod
+  display:
+    name: '<b><#7B68EE>魔法钓竿'
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 魔法创新的产物，这款独特的钓竿使用附魔书作为鱼饵。'
+      - '<gray> - 其复杂的卷轴机制和魔法魅力需要用户的经验值，'
+      - '<gray> - 每次抛竿都会消耗经验等级。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 钓鱼时获得附魔书。'
+      - '<gray> - 等待时间非常长。'
+      - ''
+      - '<#CD5C5C>需求:'
+      - '<gray> - 1x 书籍鱼饵'
+      - '<gray> - 30 经验等级'
+  custom-model-data: 50006
+  max-durability: 16
+  requirements:
+    requirement_1:
+      type: level
+      value: 30
+      not-met-actions:
+        action_1:
+          type: message
+          value:
+            - '你的等级不足以控制这根钓竿。'
+    requirement_2:
+      type: bait
+      value:
+        - BOOK
+      not-met-actions:
+        action_message:
+          type: message
+          value:
+            - '你需要手持一本书作为鱼饵。'
+  events:
+    cast:
+      action_level:
+        type: level
+        value: -1
+  effects:
+    effect_1:
+      type: group-mod-ignore-conditions
+      value:
+        - enchantments:+10
+    effect_2:
+      type: wait-time-multiplier
+      value: 3
+
+master_rod:
+  material: fishing_rod
+  display:
+    name: "<b><#FFFF00>大师钓竿"
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 只有最熟练的垂钓者才能使用的大师钓竿代表了钓鱼'
+      - '<gray> - 工艺的顶峰。精心制作，显著减少鱼咬钩的时间。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 减少等待时间'
+      - '<gray> - 增加钓鱼难度'
+      - '<gray> - 更高几率获得优质鱼'
+  custom-model-data: 50007
+  max-durability: 128
+  effects:
+    effect_1:
+      type: wait-time-multiplier
+      value: 0.95
+    effect_2:
+      type: difficulty
+      value: +10
+    effect_3:
+      type: group-mod
+      value:
+        - silver_star:+5
+        - golden_star:+3

@@ -1,0 +1,452 @@
+# 不要更改此内容
+config-version: "36"
+
+# 调试模式
+debug: false
+# BStats
+metrics: true
+# 检查更新
+update-checker: true
+# 强制使用的语言环境，例如zh_cn
+force-locale: "zh_cn"
+
+# 机制设置
+mechanics:
+  # 指定插件机制正常工作所需的条件。
+  # 这里类型是!world，表示插件在名为'blacklist_world'的世界中不起作用。
+  mechanic-requirements:
+    world_requirement:
+      type: "!world"
+      value:
+      - "blacklist_world"
+  # 跳过游戏的条件
+  skip-game-requirements:
+    impossible_requirement:
+      type: "impossible"
+  # 自动钓鱼的条件
+  auto-fishing-requirements:
+    impossible_requirement:
+      type: "impossible"
+  # 配置全局效果器
+  global-effects:
+    effect_1:
+      type: "conditional"
+      conditions:
+        competition:
+          ongoing: true
+          id:
+          - "weekend_competition"
+      effects:
+        effect_1:
+          type: "wait-time-multiplier"
+          value: 0.85
+  # 配置鱼钩/诱饵/钓竿/战利品的全局事件
+  # 这可以帮助您减少重复的代码行
+  global-events:
+    hook: {}
+    bait: {}
+    loot:
+      new_size_record:
+        conditional_size_record_action:
+          type: "conditional"
+          value:
+            conditions:
+              has-stats: true
+            actions:
+              actionbar_action:
+                type: "actionbar"
+                value: "<#FFD700>[新纪录]</#FFD700> <#FFFFF0>您捕获了一条{nick}，长度为<#FFA500>{size_formatted}cm</#FFA500>！</#FFFFF0>"
+              sound_action:
+                type: "sound"
+                value:
+                  key: "minecraft:block.note_block.cow_bell"
+                  source: "player"
+                  volume: 1
+                  pitch: 1
+              delayed_sound:
+                type: "delay"
+                value:
+                  delay: 2
+                  actions:
+                    sound_action:
+                      type: "sound"
+                      value:
+                        key: "minecraft:block.note_block.bell"
+                        source: "player"
+                        volume: 1
+                        pitch: 1
+      success:
+        conditional_size_info_action:
+          type: "conditional"
+          value:
+            conditions:
+              has-size: true
+              has-stats: true
+            actions:
+              actionbar_action:
+                type: "actionbar"
+                value: "<gray>您捕获了一条{nick}，长度为<#F5F5F5>{size_formatted}cm</#F5F5F5>！</gray> <#C0C0C0>(最佳记录: {record_formatted}cm)</#C0C0C0>"
+        title_action:
+          type: "random-title"
+          value:
+            titles:
+            - "<green>精湛的操作！</green>"
+            - "<green>干得好！</green>"
+            subtitles:
+            - "您捕获了一条{nick}"
+            - "哇！漂亮的一杆！"
+            - "{nick}来了！"
+            - "让我们看看是什么！"
+            fade-in: 20
+            stay: 30
+            fade-out: 10
+          chance: 1.0
+      failure:
+        title_action:
+          type: "random-title"
+          value:
+            titles:
+            - "<red>集中注意力！</red>"
+            - "<red>真遗憾！</red>"
+            - "<red>下次再试！</red>"
+            - "<red>运气不好</red>"
+            subtitles:
+            - "鱼逃走了..."
+            fade-in: 20
+            stay: 30
+            fade-out: 10
+          chance: 1.0
+    rod:
+      land:
+        priority_action:
+          type: "priority"
+          value:
+            priority_1:
+              conditions:
+                lava-fishing: true
+              actions:
+                fake_item_action:
+                  type: "fake-item"
+                  value:
+                    duration: 35
+                    position: "other"
+                    item: "lava_effect"
+            priority_2:
+              conditions:
+                lava-fishing: false
+              actions:
+                fake_item_action:
+                  type: "fake-item"
+                  value:
+                    duration: 35
+                    position: "other"
+                    item: "water_effect"
+  
+  # 全局属性，这些属性可以帮助您减少重复的代码行
+  global-loot-property:
+    show-in-fishfinder: true
+    disable-stat: false
+    disable-game: false
+    instant-game: false
+  
+  # 钓鱼包是玩家可以存放诱饵、实用工具、鱼钩和钓竿（战利品）的地方
+  fishing-bag:
+    enable: true
+    # 钓鱼包容器标题
+    bag-title: "<blue>{player}的钓鱼包</blue>"
+    # 其他白名单物品
+    whitelist-items:
+    - "fishing_rod"
+    # 决定可以存放在包中的物品
+    can-store-loot: true
+    can-store-rod: true
+    can-store-bait: true
+    can-store-hook: true
+    can-store-util: true
+    # 自动收集的条件
+    collect-requirements:
+      permission: "fishingbag.collectloot"
+    # 自动收集到包中的钓鱼战利品的动作
+    collect-actions:
+      sound_action:
+        type: "sound"
+        value:
+          key: "minecraft:item.armor.equip_leather"
+          source: "player"
+          volume: 1
+          pitch: 1
+      hologram_action:
+        type: "hologram"
+        value:
+          duration: 40
+          text: "{nick} <#B0E0E6><b>已存入包中</#B0E0E6>"
+          position: "other"
+          y: 1
+    # 钓鱼包满时的动作
+    full-actions:
+      conditional_action:
+        type: "conditional"
+        value:
+          conditions:
+            condition_1:
+              type: "cooldown"
+              value:
+                key: "fishing_bag_full_notice"
+                time: 60000
+          actions:
+            message_action:
+              type: "message"
+              value: "<#EEE8AA>[钓鱼包]</#EEE8AA> 您的钓鱼包已满。"
+  market:
+    # 市场GUI标题
+    title: "<gradient:#A52A2A:#800000:#A52A2A>鱼市场</gradient>"
+    # 是否启用赚钱限制
+    limitation:
+      enable: true
+      earnings: "10000" # 这里可以使用表达式
+    # 市场菜单布局
+    layout:
+    - "AAAAAAAAA"
+    - "AIIIIIIIA"
+    - "AIIIIIIIA"
+    - "AIIIIIIIA"
+    - "AAAABAAAA"
+    # 价格公式（用于CustomFishing战利品）
+    price-formula: "{base} + {bonus} * {size}"
+    # 允许玩家出售收纳袋中的鱼
+    allow-bundle: true
+    # 允许玩家出售潜影盒中的鱼
+    allow-shulker-box: true
+    # 物品价格（用于原版物品和具有CustomModelData的其他插件物品）
+    item-price:
+      # 原版物品
+      COD: 10
+      PUFFERFISH: 10
+      SALMON: 10
+      TROPICAL_FISH: 10
+      # 纸（模型值: 999）
+      PAPER:999: 5
+    # 放置物品的槽位
+    item-slot:
+      symbol: "I"
+      # 是否允许不值钱的物品放入GUI内
+      allow-items-with-no-price: true
+    # 这是一个允许玩家出售其背包和钓鱼包中所有鱼的图标
+    # 您可以通过将符号放入布局中来启用它
+    sell-all-icons:
+      symbol: "S"
+      # 钓鱼包中的鱼是否应被出售
+      fishingbag: true
+      allow-icon:
+        material: "IRON_BLOCK"
+        display:
+          name: "<#00CED1><b>● <!b>出售鱼"
+          lore:
+          - "<font:uniform><gradient:#E6E6FA:#48D1CC:#E6E6FA>您将从背包和钓鱼包中的鱼中获得<green>{money_formatted}金币</green></gradient></font>"
+        action:
+          sound_action:
+            type: "sound"
+            value:
+              key: "minecraft:block.amethyst_block.place"
+              source: "player"
+              volume: 1
+              pitch: 1
+          message_action:
+            type: "message"
+            value: "您从鱼中赚了{money_formatted}金币！今天您还可以从市场中获得{rest_formatted}金币"
+          # 需要Vault和任何经济插件
+          money_action:
+            type: "give-money"
+            value: "{money}"
+      # command_action:
+      #   type: command
+      #   value: 'money give {player} {money}'
+      deny-icon:
+        material: "REDSTONE_BLOCK"
+        display:
+          name: "<red><b>● <!b>交易被拒绝"
+          lore:
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>没有可以出售的物品！</gradient></font>"
+        action:
+          sound_action:
+            type: "sound"
+            value:
+              key: "minecraft:entity.villager.no"
+              source: "player"
+              volume: 1
+              pitch: 1
+      limit-icon:
+        material: "REDSTONE_BLOCK"
+        display:
+          name: "<red><b>● <!b>交易被拒绝"
+          lore:
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>物品的价值超过了今天可获得的金币数量！</gradient></font>"
+        action:
+          sound_action:
+            type: "sound"
+            value:
+              key: "minecraft:block.anvil.land"
+              source: "player"
+              volume: 1
+              pitch: 1
+    # 出售图标
+    sell-icons:
+      symbol: "B"
+      allow-icon:
+        material: "IRON_BLOCK"
+        display:
+          name: "<#00CED1><b>● <!b>出售鱼"
+          lore:
+          - "<font:uniform><gradient:#E6E6FA:#48D1CC:#E6E6FA>您将从交易中获得<green>{money_formatted}金币</green></gradient></font>"
+        action:
+          sound_action:
+            type: "sound"
+            value:
+              key: "minecraft:block.amethyst_block.place"
+              source: "player"
+              volume: 1
+              pitch: 1
+          message_action:
+            type: "message"
+            value: "您从鱼中赚了{money_formatted}金币！今天您还可以从市场中获得{rest_formatted}金币"
+          money_action:
+            type: "give-money"
+            value: "{money}"
+      # command_action:
+      #   type: command
+      #   value: 'money give {player} {money}'
+      deny-icon:
+        material: "REDSTONE_BLOCK"
+        display:
+          name: "<red><b>● <!b>交易被拒绝"
+          lore:
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>没有可以出售的物品！</gradient></font>"
+        action:
+          sound_action:
+            type: "sound"
+            value:
+              key: "minecraft:entity.villager.no"
+              source: "player"
+              volume: 1
+              pitch: 1
+      limit-icon:
+        material: "REDSTONE_BLOCK"
+        display:
+          name: "<red><b>● <!b>交易被拒绝"
+          lore:
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>物品的价值超过了今天可获得的金币数量！</gradient></font>"
+        action:
+          sound_action:
+            type: "sound"
+            value:
+              key: "minecraft:block.anvil.land"
+              source: "player"
+              volume: 1
+              pitch: 1
+    # 装饰图标
+    decorative-icons:
+      glass-pane:
+        symbol: "A"
+        material: "BLACK_STAINED_GLASS_PANE"
+        display:
+          name: " "
+        components:
+          minecraft:hide_tooltip: {}
+  # 如果您将"override-vanilla"设置为true，此部分将生效
+  # 这也意味着原版机制（例如lure附魔）将不再生效，因此您必须在CustomFishing中配置其效果
+  fishing-wait-time:
+    # 覆盖原版机制
+    override-vanilla: false
+    # tick数
+    min-wait-time: 100
+    max-wait-time: 600
+  # 熔岩钓鱼设置
+  lava-fishing:
+    enable: true
+    # tick数
+    min-wait-time: 100
+    max-wait-time: 600
+  # 虚空钓鱼设置
+  void-fishing:
+    enable: true
+    # tick数
+    min-wait-time: 100
+    max-wait-time: 600
+  # 大小设置
+  size:
+    # 某些效果会增加/减少大小，因此该选项决定它们是否可以忽略配置中的大小范围限制
+    restricted-size-range: true
+  # 比赛设置
+  competition:
+    # 使用redis进行跨服务器数据同步
+    redis-ranking: false
+    # 服务器组
+    server-group: "default"
+    # 增加此值可以允许您使用更多占位符，例如{4_player} {5_score}，但会牺牲一些性能
+    placeholder-limit: 3
+  # 如果一个玩家可以从钓鱼中获得多个战利品，这些战利品是同时生成还是有延迟（以tick为单位）
+  multiple-loot-spawn-delay: 4
+  # 图腾设置
+  totem:
+    # 是否允许不同类型的图腾同时生效
+    allow-multiple-type: true
+    # 是否允许同类型的图腾叠加生效
+    allow-same-type: false
+  # 启用诱饵投掷动画
+  bait-animation: true
+
+# 其他设置
+other-settings:
+  # Anti-auto-fishing mod toggle
+  anti-auto-fishing-mod: false
+  # 推荐使用MiniMessage格式。如果您坚持使用传统的颜色代码"&"，请启用以下支持。
+  # 禁用此功能将提高性能
+  legacy-color-code-support: true
+  # 钓鱼事件优先级：MONITOR HIGHEST HIGH NORMAL LOW LOWEST
+  event-priority: "NORMAL"
+  # 定期将缓存中的数据保存到文件，以最小化服务器崩溃时的数据丢失
+  # -1为禁用
+  data-saving-interval: 600
+  # 记录数据保存时的时间消耗
+  log-data-saving: true
+  # 如果玩家在连接到数据库的服务器上玩游戏，锁定玩家数据
+  # 如果您可以确保低数据库链接延迟和快速处理，可以考虑禁用此选项以提高性能
+  lock-data: true
+  # 需要PlaceholderAPI才能工作
+  placeholder-register:
+    # 需要Server扩展
+    '{date}': "%server_time_yyyy-MM-dd-HH:mm:ss%"
+    # 需要Player扩展
+    '{yaw}': "%player_yaw%"
+  # CustomFishing支持使用其他插件的物品/方块
+  # 如果物品共享相同的id，它们将继承效果
+  # 请查阅wiki示例
+  item-detection-order:
+  - "CustomFishing"
+  - "vanilla"
+  block-detection-order:
+  - "vanilla"
+  # 自定义耐久度格式
+  custom-durability-format:
+  - ""
+  - "<gray>耐久度</gray><white>：{dur} <gray>/</gray> {max}</white>"
+  # 偏移字符
+  # 除非您知道自己在做什么，否则请勿编辑此内容
+  offset-characters:
+    font: "customfishing:offset_chars"
+    '1': ""
+    '2': ""
+    '4': ""
+    '8': ""
+    '16': ""
+    '32': ""
+    '64': ""
+    '128': ""
+    '-1': ""
+    '-2': ""
+    '-4': ""
+    '-8': ""
+    '-16': ""
+    '-32': ""
+    '-64': ""
+    '-128': ""

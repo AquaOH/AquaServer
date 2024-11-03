@@ -1,0 +1,584 @@
+# Note: This file is made for you to manager textures and models
+# Default fish doesn't have name and lore becuase they are configurated in CustomFishing
+# To make ItemsAdder items inherits the CustomFishing effects, read
+# https://mo-mi.gitbook.io/xiaomomi-plugins/plugin-wiki/customfishing-2.0-beta/config#item-detection-order
+info:
+  namespace: customfishing
+items:
+############
+#   Fish   #
+############
+  rainbow_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/rainbow_fish
+      model_id: 50100
+  radioactive_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/radioactive_fish
+      model_id: 50000
+  tuna_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/tuna_fish
+      model_id: 50001
+  tuna_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/tuna_fish_silver_star
+      model_id: 50002
+  tuna_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/tuna_fish_golden_star
+      model_id: 50003
+  pike_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pike_fish
+      model_id: 50004
+  pike_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pike_fish_silver_star
+      model_id: 50005
+  pike_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pike_fish_golden_star
+      model_id: 50006
+  gold_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/gold_fish
+      model_id: 50007
+  gold_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/gold_fish_silver_star
+      model_id: 50008
+  gold_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/gold_fish_golden_star
+      model_id: 50009
+  perch_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/perch_fish
+      model_id: 50010
+  perch_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/perch_fish_silver_star
+      model_id: 50011
+  perch_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/perch_fish_golden_star
+      model_id: 50012
+  mullet_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/mullet_fish
+      model_id: 50013
+  mullet_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/mullet_fish_silver_star
+      model_id: 50014
+  mullet_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/mullet_fish_golden_star
+      model_id: 50015
+  sardine_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sardine_fish
+      model_id: 50016
+  sardine_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sardine_fish_silver_star
+      model_id: 50017
+  sardine_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sardine_fish_golden_star
+      model_id: 50018
+  carp_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/carp_fish
+      model_id: 50019
+  carp_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/carp_fish_silver_star
+      model_id: 50020
+  carp_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/carp_fish_golden_star
+      model_id: 50021
+  cat_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/cat_fish
+      model_id: 50022
+  cat_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/cat_fish_silver_star
+      model_id: 50023
+  cat_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/cat_fish_golden_star
+      model_id: 50024
+  octopus_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/octopus_fish
+      model_id: 50025
+  octopus_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/octopus_fish_silver_star
+      model_id: 50026
+  octopus_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/octopus_fish_golden_star
+      model_id: 50027
+  sunfish_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sunfish_fish
+      model_id: 50028
+  sunfish_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sunfish_fish_silver_star
+      model_id: 50029
+  sunfish_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sunfish_fish_golden_star
+      model_id: 50030
+  red_spnapper_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/red_spnapper_fish
+      model_id: 50031
+  red_spnapper_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/red_spnapper_silver_star
+      model_id: 50032
+  red_spnapper_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/red_spnapper_fish_golden_star
+      model_id: 50033
+  salmon_void_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/salmon_void_fish
+      model_id: 50034
+  salmon_void_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/salmon_void_silver_star
+      model_id: 50035
+  salmon_void_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/salmon_void_fish_golden_star
+      model_id: 50036
+  woodskip_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/woodskip_fish
+      model_id: 50037
+  woodskip_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/woodskip_silver_star
+      model_id: 50038
+  woodskip_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/woodskip_fish_golden_star
+      model_id: 50039
+  sturgeon_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sturgeon_fish
+      model_id: 50040
+  sturgeon_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sturgeon_silver_star
+      model_id: 50041
+  sturgeon_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sturgeon_fish_golden_star
+      model_id: 50042
+  blue_jellyfish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/blue_jellyfish
+      model_id: 50043
+  blue_jellyfish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/blue_jellyfish_silver_star
+      model_id: 50044
+  blue_jellyfish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/blue_jellyfish_golden_star
+      model_id: 50045
+  pink_jellyfish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pink_jellyfish
+      model_id: 50046
+  pink_jellyfish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pink_jellyfish_silver_star
+      model_id: 50047
+  pink_jellyfish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pink_jellyfish_golden_star
+      model_id: 50048
+############
+#   Rod    #
+############
+  beginner_rod:
+    nbt: '{CustomFishing:{type: rod, id: beginner_rod}}'
+    durability:
+      max_custom_durability: 64
+      custom_durability: 64
+    display_name: "<b><#EEE9E9>Beginner's Fishing Rod"
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Specially designed for those new to the art '
+      - '<gray> - of fishing, the Beginner''s Fishing Rod is a'
+      - '<gray> - novice angler''s best friend.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Increase the hook time'
+      - '<gray> - Reduces the challenge of fishing'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/beginner_rod
+      model_id: 50001
+  silver_rod:
+    nbt: '{CustomFishing:{type: rod, id: silver_rod}}'
+    durability:
+      max_custom_durability: 96
+      custom_durability: 96
+    display_name: "<b><#C0C0C0>Silver Fishing Rod"
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Elegantly crafted with a gleaming finish, the'
+      - '<gray> - Silver Star Fishing Rod is the dream of every'
+      - '<gray> - angler seeking silver-star quality fish.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Increase the chance of getting silver star fish'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/silver_rod
+      model_id: 50002
+  golden_rod:
+    nbt: '{CustomFishing:{type: rod, id: golden_rod}}'
+    durability:
+      max_custom_durability: 80
+      custom_durability: 80
+    display_name: "<b><#FFD700>Golden Fishing Rod"
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Glistening under the sunlight and exuding an'
+      - '<gray> - aura of luxury, the Golden Fishing Rod is the'
+      - '<gray> - epitome of high-tier angling gear.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Increase the chance of getting golden star fish'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/golden_rod
+      model_id: 50003
+  star_rod:
+    nbt: '{CustomFishing:{type: rod, id: star_rod}}'
+    durability:
+      max_custom_durability: 128
+      custom_durability: 128
+    display_name: "<b><#FFFF00>Star Fishing Rod"
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Carved from stardust and bathed in cosmic energy,'
+      - '<gray> - the Star Fishing Rod is a testament to the wonders'
+      - '<gray> - of the universe. Its endless magical reservoir ensures'
+      - '<gray> - that time seems to stand still, granting anglers what'
+      - '<gray> - feels like an eternity to perfect their catch.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - +15s Game Time'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/star_rod
+      model_id: 50004
+  bone_rod:
+    nbt: '{CustomFishing:{type: rod, id: bone_rod}}'
+    durability:
+      max_custom_durability: 32
+      custom_durability: 32
+    display_name: "<b><#CD2626>Bone Fishing Rod"
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Forged from the bones of age-old skeletons and'
+      - '<gray> - imbued with dark enchantments, the Skeleton Fishing'
+      - '<gray> - Rod is not for the faint-hearted. It allows the '
+      - '<gray> - brave or the mad to fish within the scorching '
+      - '<gray> - confines of lava, defying the usual limitations of'
+      - '<gray> - regular rods.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Fishing in lava'
+      - '<gray> - Sometimes skeleton would grab the hook'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/bone_rod
+      model_id: 50005
+  magical_rod:
+    nbt: '{CustomFishing:{type: rod, id: magical_rod}}'
+    durability:
+      max_custom_durability: 16
+      custom_durability: 16
+    display_name: '<b><#7B68EE>Magical Fishing Rod'
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - A product of arcane innovation, this unique'
+      - '<gray> - fishing rod uses enchanted books as bait.'
+      - '<gray> - Its intricate reel mechanism and magical '
+      - '<gray> - allure demand the exp level of its user,'
+      - '<gray> - consuming experience levels upon each cast.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Get an enchantment book from fishing.'
+      - '<gray> - Require a long time to get hooked.'
+      - ''
+      - '<#CD5C5C>Requirements:'
+      - '<gray> - 1x book bait'
+      - '<gray> - 10 exp levels'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/magical_rod
+      model_id: 50006
+  master_rod:
+    nbt: '{CustomFishing:{type: rod, id: master_rod}}'
+    durability:
+      max_custom_durability: 128
+      custom_durability: 128
+    display_name: "<b><#FFFF00>Master's Fishing Rod"
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Wielded only by the most skilled of anglers,'
+      - '<gray> - the Master''s Fishing Rod represents the pinnacle'
+      - '<gray> - of fishing craftsmanship. Meticulously crafted '
+      - '<gray> - for precision, it significantly reduces the '
+      - '<gray> - time it takes for a fish to bite.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Reduce the hook time'
+      - '<gray> - Increase the challenge of fishing'
+      - '<gray> - Higher chance of getting quality fish'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/master_rod
+      model_id: 50007
+############
+#   Bait   #
+############
+  simple_bait:
+    nbt: '{CustomFishing:{type: bait, id: simple_bait}}'
+    display_name: '<b><#00BFFF>Simple lures'
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray>Made from natural ingredients, it attracts'
+      - '<gray>fish in a calm and steady manner. It''s the'
+      - '<gray>go-to choice for those who prefer a '
+      - '<gray>straightforward and reliable fishing experience.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Reduce fishing difficulty'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bait/simple_bait
+      model_id: 50001
+  magnetic_bait:
+    nbt: '{CustomFishing:{type: bait, id: magnetic_bait}}'
+    display_name: '<b><red>Magn<blue>etic <gray>lures'
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray>Its radiant shimmer and unique energy pulse'
+      - '<gray>prove irresistible to curious fish, drawing'
+      - '<gray>them in with unprecedented speed. This is '
+      - '<gray>not just a bait, it''s a spectacle that fish'
+      - '<gray>can''t help but investigate.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Reduce hook time'
+      - '<gray> - More time for fishing'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bait/magnetic_bait
+      model_id: 50002
+  wild_bait:
+    nbt: '{CustomFishing:{type: bait, id: wild_bait}}'
+    display_name: '<b><#2E8B57>Wild lures'
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray>Crafted for the fearless angler, the Wild '
+      - '<gray>Attraction Bait is an infusion of potent '
+      - '<gray>natural ingredients, exuding an irresistible'
+      - '<gray>aroma for large aquatic beasts.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Increase fishing difficulty'
+      - '<gray> - Increase the size of fish caught'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bait/wild_bait
+      model_id: 50003
+############
+#   Hook   #
+############
+  delicate_hook:
+    nbt: '{CustomFishing:{type: hook, id: delicate_hook, max_dur: 16, cur_dur: 16}}'
+    display_name: '<#1E90FF>Delicate hook'
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - An embodiment of craftsmanship and allure, the hook'
+      - '<gray> - is not your average piece of tackle. Polished to'
+      - '<gray> - perfection and intricately designed, it gleams in the'
+      - '<gray> - water, irresistibly drawing high-quality fish closer.'
+      - ''
+      - '<#FFD700>Effects:'
+      - '<gray> - Increase the chance of getting high quality fish'
+    resource:
+      material: SHEARS
+      generate: false
+      model_path: item/hook/delicate_hook
+      model_id: 50000
+############
+#   Util   #
+############
+  fishfinder:
+    nbt: '{CustomFishing:{type: util, id: fishfinder}}'
+    display_name: '<#1E90FF>Fish Finder'
+    lore:
+      - ''
+      - '<#7FFFD4>Desciption:'
+      - '<gray> - Compact yet powerful, it scans the waters'
+      - '<gray> - with precision, revealing the variety of'
+      - '<gray> - fish species lurking below the surface.'
+      - '<gray> - Whether you''re in uncharted territories or'
+      - '<gray> - familiar waters, this device ensures you''re'
+      - '<gray> - always informed about your aquatic neighbors.'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/util/fishfinder
+      model_id: 50000
+  water_effect:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/util/splash_water
+      model_id: 49998
+  lava_effect:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/util/splash_lava
+      model_id: 49999

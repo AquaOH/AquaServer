@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"flipcard:item/chest_6"},"display":{"gui":{"rotation":[0.0,0.0,0.0],"translation":[0.0,0.0,28.0],"scale":[1.9,1.9,1.0]}}}

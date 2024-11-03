@@ -1,0 +1,176 @@
+# Download it here: https://black-minecraft.com/resources/2034/
+# FlipCard by @rtz1020 & @PQguanfang
+#
+# READ THE WIKI: flipcard.superiormc.cn
+#
+
+config-files:
+  language: english
+  # Premium version only.
+  minecraft-locate-file:
+    # After enable, we will autoload Minecraft locate file when we need know an item's locate name.
+    # It will make server little lag when loading this file because this file is very large.
+    enabled: true
+    generate-new-one: false
+    file: zh_cn.json
+
+# Paper only feature.
+paper-api:
+  save-item: true
+  skull: true
+
+math:
+  enabled: true
+
+price:
+  # Support Value: Bukkit, ItemFormat.
+  check-method: Bukkit
+  # Only support ItemFormat sell method.
+  ignore-item-format-key:
+  - lore
+  - damage
+  - tool.damage-per-block
+
+reward:
+  # Support Value: INSTANT, WAIT
+  # If set to WAIT, we will give player rewards after this flip UI is closed. (give all flipped cad reward in once)
+  # If set to INSTANT, we will give player rewards after he flip the card and claimed the reward.
+  give-method: WAIT
+
+# Left times is a new point system that built-in plugin, player can cost a left time to start flip event.
+# Simply mode will disable this system, then players will only able to start flip event with /fc forcenopen command.
+simply-mode: true
+# Support Value: UUID, Name.
+data-save-mode: UUID
+
+auto-copy-resourcepack:
+  enabled: true
+  # If you are using Oraxen, please change this to Oraxen.
+  # Other plugins is OK, you just need put correct path in path option.
+  plugin: ItemsAdder
+  # If you are using Oraxen, please change this to "/pack/assets".
+  path: /contents/flipcard/resourcepack/
+
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  user: root
+  pass: root
+  database: data
+
+flip-gui:
+  display-time: 10
+  card:
+    x_scale: 4.0
+    y_scale: 3.8
+    translation: -80
+  edge:
+    x_scale: 3.5
+    y_scale: 3.5
+    translation: -70
+
+animations:
+  chest:
+    chest_1:
+      rotation: 0.0
+      y_translation: 0.0
+      z_translation: 28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70025
+    chest_2:
+      rotation: 0.0
+      y_translation: 0.0
+      z_translation: 28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70026
+    chest_3:
+      rotation: 0.0
+      y_translation: 0.0
+      z_translation: 28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70027
+    chest_4:
+      rotation: 0.0
+      y_translation: 0.0
+      z_translation: 28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70028
+    chest_5:
+      rotation: 0.0
+      y_translation: 0.0
+      z_translation: 28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70029
+    chest_6:
+      rotation: 0.0
+      y_translation: 0.0
+      z_translation: 28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70030
+    chest_7:
+      rotation: 0.0
+      y_translation: -18.0
+      z_translation: -28.0
+      x_scale: 1.9
+      y_scale: 1.9
+      material: WHITE_DYE
+      cmd: 70031
+card1:
+  reward: 70006
+  material: WHITE_DYE
+  cmd: 70000
+  frame:
+  - 70000
+  - 70001
+  - 70002
+  - 70003
+  - 70004
+  - 70005
+card2:
+  reward: 70013
+  material: WHITE_DYE
+  cmd: 70007
+  frame:
+  - 70007
+  - 70008
+  - 70009
+  - 70010
+  - 70011
+  - 70012
+card3:
+  reward: 70020
+  material: WHITE_DYE
+  cmd: 70014
+  frame:
+  - 70014
+  - 70015
+  - 70016
+  - 70017
+  - 70018
+  - 70019
+edge:
+  common:
+    material: WHITE_DYE
+    cmd: 70021
+  rare:
+    material: WHITE_DYE
+    cmd: 70022
+  very_rare:
+    material: WHITE_DYE
+    cmd: 70023
+  very_very_rare:
+    material: WHITE_DYE
+    cmd: 70024

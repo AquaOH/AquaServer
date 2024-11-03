@@ -1,0 +1,108 @@
+info:
+  namespace: customcrops
+items:
+  enoki_stage_1:
+    display_name: "金针菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/enoki_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  enoki_stage_2:
+    display_name: "金针菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/enoki_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  enoki_stage_3:
+    display_name: "金针菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/enoki_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  enoki_seeds:
+    #display_name: "Tomato Seeds"
+    display_name: EnokiSEEDS
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/enoki_seeds
+  enoki:
+    #display_name: "Tomato"
+    display_name: Enoki
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/enoki
+      
+  enoki_silver_star:
+    display_name: Enoki(Silver Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/enoki_silver_star
+  enoki_golden_star:
+    display_name: Enoki(Golden Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/enoki_golden_star     
+      
+loots:
+  blocks:
+    enoki_stage_1:
+      type: customcrops:enoki_stage_1
+      items:
+        result_1:
+          item: customcrops:enoki_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    enoki_stage_2:
+      type: customcrops:enoki_stage_2
+      items:
+        result_1:
+          item: customcrops:enoki_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    enoki_stage_3:
+      type: customcrops:enoki_stage_3
+      items:
+        result_1:
+          item: customcrops:enoki_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

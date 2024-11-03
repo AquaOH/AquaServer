@@ -1,0 +1,108 @@
+info:
+  namespace: customcrops
+items:
+  agaricus_augustus_stage_1:
+    display_name: "大紫蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_augustus_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  agaricus_augustus_stage_2:
+    display_name: "大紫蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_augustus_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  agaricus_augustus_stage_3:
+    display_name: "大紫蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_augustus_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  agaricus_augustus_seeds:
+    #display_name: "Tomato Seeds"
+    display_name: AgaricusAugustusSEED
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/agaricus_augustus_seeds
+  agaricus_augustus:
+    #display_name: "Tomato"
+    display_name: AgaricusAugustus
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/agaricus_augustus
+      
+  agaricus_augustus_silver_star:
+    display_name: AgaricusAugustus(Silver Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/agaricus_augustus_silver_star
+  agaricus_augustus_golden_star:
+    display_name: AgaricusAugustus(Golden Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/agaricus_augustus_golden_star     
+      
+loots:
+  blocks:
+    agaricus_augustus_stage_1:
+      type: customcrops:agaricus_augustus_stage_1
+      items:
+        result_1:
+          item: customcrops:agaricus_augustus_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    agaricus_augustus_stage_2:
+      type: customcrops:agaricus_augustus_stage_2
+      items:
+        result_1:
+          item: customcrops:agaricus_augustus_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    agaricus_augustus_stage_3:
+      type: customcrops:agaricus_augustus_stage_3
+      items:
+        result_1:
+          item: customcrops:agaricus_augustus_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

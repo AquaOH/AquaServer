@@ -1,0 +1,83 @@
+info:
+  namespace: "aqua_logo"
+font_images:
+  logo_1_1: 
+    path: "logo_1_1.png" 
+    symbol: "\uB000" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_1_2: 
+    path: "logo_1_2.png" 
+    symbol: "\uB001" 
+    scale_ratio: 32    
+    y_position: 16  
+  logo_1_3: 
+    path: "logo_1_3.png" 
+    symbol: "\uB002" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_1_4: 
+    path: "logo_1_4.png" 
+    symbol: "\uB003" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_1_5: 
+    path: "logo_1_5.png" 
+    symbol: "\uB004" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_1_6: 
+    path: "logo_1_6.png" 
+    symbol: "\uB005" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_1_7: 
+    path: "logo_1_7.png" 
+    symbol: "\uB006" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_1_8: 
+    path: "logo_1_8.png" 
+    symbol: "\uB007" 
+    scale_ratio: 32
+    y_position: 16  
+  logo_2_1: 
+    path: "logo_2_1.png" 
+    symbol: "\uB008" 
+    scale_ratio: 32
+    y_position: 0  
+  logo_2_2: 
+    path: "logo_2_2.png" 
+    symbol: "\uB009" 
+    scale_ratio: 32     
+    y_position: 0  
+  logo_2_3: 
+    path: "logo_2_3.png" 
+    symbol: "\uB00A" 
+    scale_ratio: 32    
+    y_position: 0  
+  logo_2_4: 
+    path: "logo_2_4.png" 
+    symbol: "\uB00B" 
+    scale_ratio: 32
+    y_position: 0  
+  logo_2_5: 
+    path: "logo_2_5.png" 
+    symbol: "\uB00C" 
+    scale_ratio: 32
+    y_position: 0  
+  logo_2_6: 
+    path: "logo_2_6.png" 
+    symbol: "\uB00D" 
+    scale_ratio: 32
+    y_position: 0  
+  logo_2_7: 
+    path: "logo_2_7.png" 
+    symbol: "\uB00E" 
+    scale_ratio: 32  
+    y_position: 0  
+  logo_2_8: 
+    path: "logo_2_8.png" 
+    symbol: "\uB00F" 
+    scale_ratio: 32
+    y_position: 0  

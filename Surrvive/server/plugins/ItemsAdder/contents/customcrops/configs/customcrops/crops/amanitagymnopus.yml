@@ -1,0 +1,106 @@
+info:
+  namespace: customcrops
+items:
+  amanita_gymnopus_stage_1:
+    display_name: "裸柄鹅膏"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/amanita_gymnopus_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  amanita_gymnopus_stage_2:
+    display_name: "裸柄鹅膏"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/amanita_gymnopus_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  amanita_gymnopus_stage_3:
+    display_name: "裸柄鹅膏"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/amanita_gymnopus_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  amanita_gymnopus_seeds:
+    #display_name: "Tomato Seeds"
+    display_name: 裸柄鹅膏SEEDS
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/amanita_gymnopus_seeds
+  amanita_gymnopus:
+    #display_name: "Tomato"
+    display_name: 裸柄鹅膏
+    resource:
+      generate: false
+      material: SPIDER_EYE
+      model_path: mushrooms/amanita_gymnopus
+  amanita_gymnopus_silver_star:
+    display_name: 裸柄鹅膏(Silver Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/amanita_gymnopus_silver_star
+  amanita_gymnopus_golden_star:
+    display_name: 裸柄鹅膏(Golden Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/amanita_gymnopus_golden_star     
+loots:
+  blocks:
+    amanita_gymnopus_stage_1:
+      type: customcrops:amanita_gymnopus_stage_1
+      items:
+        result_1:
+          item: customcrops:amanita_gymnopus_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    amanita_gymnopus_stage_2:
+      type: customcrops:amanita_gymnopus_stage_2
+      items:
+        result_1:
+          item: customcrops:amanita_gymnopus_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    amanita_gymnopus_stage_3:
+      type: customcrops:amanita_gymnopus_stage_3
+      items:
+        result_1:
+          item: customcrops:amanita_gymnopus_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

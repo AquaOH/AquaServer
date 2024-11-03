@@ -1,0 +1,174 @@
+quests:
+  1:
+    name: '周 | 挖掘16个灰化土'
+    type: block-break
+    exclusive: premium
+    variable: PODZOL:0
+    required-progress: 16
+    points: 150.0
+    item:
+      material: PODZOL:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖掘16个灰化土'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#4cbd3a}16&7个灰化土.'
+        - ''
+        - '{#4cbd3a}&l信息'
+        - ' &8■ &7目标: {#4cbd3a}挖掘16个灰化土'
+        - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+        - ''
+        - '{#4cbd3a}&l进度'
+        - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+        - ''
+        - '{#4cbd3a}&7奖励'
+        - ' &8- {#ffff00}⛃150.0'
+  2:
+    name: '周 | 挖掘16个菌丝'
+    type: block-break
+    exclusive: premium
+    variable: MYCELIUM:0
+    required-progress: 16
+    points: 200.0
+    item:
+      material: MYCELIUM:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖掘16个菌丝'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#4cbd3a}16&7个菌丝.'
+        - ''
+        - '{#4cbd3a}&l信息'
+        - ' &8■ &7目标: {#4cbd3a}挖掘16个菌丝'
+        - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+        - ''
+        - '{#4cbd3a}&l进度'
+        - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+        - ''
+        - '{#4cbd3a}&7奖励'
+        - ' &8- {#ffff00}⛃200.0'
+  3:
+    name: '周 | 挖掘16个灵魂沙'
+    type: block-break
+    exclusive: premium
+    variable: SOUL_SAND:0
+    required-progress: 16
+    points: 250.0
+    item:
+      material: SOUL_SAND:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖掘16个灵魂沙'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#4cbd3a}16&7个灵魂沙.'
+        - ''
+        - '{#4cbd3a}&l信息'
+        - ' &8■ &7目标: {#4cbd3a}挖掘16个灵魂沙'
+        - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+        - ''
+        - '{#4cbd3a}&l进度'
+        - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+        - ''
+        - '{#4cbd3a}&7奖励'
+        - ' &8- {#ffff00}⛃250.0'
+  4:
+    name: '周 | 跑足500格方块'
+    type: move
+    variable: none
+    required-progress: 500
+    points: 100.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}跑足500格方块'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7跑足{#4bcc6c}500&7格方块.'
+        - ''
+        - '{#4bcc6c}&l信息'
+        - ' &8■ &7目标: {#4bcc6c}跑足500格方块'
+        - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+        - ''
+        - '{#4bcc6c}&l进度'
+        - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+        - ''
+        - '{#4bcc6c}&7奖励'
+        - ' &8- {#ffff00}⛃100.0'
+  5:
+    name: '周 | 跑足1000格方块'
+    type: move
+    variable: none
+    required-progress: 1000
+    points: 250.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}跑足1000格方块'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7跑足{#4bcc6c}1,000&7格方块.'
+        - ''
+        - '{#4bcc6c}&l信息'
+        - ' &8■ &7目标: {#4bcc6c}跑足1000格方块'
+        - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+        - ''
+        - '{#4bcc6c}&l进度'
+        - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+        - ''
+        - '{#4bcc6c}&7奖励'
+        - ' &8- {#ffff00}⛃250.0'
+  6:
+    name: '周 | 跑足2000格方块'
+    type: move
+    variable: none
+    required-progress: 2000
+    points: 500.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}跑足2000格方块'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7跑足{#4bcc6c}2,000&7格方块.'
+        - ''
+        - '{#4bcc6c}&l信息'
+        - ' &8■ &7目标: {#4bcc6c}跑足2000格方块'
+        - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+        - ''
+        - '{#4bcc6c}&l进度'
+        - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+        - ''
+        - '{#4bcc6c}&7奖励'
+        - ' &8- {#ffff00}⛃500.0'
+  7:
+    name: '周 | 跑足5000格方块'
+    type: move
+    variable: none
+    exclusive: premium
+    required-progress: 5000
+    points: 500.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}跑足5000格方块'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7跑足{#4bcc6c}5,000&7格方块.'
+        - ''
+        - '{#4bcc6c}&l信息'
+        - ' &8■ &7目标: {#4bcc6c}跑足5000格方块'
+        - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+        - ''
+        - '{#4bcc6c}&l进度'
+        - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+        - ''
+        - '{#4bcc6c}&7奖励'
+        - ' &8- {#ffff00}⛃500.0'

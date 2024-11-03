@@ -1,0 +1,171 @@
+quests:
+  1:
+    name: '周 | 食用8个金苹果'
+    type: consume
+    variable: GOLDEN_APPLE:0
+    required-progress: 8
+    exclusive: premium
+    points: 20.0
+    item:
+      material: GOLDEN_APPLE:0
+      amount: 1
+      name: '{#52fc03}🍖 &8| {#52fc03}食用8个金苹果'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7食用{#52fc03}8&7个金苹果&7.'
+        - ''
+        - '{#52fc03}&l信息'
+        - ' &8■ &7目标: {#52fc03}食用8个金苹果'
+        - ' &8■ &7进度: {#52fc03}%total_progress%&8/{#52fc03}%required_progress%'
+        - ''
+        - '{#52fc03}&l进度'
+        - ' %progress_bar% &8| {#52fc03}%percentage_progress%'
+        - ''
+        - '{#52fc03}&7奖励'
+        - ' &8- {#ffff00}⛃20.0'
+  2:
+    name: '周 | 食用12个金胡萝卜'
+    type: consume
+    variable: GOLDEN_CARROT:0
+    required-progress: 12
+    points: 10.0
+    item:
+      material: GOLDEN_CARROT:0
+      amount: 1
+      name: '{#52fc03}🍖 &8| {#52fc03}食用12个金胡萝卜'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7食用{#52fc03}12&7个金胡萝卜&7.'
+        - ''
+        - '{#52fc03}&l信息'
+        - ' &8■ &7目标: {#52fc03}食用12个金胡萝卜'
+        - ' &8■ &7进度: {#52fc03}%total_progress%&8/{#52fc03}%required_progress%'
+        - ''
+        - '{#52fc03}&l进度'
+        - ' %progress_bar% &8| {#52fc03}%percentage_progress%'
+        - ''
+        - '{#52fc03}&7奖励'
+        - ' &8- {#ffff00}⛃10.0'
+  3:
+    name: '周 | 食用30个金胡萝卜'
+    type: consume
+    exclusive: premium
+    variable: GOLDEN_CARROT:0
+    required-progress: 30
+    points: 500.0
+    item:
+      material: GOLDEN_CARROT:0
+      amount: 1
+      name: '{#52fc03}🍖 &8| {#52fc03}食用30个金胡萝卜'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7食用{#52fc03}30&7个金胡萝卜.'
+        - ''
+        - '{#52fc03}&l信息'
+        - ' &8■ &7目标: {#52fc03}食用30个金胡萝卜'
+        - ' &8■ &7进度: {#52fc03}%total_progress%&8/{#52fc03}%required_progress%'
+        - ''
+        - '{#52fc03}&l进度'
+        - ' %progress_bar% &8| {#52fc03}%percentage_progress%'
+        - ''
+        - '{#52fc03}&7奖励'
+        - ' &8- {#ffff00}⛃500.0'
+  4:
+    name: '周 | 合成256个木棍'
+    type: craft
+    variable: STICK:0
+    required-progress: 256
+    points: 250.0
+    item:
+      material: STICK:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成256个木棍'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}256&7个木棍.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成256个木棍'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃350.0'
+  5:
+    name: '周 | 合成32个玻璃板'
+    type: craft
+    variable: GLASS_PANE:0
+    required-progress: 32
+    points: 50.0
+    item:
+      material: GLASS_PANE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成32个玻璃板'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}32&7个玻璃板.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成32个玻璃板'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  6:
+    name: '周 | 合成16个圆石墙'
+    type: craft
+    variable: COBBLESTONE_WALL:0
+    required-progress: 16
+    points: 25.0
+    item:
+      material: COBBLESTONE_WALL:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成16个圆石墙'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}16&7个圆石墙.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成16个圆石墙'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃25.0'
+  7:
+    name: '周 | 合成8个红石灯'
+    type: craft
+    variable: REDSTONE_LAMP:0
+    required-progress: 8
+    exclusive: premium
+    points: 50.0
+    item:
+      material: REDSTONE_LAMP:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成8个红石灯'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}8&7个红石灯.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成8个红石灯'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃50.0'

@@ -1,0 +1,22 @@
+# 其他权限
+
+# 所有权限均可自定义，请按照以下格式进行设置与更改：
+#  Default 是否为所有玩家可用，设置为true即所有玩家拥有此权限
+#  Permission 权限节点
+#  Allowed-Groups 默认允许的组（在Groups.yml中设置）
+
+Item-Blacklist-Bypass:
+  Default: false
+  Permission: globalmarketplus.otherpermission.itemblacklistbypass
+Login-Command-Cooldown-Bypass:
+  Default: false
+  Permission: globalmarketplus.otherpermission.logincommandcooldownbypass
+Command-Cooldown-Bypass:
+  Default: false
+  Permission: globalmarketplus.otherpermission.commandcooldownbypass
+Command-Delay-Bypass:
+  Default: false
+  Permission: globalmarketplus.otherpermission.commanddelaybypass
+Currencies:
+  Vault:
+    Default: true

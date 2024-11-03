@@ -1,0 +1,28 @@
+info:
+  namespace: "aqua_title"
+font_images:
+  player: # <----- 这个贴图的id
+    path: "player.png" # <----- 这个贴图的路径
+    symbol: "\uAA00" # <----- 这个贴图替换的字符
+    scale_ratio: 9 # <----- 这个贴图的大小
+    y_position: 8 # <----- 这个贴图的上下偏移
+  bilibili: 
+    path: "bilibili.png" 
+    symbol: "\uAA01" 
+    scale_ratio: 12
+    y_position: 8 
+  bilibili2: 
+    path: "bilibili2.png" 
+    symbol: "\uAA02" 
+    scale_ratio: 9
+    y_position: 8 
+  reimu1: 
+    path: "reimu1.png" 
+    symbol: "\uAA03" 
+    scale_ratio: 20
+    y_position: 18 
+  cirno1: 
+    path: "cirno1.png" 
+    symbol: "\uAA04" 
+    scale_ratio: 20
+    y_position: 18 

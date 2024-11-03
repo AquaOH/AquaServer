@@ -1,0 +1,78 @@
+# 菌类附属 如需要请自行设置季节限制
+rosywoodm:
+  max-stage: 3
+  # Only works in item_frame mode
+  # To prevent rotation
+  rotation: false
+  quality-loots:
+    amount: 1~3
+    quality:
+      '1': customcrops:rosywoodm
+      '2': customcrops:rosywoodm_silver_star
+      '3': customcrops:rosywoodm_golden_star
+  return: customcrops:rosywoodm_stage_1
+
+agaricus_augustus:
+  max-stage: 3
+  # Only works in item_frame mode
+  # To prevent rotation
+  rotation: false
+  quality-loots:
+    amount: 1~3
+    quality:
+      '1': customcrops:agaricus_augustus
+      '2': customcrops:agaricus_augustus_silver_star
+      '3': customcrops:agaricus_augustus_golden_star
+  return: customcrops:agaricus_augustus_stage_1
+
+amanita_gymnopus:
+  max-stage: 3
+  # Only works in item_frame mode
+  # To prevent rotation
+  rotation: false
+  quality-loots:
+    amount: 1~3
+    quality:
+      '1': customcrops:amanita_gymnopus
+      '2': customcrops:amanita_gymnopus_silver_star
+      '3': customcrops:amanita_gymnopus_golden_star
+  return: customcrops:amanita_gymnopus_stage_1
+
+agaricus_silvaticus_schaeff:
+  max-stage: 3
+  # Only works in item_frame mode
+  # To prevent rotation
+  rotation: false
+  quality-loots:
+    amount: 1~3
+    quality:
+      '1': customcrops:agaricus_silvaticus_schaeff
+      '2': customcrops:agaricus_silvaticus_schaeff_silver_star
+      '3': customcrops:agaricus_silvaticus_schaeff_golden_star
+  return: customcrops:agaricus_silvaticus_schaeff_stage_1
+
+enoki:
+  max-stage: 3
+  # Only works in item_frame mode
+  # To prevent rotation
+  rotation: false
+  quality-loots:
+    amount: 1~3
+    quality:
+      '1': customcrops:enoki
+      '2': customcrops:enoki_silver_star
+      '3': customcrops:enoki_golden_star
+  return: customcrops:enoki_stage_1
+
+lentinus_edodes:
+  max-stage: 3
+  # Only works in item_frame mode
+  # To prevent rotation
+  rotation: false
+  quality-loots:
+    amount: 1~3
+    quality:
+      '1': customcrops:lentinus_edodes
+      '2': customcrops:lentinus_edodes_silver_star
+      '3': customcrops:lentinus_edodes_golden_star
+  return: customcrops:lentinus_edodes_stage_1

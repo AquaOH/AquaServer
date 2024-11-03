@@ -1,0 +1,59 @@
+#오류
+error-args: "&#98FB98[FlipCard] &c잘못된 명령어 사용입니다. 도움이 필요한 경우 /flipcard help를 사용하세요!"
+error-only-in-game: "&#98FB98[FlipCard] &c이 명령어는 게임 내에서만 사용할 수 있습니다!"
+error-player-not-found: "&#98FB98[FlipCard] &c해당 플레이어를 찾을 수 없습니다!"
+error-miss-permission: "&#98FB98[FlipCard] &c이 명령어를 사용할 권한이 없습니다!"
+error-save-item-not-found: "&#98FB98[FlipCard] &cWe can't find this save item called %item%!"
+
+#명령어 도움말
+command-help: |
+  &#98FB98&lFlipCard &7@rtz1020 제작
+  &f/flipcard forceopen <playerName> <UIConfigName> &7- 플레이어의 GUI 열기.
+  &f/flipcard reload &7- 설정 다시 로드.
+  &f/flipcard save <fileName> &7- 메인 핸드 아이템 저장.
+  &f/flipcard givetimes <playerName> <UIConfigName> <times>
+  &f/flipcard addtimes <playerName> <UIConfigName> <times>
+  &f/flipcard gettimes <playerName> <UIConfigName> <times>
+  &c/flipcard open <UIConfigName> &7- 플레이어 자신을 위해 카드를 뒤집기 이벤트를 시작하며, 뒤집기 UI 남은 시간을 1 단위 소비합니다.
+  &e/flipcard reopen <UIConfigName> &7- 만료되지 않은 경우 뒤집기 UI를 다시 엽니다.
+
+#명령어 안내
+command-reload-complete: "&#98FB98[FlipCard] &f플러그인이 다시 로드되었습니다!"
+command-save-complete: "&#98FB98[FlipCard] &f메인 핸드 아이템이 저장되었습니다!"
+command-main-could-not-find-config: "&#98FB98[FlipCard] &f설정을 찾을 수 없습니다!"
+
+#명령어 횟수
+command-settimes-success: "&#98FB98[FlipCard] &f%player%의 %uiconfig% 남은 횟수를 %value%로 설정했습니다!"
+command-addtimes-success: "&#98FB98[FlipCard] &f%player%의 %uiconfig% 남은 횟수에 %value%를 추가했습니다!"
+
+#미리보기 GUI
+display-gui-title-timer: " &7미리보기 중: &f{timer}"
+display-gui-title: " &7미리보기"
+
+#메인 GUI
+main-gui-title-timer: " &7남은 횟수: &d&l{timer}"
+main-gui-price-not-enough: "%price%가 충분하지 않습니다."
+main-gui-condition-not-meet: "조건을 충족하지 못했습니다."
+main-gui-max-flip-max: "이 카드는 최대 %max%번만 뒤집을 수 있습니다."
+main-gui-max-total-max: "이 UI에서는 최대 %max%개의 카드를 뒤집을 수 있습니다."
+main-gui-have-cost: "&e비용: %price%"
+main-gui-time-runs-out: "&#98FB98[FlipCard] &f시간이 다 되었습니다!"
+main-gui-no-enough-space-dropped: "&#98FB98[FlipCard] &c인벤토리 공간이 충분하지 않습니다: %amount%x&f%display% &c버렸습니다!"
+
+#애니메이션
+animation-flipping: "&a&l뒤집는 중"
+animation-flip-fail: "&c&l실패"
+animation-shuffling: "&c&l섞는 중"
+
+#시스템
+reward-get-fail: "&#98FB98[FlipCard] &c해당 보상을 받을 수 없어 관리자에게 연락해주세요!"
+could-not-load-file: "&#98FB98[FlipCard] &c로드할 수 없습니다."
+command-error: "&#98FB98[FlipCard] &c명령어 오류가 발생했습니다. 관리자에게 문의해주세요."
+reopen-message: "&#98FB98[FlipCard] &fFlipCard가 일시적으로 닫혔습니다. %time%초 후 다시 시작됩니다. &f&n[여기를 클릭하여]"
+reopen-fail: "&#98FB98[FlipCard] &c다시 시작하지 못했습니다. FlipCard가 만료되었거나 존재하지 않습니다."
+gettimes: "&#98FB98[FlipCard] &f이 플레이어는 %times%번 이 유형의 뒤집기 UI를 열 수 있습니다."
+open-fail: "&#98FB98[FlipCard] &c남은 횟수가 충분하지 않아 열 수 없습니다."
+give-save-item: "&#98FB98[FlipCard] &fGive %player% save item %item% x%amount%!"
+
+#플레이스홀더
+price-placeholder-default: "%display% x%amount%"

@@ -1,0 +1,192 @@
+# 全球市场相关选项
+# 命令：/gmp market 和 /gmp merchandise
+
+# 商品排序方式
+# · ACCORDING_TO_UPLOAD_TIME：根据上架时间排序（最新上架的在前）
+# · ACCORDING_TO_EXPIRE_TIME：根据到期时间排序（即将下架的在前）
+# · ACCORDING_TO_PRICE：根据商品价格（贵的在前）
+# · ACCORDING_TO_ITEM_AMOUNT：根据商品的数量（多的在前）
+# · RANDOM：随机排列
+Default-Sorting: ACCORDING_TO_UPLOAD_TIME
+
+# 使用命令设置商品参数的冷却时间
+# 由于设置参数将需要产生数据库IO，此选项可以防止频繁点击造成卡顿
+Cooldown-Of-Parameters-Setting: 5.0
+
+# 保留的小数位数
+# 该设置适用于价格、余额等的最多小数位数
+Retaining-Decimal-Places: 2
+
+# 是否在上架商品时匹配是否有对应的商品并进行提示
+# 例如某玩家出售了一个钻石，而市场中存在钻石的收购项，则询问玩家是否直接进行交易
+Merchandises-Match-When-Uploading: true
+
+# 是否在交易完成前收取商品税额（即商品上架时收税，仅出售与拍卖的商品有效）
+Transaction-After-Taxes: true
+
+# 是否在上架时扫描潜影盒内所有物品（效果等同于批量上架）
+Scan-Shulker-Box-When-Uploading: true
+
+# 营销模式名称
+# 可以在使用出售/收购命令时在价格前指定营销模式以上架对应模式的商品
+# 格式：/gmp market sell [模式]:[价格] [数量]
+# 示例：/gmp market sell retail:100 将手上的物品以零售100的价格上架至市场
+# 请在下方交易相关设置中设置默认的商品营销模式
+Marketing-Mode-Name:
+  Wholesale: wholesale
+  Retail: retail
+
+# 拍卖自动加时
+Auction-Automatic-Overtime:
+  Enabled: false
+  # 策略集，优先级从上到下
+  Policies:
+    # 示范策略，可根据以下格式进行设置
+    example1:
+      # 该策略仅生效3次（即最高加时不超过1分30秒）
+      Limit: 3
+      # 加时时长
+      Overtime: 30s
+      # 广播内容，可自定义消息
+      Broadcast:
+      - '{prefix}&a玩家 &e{topBidder} &a触发了 &e{policy} &a拍卖加时， 因此本拍卖加时{overtime}!'
+      # 条件（所有选项均可选填，若不写则视为所有情况）
+      Conditions:
+        # 剩余时间小于10秒
+        Time-Remaining: 10s
+        # 当前拍价大于100时
+        Bidding-Price: 100
+        # 所使用的货币为Vault
+        Currency: Vault
+        # 该商品进行了3次以上的竞拍次数
+        Number-Of-Auctions: 3
+    example2:
+      Overtime: 30s
+      Conditions:
+        Time-Remaining: 10s
+        Bidding-Price: 50
+
+# 交易相关
+Transaction:
+  # 出售物品相关
+  Selling:
+    # 完成交易后，交易所得物品是否邮寄至买家邮箱
+    # 若为false，则直接发送至玩家物品栏中
+    # 但若玩家背包已满，仍会发送至邮箱
+    Send-To-Mailbox: false
+    # 上架商品时若无指定为整售模式或零售模式，
+    # 启用此选项则默认为零售模式，反之为整售模式
+    Default-To-Retail-Mode: false
+  # 收购物品相关
+  Purchasing:
+    # 是否对照商品与卖家的物品NBT参数是否一致
+    # 若为false，仅仅匹配两者物品的ID是否一致
+    Comparison-Products: true
+    # 发起收购时若无指定为整售模式或零售模式，
+    # 启用此选项则默认为零售模式，反之为整售模式
+    Default-To-Retail-Mode: false
+  # 拍卖物品相关
+  Auctions:
+    # 保留时间
+    # 当拍卖剩余时间低于该时间时，则禁止继续竞拍
+    Retention-Times: 0s
+    # 拍卖成交的冷却时间
+    # 玩家出价后，卖家需要等待多久才可以确认拍卖成交
+    Cooldown-Of-Bids-Confirm: 0s
+
+# 商品默认参数（指商品在上架到全球市场后默认的参数）
+Default-Parameters:
+  # 重定价商品时等待玩家输入新价格的时间
+  Repricing-Time: 30s
+  # 重定价商品的零售价时等待玩家输入新价格的时间
+  Retail-Price-Repricing-Time: 30s
+  # 是否隐藏商家名字
+  Hide-Merchant-Name: false
+  # 是否在全球市场上隐藏商品（仅在个人商店中显示）
+  Hide-Merchandise: false
+  # 是否永不过期
+  Never-Expire: false
+  # 是否为无限商品
+  Unlimited: false
+
+# 物品参数黑名单（禁止某些包含特殊参数的物品上架到市场）
+Item-Parameters-Blacklist:
+  # 是否启用
+  Enabled: false
+  # 白名单模式
+  # 启用后，在集合中的物品归属此名单，反之则是集合外的所有物品归属此名单
+  Whitelist: false
+  # 是否扫描潜影盒内的物品
+  Scan-Shulker-Box: true
+  # 物品ID列表（以下物品将被禁止上架）
+  Materials:
+  - COMMAND_BLOCK
+  - BEDROCK
+  - BARRIER
+  # 显示名称（物品显示名中包含以下关键词将被禁止上架）
+  Display-Name-Keywords:
+  - 已绑定
+  # 物品简介行（物品简介行中包含以下关键词将被禁止上架）
+  Display-Lore-Keywords:
+  - 已绑定
+  # 附魔列表（物品若包含列表中的任何一项附魔将被禁止上架）
+  Enchantments: []
+  # 特殊选项（1.8+）（物品若包含列表中的任何一项特殊选项将被禁止上架）
+  # 可用（1.16.5为例）：HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS
+  Options:
+  - HIDE_ENCHANTS
+  # 自定义模型参数（1.14+）（物品若包含以下模型参数将被禁止上架）
+  Custom-Model-Data: []
+
+# 价格限制，本功能可用于限制某类物品的价格
+# 注意: 限制的价格范围是对于单个物品而言
+# 例如设置的限制在100-1000，则一组物品64个的限制为6400-64000
+Limitation-Of-Price:
+  # 是否启用
+  Enabled: false
+  # 出售类商品
+  # 格式: [物品名字]: [最低售价]-[最高售价]
+  # 或者也可以是 [物品名字]: [固定售价]
+  # 支持使用Serialized-Items.yml内的物品
+  # 如：'Earth': 100-1000 代表价格在100到1000之间
+  # 或：'Earth': 10000-Infinity 代表价格在10000以上，无上限
+  # 1.12.2版本以下的物品，若包含特殊序号，可以使用[物品名字:序号ID]
+  # 如：WOOL:15: 100-1000 代表黑色羊毛价格在100到1000之间
+  Selling:
+    COAL: 10-100
+    IRON_INGOT: 20-100
+    GOLD_INGOT: 30-200
+    REDSTONE: 10-100
+    DIAMOND: 50-500
+    EMERALD: 50-500
+  # 收购类商品
+  # 格式: [物品名字]: [最低价格]-[最高价格]
+  # 或者也可以是 [物品名字]: [固定价格]
+  # 支持使用Serialized-Items.yml内的物品
+  # 如：'Earth': 100-1000 代表价格在100到1000之间
+  # 或：'Earth': 10000-Infinity 代表价格在10000以上，无上限
+  # 1.12.2版本以下的物品，若包含特殊序号，可以使用[物品名字:序号ID]
+  # 如：WOOL:15: 100-1000 代表黑色羊毛价格在100到1000之间
+  Purchasing:
+    COAL: 10-100
+    IRON_INGOT: 20-100
+    GOLD_INGOT: 30-200
+    REDSTONE: 10-100
+    DIAMOND: 50-500
+    EMERALD: 50-500
+  # 拍卖类商品
+  # 格式: [物品名字]: [最低价格]-[最高价格]
+  # 或者也可以是 [物品名字]: [固定价格]
+  # 支持使用Serialized-Items.yml内的物品
+  # 如：'Earth': 100-1000 代表价格在100到1000之间
+  # 或：'Earth': 10000-Infinity 代表价格在10000以上，无上限
+  # 1.12.2版本以下的物品，若包含特殊序号，可以使用[物品名字:序号ID]
+  # 如：WOOL:15: 100-1000 代表黑色羊毛价格在100到1000之间
+  Bidding:
+    COAL: 10-100
+    IRON_INGOT: 20-100
+    GOLD_INGOT: 30-200
+    REDSTONE: 10-100
+    DIAMOND: 50-500
+    EMERALD: 50-500
+Number-Section-Marks-Distance-Length: 3

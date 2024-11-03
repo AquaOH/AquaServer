@@ -1,0 +1,30 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+delicate_hook:
+  material: SHEARS
+  display:
+    name: '<b><#1E90FF>精致鱼钩'
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray> - 工艺和魅力的体现，这个鱼钩不是普通'
+      - '<gray> - 的钓具。经过完美抛光且设计精美，它'
+      - '<gray> - 在水中闪闪发光吸引优质鱼类靠近。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 增加获得优质鱼的机会'
+  max-durability: 16
+  custom-model-data: 50000
+  # {dur} / {max}
+  lore-on-rod:
+    - ''
+    - '<#7FFFAA>安装的鱼钩:'
+    - '<gray> - 精致鱼钩: <white>{dur}</white> 次使用'
+  effects:
+    effect_1:
+      type: group-mod
+      value:
+        - silver_star:+1
+        - golden_star:+1

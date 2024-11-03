@@ -1,0 +1,69 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+# Vanilla/EcoEnchants: minecraft:enchant:level
+# AdvancedEnchantments: AE:enchant:level
+minecraft:luck_of_the_sea:1:
+  requirements: {}
+  effects:
+    effect_1:
+      type: group-mod
+      value:
+        - silver_star:+2
+        - golden_star:+1
+minecraft:luck_of_the_sea:2:
+  requirements: {}
+  effects:
+    effect_1:
+      type: group-mod
+      value:
+        - silver_star:+4
+        - golden_star:+2
+minecraft:luck_of_the_sea:3:
+  requirements: {}
+  effects:
+    effect_1:
+      type: group-mod
+      value:
+        - silver_star:+6
+        - golden_star:+3
+minecraft:lure:1:
+  requirements: {}
+  effects:
+    effect_1:
+      type: conditional
+      conditions:
+        "||":
+          in-lava: true
+          in-void: true
+      effects:
+        effect_1:
+          type: wait-time
+          value: -80
+minecraft:lure:2:
+  requirements: {}
+  effects:
+    effect_1:
+      type: conditional
+      conditions:
+        "||":
+          in-lava: true
+          in-void: true
+      effects:
+        effect_1:
+          type: wait-time
+          value: -160
+minecraft:lure:3:
+  requirements: {}
+  effects:
+    effect_1:
+      type: conditional
+      conditions:
+        "||":
+          in-lava: true
+          in-void: true
+      effects:
+        effect_1:
+          type: wait-time
+          value: -240

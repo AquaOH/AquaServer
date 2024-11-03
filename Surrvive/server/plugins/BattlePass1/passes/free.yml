@@ -1,0 +1,192 @@
+name: '普通'
+default-points-required: 100
+dont-give-premium-free-rewards: false # This will mean that premium users will not receive free rewards
+
+items:
+  doesnt-have-pass-item: # This is ONLY shown/used if you have dont-give-premium-free-rewards: true. This is used to make it so premium users can only have premium rewards.
+    material: 'minecart:0'
+    name: '&e%tier% 级'
+    lore:
+      - ''
+      - '&c你可以购买高级通行证!'
+  locked-tier-item:
+    material: 'furnace_minecart:0'
+    name: '&e%tier% 级'
+    lore:
+      - ''
+      - '&7奖励:'
+      - '%lore_addon%'
+      - ''
+      - '&7状态: &c锁定'
+  unlocked-tier-item:
+    material: 'chest_minecart:0'
+    name: '&a%tier% 级'
+    lore:
+      - ''
+      - '&7奖励:'
+      - '%lore_addon%'
+      - ''
+      - '&7状态: &a可领取'
+  claimed-tier-item:
+    material: 'minecart:0'
+    name: '&a%tier% 级'
+    lore:
+      - ''
+      - '&7奖励:'
+      - '%lore_addon%'
+      - ''
+      - '&7状态: &a已领取'
+
+tier-up-actions:
+  - '[message] {&7你已到达 &e%tier% &7级}'
+
+tiers:
+  '1':
+    rewards: ['money1', 'exp1']
+    
+  '3':
+    rewards: ['money1', 'exp2']
+    
+  '5':
+    rewards: ['money2', 'exp2']
+    
+  '6':
+    rewards: ['money2', 'exp2', 'coal1']
+    
+  '8':
+    rewards: ['money2', 'exp2', 'ironingot1']
+    
+  '10':
+    rewards: ['money2', 'exp3', 'coal1']
+    
+  '11':
+    rewards: ['money3', 'exp3', 'ironingot1']
+    
+  '13':
+    rewards: ['money3', 'exp3', 'coal2']
+    
+  '15':
+    rewards: ['money3', 'exp3', 'ironingot2']
+    
+  '18':
+    rewards: ['money3', 'exp3', 'coal3']
+    
+  '19':
+    rewards: ['money3', 'exp3', 'ironingot3']
+    
+  '20':
+    rewards: ['money3', 'exp4', 'goldingot1']
+    
+  '25':
+    rewards: ['money4', 'exp4', 'coal1']
+    
+  '27':
+    rewards: ['money4', 'exp4', 'ironingot1']
+    
+  '28':
+    rewards: ['money4', 'exp4', 'coal2']
+    
+  '30':
+    rewards: ['money4', 'exp4', 'goldingot1']
+    
+  '32':
+    rewards: ['money4', 'exp4', 'ironingot2']
+    
+  '35':
+    rewards: ['money4', 'exp5', 'coal2']
+    
+  '37':
+    rewards: ['money5', 'exp5', 'goldingot2']
+    
+  '38':
+    rewards: ['money5', 'exp5', 'ironingot2']
+    
+  '40':
+    rewards: ['money5', 'exp5', 'coal3', 'ironingot1']
+    
+  '43':
+    rewards: ['money5', 'exp5', 'ironingot2', 'goldingot1']
+    
+  '45':
+    rewards: ['money5', 'exp5', 'goldingot2', 'coal2']
+    
+  '46':
+    rewards: ['money5', 'exp6', 'ironingot3']
+    
+  '47':
+    rewards: ['money6', 'exp6', 'goldingot3', 'coal2']
+    
+  '48':
+    rewards: ['money6', 'exp6', 'ironingot3', 'coal3']
+    
+  '50':
+    rewards: ['money6', 'exp6', 'goldingot4', 'coal3']
+    
+  '54':
+    rewards: ['money6', 'exp6', 'diamond1', 'ironingot2', 'coal1']
+    
+  '55':
+    rewards: ['money6', 'exp7', 'ironingot2', 'coal3']
+    
+  '58':
+    rewards: ['money7', 'exp7', 'goldingot3', 'ironingot2', 'coal1']
+    
+  '59':
+    rewards: ['money7', 'exp7', 'ironingot4', 'coal5', 'goldingot3']
+    
+  '61':
+    rewards: ['money7', 'exp7', 'ironingot4', 'coal6', 'goldingot3']
+    
+  '64':
+    rewards: ['money7', 'exp7', 'diamond1', 'goldingot1']
+    
+  '67':
+    rewards: ['money7', 'exp7', 'ironingot5', 'coal7', 'goldingot3']
+    
+  '68':
+    rewards: ['money7', 'exp7', 'ironingot3', 'coal9', 'emerald1']
+    
+  '69':
+    rewards: ['money7', 'exp7', 'ironingot8', 'coal7', 'diamond2']
+    
+  '72':
+    rewards: ['money7', 'exp8', 'ironingot7', 'coal9', 'goldingot5']
+    
+  '74':
+    rewards: ['money8', 'exp8', 'coal10', 'ironingot9', 'goldingot8']
+    
+  '78':
+    rewards: ['money8', 'exp8', 'ironingot10', 'goldingot8', 'coal8']
+    
+  '80':
+    rewards: ['money8', 'exp8', 'ironblock2', 'goldingot9', 'diamond5']
+    
+  '81':
+    rewards: ['money8', 'exp8', 'goldblock1', 'emerald3', 'coal9']
+    
+  '83':
+    rewards: ['money8', 'exp8', 'diamondblock1', 'ironblock1', 'emerald3']
+    
+  '85':
+    rewards: ['money8', 'exp9', 'ironblock2', 'goldingot9', 'diamond5']
+    
+  '87':
+    rewards: ['money9', 'exp9', 'diamond7', 'ironingot6', 'coal9']
+    
+  '89':
+    rewards: ['money9', 'exp9', 'diamondblock2', 'goldingot10', 'ironingot10']
+    
+  '90':
+    rewards: ['money9', 'exp9', 'goldblock3', 'emerald8', 'coal11']
+    
+  '92':
+    rewards: ['money9', 'exp9', 'diamondblock1', 'emerald4', 'ironingot11']
+    
+  '93':
+    rewards: ['money9', 'exp9', 'ironingot12', 'emeraldblock1', 'diamond9']
+    
+  '95':
+    rewards: ['money9', 'exp9', 'goldblock3', 'diamond12', 'ironingot15']
+    
+  '100':
+    rewards: ['money9', 'exp9', 'goldingot15', 'coal15', 'emerald10']

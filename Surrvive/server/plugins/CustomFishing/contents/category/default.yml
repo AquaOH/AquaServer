@@ -1,0 +1,104 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+# 类别和组的概念是不同的。
+# 类别仅用于根据某些规则对鱼进行分类，
+# 仅影响占位符的返回值，不影响任何游戏玩法。
+
+normal_fish:
+  - tuna_fish
+  - pike_fish
+  - gold_fish
+  - perch_fish
+  - mullet_fish
+  - sardine_fish
+  - carp_fish
+  - cat_fish
+  - octopus
+  - sunfish
+  - red_snapper_fish
+  - salmon_void_fish
+  - woodskip_fish
+  - sturgeon_fish
+
+sliver_star_fish:
+  - tuna_fish_silver_star
+  - pike_fish_silver_star
+  - gold_fish_silver_star
+  - perch_fish_silver_star
+  - mullet_fish_silver_star
+  - sardine_fish_silver_star
+  - carp_fish_silver_star
+  - cat_fish_silver_star
+  - octopus_silver_star
+  - sunfish_silver_star
+  - red_snapper_fish_silver_star
+  - salmon_void_fish_silver_star
+  - woodskip_fish_silver_star
+  - sturgeon_fish_silver_star
+
+golden_star_fish:
+  - tuna_fish_golden_star
+  - pike_fish_golden_star
+  - gold_fish_golden_star
+  - perch_fish_golden_star
+  - mullet_fish_golden_star
+  - sardine_fish_golden_star
+  - carp_fish_golden_star
+  - cat_fish_golden_star
+  - octopus_golden_star
+  - sunfish_golden_star
+  - red_snapper_fish_golden_star
+  - salmon_void_fish_golden_star
+  - woodskip_fish_golden_star
+  - sturgeon_fish_golden_star
+
+river_fish:
+  - gold_fish
+  - gold_fish_silver_star
+  - gold_fish_golden_star
+  - perch_fish
+  - perch_fish_silver_star
+  - perch_fish_golden_star
+  - mullet_fish
+  - mullet_fish_silver_star
+  - mullet_fish_golden_star
+  - carp_fish
+  - carp_fish_silver_star
+  - carp_fish_golden_star
+  - cat_fish
+  - cat_fish_silver_star
+  - cat_fish_silver_star
+  - woodskip_fish
+  - woodskip_fish_silver_star
+  - woodskip_fish_golden_star
+  - sturgeon_fish
+  - sturgeon_fish_silver_star
+  - sturgeon_fish_golden_star
+
+ocean_fish:
+  - tuna_fish
+  - tuna_fish_silver_star
+  - tuna_fish_golden_star
+  - pike_fish
+  - pike_fish_silver_star
+  - pike_fish_golden_star
+  - sardine_fish
+  - sardine_fish_silver_star
+  - sardine_fish_golden_star
+  - octopus
+  - octopus_silver_star
+  - octopus_golden_star
+  - sunfish
+  - sunfish_silver_star
+  - sunfish_golden_star
+  - red_snapper_fish
+  - red_snapper_fish_silver_star
+  - red_snapper_fish_golden_star
+  - blue_jellyfish
+  - blue_jellyfish_silver_star
+  - blue_jellyfish_golden_star
+  - pink_jellyfish
+  - pink_jellyfish_silver_star
+  - pink_jellyfish_golden_star

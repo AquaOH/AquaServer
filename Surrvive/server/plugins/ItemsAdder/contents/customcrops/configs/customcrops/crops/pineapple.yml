@@ -1,0 +1,116 @@
+info:
+  namespace: customcrops
+items:
+  pineapple_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_seeds:
+    display_name: "菠萝种子"
+    #display_name: 菠萝种子
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/pineapple_seeds
+  pineapple:
+    display_name: "菠萝"
+    #display_name: 菠萝
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/pineapple/pineapple
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  pineapple_silver_star:
+    display_name: "菠萝 (银星)"
+    #display_name: 菠萝(银星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/pineapple/pineapple_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  pineapple_golden_star:
+    display_name: "菠萝 (金星)"
+    #display_name: 菠萝(金星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/pineapple/pineapple_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  gigantic_pineapple:
+    display_name: "巨型菠萝"
+    #display_name: 巨型菠萝
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/gigantic_pineapple
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+categories:
+  customcrops_pineapple:
+    enabled: true
+    icon: pineapple
+    name: 'Pineapple'
+    items:
+      - customcrops:pineapple_seeds
+      - customcrops:pineapple
+      - customcrops:pineapple_silver_star
+      - customcrops:pineapple_golden_star
+      - customcrops:pineapple_stage_1
+      - customcrops:pineapple_stage_2
+      - customcrops:pineapple_stage_3
+      - customcrops:pineapple_stage_4
+      - customcrops:gigantic_pineapple

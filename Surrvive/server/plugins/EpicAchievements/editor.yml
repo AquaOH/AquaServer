@@ -1,0 +1,415 @@
+# Editor menu configuration
+editor-menu:
+  title: "Achievements Editor"
+  rows: 4
+  items:
+    category:
+      name: "&6{category_name}"
+      lore:
+        - "&7Edit this category and its achievements."
+        - ""
+        - "&8➤ &a{category_achievements} &7Achievements loaded"
+        - ""
+        - "&eClick to open editor!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+      flags:
+        - HIDE_ATTRIBUTES
+    create:
+      material: CHEST_MINECART
+      name: "&aCreate Category"
+      lore:
+        - "&7Create a new category."
+        - ""
+        - "&eClick to create!"
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+          - "&ePage {next_page}"
+      slot: 35
+    close:
+      material: ARROW
+      name: "&cClose"
+      lore:
+        - "&7Close the editor."
+      slot: 31
+achievement-list-menu:
+  title: "Edit Achievements: {category_id}"
+  rows: 4
+  items:
+    achievement:
+      material: BOOK
+      name: "&6{achievement_name}"
+      lore:
+        - "&8{achievement_type_name}"
+        - ""
+        - "&7Task: &f{achievement_task}"
+        - ""
+        - "&eClick to edit!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    create:
+      material: BOOK_AND_QUILL
+      name: "&aCreate Achievement"
+      lore:
+        - "&7Create a new achievement."
+        - ""
+        - "&eClick to create!"
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 35
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the category menu."
+      slot: 31
+category-menu:
+  title: "Edit Category: {category_id}"
+  rows: 4
+  items:
+    name:
+      material: NAME_TAG
+      name: "&6Edit Name"
+      lore:
+        - "&7Current: &f{category_name}"
+        - ""
+        - "&eClick to edit!"
+      slot: 10
+    permission:
+      material: COMPARATOR
+      name: "&6Edit Permission"
+      lore:
+        - "&7Current: &f{category_permission}"
+        - ""
+        - "&eLeft click to edit!"
+        - "&cRight click to remove!"
+      slot: 11
+    description:
+      material: BOOK
+      name: "&6Edit Description"
+      lore:
+        - "&7Current:"
+        - "{category_description}"
+        - ""
+        - "&eLeft click to add line!"
+        - "&cRight click to clear!"
+      slot: 12
+    servers:
+      material: COMPASS
+      name: "&6Edit Servers"
+      lore:
+        - "&7Current:"
+        - "{category_servers}"
+        - ""
+        - "&eLeft click to add server!"
+        - "&cRight click to clear!"
+      slot: 13
+    item:
+      material: ITEM_FRAME
+      name: "&6Edit Item"
+      lore:
+        - "&7Current: &f{category_item}"
+        - "&7Slot: &f{category_item_slot}"
+        - ""
+        - "&eLeft click to edit item!"
+        - "&eRight click to edit slot!"
+      slot: 14
+    achievements:
+      material: CHEST
+      name: "&6Edit Achievements"
+      lore:
+        - "&7Click to view and edit achievements."
+        - ""
+        - "&8➤ &a{category_achievements} &7Achievements loaded"
+        - ""
+        - "&eClick to open!"
+      slot: 16
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the category list."
+      slot: 31
+    delete:
+      material: BARRIER
+      name: "&cDelete Category"
+      lore:
+        - "&7Delete this category and"
+        - "&7&nall of its achievements."
+        - ""
+        - "&cShift + Right Click to delete!"
+      slot: 35
+achievement-menu:
+  title: "Edit Achievement: {achievement_id}"
+  rows: 4
+  items:
+    name:
+      material: NAME_TAG
+      name: "&6Edit Name"
+      lore:
+        - "&7Current: &f{achievement_name}"
+        - ""
+        - "&eClick to edit!"
+      slot: 10
+    required-achievements:
+      material: CHEST
+      name: "&6Edit Required Achievements"
+      lore:
+        - "&7Current:"
+        - "{achievement_required_achievements}"
+        - ""
+        - "&eLeft click to add achievement!"
+        - "&cRight click to clear!"
+      slot: 11
+    description:
+      material: BOOK
+      name: "&6Edit Description"
+      lore:
+        - "&7Current:"
+        - "{achievement_description}"
+        - ""
+        - "&eLeft click to add line!"
+        - "&cRight click to clear!"
+      slot: 12
+    permission:
+      material: COMPARATOR
+      name: "&6Edit Permission"
+      lore:
+        - "&7Current: &f{achievement_permission}"
+        - ""
+        - "&eLeft click to edit!"
+        - "&cRight click to remove!"
+      slot: 13
+    conditions:
+      material: HOPPER
+      name: "&6Edit Conditions"
+      lore:
+        - "&7Edit the conditions required"
+        - "&7to progress in the achievement."
+        - ""
+        - "&eClick to open!"
+      slot: 14
+    tiers:
+      material: DIAMOND
+      name: "&6Edit Tiers"
+      lore:
+        - "&7Click to edit the tiers."
+        - ""
+        - "&eClick to open!"
+      slot: 16
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the achievement list."
+      slot: 31
+    delete:
+      material: BARRIER
+      name: "&cDelete Achievement"
+      lore:
+        - "&7Delete the achievement"
+        - "&7permanently."
+        - ""
+        - "&cShift + Right Click to delete!"
+      slot: 35
+select-task-menu:
+  title: "Select Task: {achievement_id}"
+  rows: 5
+  items:
+    task-item:
+      material: PAPER
+      name: "&a{task_type}"
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 36
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 44
+    cancel:
+      material: ARROW
+      name: "&cCancel"
+      lore:
+        - "&7Go back to the achievement list."
+      slot: 40
+tier-list-menu:
+  title: "Edit Tiers: {achievement_id}"
+  rows: 4
+  items:
+    tier:
+      material: BOOK
+      name: "&6Tier {tier_roman}"
+      lore:
+        - "&7Required Amount: &f{tier_requirement}"
+        - ""
+        - "&eClick to edit!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    create:
+      material: BOOK_AND_QUILL
+      name: "&aCreate Tier"
+      lore:
+        - "&7Create a new tier."
+        - ""
+        - "&eClick to create!"
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 35
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the achievement menu."
+      slot: 31
+tier-menu:
+  title: "Edit Tier: {tier_roman}"
+  rows: 4
+  items:
+    required-amount:
+      material: BOOK
+      name: "&6Edit Required Amount"
+      lore:
+        - "&7Current: &f{tier_requirement}"
+        - ""
+        - "&eClick to edit!"
+      slot: 11
+    points:
+      material: BOOK_AND_QUILL
+      name: "&6Edit Reward Points"
+      lore:
+        - "&7Current: &f{tier_points}"
+        - ""
+        - "&eClick to edit!"
+      slot: 13
+    rewards:
+      material: GOLD_INGOT
+      name: "&6Edit Rewards"
+      lore:
+        - "&7View and edit the rewards."
+        - ""
+        - "&eClick to edit!"
+      slot: 15
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the achievement menu."
+      slot: 31
+    delete:
+      material: BARRIER
+      name: "&cDelete Tier"
+      lore:
+        - "&7Delete the achievement"
+        - "&7tier permanently."
+        - ""
+        - "&cShift + Right Click to delete!"
+      slot: 35
+tier-rewards-menu:
+  title: "Edit Rewards: {tier_roman}"
+  rows: 4
+  items:
+    reward:
+      material: GOLD_INGOT
+      name: "&6{reward_type}"
+      lore:
+        - "&7Value: &f{reward_value}"
+        - ""
+        - "&eClick to edit!"
+        - "&cRight Click to remove!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    add:
+      material: BOOK_AND_QUILL
+      name: "&aAdd Reward"
+      lore:
+        - "&7Add a new reward."
+        - ""
+        - "&eClick to add!"
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 35
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the achievement menu."
+      slot: 31
+conditions-menu:
+  title: "Edit Conditions: {achievement_id}"
+  rows: 4
+  items:
+    condition:
+      material: REPEATER
+      name: "&6{condition_type}"
+      lore:
+        - "&7Value: &f{condition_value}"
+        - ""
+        - "&eClick to edit!"
+        - "&cRight Click to remove!"
+      slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25]
+    add:
+      material: BOOK_AND_QUILL
+      name: "&aAdd Condition"
+      lore:
+        - "&7Add a new condition."
+        - ""
+        - "&eClick to add!"
+      slot: 32
+    previous-page:
+      material: ARROW
+      name: "&aPrevious Page"
+      lore:
+        - "&ePage {previous_page}"
+      slot: 27
+    next-page:
+      material: ARROW
+      name: "&aNext Page"
+      lore:
+        - "&ePage {next_page}"
+      slot: 35
+    back:
+      material: ARROW
+      name: "&cBack"
+      lore:
+        - "&7Go back to the achievement menu."
+      slot: 31

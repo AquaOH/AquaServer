@@ -1,0 +1,10 @@
+# For internal storage use only, do not modify.
+
+legacy-data-migrated: true
+previous-handler: yaml
+player:
+  9ed3afff-4a1e-49a9-ac2a-d7d980bd476e:
+    eco:player_name: AquaOH
+  00000000-0000-0000-0000-000000000000:
+    eco:local_server_id: 2eeb7b54-7c69-42c8-bb8a-14775a76e369
+

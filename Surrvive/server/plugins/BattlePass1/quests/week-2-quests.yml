@@ -1,0 +1,169 @@
+quests:
+  '1':
+    name: 周 | 挖掘16个绿宝石矿
+    type: block-break
+    variable: EMERALD_ORE
+    required-progress: 16
+    exclusive: premium
+    points: 100.0
+    item:
+      material: EMERALD_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘16个绿宝石矿'
+      lore:
+      - '{#ff0000}&l[!] 需要高级通行证'
+      - ''
+      - '&7完成该任务所需条件:'
+      - '&7挖掘{#00bbff}16个绿宝石矿&7.'
+      - ''
+      - '{#00BBFF}&l信息:'
+      - ' &8■ &l目标: {#00bbff}挖掘16个绿宝石矿'
+      - ' &8■ &l进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度:'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃100.0'
+  '2':
+    name: 周 | 砍64个橡树原木
+    type: block-break
+    variable: OAK_LOG
+    required-progress: 64
+    points: 25.0
+    item:
+      material: OAK_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个橡树原木'
+      lore:
+      - '&7完成该任务所需条件:'
+      - '&7砍{#bf9552}64个橡树原木&7.'
+      - ''
+      - '{#bf9552}&l信息:'
+      - ' &8■ &l目标: {#bf9552}砍64个橡树原木'
+      - ' &8■ &l进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度:'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃25.0'
+  '3':
+    name: 周 | 砍64个深色橡木原木
+    type: block-break
+    variable: DARK_OAK_LOG
+    required-progress: 64
+    points: 25.0
+    item:
+      material: DARK_OAK_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个深色橡木原木'
+      lore:
+      - '&7完成该任务所需条件:'
+      - '&7{#bf9552}砍64个深色橡木原木.'
+      - ''
+      - '{#bf9552}&l信息:'
+      - ' &8■ &l目标: {#bf9552}砍64个深色橡木原木'
+      - ' &8■ &l进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度:'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃25.0'
+  '4':
+    name: 周 | 砍64个云杉木
+    type: block-break
+    variable: SPRUCE_LOG
+    required-progress: 64
+    points: 25.0
+    item:
+      material: SPRUCE_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个云杉木'
+      lore:
+      - '&7完成该任务所需条件:'
+      - '&7{#bf9552}砍64个云杉木&7.'
+      - ''
+      - '{#bf9552}&l信息:'
+      - ' &8■ &l目标: {#bf9552}砍64个云杉木'
+      - ' &8■ &l进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度:'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃25.0'
+  '5':
+    name: 周 | 砍64个白桦木
+    type: block-break
+    variable: BIRCH_LOG
+    required-progress: 64
+    points: 25.0
+    item:
+      material: BIRCH_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个白桦木'
+      lore:
+      - '&7完成该任务所需条件:'
+      - '&7{#bf9552}砍64个白桦木&7.'
+      - ''
+      - '{#bf9552}&l信息:'
+      - ' &8■ &l目标: {#bf9552}砍64个白桦木'
+      - ' &8■ &l进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度:'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃25.0'
+  '6':
+    name: 周 | 砍64个丛林木
+    type: block-break
+    variable: JUNGLE_LOG
+    required-progress: 64
+    points: 25.0
+    item:
+      material: JUNGLE_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个丛林木'
+      lore:
+      - '&7完成该任务所需条件:'
+      - '&7{#bf9552}砍64个丛林木&7.'
+      - ''
+      - '{#bf9552}&l信息:'
+      - ' &8■ &l目标: {#bf9552}砍64个丛林木'
+      - ' &8■ &l进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度:'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃25.0'
+  '7':
+    name: 周 | 砍64个绯红菌柄
+    type: block-break
+    variable: CRIMSON_STEM
+    required-progress: 64
+    exclusive: premium
+    points: 50.0
+    item:
+      material: CRIMSON_STEM:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个绯红菌柄'
+      lore:
+      - '{#ff0000}&l[!] 需要高级通行证'
+      - ''
+      - '&7完成该任务所需条件:'
+      - '&7{#bf9552}砍64个绯红菌柄&7.'
+      - ''
+      - '{#bf9552}&l信息:'
+      - ' &8■ &l目标: {#bf9552}砍64个绯红菌柄'
+      - ' &8■ &l进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度:'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃50.0'
+actions-version: 2

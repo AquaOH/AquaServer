@@ -1,0 +1,93 @@
+menu-title: ':offset_-88::bp_week:'
+menu-rows: 6
+
+quest-slots:
+  slots: '10...16, 37...43'
+
+menu:
+  '45':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {quest-overview}'
+      - '[menu](page ! 1) {previous-page}'
+  '46':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {quest-overview}'
+      - '[menu](page ! 1) {previous-page}'
+  '47':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {quest-overview}'
+      - '[menu](page ! 1) {previous-page}'
+
+  '49':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e这些任务是什么？'
+      lore:
+        - ''
+        - '&7完成这些任务来'
+        - '&7获得 &epoints&7 以提升'
+        - '&7你的战斗通行证等级来获得'
+        - '&7惊人的奖励'
+    actions: []
+
+  '51':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e下一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往下一页 ))'
+    actions:
+      - '[menu] {next-page}'
+  '52':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e下一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往下一页 ))'
+    actions:
+      - '[menu] {next-page}'
+  '53':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e下一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往下一页 ))'
+    actions:
+      - '[menu] {next-page}'
+#  '41':
+#    item:
+#      material: arrow:0
+#      name: '&e下一页'
+#      lore:
+#        - ''
+#        - '&7&o(( 点击前往下一页 ))'
+#    actions:
+#      - '[menu] {next-page}'

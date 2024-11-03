@@ -1,0 +1,74 @@
+#编辑所有商家档案的权限
+#对应命令: /gmp profile set
+#默认情况下玩家只能编辑自己的档案
+#给予了该权限后将可以编辑所有玩家的档案
+
+#所有权限均可自定义，请按照以下格式进行设置与更改：
+#  Default 是否为所有玩家可用，设置为true即所有玩家拥有此权限
+#  Permission 权限节点
+#  Allowed-Groups 默认允许的组（在Groups.yml中设置）
+
+Edit-All:
+    #默认是否允许
+    Default: false
+    #所需权限
+    Permission: globalmarketplus.merchant.options.editall
+    #允许使用的组
+    Allowed-Groups: 
+    - Admin
+
+#无视档案参数设置的冷却时间的权限
+Cooldown-Bypass:
+    #默认是否允许
+    Default: false
+    #所需权限
+    Permission: globalmarketplus.merchant.cooldown-bypass
+
+#修改档案参数的权限
+Parameters:
+    #设置商店打烊（他人无法访问该商店）
+    Store-Closed: 
+        Default: true
+        Permission: globalmarketplus.merchant.options.store-closed
+    #设置邮箱上锁（拒绝一切邮件）
+    Mailbox-Locked: 
+        Default: true
+        Permission: globalmarketplus.merchant.options.mailbox-locked
+    #设置商品排序
+    Merchandise-Sort: 
+        Default: true
+        Permission: globalmarketplus.merchant.options.merchandise-sort
+    #设置邮件排序
+    Item-Mail-Sort: 
+        Default: true
+        Permission: globalmarketplus.merchant.options.item-mail-sort
+    #在全球市场上隐藏商品（仅在个人商店中显示）
+    Hide-Merchandises:
+        Default: true
+        Permission: globalmarketplus.merchant.options.hide-merchandises
+    #在商品标签上隐藏商家名字
+    Hide-Merchant-Name: 
+        Default: false
+        Permission: globalmarketplus.merchant.options.hide-merchant-name
+        Allowed-Groups: 
+        - VIP
+        - Admin
+    #修改商店名字
+    Store-Name: 
+        Default: false
+        Permission: globalmarketplus.merchant.options.set-store-name
+        Allowed-Groups: 
+        - VIP
+        - Admin
+    #修改商店描述
+    Store-Description: 
+        Default: false
+        Permission: globalmarketplus.merchant.options.set-store-description
+        Allowed-Groups: 
+        - VIP
+        - Admin
+
+#更新检测
+Updater:
+    Default: false
+    Permission: globalmarketplus.updater

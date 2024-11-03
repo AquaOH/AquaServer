@@ -1,0 +1,83 @@
+info:
+  namespace: "aqua_icon"
+font_images:
+  paper_money: # <----- 这个贴图的id
+    path: "paper_money.png" # <----- 这个贴图的路径
+    symbol: "\uC000" # <----- 这个贴图替换的字符
+    scale_ratio: 21 # <----- 这个贴图的大小
+    y_position: 8 # <----- 这个贴图的上下偏移
+  finish_plain: 
+    path: "finish_plain.png" 
+    symbol: "\uC001" 
+    scale_ratio: 8
+    y_position: 7  
+  blocked_plain: 
+    path: "blocked_plain.png" 
+    symbol: "\uC002" 
+    scale_ratio: 8
+    y_position: 7  
+  enable_plain: 
+    path: "enable_plain.png" 
+    symbol: "\uC003" 
+    scale_ratio: 8
+    y_position: 7  
+  error_blue: 
+    path: "error_blue.png" 
+    symbol: "\uC004" 
+    scale_ratio: 8
+    y_position: 7  
+  error_green: 
+    path: "error_green.png" 
+    symbol: "\uC005" 
+    scale_ratio: 8
+    y_position: 7  
+  error_purple: 
+    path: "error_purple.png" 
+    symbol: "\uC006" 
+    scale_ratio: 8
+    y_position: 7  
+  errpr_red: 
+    path: "error_red.png" 
+    symbol: "\uC007" 
+    scale_ratio: 8
+    y_position: 7  
+  error_yellow: 
+    path: "error_yellow.png" 
+    symbol: "\uC008" 
+    scale_ratio: 8
+    y_position: 7  
+  error_pink: 
+    path: "error_pink.png" 
+    symbol: "\uC009" 
+    scale_ratio: 8
+    y_position: 7  
+  leftclick: 
+    path: "leftclick.png" 
+    symbol: "\uC00A" 
+    scale_ratio: 8
+    y_position: 7  
+  rightclick: 
+    path: "rightclick.png" 
+    symbol: "\uC00B" 
+    scale_ratio: 8
+    y_position: 7  
+  chat: 
+    path: "chat.png" 
+    symbol: "\uC00C" 
+    scale_ratio: 10
+    y_position: 8    
+  paper_money_tiny:
+    path: "paper_money.png" 
+    symbol: "\uC00D" 
+    scale_ratio: 8 
+    y_position: 7 
+  error_aqua: 
+    path: "error_aqua.png" 
+    symbol: "\uC00E" 
+    scale_ratio: 8
+    y_position: 7  
+  ecnumc_logo: 
+    path: "ecnumc_logo.png" 
+    symbol: "\uC010" 
+    scale_ratio: 32
+    y_position: 32  

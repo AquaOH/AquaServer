@@ -1,0 +1,10 @@
+info:
+  namespace: "aquaicons"
+  
+font_images:
+  suica13: 
+    path: "tab/suica13.png" 
+    symbol: "鑲"
+    show_in_gui: false
+    scale_ratio: 55
+    y_position: 23

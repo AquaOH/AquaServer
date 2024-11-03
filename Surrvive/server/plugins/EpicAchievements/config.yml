@@ -1,0 +1,48 @@
+# Download it here: https://black-minecraft.com/resources/6135/
+# EpicAchievements configuration file
+update-checker:
+  enabled: true
+  check-interval: 3600 # In seconds
+# The id of the server
+server: survival
+# If enabled, the points rewarded for each achievement will be shown in the item amount
+show-points-in-item-amount: true
+# Command executed when clicking the unlock message
+achievement-unlock-message-command: "achievements menu {category_id} {achievement_type}"
+# Command executed when clicking the progress message
+achievement-progress-message-command: "achievements menu {category_id} {achievement_type}"
+# If enabled, players will be notified about unclaimed rewards
+notify-unclaimed-rewards:
+  on-join: true
+  on-reward-unlock: true
+# Task settings
+tasks:
+  placeholder:
+    # How often should placeholders be checked? (in ticks)
+    interval: 20
+  playtime:
+    # How often should playtime be updated? (in ticks)
+    interval: 1200
+# Sound settings
+sounds:
+  achievement-unlock:
+    - FIREWORK_TWINKLE
+    - NOTE_PLING
+  switch-page: ITEM_BOOK_PAGE_TURN
+  sorting-item: UI_BUTTON_CLICK
+  unclaimed-rewards: BLOCK_NOTE_PLING
+  reward-claimed: ENTITY_PLAYER_LEVELUP
+  cannot-claim-reward: NOTE_BASS
+# Storage settings
+storage:
+  type: SQLITE # Available types: MONGODB, MYSQL, SQLITE
+  mysql:
+    host: localhost
+    port: 3306
+    database: achievements
+    username: username
+    password: password
+    ssl: false
+  mongodb:
+    uri: "mongodb://localhost:27017/"
+    database: achievements

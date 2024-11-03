@@ -1,0 +1,168 @@
+quests:
+  1:
+    name: '周 | 种植采摘64个甜菜'
+    type: block-break
+    variable: BEETROOTS:0
+    required-progress: 64
+    points: 200.0
+    item:
+      material: BEETROOT:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘64个甜菜'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7种植采摘{#faad1e}64&7个甜菜.'
+        - ''
+        - '{#faad1e}&l信息'
+        - ' &8■ &7目标: {#faad1e}种植采摘64个甜菜'
+        - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+        - ''
+        - '{#faad1e}&l进度'
+        - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+        - ''
+        - '{#faad1e}&7奖励'
+        - ' &8- {#ffff00}⛃200.0'
+  2:
+    name: '周 | 种植采摘64个竹子'
+    type: block-break
+    variable: BAMBOO:0
+    required-progress: 64
+    points: 250.0
+    item:
+      material: BAMBOO:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘64个竹子'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7种植{#faad1e}64&7个竹子.'
+        - ''
+        - '{#faad1e}&l信息'
+        - ' &8■ &7目标: {#faad1e}种植64个竹子'
+        - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+        - ''
+        - '{#faad1e}&l进度'
+        - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+        - ''
+        - '{#faad1e}&7奖励'
+        - ' &8- {#ffff00}⛃250.0'
+  3:
+    name: '周 | 种植采摘32个甘蔗'
+    type: block-break
+    variable: SUGAR_CANE:0
+    exclusive: premium
+    required-progress: 32
+    points: 500.0
+    item:
+      material: SUGAR_CANE:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘32个甘蔗'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7种植采摘{#faad1e}32&7个甘蔗.'
+        - ''
+        - '{#faad1e}&l信息'
+        - ' &8■ &7目标: {#faad1e}Harvest 32 Sugar Cane'
+        - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+        - ''
+        - '{#faad1e}&l进度'
+        - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+        - ''
+        - '{#faad1e}&7奖励'
+        - ' &8- {#ffff00}⛃500.0'
+  4:
+    name: '周 | 收获16个南瓜'
+    type: block-break
+    variable: PUMPKIN:0
+    required-progress: 16
+    points: 150.0
+    item:
+      material: PUMPKIN:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}收获16个南瓜'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7收获{#faad1e}16&7个南瓜.'
+        - ''
+        - '{#faad1e}&l信息'
+        - ' &8■ &7目标: {#faad1e}收获16个南瓜'
+        - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+        - ''
+        - '{#faad1e}&l进度'
+        - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+        - ''
+        - '{#faad1e}&7奖励'
+        - ' &8- {#ffff00}⛃150.0'
+  5:
+    name: '周 | 挖掘32个泥土'
+    type: block-break
+    variable: DIRT:0
+    required-progress: 32
+    points: 50.0
+    item:
+      material: DIRT:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖掘32个泥土'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#4cbd3a}32&7个泥土.'
+        - ''
+        - '{#4cbd3a}&l信息'
+        - ' &8■ &7目标: {#4cbd3a}挖掘32个泥土'
+        - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+        - ''
+        - '{#4cbd3a}&l进度'
+        - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+        - ''
+        - '{#4cbd3a}&7奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  6:
+    name: '周 | 挖掘32个草方块'
+    type: block-break
+    variable: GRASS_BLOCK:0
+    required-progress: 32
+    exclusive: premium
+    points: 100.0
+    item:
+      material: GRASS_BLOCK:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖掘32个草方块'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#4cbd3a}32&7个草方块.'
+        - ''
+        - '{#4cbd3a}&l信息'
+        - ' &8■ &7目标: {#4cbd3a}挖掘32个草方块'
+        - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+        - ''
+        - '{#4cbd3a}&l进度'
+        - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+        - ''
+        - '{#4cbd3a}&7奖励'
+        - ' &8- {#ffff00}⛃100.0'
+  7:
+    name: '周 | 挖掘32个砂土'
+    type: block-break
+    variable: COARSE_DIRT:0
+    required-progress: 32
+    points: 125.0
+    item:
+      material: COARSE_DIRT:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖掘32个砂土'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#4cbd3a}32&7个砂土.'
+        - ''
+        - '{#4cbd3a}&l信息'
+        - ' &8■ &7目标: {#4cbd3a}挖掘32个砂土'
+        - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+        - ''
+        - '{#4cbd3a}&l进度'
+        - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+        - ''
+        - '{#4cbd3a}&7奖励'
+        - ' &8- {#ffff00}⛃125.0'

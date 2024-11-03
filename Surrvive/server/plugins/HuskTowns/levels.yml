@@ -1,0 +1,117 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃    HuskTowns Levels Config   ┃
+# ┃    Developed by William278   ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┣╸ This file is for configuring town level requirements and rewards
+# ┗╸ Config Help: https://william278.net/docs/husktowns/config-files
+
+# The amount of money required to level up towns. The Level 1 cost will be taken to create a town if require_first_level_collateral is enabled in config.yml.
+level_money_requirements:
+  '1': 2000.0
+  '2': 4000.0
+  '3': 8000.0
+  '4': 16000.0
+  '5': 32000.0
+  '6': 64000.0
+  '7': 128000.0
+  '8': 256000.0
+  '9': 512000.0
+  '10': 1024000.0
+  '11': 2048000.0
+  '12': 4096000.0
+  '13': 8192000.0
+  '14': 1.6384E7
+  '15': 3.2768E7
+  '16': 6.5536E7
+  '17': 1.31072E8
+  '18': 2.62144E8
+  '19': 5.24288E8
+  '20': 1.048576E9
+# The maximum number of members a town can have at each level
+level_member_limits:
+  '1': 5
+  '2': 10
+  '3': 15
+  '4': 20
+  '5': 25
+  '6': 30
+  '7': 35
+  '8': 40
+  '9': 45
+  '10': 50
+  '11': 55
+  '12': 60
+  '13': 65
+  '14': 70
+  '15': 75
+  '16': 80
+  '17': 85
+  '18': 90
+  '19': 95
+  '20': 100
+# The maximum number of claims a town can have at each level
+level_claim_limits:
+  '1': 6
+  '2': 12
+  '3': 18
+  '4': 24
+  '5': 30
+  '6': 36
+  '7': 42
+  '8': 48
+  '9': 54
+  '10': 60
+  '11': 66
+  '12': 72
+  '13': 78
+  '14': 84
+  '15': 90
+  '16': 96
+  '17': 102
+  '18': 108
+  '19': 114
+  '20': 120
+# The bonus crop growth rate percentage a town has at each level (e.g. 105 is 5% faster crop growth)
+level_crop_growth_rate_bonus:
+  '1': 105.0
+  '2': 110.0
+  '3': 115.0
+  '4': 120.0
+  '5': 125.0
+  '6': 130.0
+  '7': 135.0
+  '8': 140.0
+  '9': 145.0
+  '10': 150.0
+  '11': 155.0
+  '12': 160.0
+  '13': 165.0
+  '14': 170.0
+  '15': 175.0
+  '16': 180.0
+  '17': 185.0
+  '18': 190.0
+  '19': 195.0
+  '20': 200.0
+# The bonus mob spawner rate percentage a town has at each level
+level_mob_spawner_rate_bonus:
+  '1': 102.5
+  '2': 105.0
+  '3': 107.5
+  '4': 110.0
+  '5': 112.5
+  '6': 115.0
+  '7': 117.5
+  '8': 120.0
+  '9': 122.5
+  '10': 125.0
+  '11': 127.5
+  '12': 130.0
+  '13': 132.5
+  '14': 135.0
+  '15': 137.5
+  '16': 140.0
+  '17': 142.5
+  '18': 145.0
+  '19': 147.5
+  '20': 150.0

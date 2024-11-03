@@ -1,0 +1,160 @@
+title: "&0地标列表"
+collectionTitle: "&0我的收藏"
+size: 54
+
+# 置顶帖
+top:
+  enable: true
+  index: 11,12,13,14,15
+  name: "    &8[&c置顶位&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - "&f- &7可以将自己的地标置顶7天"
+    - "&f- &7点击租用此置顶位"
+    - "&f- &7一个地标只能置顶一次"
+  custom-model-data: 10022
+  # 购买后置顶时间，单位天
+  time: 7
+
+# 介绍信息
+warp:
+  name: "   &a${warp_name}"
+  index: 20,21,22,23,24,29,30,31,32,33
+  lore:
+    - ''
+    - '&f[ &c地标描述 &f]'
+    - '&c&l>> &a${description}'
+    - ''
+    - '&8▪ &7地标类型 &f ${warp_type}'
+    - '&8▪ &7地标流量 &f ${tp_number}'
+    - '&8▪ &7创建玩家 &f ${player}'
+    - '&8▪ &7创建日期 &f ${time}'
+    - '&8▪ &7地标评分 &f ${like}'
+    - '&8▪ &7地标热度 &f ${thermal_value}'
+    - '&8▪ &7传送价格 &f ${price}'
+    - ''
+    - '   &8▪ &d左键传送 &a右键评分   '
+
+# 上一页
+previousPage:
+  enable: true
+  index: 47
+  name: "    &8[&a上一页&8]"
+  lore:
+    - '&8▪ &7点击打开上一页'
+    - '&8▪ &7当前页码 &a${pageNum}'
+    - '&8▪ &7总页码数 &a${count}'
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10004
+
+# 下一页
+nextPage:
+  enable: true
+  index: 51
+  name: "    &8[&a下一页&8]"
+  lore:
+    - '&8▪ &7点击打开下一页'
+    - '&8▪ &7当前页码 &a${pageNum}'
+    - '&8▪ &7总页码数 &a${count}'
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10005
+
+# 创建地标
+create:
+  enable: true
+  index: 45
+  name: "    &8[&a创建地标&8]"
+  lore:
+    - "&f- &7点击创建地标"
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10020
+
+# 搜索
+search:
+  enable: true
+  index: 48
+  name: "    &8[&a根据类型搜索&8]"
+  lore:
+    - '&8▪ &7当前类型: &a${type}'
+    - '&8▪ &7点击切换: &a${nextType}'
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10018
+
+# 收藏
+collection:
+  enable: true
+  index: 53
+  name: "    &8[&a我的收藏&8]"
+  lore:
+    - "&f- &7点击查看收藏的地标"
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10015
+
+# 全部(必须跟收藏的index一样)
+all:
+  enable: true
+  index: 53
+  name: "    &8[&a全部地标&8]"
+  lore:
+    - "&f- &7点击查看全部地标"
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10034
+
+# 我的地标
+me:
+  enable: true
+  index: 49
+  name: "   &8[&e我的地标&8]"
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10032
+  lore:
+    - "&f- &7查看我的地标"
+
+# 自定义按钮 你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  info:
+    enable: true
+    index: 4
+    name: "      &8[&e地标介绍&8]"
+    material: PAPER
+    isEnchant: false
+    custom-model-data: 10033
+    lore:
+      - '&8▪ &7服务器地标系统'
+      - '&8▪ &7还在担心自己建筑没人欣赏?'
+      - '&8▪ &7还在担心自己商店没有流量?'
+      - '&8▪ &7还在担心建筑师们无法赚钱?'
+      - '&8▪ &7创建地标,可设置收费门票'
+  # 返回按钮
+  back:
+    enable: true
+    index: 50
+    name: "   &8[&a返回&8]"
+    material: PAPER
+    isEnchant: false
+    lore:
+      - '&f- &7点击返回'
+    custom-model-data: 10006
+    # 执行的命令
+    command: "cdtele"
+  # 分隔板
+  pane:
+    enable: true
+    index: 0,1,2,3,5,6,7,8,9,18,27,36,44,17,26,35,46,52
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "        &8[&7分割板&8]"
+    lore:
+      - "&7哎呀,不要随便戳人家啦"
+    custom-model-data: 0
+
+like: "&a❤️"
+dislike: "&f🩵"

@@ -1,0 +1,117 @@
+Title:
+- '&f%img_offset_-88%&f%img_tele%'
+
+Title-Update: 1
+
+#建议每一个之间空一行，习惯，看起来不那么乱
+Layout:
+  - 'AAAAAABBB' #菜单的边框
+  - 'AAAAAABBB'
+  - 'CCCDDDEEE'
+  - 'CCCDDDEEE' #菜单的边框
+  - '         '
+  - 'FFFGGGHHH'
+
+
+
+Events:
+  Open: #开启菜单的事件
+    - condition: perm *trmenu.use #检测玩家是否拥有menu.admin的权限（kether的写法）
+      actions: #拥有执行的动作（菜单正常打开）
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+        - 'delay: 2'
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+
+      deny: #没有执行的动作（菜单被return动作中断）
+        - 'tell: &c你不是管理员'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: <r#2:75:100>你还不是管理员哦！'
+        - 'return'
+  Close: #菜单关闭的事件
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+    - 'delay: 3'
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+
+
+Icons: 
+  A: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#6BC2EB}主城'
+      lore: 
+        - ' &{#3c8dc3}返回主城服务器！'
+    actions: 
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+        - 'command: warp lobby'
+  B:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#86A421}人间之里'
+      lore:
+        - ' &{#586516}无尽地皮'    
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-1'
+        - 'server: ecnuhub' 
+  C:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#FFD86B}生存一区'
+      lore:
+        - ' &{#D79729}范围限制，大型机器禁止'
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-1'
+        - 'server: sur1' 
+        
+  D:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#F09F7A}生存二区'
+      lore:
+        - ' &{#C6583A}范围限制，大型机器禁止'       
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_BIT-1-1'
+        - 'server: sur2'        
+  E:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#E27AF0}生存三区'
+      lore:
+        - '&{#A73AC6}范围限制，大型机器禁止'      
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'server: sur3'  
+  F:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#FAC264}资源一区'
+      lore:
+        - '&{#C0A846}每周末刷新，无任何限制！'       
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'server: res1'  
+  G:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#DB796B}资源二区'
+      lore:
+        - '&{#A8694D}每月底刷新，无任何限制！'       
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'server: res2'  
+  H:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#B56BDB}资源三区'
+      lore:
+        - '&{#9A4DA8}永远不刷新，无任何限制！'      
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'server: res3'  

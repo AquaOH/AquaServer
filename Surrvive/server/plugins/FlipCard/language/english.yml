@@ -1,0 +1,59 @@
+# Error
+error-args: "&#98FB98[FlipCard] &cWrong command usage, if you need help, use /flipcard help!"
+error-only-in-game: "&#98FB98[FlipCard] &cYou have to use this command in game!"
+error-player-not-found: "&#98FB98[FlipCard] &cWe can not found this player!"
+error-miss-permission: "&#98FB98[FlipCard] &cYou don't have permission to use this command!"
+error-save-item-not-found: "&#98FB98[FlipCard] &cWe can't find this save item called %item%!"
+
+# Command Help
+command-help: |
+  &#98FB98&lFlipCard &7Made by @rtz1020
+  &f/flipcard forceopen <playerName> <UIConfigName> &7-  Open Gui for a player.
+  &f/flipcard reload &7- Reload configuration.
+  &f/flipcard save <fileName> &7- Save the items in main-hand.
+  &f/flipcard givetimes <playerName> <UIConfigName> <times>
+  &f/flipcard addtimes <playerName> <UIConfigName> <times>
+  &f/flipcard gettimes <playerName> <UIConfigName> <times>
+  &c/flipcard open <UIConfigName> &7- Cost one flip UI left time to start a card flip event for player self.
+  &e/flipcard reopen <UIConfigName> [playerName] &7- Reopen a flip UI if its not time out.
+# Command Tips
+command-reload-complete: "&#98FB98[FlipCard] &fPlugin reloaded!"
+command-save-complete: "&#98FB98[FlipCard] &fItems in main-hand have been saved!"
+command-main-could-not-find-config: "&#98FB98[FlipCard] &fConfiguration not found!"
+command-generate-complete: "&#98FB98[FlipCard] &fGenerated hold item's item format at plugin config folder, please copy them into your menu or shop configs!"
+
+# Command Times
+command-settimes-success: "&#98FB98[FlipCard] &fSuccessfully set %player%'s %uiconfig% left time to %value%!"
+command-addtimes-success: "&#98FB98[FlipCard] &fSuccessfully add %player%'s %uiconfig% add %value% left time!"
+
+# Preview GUI
+display-gui-title-timer: " &7Previewing:&f {timer}"
+display-gui-title: " &7Previewing"
+
+# Main GUI
+main-gui-title-timer: " &7Left time: &d&l{timer}"
+main-gui-price-not-enough: "Not enough %price%."
+main-gui-condition-not-meet: "Condition not meet."
+main-gui-max-flip-max: "This card can only be flipped %max% times."
+main-gui-max-total-max: "This UI can only flip %max% times card."
+main-gui-have-cost: "&eCost: %price%"
+main-gui-time-runs-out: "&#98FB98[FlipCard] &fTime has run out!"
+main-gui-no-enough-space-dropped: "&#98FB98[FlipCard] &cNot enough space in your inventory: &3%amount%x&f%display% &cdropped!"
+
+# Animation
+animation-flipping: "&a&lFlipping"
+animation-flip-fail: "&c&lFailure"
+animation-shuffling: "&c&lShuffling"
+
+# System
+reward-get-fail: "&#98FB98[FlipCard] &cPlease contact the administrator as the corresponding reward has not been obtained!"
+could-not-load-file: "&#98FB98[FlipCard] &cUnable to load."
+command-error: "&#98FB98[FlipCard] &cThere is an error in the command, please contact the administrator."
+reopen-message: "&#98FB98[FlipCard] &fThe FlipCard is temporarily closed, you have %time% seconds &f&n[Click here]"
+reopen-fail: "&#98FB98[FlipCard] &cFailed to reopen, the FlipCard has timed out or does not exist."
+gettimes: "&#98FB98[FlipCard] &fThis player has %times% times left to open this type flip UI."
+open-fail: "&#98FB98[FlipCard] &cYou do not have enough left time, your now left times: %times%."
+give-save-item: "&#98FB98[FlipCard] &fGive %player% save item %item% x%amount%!"
+
+# Placeholer
+price-placeholder-default: "%display% x%amount%"

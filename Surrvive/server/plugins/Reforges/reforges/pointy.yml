@@ -1,0 +1,18 @@
+name: "<gradient:#076585>Pointy</gradient:#ffffff>"
+
+description:
+  - "&a+10% &fDamage"
+
+targets:
+  - trident
+
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.1
+    triggers:
+      - trident_attack
+
+conditions: []
+
+# /kP/rOjhSUOVT9CuR10A/AoUgjEwKCj04Z2CMeK5l4HTcnYmh5ZGVaTzY2jE6YBVVAk7is6mmC/AUWiWJ+kc8aP5unUUvFRSpKXuEPRR4V4=

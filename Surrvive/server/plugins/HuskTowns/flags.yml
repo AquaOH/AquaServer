@@ -1,0 +1,54 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃    HuskTowns Flags Config    ┃
+# ┃    Developed by William278   ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┣╸ This file is for configuring flags. Flag IDs map to a list of permitted operations.
+# ┗╸ Config Help: https://william278.net/docs/husktowns/config-files
+
+# A map of flag IDs to operations that flag permits.Display names of flags correspond to a "town_rule_name_" locale in your messages file.
+flags:
+  public_container_access:
+  - CONTAINER_OPEN
+  pvp:
+  - PLAYER_DAMAGE_PLAYER
+  fire_damage:
+  - FIRE_SPREAD
+  - FIRE_BURN
+  mob_griefing:
+  - MONSTER_DAMAGE_TERRAIN
+  monster_spawning:
+  - MONSTER_SPAWN
+  - PLAYER_DAMAGE_MONSTER
+  - PASSIVE_MOB_SPAWN
+  public_farm_access:
+  - FARM_BLOCK_BREAK
+  - BLOCK_INTERACT
+  - FARM_BLOCK_INTERACT
+  - PLAYER_DAMAGE_ENTITY
+  - FARM_BLOCK_PLACE
+  public_interact_access:
+  - BLOCK_INTERACT
+  - ENTITY_INTERACT
+  - REDSTONE_INTERACT
+  - ENDER_PEARL_TELEPORT
+  explosion_damage:
+  - EXPLOSION_DAMAGE_TERRAIN
+  - EXPLOSION_DAMAGE_ENTITY
+  public_build_access:
+  - FARM_BLOCK_INTERACT
+  - FILL_BUCKET
+  - ENTITY_INTERACT
+  - BREAK_HANGING_ENTITY
+  - PLAYER_DAMAGE_ENTITY
+  - BLOCK_INTERACT
+  - EMPTY_BUCKET
+  - PLACE_HANGING_ENTITY
+  - FARM_BLOCK_PLACE
+  - PLAYER_DAMAGE_MONSTER
+  - PLAYER_DAMAGE_PERSISTENT_ENTITY
+  - USE_SPAWN_EGG
+  - CONTAINER_OPEN
+  - BLOCK_BREAK
+  - BLOCK_PLACE
+  - ENDER_PEARL_TELEPORT
+  - REDSTONE_INTERACT

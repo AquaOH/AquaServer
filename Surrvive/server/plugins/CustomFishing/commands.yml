@@ -1,0 +1,195 @@
+#
+# 不要更改此内容
+#
+config-version: "36"
+
+#
+# 出于安全原因，编辑此文件需要重启才能生效
+#
+
+# 重新加载插件的命令
+# 使用: [COMMAND]
+reload:
+  enable: true
+  permission: "customfishing.command.reload"
+  usage:
+  - "/customfishing reload"
+  - "/cfishing reload"
+
+# 为玩家设计的出售鱼的命令
+# 使用: [COMMAND]
+sellfish:
+  enable: true
+  permission: "customfishing.sellfish"
+  usage:
+  - "/sellfish"
+
+# 为玩家设计的打开钓鱼包的命令
+# 使用: [COMMAND]
+fishingbag:
+  enable: true
+  permission: "fishingbag.user"
+  usage:
+  - "/fishingbag"
+
+# 获取物品的命令
+# 使用: [COMMAND] [id]
+get_item:
+  enable: true
+  permission: "customfishing.command.getitem"
+  usage:
+  - "/customfishing items get"
+  - "/cfishing items get"
+
+# 给予物品的命令
+# 使用: [COMMAND] [id]
+give_item:
+  enable: true
+  permission: "customfishing.command.giveitem"
+  usage:
+  - "/customfishing items give"
+  - "/cfishing items give"
+
+# 导入物品的命令
+# 使用: [COMMAND] [type] [id]
+import_item:
+  enable: true
+  permission: "customfishing.command.importitem"
+  usage:
+  - "/customfishing items import"
+  - "/cfishing items import"
+
+# 停止比赛的命令
+# 使用: [COMMAND]
+stop_competition:
+  enable: true
+  permission: "customfishing.command.competition"
+  usage:
+  - "/customfishing competition stop"
+  - "/cfishing competition stop"
+
+# 结束比赛的命令
+# 使用: [COMMAND] [type] [id]
+end_competition:
+  enable: true
+  permission: "customfishing.command.competition"
+  usage:
+  - "/customfishing competition end"
+  - "/cfishing competition end"
+
+# 开始比赛的命令
+# 使用: [COMMAND] [id]
+start_competition:
+  enable: true
+  permission: "customfishing.command.competition"
+  usage:
+  - "/customfishing competition start"
+  - "/cfishing competition start"
+
+# 为玩家打开市场的命令
+# 使用: [COMMAND] [player]
+open_market:
+  enable: true
+  permission: "customfishing.command.open.market"
+  usage:
+  - "/customfishing open market"
+  - "/cfishing open market"
+
+# 为玩家打开钓鱼包的命令
+# 使用: [COMMAND] [player]
+open_bag:
+  enable: true
+  permission: "customfishing.command.open.bag"
+  usage:
+  - "/customfishing open bag"
+  - "/cfishing open bag"
+
+# 编辑钓鱼包内容的命令
+# 使用: [COMMAND] [player]
+edit_online_bag:
+  enable: true
+  permission: "customfishing.command.edit.bag"
+  usage:
+  - "/customfishing fishingbag edit-online"
+  - "/cfishing fishingbag edit-online"
+
+# 编辑钓鱼包内容的命令
+# 使用: [COMMAND] [uuid]
+edit_offline_bag:
+  enable: true
+  permission: "customfishing.command.edit.bag"
+  usage:
+  - "/customfishing fishingbag edit-offline"
+  - "/cfishing fishingbag edit-offline"
+
+# 解锁被锁定数据的命令
+# 使用: [COMMAND] [uuid]
+data_unlock:
+  enable: true
+  permission: "customfishing.command.data"
+  usage:
+  - "/customfishing data unlock"
+  - "/cfishing data unlock"
+
+# 导出数据的命令
+# 使用: [COMMAND]
+data_export:
+  enable: true
+  permission: "customfishing.command.data"
+  usage:
+  - "/customfishing data export"
+  - "/cfishing data export"
+
+# 导入数据的命令
+# 使用: [COMMAND] [file]
+data_import:
+  enable: true
+  permission: "customfishing.command.data"
+  usage:
+  - "/customfishing data import"
+  - "/cfishing data import"
+
+# 设置玩家钓鱼统计数据的命令
+# 使用: [COMMAND] [player] [type] [id] [value]
+statistics_set:
+  enable: true
+  permission: "customfishing.command.statistics"
+  usage:
+  - "/customfishing statistics set"
+  - "/cfishing statistics set"
+
+# 重置玩家钓鱼统计数据的命令
+# 使用: [COMMAND] [player]
+statistics_reset:
+  enable: true
+  permission: "customfishing.command.statistics"
+  usage:
+  - "/customfishing statistics reset"
+  - "/cfishing statistics reset"
+
+# 查询玩家钓鱼统计数据的命令
+# 使用: [COMMAND] [player] [type]
+statistics_query:
+  enable: true
+  permission: "customfishing.command.statistics"
+  usage:
+  - "/customfishing statistics query"
+  - "/cfishing statistics query"
+
+# 手动增加玩家钓鱼统计数据的命令
+# 使用: [COMMAND] [player] [type] [id] [value]
+statistics_add:
+  enable: true
+  permission: "customfishing.command.statistics"
+  usage:
+  - "/customfishing statistics add"
+  - "/cfishing statistics add"
+
+# 调试战利品表的命令
+# 使用: [COMMAND] [环境]
+debug_loot:
+  enable: true
+  permission: "customfishing.command.debug"
+  usage:
+  - "/customfishing debug loot"
+  - "/cfishing debug loot"

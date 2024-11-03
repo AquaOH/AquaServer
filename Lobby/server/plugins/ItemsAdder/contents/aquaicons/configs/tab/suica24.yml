@@ -1,0 +1,10 @@
+info:
+  namespace: "aquaicons"
+  
+font_images:
+  suica24: 
+    path: "tab/suica24.png" 
+    symbol: "钃"
+    show_in_gui: false
+    scale_ratio: 55
+    y_position: 23

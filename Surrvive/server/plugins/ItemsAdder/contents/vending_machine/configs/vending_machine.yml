@@ -1,0 +1,76 @@
+info:
+  namespace: vending_machine
+items:
+  vending_machine_1:
+    display_name: vending_machine_1
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: vending_machine_1
+  vending_machine_2:
+    display_name: vending_machine_2
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: vending_machine_2
+  vending_machine_3:
+    display_name: vending_machine_3
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: vending_machine_3
+  vending_machine_4:
+    display_name: vending_machine_4
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: vending_machine_4
+  empty_vending_machine_1:
+    display_name: empty_vending_machine_1
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: empty_vending_machine_1
+  empty_vending_machine_2:
+    display_name: empty_vending_machine_2
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: empty_vending_machine_2
+  empty_vending_machine_3:
+    display_name: empty_vending_machine_3
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: empty_vending_machine_3
+  empty_vending_machine_4:
+    display_name: empty_vending_machine_4
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: empty_vending_machine_4
+  vm_halloween_0:
+    display_name: vm_halloween_0
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: vm_halloween_0
+  empty_vending_machine_5:
+    display_name: empty_vending_machine_5
+    permission: permission_model
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: empty_vending_machine_5
+
+
+

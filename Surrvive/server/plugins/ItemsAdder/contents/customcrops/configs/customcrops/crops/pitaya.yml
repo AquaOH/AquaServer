@@ -1,0 +1,128 @@
+info:
+  namespace: customcrops
+items:
+  pitaya_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pitaya_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pitaya_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pitaya_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pitaya_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pitaya_stage_6:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/stage_6
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pitaya_seeds:
+    display_name: "火龙果种子"
+    #display_name: 火龙果种子
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pitaya/pitaya_seeds
+  pitaya:
+    display_name: "火龙果"
+    #display_name: 火龙果
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/pitaya/pitaya
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  pitaya_silver_star:
+    display_name: "火龙果 (银星)"
+    #display_name: 火龙果(银星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/pitaya/pitaya_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  pitaya_golden_star:
+    display_name: "火龙果 (金星)"
+    #display_name: 火龙果(金星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/pitaya/pitaya_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+categories:
+  customcrops_pitaya:
+    enabled: true
+    icon: customcrops:pitaya
+    name: 'Pitaya'
+    items:
+      - customcrops:pitaya
+      - customcrops:pitaya_silver_star
+      - customcrops:pitaya_golden_star
+      - customcrops:pitaya_seeds
+      - customcrops:pitaya_stage_1
+      - customcrops:pitaya_stage_2
+      - customcrops:pitaya_stage_3
+      - customcrops:pitaya_stage_4
+      - customcrops:pitaya_stage_5
+      - customcrops:pitaya_stage_6

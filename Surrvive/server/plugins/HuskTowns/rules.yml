@@ -1,0 +1,86 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃    HuskTowns Rule Presets    ┃
+# ┃    Developed by William278   ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┣╸ This file is for configuring the default flag rule rulePresets within towns and the public rules outside of towns.
+# ┗╸ Config Help: https://william278.net/docs/husktowns/config-files
+
+# Rules for the wilderness (claimable chunks outside of towns)
+wilderness_rules:
+  mob_griefing: true
+  public_farm_access: true
+  explosion_damage: true
+  pvp: true
+  monster_spawning: true
+  public_build_access: true
+  public_interact_access: true
+  public_container_access: true
+  fire_damage: true
+# Rules for admin claims (created with /admintown claim)
+admin_claim_rules:
+  mob_griefing: false
+  public_farm_access: true
+  explosion_damage: false
+  pvp: false
+  monster_spawning: false
+  public_build_access: false
+  public_interact_access: true
+  public_container_access: false
+  fire_damage: false
+# Rules for worlds where claims cannot be created (as defined in unclaimable_worlds)
+unclaimable_world_rules:
+  mob_griefing: true
+  public_farm_access: true
+  explosion_damage: true
+  pvp: true
+  monster_spawning: true
+  public_build_access: true
+  public_interact_access: true
+  public_container_access: true
+  fire_damage: true
+# Default rules when a town is at war (only used during a town war)
+wartime_rules:
+  mob_griefing: true
+  public_farm_access: true
+  explosion_damage: true
+  pvp: true
+  monster_spawning: true
+  public_build_access: true
+  public_interact_access: true
+  public_container_access: true
+  fire_damage: true
+# The default rules for different town claim types
+default_rules:
+  # Default rules for normal claims
+  claims:
+    mob_griefing: false
+    public_farm_access: false
+    explosion_damage: false
+    pvp: false
+    monster_spawning: true
+    public_build_access: false
+    public_interact_access: false
+    public_container_access: false
+    fire_damage: false
+  # Default rules for farm claims
+  farms:
+    mob_griefing: false
+    public_farm_access: true
+    explosion_damage: false
+    pvp: false
+    monster_spawning: true
+    public_build_access: false
+    public_interact_access: false
+    public_container_access: false
+    fire_damage: false
+  # Default rules for plot claims
+  plots:
+    mob_griefing: false
+    public_farm_access: false
+    explosion_damage: false
+    pvp: false
+    monster_spawning: false
+    public_build_access: false
+    public_interact_access: false
+    public_container_access: false
+    fire_damage: false

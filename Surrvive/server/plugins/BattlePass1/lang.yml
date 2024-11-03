@@ -1,0 +1,153 @@
+could-not-find-user: '&f쀎&7无法找到用户 &e%player%'
+no-permission: '&f쀎&7您没有执行此命令的权限。'
+inventory-full: '&f쀎&c您的库存已满。'
+disallowed-permission: '&f쀎&7您没有使用Battlepass的权限。' # This is used if you give a user battlepass.block to disallow them from using the battlepass.
+collectable-rewards-notification: '&f쀎&b您有可领取的奖励。 请打开战令菜单查看。'
+
+daily-quest-reset: '&e一些任务已重置。'
+
+week-status-locked: '&c锁定'
+week-status-unlocked: '&a解锁'
+
+season-finished-message: '&a已完成' # This is displayed as the %week% if the season is finished. Remove this line to have it go to the minimum week.
+
+progress-bar:
+  complete-color: '&a'
+  incomplete-color: '&c'
+  symbol: '|'
+
+boosters:
+  points: 积分
+  progress: 进度
+  rewards: 奖励
+  serverStarted: '&7&l+&a&l%percent%% &6&l%type% &r&eserver booster 已启动，持续时间 &6&l%time%&7。
+    &e它影响 &6&l%affects%'
+  playerStarted: '&7&l+&a&l%percent%% &6&l%type% &r&ebooster 已启动，持续时间 &6&l%time%&7。
+    &e它影响 &6&l%affects%'
+  serverEnded: '&7&l+&a&l%percent%% &4&l%type% &r&cserver booster 已结束。 &c它影响了 &6&l%affects%'
+  playerEnded: '&7&l+&a&l%percent%% &4&l%type% &r&cbooster 已结束。 &c它影响了 &6&l%affects%'
+  menu: '&6✰ &2&l+%booster%% &a%type% booster'
+  command:
+    booster: '&6✰ &2&l+%booster%% &a%type% booster，影响 &2&l%affects% &7(&c%time%&7)'
+    server: '&7» &2&l服务器 Boosters'
+    player: '&7» &2&l玩家 Boosters'
+  affects:
+    join: '&r&f, '
+    all: 一切
+    daily: 每日任务
+    week: 每周任务
+    n-week: 第 %num% 周
+    tier: 第 %tier% 层
+
+bpa:
+  command:
+  - ''
+  - '&bBattlePass 管理员帮助:'
+  - /bpa - 这个页面。
+  - /bpa reload - 重新加载所有可重新加载的文件。
+  - /bpa editor - 打开游戏内任务编辑器。
+  - /bpa set pass <player/online/all> <pass type> - 设置玩家/玩家组的通行证类型。
+  - /bpa set points <player> <points> - 设置玩家的积分。
+  - /bpa give points <player> <points> - 给玩家积分。
+  - /bpa delete user <player> - 删除用户的所有数据。
+  - /bpa quest ids <week> - 列出所有周任务ID及其名称。
+  - /bpa daily quest ids - 列出所有每日任务ID及其名称。
+  - /bpa reset quest <player> <week> <id> - 重置玩家的特定任务。
+  - /bpa progress quest <player> <week> <quest id> <amount> - 推进玩家的特定任务。
+  - /bpa progress daily quest <player> <quest id> <amount> - 推进玩家的特定每日任务。
+  - /bpa refresh daily quests - 刷新每日任务。
+  - /bpa new season - 重置用户层级、待领取奖励和积分。
+  - /bpa material <block/item> - 获取您手持物品或所看的方块的配置名称。
+  - /bpa bypass locked quests <player> - 允许玩家绕过周锁定并完成任务。
+  - /bpa boosters add <player/all> <PROGRESS/POINTS/REWARDS> <percent> <hours> <affects>
+    - 添加 booster
+  - /bpa boosters clear <player/all> - 移除 boosters
+  - /bpa close menu <player> - 关闭玩家的打开菜单
+  internal-balance:
+  - /bpa give balance <player> <amount> - 给内部余额。
+  - /bpa remove balance <player> <amount> - 减少内部余额。
+  - /bpa set balance <player> <amount> - 设置玩家的内部余额。
+
+help-command: # /bp help
+  - ''
+  - '&eBattlePass &7by AdvancedPlugins'
+  - '&e/battlepass - 打开门户菜单。'
+  - '&e/battlepass stats - 查看您的BattlePass统计信息。'
+  - '&e/battlepass open <portal/daily/quests/rewards> - 直接打开一个菜单。'
+  - ''
+
+stats-command:
+- '&e您的BattlePass统计信息:'
+- '  &8- &e通行证类型: &f%pass_type%'
+- '  &8- &e层级: &f%tier%'
+- '  &8- &e总积分: &f%total_points%'
+# - "  &8- &e余额: &f%balance%" # Only used if you use internal for excess points in the settings.yml
+
+daily-quest-time-format: # The time format used for saying how long until daily quests expire.
+  with-months-weeks: '%dmo %dw %dd %dh %dm %ds'
+  with-weeks-days: '%dw %dd %dh %dm %ds'
+  with-days-hours: '%dd %dh %dm %ds'
+  with-hours-minutes: '%dh %dm %ds'
+  with-minutes-seconds: '%dm %ds'
+  with-seconds: '%ds'
+
+quests:
+  # The base message will be used for all quests unless another message is set.
+  base-message-progressed: '&f쀎 &7您推进了任务 &e%quest_name% &8(&e%progress%&7/&8&e%required_progress%&8)'
+  base-message-completed: '&f쀎 &7您完成了任务 &e%quest_name%'
+  
+  boss-bar-message-progressed: '&7&e%quest_name% 任务推进 &8(&e%progress%&7/&8&e%required_progress%&8)'
+  boss-bar-message-completed: '&7&e%quest_name% 任务完成'
+  
+  # The message set below will overwrite the one set as the base message.
+  # <quest name>-progressed: "<Your  message>"
+  # <quest-name>-completed: "<Your Message>"
+  # These are here as examples, and you can make as many as necessary.
+  askyblock_createisland-progressed: '&f쀎 >> &7自定义ASkyblock推进消息 :D. &8(&e%progress%&7/&8%required_progress%&8)'
+  askyblock_createisland-completed: '&f쀎 >> &7您完成了ASkyblock岛任务！'
+  steps:
+    completed-info: '&7Already completed'
+    base-message-step-completed: '&f쀎 &7You completed one step of the quest &e%quest_name%'
+    boss-bar-message-step-completed: '&7&e%quest_name% Step Completed'
+
+quest-select:
+  cancel: '&c点击左键取消任务'
+  select: '&a点击左键选择任务'
+  limit: '&c您不能选择更多任务了！'
+
+daily-quests:
+  # This section will only be used if the quest is daily. If messages aren't present here but are in the quest section, it will fall back onto that message.
+  # This section is coded so you can remove it entirely and only use the quests messages if you wish.
+  base-message-progressed: '&f쀎 &7您推进了每日任务 &e%quest_name% &8(&e%progress%&7/&8&e%required_progress%&8)'
+  base-message-completed: '&f쀎 &7您完成了每日任务 &e%quest_name%'
+  
+  boss-bar-message-progressed: '&7&e%quest_name% 任务推进 &8(&e%progress%&7/&8&e%required_progress%&8)'
+  boss-bar-message-completed: '&7&e%quest_name% 任务完成'
+  
+  askyblock_createisland-progressed: '&f쀎 &7ASkyblock任务推进。 &8(&e%progress%&7/&8%required_progress%&8)'
+  askyblock_createisland-completed: '&f쀎 &7您完成了ASkyblock岛每日任务！'
+  steps:
+    base-message-step-completed: '&f쀎 &7You completed one step of the daily quest
+      &e%quest_name%'
+    boss-bar-message-step-completed: '&7&e%quest_name% Step Completed'
+last-config-update: 4.7.10
+leaderboard-command:
+  tier-leaderboard:
+  - '&7&m=====&r&7[ &2Tier Leaderboard &7]&m====='
+  - '&7>> &b1. &r&a%battlepass_top_tier_name_1% &7- &2%battlepass_top_tier_value_1%'
+  - '&7>> &b2. &r&a%battlepass_top_tier_name_2% &7- &2%battlepass_top_tier_value_2%'
+  - '&7>> &b3. &r&a%battlepass_top_tier_name_3% &7- &2%battlepass_top_tier_value_3%'
+  - '&7>> &b4. &r&a%battlepass_top_tier_name_4% &7- &2%battlepass_top_tier_value_4%'
+  - '&7>> &b5. &r&a%battlepass_top_tier_name_5% &7- &2%battlepass_top_tier_value_5%'
+  - '&7>> ...'
+  - '&7>> &aYour score: &2%battlepass_top_tier_value_me% &7(&2&b%battlepass_top_tier_place_me%&r&7)'
+  quests-leaderboard:
+  - '&7&m=====&r&7[ &2Completed Quests Leaderboard &7]&m====='
+  - '&7>> &b1. &r&a%battlepass_top_quests_name_1% &7- &2%battlepass_top_quests_value_1%'
+  - '&7>> &b2. &r&a%battlepass_top_quests_name_2% &7- &2%battlepass_top_quests_value_2%'
+  - '&7>> &b3. &r&a%battlepass_top_quests_name_3% &7- &2%battlepass_top_quests_value_3%'
+  - '&7>> &b4. &r&a%battlepass_top_quests_name_4% &7- &2%battlepass_top_quests_value_4%'
+  - '&7>> &b5. &r&a%battlepass_top_quests_name_5% &7- &2%battlepass_top_quests_value_5%'
+  - '&7>> ...'
+  - '&7>> &aYour score: &2%battlepass_top_quests_value_me% &7(&2&b%battlepass_top_quests_place_me%&r&7)'
+

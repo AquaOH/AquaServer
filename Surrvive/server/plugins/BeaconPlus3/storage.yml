@@ -1,0 +1,21 @@
+Storage:
+  # values: FILE, MYSQL
+  Type: FILE
+  # values: FILE, MYSQL, WORLD
+  # World saves beacons in the world's data folder
+  # FILE saves beacons in the plugin's data folder
+  # MYSQL saves beacons in a MySQL database
+  Beacon Storage Type: WORLD
+  File:
+    Players Directory: "Players"
+    Beacons Directory: "Beacons"
+  MySQL:
+    Host: localhost
+    Port: 3306
+    Database Name: DATABASE NAME
+    Username: USERNAME
+    Password: PASSWORD
+    Players Table: "beacon_players"
+    Beacons Table: "beacons_data"
+    Use SSL: false
+    Auto Reconnect: true

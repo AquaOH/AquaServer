@@ -1,0 +1,159 @@
+settings:
+  slots: [9,11,13,15,17,36,38,40,42,44]
+  title: "&9Pass Reward"
+  time: 60
+  timer: true
+  display: true
+  auto-close: true
+  can-close: true
+  auto-claim-free-rewards: true
+  close-animal: true
+  total-max: 10
+card_1:
+  front: card2
+  back: card3
+  amount: 5
+  name: "&dLucky Flip - Advanced"
+  lore:
+    - "You need to cost %price% "
+    - "to flip this card"
+  prices:
+    1:
+      material: STONE
+      placeholder: 'STONE x10'
+      apply: [1,2]
+      amount: 10
+    2:
+      economy-plugin: Vault
+      placeholders:
+        2: '$10'
+        3: '$20'
+        4: '$30'
+        5: '$40'
+      apply: [2,3,4,5]
+      cost: [10,20,30,40]
+      conditions: []
+  rewards:
+    1:
+      material: GOLDEN_APPLE
+      amount: 1~5
+      rates:
+        default: 3
+        vip: 30
+      rates-conditions:
+        vip:
+          1:
+            type: permission
+            permission: 'group.vip'
+      edge: very_rare
+    2:
+      material: DIAMOND
+      amount: 5~10
+      rate: 6
+      edge: rare
+    3:
+      material: ENCHANTED_GOLDEN_APPLE
+      amount: 5~10
+      rate: 1
+      edge: very_very_rare
+      flip-actions:
+        1:
+          type: announcement
+          message: '&a[FlipCard] %player% received &6%amount%-%display%'
+      actions:
+        1:
+          type: announcement
+          message: '&a[FlipCard] %display% has send to your inventory!'
+card_2:
+  front: card2
+  back: card1
+  amount: 5
+  name: "&bLucky Flip"
+  lore:
+    - "You need to cost %price% "
+    - "to flip this card"
+    - "You should have permission: group.default when flip this card first time"
+    - "You should in world Wolrd When flip this card second time"
+  prices:
+    1:
+      free: true
+      apply: [1,2]
+      conditions:
+        1:
+          1:
+            type: permission
+            permission: 'group.default'
+        2:
+          1:
+            type: world
+            world: world
+          2:
+           type: permission
+           permission: 'group.default'
+    2:
+      material: "sword"
+      placeholder: "A OR TWO SUPER SWORD?!"
+      start-apply: 3
+      amount: 2
+    3:
+      economy-plugin: Vault
+      placeholders:
+        # Apply Times: Placeholder String
+        1: '$50'
+        2: '$500'
+        3: '$1000'
+        4: '$1500'
+        5: '$2000'
+      apply: [1,2,3,4,5]
+      cost: [50,500,1000,1500,2000]
+      conditions:
+        1:
+          type: world
+          world: world
+        2:
+          type: permission
+          permission: 'group.default'
+  rewards:
+    1:
+      material: IRON_INGOT
+      amount: 5~10
+      rate: 10
+      edge: common
+    2:
+      material: DIAMOND
+      amount: 1~2
+      rate: 5
+      edge: rare
+    3:
+      material: GOLD_INGOT
+      amount: 1~5
+      rate: 6
+      edge: rare
+    # If you want to use saved items:
+    4:
+      material: "sword"
+      amount: 1
+      rate: 1
+      edge: very_rare
+      limit: 1
+    # If you want to use commands as reward
+    5:
+      material: GOLD_NUGGET
+      name: "&6money"
+      cmd: 10
+      amount: 1
+      lore:
+        - "x1000"
+      give-item: false
+      actions:
+        1:
+          type: console_command
+          command: "eco give %player_name% 1000"
+      rate: 5
+      edge: common
+    # If you want to use hook plugins
+    6:
+      hook-plugin: MMOItems
+      hook-item: SWORD;;TEST
+      rate: 5
+      edge: common

@@ -1,0 +1,216 @@
+# gui标题
+title: "&0地标设置"
+size: 54
+
+# 删除
+delete:
+  enable: true
+  index: 12
+  name: "     &8[&e点击删除&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - " &8[&a✔&8] &7点击删除"
+  custom-model-data: 10021
+
+# 变更logo
+logo:
+  enable: true
+  index: 22
+  name: "   &8[&e变更logo&8]"
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 10010
+  lore:
+    - ''
+    - "&f- &7点击变更logo为手持物品"
+    - "&f- &7如无手持变更为自己头颅"
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  # 需要价格
+  price: 0
+
+# 隐藏地标
+display:
+  enable: true
+  index: 14
+  name: "   &8[&a隐藏地标&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - ''
+    - "&f- &7点击切换隐藏/显示"
+    - ''
+    - '&7▪ 当前类型 &8[&a${display}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  custom-model-data: 10017
+  # 需要价格
+  price: 0
+
+# 变更名称
+name:
+  enable: true
+  index: 29
+  name: "   &8[&a变更名称&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - ''
+    - "&f- &7点击修改地标名称"
+    - ''
+    - '&7▪ 当前名称 &8[&a${name}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  custom-model-data: 10012
+  # 需要价格
+  price: 0
+
+# 变更描述
+description:
+  enable: true
+  index: 30
+  name: "   &8[&a变更描述&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - ''
+    - "&f- &7点击修改地标描述"
+    - ''
+    - '&7▪ 当前描述'
+    - '&c&l>> &a${description}'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  custom-model-data: 10009
+  # 需要价格
+  price: 0
+
+# 变更访问价格
+price:
+  enable: true
+  index: 31
+  name: "   &8[&a变更访问价格&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - ''
+    - "&f- &7点击修改地标访问价格"
+    - ''
+    - '&7▪ 当前价格 &8[&a${warpPrice}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  custom-model-data: 10013
+  # 需要价格
+  price: 0
+
+# 变更位置
+location:
+  enable: true
+  index: 32
+  name: "   &8[&a变更位置&8]"
+  material: PAPER
+  #是否附魔效果
+  isEnchant: false
+  lore:
+    - ''
+    - "&f- &7点击修改地标位置为脚下"
+    - ''
+    - '&7▪ 当前位置 &8[&a${location}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  custom-model-data: 10010
+  # 需要价格
+  price: 1000
+
+# 变更类型
+type:
+  enable: true
+  index: 33
+  name: "   &8[&a变更类型&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - ''
+    - "&f- &7点击切换地标类型为:  &8[&a${nextType}&8]"
+    - ''
+    - '&7▪ 当前类型 &8[&a${type}&8]'
+    - ''
+    - '&8▪ &7需要支付 &a${price} &7月円'
+    - '&8▪ &7当前拥有 &a${myPrice} &7月円'
+    - ''
+    - '${button}'
+  custom-model-data: 10014
+  # 需要价格
+  price: 0
+
+# 返回按钮
+back:
+  enable: true
+  index: 49
+  name: "   &8[&a返回&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - '&f- &7点击返回'
+  custom-model-data: 10006
+
+# 传送
+tp:
+  enable: true
+  index: 40
+  name: "     &8[&e点击传送&8]"
+  material: PAPER
+  isEnchant: false
+  lore:
+    - " &8[&a✔&8] &7点击传送"
+  custom-model-data: 10019
+
+# 分隔板
+pane:
+  enable: true
+  index: 0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,45,46,47,48,50,51,52,53
+  material: BLACK_STAINED_GLASS_PANE
+  isEnchant: false
+  name: "       &8[&7分割板&8]"
+  lore:
+    - "&7哎呀,不要随便戳人家啦"
+  custom-model-data: 0
+
+yesDisplay: "显示中"
+noDisplay: "隐藏中"
+
+yesButton: "&8[&a✔&8] &7点击修改"
+okLogoButton: "&8[&a✔&8] &7修改地标LOGO成功"
+okNameButton: "&8[&a✔&8] &7修改地标名成功，新名称: &a${name}"
+okDescriptionButton: "&8[&a✔&8] &7修改地标描述成功"
+okPriceButton: "&8[&a✔&8] &7修改地标访问价格成功，新价格: &a${price}"
+okLocationButton: "&8[&a✔&8] &7修改地标位置成功"
+okTypeButton: "&8[&a✔&8] &7修改地标类型成功"
+noButton: "&8[&c✘&8] &7没有足够资金操作"
+
+chang_name: "&8[&a✔&8] &7请在聊天框输入&a地标名，&7输入 &aT &7退出操作(不返还扣除资金)"
+chang_description: "&8[&a✔&8] &7请在聊天框输入&a地标描述 &7使用英文 &a, &7换行 &7输入 &aT &7退出操作(不返还扣除资金)"
+chang_price: "&8[&a✔&8] &7请在聊天框输入&a地标访问价格，&7输入 &aT &7退出操作(不返还扣除资金)"
+descriptionFailureMsg: "&8[&c✘&8] &4地标描述包含非法字符 &a${name}"
+descriptionLengthFailureMsg: "&4地标描述过长 请限制在 &a${length} &7之内."
+maxPriceFailureMsg: "&4地标价格过大 请限制在 &a${price} &7之内."
+# 地标描述长度限制
+descriptionLength: 16

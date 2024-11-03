@@ -1,0 +1,39 @@
+rewards:
+  1-100:
+    required-points: '{level} * 100'
+    rewards:
+    - VAULT:{level} * 10
+    locked-item:
+      material: COAL
+      name: '&cAchievement Reward'
+      lore:
+      - '&8Level {level}'
+      - '&7Required Points: &e{points}'
+      - ''
+      - '&7Rewards:'
+      - '{rewards}'
+      - ''
+      - '&cYou can''t claim this yet!'
+    claimed-item:
+      material: GOLD_NUGGET
+      name: '&aAchievement Reward'
+      lore:
+      - '&8Level {level}'
+      - '&7Required Points: &e{points}'
+      - ''
+      - '&7Rewards:'
+      - '{rewards}'
+      - ''
+      - '&aYou have already claimed this reward!'
+    not-claimed-item:
+      material: GOLD_NUGGET
+      name: '&eAchievement Reward'
+      lore:
+      - '&8Level {level}'
+      - '&7Required Points: &e{points}'
+      - ''
+      - '&7Rewards:'
+      - '{rewards}'
+      - ''
+      - '&eClick to claim this reward!'
+      glow: true

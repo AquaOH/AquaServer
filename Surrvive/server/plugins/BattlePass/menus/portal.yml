@@ -1,0 +1,419 @@
+menu-title: ':offset_-88::bp_portal:'
+menu-rows: 4
+
+menu:
+  '0':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '1':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '2':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '3':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '9':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '10':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '11':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '12':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '18':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '19':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '20':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+  '21':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e第1赛季战斗通行证'
+      lore:
+        - '&7%pass_type% 战斗通行证'
+        - ''
+        - '&7第 &f%week% 周'
+        - ''
+        - '&e统计'
+        - '&f&l * &7等级 &f%tier%'
+        - '&f&l * &7点数 &f%points%&8/&f%required_points%'
+
+
+
+
+
+  '23':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '24':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '25':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '26':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '31':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '32':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '33':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '34':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+  '35':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500 
+      name: '&e奖励 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看奖励'
+    actions:
+      - '[menu] {rewards}'
+
+
+
+
+  '4':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '5':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '6':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '7':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '8':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '13':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '14':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '15':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '16':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+  '17':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e任务 &7(点击)'
+      lore:
+        - ''
+        - '&7点击此处查看任务'
+    actions:
+      - '[menu] {quest-overview}'
+
+
+
+
+  '27':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e什么是战斗通行证？'
+      lore:
+        - ''
+        - '&7通过完成挑战任务来提升你的&e战斗通行证等级&7。'
+        - ''
+        - '&7成为活跃玩家，并作为回报'
+        - '&7获得丰厚奖励。'
+        - ''
+        - '&7你可以在我们的商店购买高级'
+        - '&e战斗通行证&7。'
+  '28':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e什么是战斗通行证？'
+      lore:
+        - ''
+        - '&7通过完成挑战任务来提升你的&e战斗通行证等级&7。'
+        - ''
+        - '&7成为活跃玩家，并作为回报'
+        - '&7获得丰厚奖励。'
+        - ''
+        - '&7你可以在我们的商店购买高级'
+        - '&e战斗通行证&7。'
+  '29':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e什么是战斗通行证？'
+      lore:
+        - ''
+        - '&7通过完成挑战任务来提升你的&e战斗通行证等级&7。'
+        - ''
+        - '&7成为活跃玩家，并作为回报'
+        - '&7获得丰厚奖励。'
+        - ''
+        - '&7你可以在我们的商店购买高级'
+        - '&e战斗通行证&7。'
+  '30':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e什么是战斗通行证？'
+      lore:
+        - ''
+        - '&7通过完成挑战任务来提升你的&e战斗通行证等级&7。'
+        - ''
+        - '&7成为活跃玩家，并作为回报'
+        - '&7获得丰厚奖励。'
+        - ''
+        - '&7你可以在我们的商店购买高级'
+        - '&e战斗通行证&7。'

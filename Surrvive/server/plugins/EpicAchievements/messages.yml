@@ -1,0 +1,167 @@
+commands:
+  no-permission: "&e&lAchievements &8» &cYou don't have permission to do that!"
+  player-only: "&e&lAchievements &8» &cThis command can only be executed by players!"
+  unknown-command: "&e&lAchievements &8» &cCommand not found!"
+  plugin-reloaded: "&e&lAchievements &8» &7Plugin reloaded successfully!"
+  invalid-category: "&e&lAchievements &8» &cInvalid category!"
+  invalid-type: "&e&lAchievements &8» &cInvalid achievement type!"
+  invalid-player: "&e&lAchievements &8» &cPlease enter an online player!"
+  invalid-achievement: "&e&lAchievements &8» &cInvalid achievement!"
+  invalid-action: "&e&lAchievements &8» &cInvalid action!"
+  confirm-reset: "&e&lAchievements &8» &cRun the command again within 30 seconds to confirm! This action is irreversible!"
+  progress-reset: "&e&lAchievements &8» &7Successfully reset &6{player}&7's progress!"
+  category-reset: "&e&lAchievements &8» &7Successfully reset &6{player}&7's progress in &6{category}&7!"
+  achievement-reset: "&e&lAchievements &8» &7Successfully reset &6{player}&7's progress in &6{achievement}&7!"
+  rewards-reset: "&e&lAchievements &8» &7Successfully reset &6{player}&7's claimed rewards!"
+  invalid-number: "&e&lAchievements &8» &cPlease enter a valid number!"
+  invalid-tier: "&e&lAchievements &8» &cInvalid tier!"
+  tier-already-unlocked: "&e&lAchievements &8» &cThe player has already unlocked this tier!"
+  achievement-unlocked: "&e&lAchievements &8» &7Successfully unlocked &6{achievement} {tier} &7for &6{player}&7!"
+  progress-set: "&e&lAchievements &8» &7Successfully set &6{player}&7's progress in &6{achievement}&7 to &6{progress}&7!"
+achievement-types:
+  challenge: "Challenge"
+  tiered: "Tiered"
+  all: "All"
+achievement-unlock:
+  challenge:
+    message:
+      - "&f"
+      - "&e&ka&r&a>> Achievement Unlocked: &6{achievement_name} &a<<&e&ka"
+      - "&f"
+    hover:
+      - "&a{achievement_name}"
+      - "&f{achievement_description}"
+      - ""
+      - "&7Progress: &aDONE! &7(&a{tier_requirement}&7)"
+      - "&7Rewards:"
+      - "{tier_rewards}"
+      - ""
+      - "&eClick to view achievements!"
+  tiered:
+    message:
+      - "&f"
+      - "&e&ka&r&a>> Achievement Unlocked: &6{achievement_name} {tier_roman} &a<<&e&ka"
+      - "&f"
+    hover:
+      - "&a{achievement_name} {tier_roman}"
+      - "&f{achievement_description}"
+      - ""
+      - "&7Progress: &a{achievement_progress}&7/&a{tier_requirement}"
+      - "&7Rewards:"
+      - "{tier_rewards}"
+      - ""
+      - "&eClick to view achievements!"
+achievement-progress:
+  message:
+  - "&a>> &e{achievement_name} Progress&7: &a{achievement_progress}&7/&a{tier_requirement}"
+  hover:
+  - "&e{achievement_name}"
+  - "&f{achievement_description}"
+  - ""
+  - "&7Progress: &a{achievement_progress}&7/&a{tier_requirement}"
+  - "&8[{tier_progress_bar}&8]"
+  - ""
+  - "&7Rewards:"
+  - "{tier_rewards}"
+  - ""
+  - "&eClick to view achievements!"
+reward-formats:
+  POINTS: "&8+&e{amount} &7Achievement Points"
+  VAULT: "&8+&e{amount} &7Coins"
+sorting-types:
+  a-to-z:
+    name: "A to Z"
+    description:
+      - "&7Sorts by name from A to Z."
+  z-to-a:
+    name: "Z to A"
+    description:
+      - "&7Sorts by name from Z to A."
+  highest-points:
+    name: "Highest Points"
+    description:
+      - "&7Sorts by achievements points reward"
+      - "&7from highest to lowest."
+  lowest-points:
+    name: "Lowest Points"
+    description:
+      - "&7Sorts by achievements points reward"
+      - "&7from lowest to highest."
+  most-completed-tiers:
+    name: "Most Completed Tiers"
+    description:
+      - "&7Sorts by least completed tiers."
+  least-completed-tiers:
+    name: "Least Completed Tiers"
+    description:
+      - "&7Sorts by most completed tiers."
+  no-sort: "&8No Sort"
+  locked-first: "&cLocked First"
+  unlocked-first: "&aUnlocked First"
+search:
+  sign:
+    - ""
+    - "^^^^^^"
+    - "Enter your"
+    - "search query!"
+  invalid-query: "&cYou didn't enter a search query!"
+rewards:
+  locked-message: "&cYou don't have enough points to claim this reward!"
+  already-claimed-message: "&cYou have already claimed this reward!"
+  claimed-message: "&aClaimed reward for &e{points} &aachievement points!"
+  unclaimed-rewards:
+    message:
+      - "&f"
+      - "&a>> &eYou have &6{unclaimed_rewards} &eunclaimed rewards! &8[&7Click to claim&8]"
+      - "&f"
+    hover:
+      - "&eClick to claim rewards!"
+tracking:
+  click-to-track:
+  - "&eClick to track!"
+  click-to-untrack:
+  - "&eClick to untrack!"
+  achievement-tracked: "&e&lAchievements &8» &7You are now tracking &6{achievement}&7!"
+  achievement-untracked: "&e&lAchievements &8» &7You are no longer tracking &6{achievement}&7!"
+  untracked-all: "&e&lAchievements &8» &7You are no longer tracking any achievements!"
+editor:
+  none: "None"
+  action-cancelled: "&e&lAchievements &8» &cAction cancelled!"
+  enter-id: "&e&lAchievements &8» &7Enter the ID: &8(Type 'cancel' to cancel)"
+  enter-name: "&e&lAchievements &8» &7Enter the name: &8(Type 'cancel' to cancel)"
+  enter-description: "&e&lAchievements &8» &7Enter a line of the description: &8(Type 'cancel' to cancel)"
+  enter-server: "&e&lAchievements &8» &7Enter a server name: &8(Type 'cancel' to cancel)"
+  enter-item-material: "&e&lAchievements &8» &7Enter a valid item material: &8(Type 'cancel' to cancel)"
+  enter-item-slot: "&e&lAchievements &8» &7Enter the slot number where the category item will be located: &8(Type 'cancel' to cancel)"
+  enter-permission: "&e&lAchievements &8» &7Enter the permission node: &8(Type 'cancel' to cancel)"
+  category-deleted: "&e&lAchievements &8» &cCategory '{category}' and its achievements have been deleted!"
+  category-already-exists: "&e&lAchievements &8» &cCategory '{category}' already exists!"
+  category-created: "&e&lAchievements &8» &7Category '{category}' has been created!"
+  achievement-deleted: "&e&lAchievements &8» &cAchievement '{achievement}' has been deleted!"
+  enter-amount: "&e&lAchievements &8» &7Enter a valid number: &8(Type 'cancel' to cancel)"
+  tier-deleted: "&e&lAchievements &8» &cTier '{tier}' has been deleted!"
+  cannot-delete-tier: "&e&lAchievements &8» &cEach achievement must have at least one tier!"
+  enter-reward-type: "&e&lAchievements &8» &7Enter one of the following reward types: &8(Type 'cancel' to cancel) &f{types}"
+  enter-reward-value: "&e&lAchievements &8» &7Enter the value of the reward: &8(Type 'cancel' to cancel)"
+  reward-deleted: "&e&lAchievements &8» &cThe reward has been deleted!"
+  enter-condition-type: "&e&lAchievements &8» &7Enter one of the following condition types: &8(Type 'cancel' to cancel) &f{types}"
+  invalid-condition-type: "&e&lAchievements &8» &cInvalid condition type!"
+  enter-condition-value: "&e&lAchievements &8» &7Enter the value of the condition: &8(Type 'cancel' to cancel, separate multiple values with a comma)"
+  condition-deleted: "&e&lAchievements &8» &cThe condition has been deleted!"
+  achievement-already-exists: "&e&lAchievements &8» &cAchievement '{achievement}' already exists!"
+  enter-task-type: "&e&lAchievements &8» &7Enter one of the following task types: &8(Type 'cancel' to cancel) &f{types}"
+  invalid-task-type: "&e&lAchievements &8» &cInvalid task type!"
+  achievement-created: "&e&lAchievements &8» &7Achievement '{achievement}' has been created!"
+time-formats:
+  days: "{days}d"
+  hours: "{hours}h"
+  minutes: "{minutes}m"
+  seconds: "{seconds}s"
+progress-bar:
+  length: 10
+  filled: "&e■"
+  empty: "&7■"
+
+
+
+

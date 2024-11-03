@@ -1,0 +1,168 @@
+quests:
+  1:
+    name: '周 | 挖掘64个煤矿'
+    type: block-break
+    variable: COAL_ORE:0
+    required-progress: 64
+    points: 25.0
+    item:
+      material: COAL_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘64个煤矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}64&7个煤矿&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘64个煤矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃25.0'
+  2:
+    name: '周 | 挖掘64个铁矿'
+    type: block-break
+    variable: IRON_ORE:0
+    required-progress: 64
+    points: 50.0
+    item:
+      material: IRON_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘64个铁矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}64&7个铁矿&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘64个铁矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  3:
+    name: '周 | 挖掘64个金矿'
+    type: block-break
+    variable: GOLD_ORE:0
+    required-progress: 64
+    points: 50.0
+    item:
+      material: GOLD_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘64个金矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}64&7个金矿&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘64个金矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  4:
+    name: '周 | 挖掘64个青金石矿'
+    type: block-break
+    variable: LAPIS_ORE:0
+    required-progress: 64
+    points: 30.0
+    item:
+      material: LAPIS_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘64个青金石矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}64&7个青金石矿&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘64个青金石矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃30.0'
+  5:
+    name: '周 | 挖掘64个红石矿'
+    type: block-break
+    variable: REDSTONE_ORE:0
+    required-progress: 64
+    points: 30.0
+    item:
+      material: REDSTONE_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘64个红石矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}64&7个红石矿&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘64个红石矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃30.0'
+  6:
+    name: '周 | 挖掘8个远古残骸'
+    type: block-break
+    variable: ANCIENT_DEBRIS:0
+    required-progress: 8
+    exclusive: premium
+    points: 250.0
+    item:
+      material: ANCIENT_DEBRIS:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘8个远古残骸'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}8&7个远古残骸&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘8个远古残骸'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃250.0'
+  7:
+    name: '周 | 挖掘32个钻石矿'
+    type: block-break
+    variable: DIAMOND_ORE:0
+    required-progress: 32
+    exclusive: premium
+    points: 200.0
+    item:
+      material: DIAMOND_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖掘32个钻石矿'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7挖掘{#00bbff}32&7个钻石矿&7.'
+        - ''
+        - '{#00BBFF}&l信息:'
+        - ' &8■ &7目标: {#00bbff}挖掘32个钻石矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&l奖励'
+        - ' &8- {#ffff00}⛃200.0'

@@ -1,0 +1,25 @@
+#命令别名设置
+#本选项可用于设置命令的使用别名
+#以使命令的使用更加简便
+#格式：[命令别名]: [原命令]（支持中文）
+#按照此格式可自由添加新的命令别名
+#注意：建议在更改设置后重启服务器
+Aliases:
+    #/gmp market -> /market
+    "market": "gmp market"
+    #/gmp auction -> /auction
+    "auction": "gmp auction"
+    #/gmp category -> /category
+    "category": "gmp category"
+    #/gmp money -> /money
+    "money": "gmp money"
+    #/gmp merchandise -> /merchandise
+    "merchandise": "gmp merchandise"
+    #/gmp profile -> /profile
+    "profile": "gmp profile"
+    #/gmp transaction -> /transaction
+    "transaction": "gmp transaction"
+    #/gmp store -> /store
+    "store": "gmp store"
+    #/gmp money pay -> /pay
+    "pay": "gmp money pay"

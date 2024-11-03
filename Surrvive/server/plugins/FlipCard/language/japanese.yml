@@ -1,0 +1,59 @@
+#エラー
+error-args: "&#98FB98[FlipCard] &cコマンドの使用方法が間違っています。ヘルプが必要な場合は、/flipcard helpを使用してください！"
+error-only-in-game: "&#98FB98[FlipCard] &cこのコマンドはゲーム内で使用する必要があります！"
+error-player-not-found: "&#98FB98[FlipCard] &cこのプレイヤーが見つかりません！"
+error-miss-permission: "&#98FB98[FlipCard] &cこのコマンドを使用する権限がありません！"
+error-save-item-not-found: "&#98FB98[FlipCard] &cWe can't find this save item called %item%!"
+
+#コマンドヘルプ
+command-help: |
+  &#98FB98&lFlipCard &7@rtz1020によって作成されました。
+  &f/flipcard forceopen <playerName> <UIConfigName> &7- プレイヤーのGUIを開く。
+  &f/flipcard reload &7- 設定をリロードする。
+  &f/flipcard save <fileName> &7- メインハンドのアイテムを保存する。
+  &f/flipcard givetimes <playerName> <UIConfigName> <times>
+  &f/flipcard addtimes <playerName> <UIConfigName> <times>
+  &f/flipcard gettimes <playerName> <UIConfigName> <times>
+  &c/flipcard open <UIConfigName> &7- 翻訳UIの残り時間を1単位消費して、自分自身のためにカードを翻訳するイベントを開始します。
+  &e/flipcard reopen <UIConfigName> &7- 時間切れでない場合は、翻訳UIを再度開く。
+
+#コマンドのヒント
+command-reload-complete: "&#98FB98[FlipCard] &fプラグインがリロードされました！"
+command-save-complete: "&#98FB98[FlipCard] &fメインハンドのアイテムが保存されました！"
+command-main-could-not-find-config: "&#98FB98[FlipCard] &f設定が見つかりません！"
+
+#コマンド回数
+command-settimes-success: "&#98FB98[FlipCard] &f%player%の%uiconfig%の残り回数を%value%に設定しました！"
+command-addtimes-success: "&#98FB98[FlipCard] &f%player%の%uiconfig%の残り回数を%value%追加しました！"
+
+#プレビューGUI
+display-gui-title-timer: " &7プレビュー中：&f {timer}"
+display-gui-title: " &7プレビュー"
+
+#メインGUI
+main-gui-title-timer: " &7残り回数：&d&l{timer}"
+main-gui-price-not-enough: "%price%が足りません。"
+main-gui-condition-not-meet: "条件が満たされていません。"
+main-gui-max-flip-max: "このカードは最大%max%回しか翻訳できません。"
+main-gui-max-total-max: "このUIは最大%max%回のカードを翻訳できます。"
+main-gui-have-cost: "&e費用：%price%"
+main-gui-time-runs-out: "&#98FB98[FlipCard] &f時間が切れました！"
+main-gui-no-enough-space-dropped: "&#98FB98[FlipCard] &cインベントリのスペースが不足しています：%amount%x&f%display% &cドロップしました！"
+
+#アニメーション
+animation-flipping: "&a&l翻訳中"
+animation-flip-fail: "&c&l失敗"
+animation-shuffling: "&c&lシャッフル中"
+
+#システム
+reward-get-fail: "&#98FB98[FlipCard] &c該当する報酬が取得できなかったため、管理者に連絡してください！"
+could-not-load-file: "&#98FB98[FlipCard] &c読み込めませんでした。"
+command-error: "&#98FB98[FlipCard] &cコマンドエラーが発生しました。管理者に連絡してください。"
+reopen-message: "&#98FB98[FlipCard] &fFlipCardは一時的に閉じられました。あと%time%秒で再開します。&f&n[ここをクリックして]"
+reopen-fail: "&#98FB98[FlipCard] &c再開に失敗しました。FlipCardが期限切れまたは存在しません。"
+gettimes: "&#98FB98[FlipCard] &fこのプレイヤーは、%times%回このタイプの翻訳UIを開くことができます。"
+open-fail: "&#98FB98[FlipCard] &c残り回数が不足しているため、開くことができません。"
+give-save-item: "&#98FB98[FlipCard] &fGive %player% save item %item% x%amount%!"
+
+#プレースホルダー
+price-placeholder-default: "%display% x%amount%"

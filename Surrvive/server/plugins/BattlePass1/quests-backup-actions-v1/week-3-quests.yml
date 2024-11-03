@@ -1,0 +1,177 @@
+quests:
+  1:
+    name: '周 | 砍64个诡异菌柄'
+    type: block-break
+    variable: WARPED_STEM:0
+    required-progress: 64
+    exclusive: premium
+    points: 25.0
+    item:
+      material: WARPED_STEM:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}砍64个诡异菌柄'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7砍{#bf9552}64&7个诡异菌柄&7.'
+        - ''
+        - '{#bf9552}&l信息'
+        - ' &8■ &7目标: {#bf9552}砍64个诡异菌柄'
+        - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+        - ''
+        - '{#bf9552}&l进度'
+        - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+        - ''
+        - '{#bf9552}&7奖励'
+        - ' &8- {#ffff00}⛃25.0'
+  2:
+    name: '周 | 冶炼64个铁矿'
+    type: smelt
+    variable: IRON_INGOT:0
+    required-progress: 64
+    points: 25.0
+    item:
+      material: IRON_ORE:0
+      amount: 1
+      name: '{#00bbff}🔥 &8| {#00bbff}冶炼64个铁矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7冶炼{#00bbff}64&7个铁矿&7.'
+        - ''
+        - '{#00bbff}&l信息'
+        - ' &8■ &7目标: {#00bbff}冶炼64个铁矿'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&7奖励'
+        - ' &8- {#ffff00}⛃25.0'
+  3:
+    name: '周 | 冶炼64个金矿'
+    type: smelt
+    variable: GOLD_INGOT:0
+    required-progress: 64
+    points: 25.0
+    item:
+      material: GOLD_ORE:0
+      amount: 1
+      name: '{#00bbff}🔥 &8| {#00bbff}冶炼64个金矿'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7冶炼{#00bbff}64&7个金矿&7.'
+        - ''
+        - '{#00bbff}&l信息'
+        - ' &8■ &7目标: {#00bbff}Smelt 64 Gold Ore'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&7奖励'
+        - ' &8- {#ffff00}⛃25.0'
+  4:
+    name: '周 | 冶炼8个远古残骸'
+    type: smelt
+    variable: NETHERITE_SCRAP:0
+    required-progress: 8
+    exclusive: premium
+    points: 50.0
+    item:
+      material: ANCIENT_DEBRIS:0
+      amount: 1
+      name: '{#00bbff}🔥 &8| {#00bbff}冶炼8个远古残骸'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7冶炼{#00bbff}64&7个远古残骸&7.'
+        - ''
+        - '{#00bbff}&l信息'
+        - ' &8■ &7目标: {#00bbff}冶炼8个远古残骸'
+        - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+        - ''
+        - '{#00bbff}&l进度'
+        - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+        - ''
+        - '{#00bbff}&7奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  5:
+    name: '周 | 发送50条聊天信息'
+    type: chat
+    variable: none
+    required-progress: 50
+    exclusive: premium
+    points: 10.0
+    item:
+      material: MAP:0
+      amount: 1
+      name: '{#ffa161}✉ &8| {#ffa161}发送50条聊天信息'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7发送{#ffa161}50&7条聊天信息&7.'
+        - ''
+        - '{#ffa161}&l信息'
+        - ' &8■ &7目标: {#ffa161}发送50条聊天信息'
+        - ' &8■ &7进度: {#ffa161}%total_progress%&8/{#ffa161}%required_progress%'
+        - ''
+        - '{#ffa161}&l进度'
+        - ' %progress_bar% &8| {#ffa161}%percentage_progress%'
+        - ''
+        - '{#ffa161}&7奖励'
+        - ' &8- {#ffff00}⛃10.0'
+  6:
+    name: '周 | 发送200条聊天信息'
+    type: chat
+    variable: none
+    required-progress: 200
+    exclusive: premium
+    points: 50.0
+    item:
+      material: MAP:0
+      amount: 1
+      name: '{#ffa161}✉ &8| {#ffa161}发送200条聊天信息'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7发送{#ffa161}200&7条聊天信息&7.'
+        - ''
+        - '{#ffa161}&l信息'
+        - ' &8■ &7目标: {#ffa161}发送200条聊天信息'
+        - ' &8■ &7进度: {#ffa161}%total_progress%&8/{#ffa161}%required_progress%'
+        - ''
+        - '{#ffa161}&l进度'
+        - ' %progress_bar% &8| {#ffa161}%percentage_progress%'
+        - ''
+        - '{#ffa161}&7奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  7:
+    name: '周 | 食用4个金苹果'
+    type: consume
+    variable: GOLDEN_APPLE:0
+    required-progress: 4
+    exclusive: premium
+    points: 25.0
+    item:
+      material: GOLDEN_APPLE:0
+      amount: 1
+      name: '{#52fc03}🍖 &8| {#52fc03}食用4个金苹果'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7食用{#52fc03}4&7个金苹果&7.'
+        - ''
+        - '{#52fc03}&l信息'
+        - ' &8■ &7目标: {#52fc03}食用4个金苹果'
+        - ' &8■ &7进度: {#52fc03}%total_progress%&8/{#52fc03}%required_progress%'
+        - ''
+        - '{#52fc03}&l进度'
+        - ' %progress_bar% &8| {#52fc03}%percentage_progress%'
+        - ''
+        - '{#52fc03}&7奖励'
+        - ' &8- {#ffff00}⛃25.0'

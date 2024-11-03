@@ -1,0 +1,91 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+# 使用原版物品作为诱饵
+BOOK:
+  tag: false
+  material: book
+  requirements:
+    requirement_1:
+      type: rod
+      value:
+        - magical_rod
+      not-met-actions:
+        action_message:
+          type: message
+          value:
+            - '此诱饵只能用于 <#7B68EE>魔法钓鱼竿'
+
+simple_bait:
+  material: paper
+  display:
+    name: '<b><#00BFFF>普通诱饵'
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray>由天然成分制成，以平静而稳定的方'
+      - '<gray>式吸引鱼类。这是那些喜欢简单可靠'
+      - '<gray>钓鱼体验的人的首选。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 降低钓鱼难度'
+      - ''
+  custom-model-data: 50001
+  effects:
+    effect_1:
+      type: difficulty
+      value: -10
+
+magnetic_bait:
+  material: paper
+  display:
+    name: '<b><red>磁<blue>性<gray>诱饵'
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray>它的光辉和独特的能量脉冲对好奇'
+      - '<gray>的鱼类来说不可抗拒，以前所未有'
+      - '<gray>的速度吸引它们。这不仅是一种诱'
+      - '<gray>饵，它还是一种鱼类忍不住要调查'
+      - '<gray>的奇观。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 减少等待时间'
+      - '<gray> - 更多的钓鱼时间'
+      - ''
+  custom-model-data: 50002
+  effects:
+    effect_1:
+      type: wait-time-multiplier
+      value: 0.9
+    effect_2:
+      type: game-time
+      value: 2
+
+wild_bait:
+  material: paper
+  display:
+    name: '<b><#2E8B57>野性诱饵'
+    lore:
+      - ''
+      - '<#7FFFD4>描述:'
+      - '<gray>为无畏的钓鱼者精心制作，野性诱饵'
+      - '<gray>由强效的天然成分制成，散发出一种'
+      - '<gray>不可抗拒的香气。'
+      - ''
+      - '<#FFD700>效果:'
+      - '<gray> - 提高钓鱼难度'
+      - '<gray> - 增大捕获的鱼的尺寸'
+      - ''
+  custom-model-data: 50003
+  effects:
+    effect_1:
+      type: difficulty
+      value: +20
+    effect_2:
+      type: size-multiplier
+      value: 1.5
+    effect_3:
+      type: game-time
+      value: -2

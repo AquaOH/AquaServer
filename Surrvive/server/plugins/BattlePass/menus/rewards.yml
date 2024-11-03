@@ -1,0 +1,97 @@
+menu-title: ':offset_-88::bp_rewards:'
+menu-rows: 6
+draw-past-max-tier: true # Whether the stained glass in the middle of the page will go past the max tier in the menu.
+hide-tiers-without-rewards: false # If set to true, tiers that are defined but have no associated rewards will be hidden.
+close-on-reward-claim: false # If set to true, the menu will be closed when a reward is claimed
+
+free-reward-slots:
+  slots: '0...8' # Feel free to just use slot, slot, slot such as 0, 1, 2 instead if it's easier.
+
+premium-reward-slots:
+  slots: '36...44'
+
+progress-track-slots:
+  slots: '18...26'
+
+menu:
+  '45':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '46':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '47':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e上一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往上一页 ))'
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+
+  '51':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e下一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往下一页 ))'
+    actions:
+      - '[menu] {next-page}'
+  '52':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e下一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往下一页 ))'
+    actions:
+      - '[menu] {next-page}'
+  '53':
+    item:
+      material: 'gold_nugget'
+      customModelData: 500
+      name: '&e下一页'
+      lore:
+        - ''
+        - '&7&o(( 点击前往下一页 ))'
+    actions:
+      - '[menu] {next-page}'
+#  '40':
+#    item:
+#      material: book:0
+#      name: '&e什么是奖励？'
+#      lore:
+#        - ''
+#    actions: []
+
+static-items:
+  progress-track-locked-item:
+    material: 'gold_nugget'
+    customModelData: 501
+    name: '第 %tier% 阶段'
+  progress-track-unlocked-item:
+    material: 'gold_nugget'
+    customModelData: 502
+    name: '第 %tier% 阶段'

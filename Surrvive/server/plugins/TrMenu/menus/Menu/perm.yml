@@ -1,0 +1,158 @@
+Title:
+- '&f%img_offset_-88%&f%img_perm%'
+
+Title-Update: 1
+
+#建议每一个之间空一行，习惯，看起来不那么乱
+Layout:
+  - 'AAAAIBBBB' 
+  - 'AAAAIBBBB'
+  - 'AAAAIBBBB'
+  - 'CCCCIDDDD' 
+  - 'CCCCIDDDD'
+  - 'CCCCIDDDD'
+
+Events:
+  Open: #开启菜单的事件
+    - condition: perm *trmenu.use #检测玩家是否拥有menu.admin的权限（kether的写法）
+      actions: #拥有执行的动作（菜单正常打开）
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+        - 'delay: 2'
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+
+      deny: #没有执行的动作（菜单被return动作中断）
+        - 'tell: &c你不是管理员'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: <r#2:75:100>你还不是管理员哦！'
+        - 'return'
+  Close: #菜单关闭的事件
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+    - 'delay: 3'
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+
+
+Icons: 
+  A: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#66b0f1}妖精'
+      lore: 
+        - '&{#3c80ef}聪明机智的⑨一枚啊'
+        - '&{#3c80ef}月円： &{#1e73cd}%xconomy_balance_value% &{#3c80ef} / ⑨⑨⑨⑨'
+      update: 1
+    actions: 
+      all: 
+        - condition: perm *g.yousei
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#66b0f1}哎呀！你已经有baka之力啦 &{#66b0f1}baka! 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 9999 then not perm *g.yousei 
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#66b0f1}IQ+⑨⑨⑨ &{#66b0f1}baka! 0 50 10"
+            - 'console: money take %player_name% 9999'
+            - 'console: lp user %player_name% parent add yousei'
+            - 'ke: command inline "lp user {{papi *%player_name%}} meta set bonusclaim {{math add [ papi *%luckperms_meta_bonusclaim% 9 ]}}" as console command inline "openpac player-config set claims.bonusChunkClaims {{type int papi *%luckperms_meta_bonusclaim%}}" as op'
+        - condition: if check papi "%xconomy_balance_value%" < 9999 then not perm *g.yousei
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'
+  B:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#cea2a8}妖怪'
+      lore:
+        - '&{#cea2a8}天真善良的帝一枚啊'    
+        - '&{#cea2a8}月円： &{#a16578}%xconomy_balance_value% &{#cea2a8}/ 31819'
+      update: 1
+    actions:
+      all: 
+        - condition: perm *g.yokai
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#cea2a8}哎呀！你已经有小老帝之力啦 &{#cea2a8}没被骗吧... 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 31819 then not perm *g.yokai 
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#cea2a8}好运+++&{#cea2a8}没被骗吧... 0 50 10"
+            - 'console: money take %player_name% 31819'
+            - 'console: lp user %player_name% parent add yokai'
+            - 'ke: command inline "lp user {{papi *%player_name%}} meta set bonusclaim {{math add [ papi *%luckperms_meta_bonusclaim% 11 ]}}" as console command inline "openpac player-config set claims.bonusChunkClaims {{type int papi *%luckperms_meta_bonusclaim%}}" as op'
+        - condition: if check papi "%xconomy_balance_value%" < 31819 then not perm *g.yokai
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'
+  C:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#3c7e75}神明'
+      lore:
+        - '&{#3c7e75}不善说教的四季一枚啊' 
+        - '&{#3c7e75}月円： &{#25503c}%xconomy_balance_value% &{#3c7e75}/ 116906'
+      update: 1
+    actions:
+      all: 
+        - condition: perm *g.kami
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#3c7e75}哎呀！你已经有四季之力啦 &{#3c7e75}说教中... 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 116906 then not perm *g.kami 
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#3c7e75}明辨是非 &{#3c7e75}说教中... 0 50 10"
+            - 'console: money take %player_name% 116906'
+            - 'console: lp user %player_name% parent add kami'
+            - 'ke: command inline "lp user {{papi *%player_name%}} meta set bonusclaim {{math add [ papi *%luckperms_meta_bonusclaim% 13 ]}}" as console command inline "openpac player-config set claims.bonusChunkClaims {{type int papi *%luckperms_meta_bonusclaim%}}" as op'
+        - condition: if check papi "%xconomy_balance_value%" < 116906 then not perm *g.kami
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'
+        
+  D:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#672596}贤者'
+      lore:
+        - '&{#672596}17岁的少女一枚啊' 
+        - '&{#672596}月円： &{#51256d}%xconomy_balance_value% &{#672596}/ 627809'       
+      update: 1
+    actions:
+      all: 
+        - condition: perm *g.kenja
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#672596}哎呀！你已经有⑧⑧之力啦 &{#672596}超长待机中... 0 50 10"
+
+        - condition: if check papi "%xconomy_balance_value%" >= 627809 then not perm *g.kenja 
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - "title: &{#672596}贤者也是闲者 &{#672596}超长待机中... 0 50 10"
+            - 'console: money take %player_name% 627809'
+            - 'console: lp user %player_name% parent add kenja'
+            - 'ke: command inline "lp user {{papi *%player_name%}} meta set bonusclaim {{math add [ papi *%luckperms_meta_bonusclaim% 15 ]}}" as console command inline "openpac player-config set claims.bonusChunkClaims {{type int papi *%luckperms_meta_bonusclaim%}}" as op'
+        - condition: if check papi "%xconomy_balance_value%" < 627809 then not perm *g.kenja
+          actions:
+            - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+            - 'force-close'
+            - 'tell: &c月円不足，请继续努力吧！'       
+
+  I:
+    display:
+      material: air
+      name: ''
+      lore:
+     

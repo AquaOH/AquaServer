@@ -1,0 +1,66 @@
+Options:
+  Target: ALL
+  Proxy: true
+  Force-Proxy: true
+  Double-Transfer: true
+  Always-Listen: true
+
+Formats:
+  - condition: ~
+    priority: 100
+    msg:
+      default-color: ''
+      hover: '&7日期: %server_time_HH:mm:ss%'
+    prefix:
+      tier:
+        text: '&f%luckperms_prefix% '
+      part-before-title:
+        text: ' '
+      title:
+        - text: '&f%playerTitle_use% '
+          hover: |-
+            &f
+            &8▪ &7说明: &3默认为[ 萌新 ]
+            &8▪ &7提示: &c可在商店自定义称号
+            &f
+            &6▶ &e点击查看个人仓库
+            &f
+          suggest: '/plt open'
+      part-before-server:
+        text: ' '
+      world:
+        text: '&f%server_name% '
+        hover: |-
+          &f
+          &8▪ &7位置: &3%player_world%&7, &2%player_x%/%player_y%/%player_z%
+          &f
+          &6▶ &e点击此处发送传送请求
+          &f
+        command: '/tpa %player_name%'
+      part-before-player:
+        text: ' '
+      player:
+        - condition: 'player op'
+          text: '&%luckperms_meta_chatcolor%%player_name% '
+          hover: |-
+            &f
+            &8▪ &7延迟: &3%player_ping% Ms
+            &8▪ &7健康: &c%player_health_rounded% ❤
+            &f
+            &6▶ &e点击联系管理员
+            &f
+          suggest: '/tell %player_name% '
+        - text: '&%luckperms_meta_chatcolor%%player_name% '
+          hover: |-
+            &f
+            &8▪ &7延迟: &3%player_ping% Ms
+            &8▪ &7健康: &c%player_health_rounded% ❤
+            &f
+            &6▶ &e点击聊天
+            &f
+          suggest: '/tell %player_name% '
+      part-before-msg:
+        text: '&f%img_chat%  '
+    suffix:
+      example:
+        text: ''

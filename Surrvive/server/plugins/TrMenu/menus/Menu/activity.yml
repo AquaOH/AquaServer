@@ -1,0 +1,84 @@
+Title:
+- '&f%img_offset_-88%&f%img_activity%'
+
+Title-Update: 1
+
+#建议每一个之间空一行，习惯，看起来不那么乱
+Layout:
+  - 'AAAABBBBB' #菜单的边框
+  - 'AAAABBBBB'
+  - 'CCCCDDDDD'
+  - 'CCCCDDDDD' #菜单的边框
+
+
+
+Events:
+  Open: #开启菜单的事件
+    - condition: perm *trmenu.use #检测玩家是否拥有menu.admin的权限（kether的写法）
+      actions: #拥有执行的动作（菜单正常打开）
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+        - 'delay: 2'
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+
+      deny: #没有执行的动作（菜单被return动作中断）
+        - 'tell: &c你不是管理员'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: <r#2:75:100>你还不是管理员哦！'
+        - 'return'
+  Close: #菜单关闭的事件
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+    - 'delay: 3'
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+
+
+Icons: 
+  A: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#6BC2EB} 签到'
+      lore: 
+        - ' &{#3c8dc3}每日签到！'
+    actions: 
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+        - 'force-close'
+        - 'command: litesignin gui'
+  B:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#86A421}战令'
+      lore:
+        - ' &{#586516}长周期累计活跃！'    
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-1'
+        - 'force-close'
+        - 'command: bp' 
+  C:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#FFD86B}礼包'
+      lore:
+        - ' &f쀊&{#D79729}：每日礼包'
+        - ' &f쀋&{#D79729}：每月邮箱'        
+    actions:
+      left: #左键操作触发
+        - 'force-close'
+        - 'command: wkkit open Menu3' 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+      right: #右键操作触发
+        - 'force-close'
+        - 'command: wkkit open Menu4' 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        
+  D:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#F09F7A}在线奖励'
+      lore:
+        - ' &{#C6583A}每日累计在线奖励！'       
+    actions:
+      all: #一样的所有操作触发
+        - 'sound: BLOCK_NOTE_BLOCK_BIT-1-1'
+        - 'force-close'
+        - 'command: rewards'        

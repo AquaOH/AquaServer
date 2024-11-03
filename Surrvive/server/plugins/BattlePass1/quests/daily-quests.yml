@@ -1,0 +1,1583 @@
+quests:
+  '1':
+    name: 日常 | 挖掘24个铁矿
+    type: block-break
+    variable: COAL_ORE
+    required-progress: 24
+    points: 2.5
+    item:
+      material: COAL_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖24个煤矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖24个煤矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖24个煤矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '2':
+    name: 日常 | 挖掘18个铁矿
+    type: block-break
+    variable: IRON_ORE
+    required-progress: 18
+    points: 5.5
+    item:
+      material: IRON_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖18个铁矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖18个铁矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖18个铁矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃5.5'
+  '3':
+    name: 日常 | 挖掘16个金矿
+    type: block-break
+    variable: GOLD_ORE
+    required-progress: 16
+    points: 7.5
+    item:
+      material: GOLD_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖16个金矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个金矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖16个金矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃7.5'
+  '4':
+    name: 日常 | 挖掘24个青金石矿
+    type: block-break
+    variable: LAPIS_ORE
+    required-progress: 24
+    points: 3.0
+    item:
+      material: LAPIS_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖16个青金石矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个青金石矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖16个青金石矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃3.0'
+  '5':
+    name: 日常 | 挖掘24个红石矿
+    type: block-break
+    variable: REDSTONE_ORE
+    required-progress: 24
+    points: 3.0
+    item:
+      material: REDSTONE_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖24个红石矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖24个红石矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖24个红石矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃3.0'
+  '6':
+    name: 日常 | 挖掘8个钻石矿
+    type: block-break
+    variable: DIAMOND_ORE
+    exclusive: premium
+    required-progress: 8
+    points: 15
+    item:
+      material: DIAMOND_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖8个钻石矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖8个钻石矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖8个钻石矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃15.0'
+  '7':
+    name: 日常 | 挖掘6个绿宝石矿
+    type: block-break
+    variable: EMERALD_ORE
+    exclusive: premium
+    required-progress: 6
+    points: 20
+    item:
+      material: EMERALD_ORE:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖6个绿宝石矿'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖6个绿宝石矿'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖6个绿宝石矿'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃20.0'
+  '8':
+    name: 日常 | 挖掘4个远古残骸
+    type: block-break
+    variable: ANCIENT_DEBRIS
+    exclusive: premium
+    required-progress: 4
+    points: 35
+    item:
+      material: ANCIENT_DEBRIS:0
+      amount: 1
+      name: '{#00BBFF}⛏ &8| {#00Bbff}挖4个远古残骸'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖4个远古残骸'
+      - ''
+      - '{#00BBFF}&l信息'
+      - ' &8■ &7目标: {#00bbff}挖4个远古残骸'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃35.0'
+  '9':
+    name: 日常 | 砍伐16个橡木
+    type: block-break
+    variable: OAK_LOG
+    required-progress: 16
+    points: 5.0
+    item:
+      material: OAK_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖16个橡木原木'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个橡木原木'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖16个橡木原木'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '10':
+    name: 日常 | 砍伐16个金合欢
+    type: block-break
+    variable: ACACIA_LOG
+    required-progress: 16
+    points: 5.0
+    item:
+      material: ACACIA_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖16个金合欢原木'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个金合欢原木'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖16个金合欢原木'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '11':
+    name: 日常 | 砍伐16个深色橡树原木
+    type: block-break
+    variable: DARK_OAK_LOG
+    required-progress: 16
+    points: 5.0
+    item:
+      material: DARK_OAK_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖16个深色橡树原木'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个深色橡树原木'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖16个深色橡树原木'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '12':
+    name: 日常 | 砍伐16个云杉原木
+    type: block-break
+    variable: SPRUCE_LOG
+    required-progress: 16
+    points: 5.0
+    item:
+      material: SPRUCE_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖16个云杉原木'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个云杉原木'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖16个云杉原木'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '13':
+    name: 日常 | 砍伐16个白桦原木
+    type: block-break
+    variable: BIRCH_LOG
+    required-progress: 16
+    points: 5.0
+    item:
+      material: BIRCH_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖16个白桦原木'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个白桦原木'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖16个白桦原木'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '14':
+    name: 日常 | 砍伐16个丛林原木
+    type: block-break
+    variable: JUNGLE_LOG
+    required-progress: 16
+    points: 5.0
+    item:
+      material: JUNGLE_LOG:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖16个丛林原木'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖16个丛林原木'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖16个丛林原木'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '15':
+    name: 日常 | 砍伐16个绯红菌柄
+    type: block-break
+    exclusive: premium
+    variable: CRIMSON_STEM
+    required-progress: 12
+    points: 10.0
+    item:
+      material: CRIMSON_STEM:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖12个绯红菌柄'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖12个绯红菌柄'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖12个绯红菌柄'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '16':
+    name: 日常 | 砍伐16个诡异菌柄
+    type: block-break
+    exclusive: premium
+    variable: WARPED_STEM
+    required-progress: 12
+    points: 10.0
+    item:
+      material: WARPED_STEM:0
+      amount: 1
+      name: '{#bf9552}🪓 &8| {#bf9552}挖12个诡异菌柄'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖12个诡异菌柄'
+      - ''
+      - '{#bf9552}&l信息'
+      - ' &8■ &7目标: {#bf9552}挖12个诡异菌柄'
+      - ' &8■ &7进度: {#bf9552}%total_progress%&8/{#bf9552}%required_progress%'
+      - ''
+      - '{#bf9552}&l进度'
+      - ' %progress_bar% &8| {#bf9552}%percentage_progress%'
+      - ''
+      - '{#bf9552}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '17':
+    name: 日常 | 挖24个泥土
+    type: block-break
+    variable: DIRT
+    required-progress: 24
+    points: 2.5
+    item:
+      material: DIRT:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖24个泥土'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖24个泥土'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖24个泥土'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '18':
+    name: 日常 | 挖64个沙子
+    type: block-break
+    variable: SAND
+    required-progress: 64
+    points: 2.5
+    item:
+      material: SAND:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖64个沙子'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖64个沙子'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖64个沙子'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '19':
+    name: 日常 | 挖64个红沙
+    type: block-break
+    variable: RED_SAND
+    required-progress: 64
+    points: 2.5
+    item:
+      material: RED_SAND:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖64个红沙'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖64个红沙'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖20个红沙'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '20':
+    name: 日常 | 挖64个沙砾
+    type: block-break
+    variable: GRAVEL
+    required-progress: 64
+    points: 25
+    item:
+      material: GRAVEL:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖64个沙砾'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须挖64个沙砾'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖26个沙砾'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃25'
+  '21':
+    name: 日常 | 挖16个灵魂沙
+    type: block-break
+    exclusive: premium
+    variable: SOUL_SAND
+    required-progress: 16
+    points: 15.0
+    item:
+      material: SOUL_SAND:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖16个灵魂沙'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖16个灵魂沙'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖16个灵魂沙'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃15.0'
+  '22':
+    name: 日常 | 挖16个菌丝
+    type: block-break
+    exclusive: premium
+    variable: MYCELIUM
+    required-progress: 20
+    points: 18.0
+    item:
+      material: MYCELIUM:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖20个菌丝'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖20个菌丝'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖20个菌丝'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃18.0'
+  '23':
+    name: 日常 | 挖16个灰化土
+    type: block-break
+    exclusive: premium
+    variable: PODZOL
+    required-progress: 22
+    points: 15.0
+    item:
+      material: PODZOL:0
+      amount: 1
+      name: '{#4cbd3a}■ &8| {#4cbd3a}挖22个灰化土'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须挖22个灰化土'
+      - ''
+      - '{#4cbd3a}&l信息'
+      - ' &8■ &7目标: {#4cbd3a}挖22个灰化土'
+      - ' &8■ &7进度: {#4cbd3a}%total_progress%&8/{#4cbd3a}%required_progress%'
+      - ''
+      - '{#4cbd3a}&l进度'
+      - ' %progress_bar% &8| {#4cbd3a}%percentage_progress%'
+      - ''
+      - '{#4cbd3a}&l奖励'
+      - ' &8- {#ffff00}⛃15.0'
+  '24':
+    name: 日常 | 远足100格方块
+    type: move
+    variable: none
+    required-progress: 100
+    points: 2.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}远足100格方块'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须远足100格方块'
+      - ''
+      - '{#4bcc6c}&l信息'
+      - ' &8■ &7目标: {#4bcc6c}远足100格方块'
+      - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+      - ''
+      - '{#4bcc6c}&l进度'
+      - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+      - ''
+      - '{#4bcc6c}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '25':
+    name: 日常 | 远足250格方块
+    type: move
+    variable: none
+    required-progress: 250
+    points: 2.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}远足250格方块'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须远足250格方块'
+      - ''
+      - '{#4bcc6c}&l信息'
+      - ' &8■ &7目标: {#4bcc6c}远足250格方块'
+      - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+      - ''
+      - '{#4bcc6c}&l进度'
+      - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+      - ''
+      - '{#4bcc6c}&l奖励'
+      - ' &8- {#ffff00}⛃3.5'
+  '26':
+    name: 日常 | 远足500格方块
+    type: move
+    variable: none
+    required-progress: 500
+    points: 5.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}远足500格方块'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须远足500格方块'
+      - ''
+      - '{#4bcc6c}&l信息'
+      - ' &8■ &7目标: {#4bcc6c}远足500格方块'
+      - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+      - ''
+      - '{#4bcc6c}&l进度'
+      - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+      - ''
+      - '{#4bcc6c}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '27':
+    name: 日常 | 远足1000格方块
+    type: move
+    variable: none
+    required-progress: 1000
+    points: 10.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}远足500格方块'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须远足500格方块'
+      - ''
+      - '{#4bcc6c}&l信息'
+      - ' &8■ &7目标: {#4bcc6c}远足500格方块'
+      - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+      - ''
+      - '{#4bcc6c}&l进度'
+      - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+      - ''
+      - '{#4bcc6c}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '28':
+    name: 日常 | 远足5000格方块
+    type: move
+    variable: none
+    required-progress: 5000
+    points: 50.0
+    item:
+      material: LEATHER_BOOTS:0
+      amount: 1
+      name: '{#4bcc6c}⟰ &8| {#4bcc6c}远足5000格方块'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须远足5000格方块'
+      - ''
+      - '{#4bcc6c}&l信息'
+      - ' &8■ &7目标: {#4bcc6c}远足5000格方块'
+      - ' &8■ &7进度: {#4bcc6c}%total_progress%&8/{#4bcc6c}%required_progress%'
+      - ''
+      - '{#4bcc6c}&l进度'
+      - ' %progress_bar% &8| {#4bcc6c}%percentage_progress%'
+      - ''
+      - '{#4bcc6c}&l奖励'
+      - ' &8- {#ffff00}⛃50.0'
+  '29':
+    name: 日常 | 种植采摘16个胡萝卜
+    type: block-break
+    variable: CARROTS
+    required-progress: 16
+    points: 2.0
+    item:
+      material: CARROT:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘16个胡萝卜'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须种植采摘16个胡萝卜'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘16个胡萝卜'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '30':
+    name: 日常 | 采摘18个马铃薯
+    type: block-break
+    variable: POTATOES
+    required-progress: 18
+    points: 2.0
+    item:
+      material: POTATO:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}采摘18个马铃薯'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须种植采摘18个马铃薯'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘18个马铃薯'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '31':
+    name: 日常 | 种植采摘32个甜菜
+    type: block-break
+    variable: BEETROOTS
+    required-progress: 32
+    points: 2.0
+    item:
+      material: BEETROOT:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘32个甜菜'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须采摘32个甜菜'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘32个甜菜'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '32':
+    name: 日常 | 种植采摘14个小麦
+    type: block-break
+    variable: WHEAT
+    required-progress: 14
+    points: 2.0
+    item:
+      material: WHEAT:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘14个小麦'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须种植采摘14个小麦'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘14个小麦'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '33':
+    name: 日常 | 种植采摘8个地狱疣
+    type: block-break
+    variable: NETHER_WART
+    required-progress: 8
+    exclusive: premium
+    points: 10.0
+    item:
+      material: NETHER_WART:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘8个地狱疣'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须种植采摘8个地狱疣'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘8个地狱疣'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '34':
+    name: 日常 | 种植采摘12个紫颂花
+    type: block-break
+    variable: CHORUS_FLOWER
+    required-progress: 12
+    exclusive: premium
+    points: 15.0
+    item:
+      material: CHORUS_FLOWER:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘12个紫颂花'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须种植采摘12个紫颂花'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘12个紫颂花'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃15.0'
+  '35':
+    name: 日常 | 种植采摘8个南瓜
+    type: block-break
+    variable: PUMPKIN
+    required-progress: 8
+    exclusive: premium
+    points: 10.0
+    item:
+      material: PUMPKIN:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘8个南瓜'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须种植采摘8个南瓜'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘8个南瓜'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '36':
+    name: 日常 | 种植采摘8个西瓜
+    type: block-break
+    variable: MELON
+    required-progress: 8
+    exclusive: premium
+    points: 10.0
+    item:
+      material: MELON:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘8个西瓜'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须种植采摘8个西瓜'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘8个西瓜'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '37':
+    name: 日常 | 种植采摘12个竹子
+    type: block-break
+    variable: BAMBOO
+    required-progress: 12
+    exclusive: premium
+    points: 15.0
+    item:
+      material: BAMBOO:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘12个竹子'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须种植采摘12个竹子'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘12个竹子'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃15.0'
+  '38':
+    name: 日常 | 种植采摘16个甘蔗
+    type: block-break
+    variable: SUGAR_CANE
+    required-progress: 16
+    exclusive: premium
+    points: 12.0
+    item:
+      material: SUGAR_CANE:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植采摘16个甘蔗'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须种植采摘16个甘蔗'
+      - ''
+      - '{#faad1e}&l信息'
+      - ' &8■ &7目标: {#faad1e}种植采摘16个甘蔗'
+      - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+      - ''
+      - '{#faad1e}&l进度'
+      - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+      - ''
+      - '{#faad1e}&l奖励'
+      - ' &8- {#ffff00}⛃15.0'
+  '39':
+    name: 日常 | 冶炼8铁矿石
+    type: smelt
+    variable: IRON_INGOT
+    required-progress: 8
+    points: 3.5
+    item:
+      material: IRON_ORE:0
+      amount: 1
+      name: '{#00bbff}🔥 &8| {#00bbff}冶炼8铁矿石'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须冶炼8铁矿石'
+      - ''
+      - '{#00bbff}&l信息'
+      - ' &8■ &7目标: {#00bbff}冶炼8铁矿石'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃3.5'
+  '40':
+    name: 日常 | 冶炼12金矿石
+    type: smelt
+    variable: GOLD_INGOT
+    required-progress: 12
+    points: 5.0
+    item:
+      material: GOLD_ORE:0
+      amount: 1
+      name: '{#00bbff}🔥 &8| {#00bbff}冶炼12金矿石'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须冶炼12金矿石'
+      - ''
+      - '{#00bbff}&l信息'
+      - ' &8■ &7目标: {#00bbff}冶炼12金矿石'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '41':
+    name: 日常 | 冶炼4远古残骸
+    type: smelt
+    variable: NETHERITE_SCRAP
+    required-progress: 4
+    exclusive: premium
+    points: 10.0
+    item:
+      material: ANCIENT_DEBRIS:0
+      amount: 1
+      name: '{#00bbff}🔥 &8| {#00bbff}冶炼4远古残骸'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '{#ff0000}&l[!]          注意          [!]'
+      - '{#FF0000}需要解锁进阶通行证!'
+      - '&7想完成该任务你必须冶炼4远古残骸'
+      - ''
+      - '{#00bbff}&l信息'
+      - ' &8■ &7目标: {#00bbff}冶炼4远古残骸'
+      - ' &8■ &7进度: {#00bbff}%total_progress%&8/{#00bbff}%required_progress%'
+      - ''
+      - '{#00bbff}&l进度'
+      - ' %progress_bar% &8| {#00bbff}%percentage_progress%'
+      - ''
+      - '{#00bbff}&l奖励'
+      - ' &8- {#ffff00}⛃10.0'
+  '42':
+    name: 日常 | 合成6个梯子
+    type: craft
+    variable: LADDER
+    required-progress: 6
+    points: 1.5
+    item:
+      material: LADDER:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成6个梯子'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成6个梯子'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成6个梯子'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃1.5'
+  '43':
+    name: 日常 | 合成6个熔炉
+    type: craft
+    variable: FURNACE
+    required-progress: 2
+    points: 1.0
+    item:
+      material: FURNACE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成2个熔炉'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成2个熔炉'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成2个熔炉'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃1.0'
+  '44':
+    name: 日常 | 合成8个火把
+    type: craft
+    variable: TORCH
+    required-progress: 8
+    points: 2.0
+    item:
+      material: TORCH:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成8个火把'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成8个火把'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成8个火把'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '45':
+    name: 日常 | 合成10个玻璃
+    type: craft
+    variable: GLASS
+    required-progress: 10
+    points: 2.5
+    item:
+      material: GLASS:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成10个玻璃'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成10个玻璃'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成10个玻璃'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '46':
+    name: 日常 | 合成2个工作台
+    type: craft
+    variable: CRAFTING_TABLE
+    required-progress: 2
+    points: 1.0
+    item:
+      material: CRAFTING_TABLE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成2个工作台'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成2个工作台'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成2个工作台'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃1.0'
+  '47':
+    name: 日常 | 合成2个音符盒
+    type: craft
+    variable: NOTE_BLOCK
+    required-progress: 2
+    points: 3.5
+    item:
+      material: NOTE_BLOCK:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成2个音符盒'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成2个音符盒'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成2个音符盒'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃3.5'
+  '48':
+    name: 日常 | 合成6个铁栅栏
+    type: craft
+    variable: IRON_BARS
+    required-progress: 6
+    points: 5.0
+    item:
+      material: IRON_BARS:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成6个铁栅栏'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成6个铁栅栏'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成6个铁栅栏'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃5.0'
+  '49':
+    name: 日常 | 合成4个灯笼
+    type: craft
+    variable: LANTERN
+    required-progress: 4
+    points: 2.5
+    item:
+      material: LANTERN:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成4个灯笼'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成4个灯笼'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成4个灯笼'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '50':
+    name: 日常 | 合成12个锁链
+    type: craft
+    variable: CHAIN
+    required-progress: 12
+    points: 2.0
+    item:
+      material: CHAIN:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成12个锁链'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成12个锁链'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成12个锁链'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '51':
+    name: 日常 | 合成3个红石灯
+    type: craft
+    variable: REDSTONE_LAMP
+    required-progress: 3
+    points: 2.0
+    item:
+      material: REDSTONE_LAMP:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成3个红石灯'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成3个红石灯'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成3个红石灯'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '52':
+    name: 日常 | 合成1个制图台
+    type: craft
+    variable: CARTOGRAPHY_TABLE
+    required-progress: 1
+    points: 2.0
+    item:
+      material: CARTOGRAPHY_TABLE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成1个制图台'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成1个制图台'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成1个制图台'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '53':
+    name: 日常 | 合成1个制箭台
+    type: craft
+    variable: FLETCHING_TABLE
+    required-progress: 1
+    points: 2.0
+    item:
+      material: FLETCHING_TABLE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成1个制箭台'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成1个制箭台'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成1个制箭台'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '54':
+    name: 日常 | 合成1个锻造台
+    type: craft
+    variable: SMITHING_TABLE
+    required-progress: 1
+    points: 2.0
+    item:
+      material: SMITHING_TABLE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成1个锻造台'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成1个锻造台'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成1个锻造台'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '55':
+    name: 日常 | 合成4个盔甲架
+    type: craft
+    variable: ARMOR_STAND
+    required-progress: 4
+    points: 2.0
+    item:
+      material: ARMOR_STAND:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成4个盔甲架'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成4个盔甲架'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成4个盔甲架'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '56':
+    name: 日常 | 合成6个铁桶
+    type: craft
+    variable: BUCKET
+    required-progress: 6
+    points: 2.0
+    item:
+      material: BUCKET:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成6个铁桶'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成6个铁桶'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成6个铁桶'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '57':
+    name: 日常 | 合成3个花盆
+    type: craft
+    variable: FLOWER_POT
+    required-progress: 3
+    points: 2.0
+    item:
+      material: FLOWER_POT:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成3个花盆'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成3个花盆'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成3个花盆'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.0'
+  '58':
+    name: 日常 | 合成3个蜂巢
+    type: craft
+    variable: BEE_NEST
+    required-progress: 1
+    points: 3.5
+    item:
+      material: BEE_NEST:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成3个蜂巢'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成3个蜂巢'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成3个蜂巢'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃3.5'
+  '59':
+    name: 日常 | 合成3个蜂蜜块
+    type: craft
+    variable: HONEY_BLOCK
+    required-progress: 3
+    points: 2.5
+    item:
+      material: HONEY_BLOCK:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成3个蜂蜜块'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成3个蜂蜜块'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成3个蜂蜜块'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '60':
+    name: 日常 | 合成3个烟熏炉
+    type: craft
+    variable: SMOKER
+    required-progress: 2
+    points: 2.5
+    item:
+      material: SMOKER:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成3个烟熏炉'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成3个烟熏炉'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成3个烟熏炉'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '61':
+    name: 日常 | 合成3个高炉
+    type: craft
+    variable: BLAST_FURNACE
+    required-progress: 2
+    points: 3.5
+    item:
+      material: BLAST_FURNACE:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成3个高炉'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须合成3个高炉'
+      - ''
+      - '{#ffc74f}&l信息'
+      - ' &8■ &7目标: {#ffc74f}合成3个高炉'
+      - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+      - ''
+      - '{#ffc74f}&l进度'
+      - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+      - ''
+      - '{#ffc74f}&l奖励'
+      - ' &8- {#ffff00}⛃3.5'
+  '62':
+    name: 日常 | 钓到6条鱼
+    type: fish
+    variable: COD
+    required-progress: 6
+    points: 2.5
+    item:
+      material: COD:0
+      amount: 1
+      name: '{#9474f2}🎣 &8| {#9474f2}钓到6条鱼'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须钓到6条鱼'
+      - ''
+      - '{#9474f2}&l信息'
+      - ' &8■ &7目标: {#9474f2}钓到6条鱼'
+      - ' &8■ &7进度: {#9474f2}%total_progress%&8/{#9474f2}%required_progress%'
+      - ''
+      - '{#9474f2}&l进度'
+      - ' %progress_bar% &8| {#9474f2}%percentage_progress%'
+      - ''
+      - '{#9474f2}&l奖励'
+      - ' &8- {#ffff00}⛃2.5'
+  '63':
+    name: 日常 | 钓到4条生鲑鱼
+    type: fish
+    variable: SALMON
+    required-progress: 4
+    points: 3.0
+    item:
+      material: SALMON:0
+      amount: 1
+      name: '{#9474f2}🎣 &8| {#9474f2}钓到4条生鲑鱼'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须钓到4条生鲑鱼'
+      - ''
+      - '{#9474f2}&l信息'
+      - ' &8■ &7目标: {#9474f2}钓到4条生鲑鱼'
+      - ' &8■ &7进度: {#9474f2}%total_progress%&8/{#9474f2}%required_progress%'
+      - ''
+      - '{#9474f2}&l进度'
+      - ' %progress_bar% &8| {#9474f2}%percentage_progress%'
+      - ''
+      - '{#9474f2}&l奖励'
+      - ' &8- {#ffff00}⛃3.0'
+  '64':
+    name: 日常 | 钓到6条河豚
+    type: fish
+    variable: PUFFERFISH
+    required-progress: 6
+    points: 5.5
+    item:
+      material: PUFFERFISH:0
+      amount: 1
+      name: '{#9474f2}🎣 &8| {#9474f2}钓到6条河豚'
+      lore:
+      - ''
+      - '{#ffff00}介绍:'
+      - '&7想完成该任务你必须钓到6条河豚'
+      - ''
+      - '{#9474f2}&l信息'
+      - ' &8■ &7目标: {#9474f2}钓到6条河豚'
+      - ' &8■ &7进度: {#9474f2}%total_progress%&8/{#9474f2}%required_progress%'
+      - ''
+      - '{#9474f2}&l进度'
+      - ' %progress_bar% &8| {#9474f2}%percentage_progress%'
+      - ''
+      - '{#9474f2}&l奖励'
+      - ' &8- {#ffff00}⛃5.5'
+actions-version: 2

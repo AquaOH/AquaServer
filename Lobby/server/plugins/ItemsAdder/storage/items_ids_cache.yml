@@ -1,11 +1,61 @@
 PAPER:
-  _iainternal:icon_left_blue: 10000
-  _iainternal:icon_right_blue: 10001
-  _iainternal:icon_search: 10002
-  _iainternal:icon_cancel: 10003
-  _iainternal:icon_arrow_chest: 10004
-  _iainternal:icon_back_orange: 10005
-  _iainternal:icon_next_orange: 10006
+  aqua_items:finish_plain: 10000
+  aqua_items:blocked_plain: 10001
+  aqua_items:enable_plain: 10002
+  aqua_items:waiting_plain: 10003
+  aqua_items:pre_button: 10004
+  aqua_items:next_button: 10005
+  aqua_items:back_button: 10006
+  aqua_items:close_button: 10007
+  aqua_items:empty: 10008
+  aqua_items:change_description: 10009
+  aqua_items:change_icon: 10010
+  aqua_items:change_location: 10011
+  aqua_items:change_name: 10012
+  aqua_items:change_price: 10013
+  aqua_items:change_type: 10014
+  aqua_items:collection: 10015
+  aqua_items:global: 10016
+  aqua_items:hide: 10017
+  aqua_items:search: 10018
+  aqua_items:teleport: 10019
+  aqua_items:warp_add: 10020
+  aqua_items:warp_delete: 10021
+  aqua_items:warp_top_add: 10022
+  _iainternal:icon_left_blue: 10023
+  _iainternal:icon_right_blue: 10024
+  _iainternal:icon_search: 10025
+  _iainternal:icon_cancel: 10026
+  _iainternal:icon_arrow_chest: 10027
+  _iainternal:icon_back_orange: 10028
+  _iainternal:icon_next_orange: 10029
+  vending_machine:vm_icon_right: 10030
+  vending_machine:vm_icon_left: 10031
+  aqua_items:mine: 10032
+  aqua_items:tips: 10033
+  aqua_items:collection_global: 10034
+  aqua_items:money: 10035
+  aqua_items:like: 10036
+  aqua_items:dislike: 10037
+  aqua_items:num1: 10038
+  aqua_items:num2: 10039
+  aqua_items:num3: 10040
+  aqua_items:num4: 10041
+  aqua_items:num5: 10042
+  aqua_items:balance: 10043
+  aqua_items:homes: 10044
+  aqua_items:ranks: 10045
+  aqua_items:regions: 10046
+  aqua_items:stores: 10047
+  aqua_items:titles: 10048
+  aqua_items:mail: 10049
+  aqua_items:refresh: 10050
+  aqua_items:category: 10051
+  aqua_items:categoryset: 10052
+  aqua_items:console: 10053
+  aqua_items:cancel: 10054
+  aqua_items:up: 10055
+  aqua_items:down: 10056
 PLAYER_HEAD:
   __manually_handled:_iainternal__player_phead_0: 10000
   __manually_handled:_iainternal__player_parm_left_3: 10001
@@ -13,3 +63,34 @@ PLAYER_HEAD:
   __manually_handled:_iainternal__player_pleg_left_1: 10003
   __manually_handled:_iainternal__player_pleg_right_5: 10004
   __manually_handled:_iainternal__player_parm_right_4: 10005
+  heads:player_head_gui_size_1: 10006
+  heads:player_head_gui_size_4: 10007
+  heads:player_head_block_size_item_frame: 10008
+  heads:player_head_hand_size_2: 10009
+  heads:player_head_gui_size_4_for9: 10010
+LEATHER_HORSE_ARMOR:
+  vending_machine:vending_machine_1: 10000
+  vending_machine:vending_machine_2: 10001
+  vending_machine:vending_machine_3: 10002
+  vending_machine:vending_machine_4: 10003
+  vending_machine:empty_vending_machine_1: 10004
+  vending_machine:empty_vending_machine_2: 10005
+  vending_machine:empty_vending_machine_3: 10006
+  vending_machine:empty_vending_machine_4: 10007
+  vending_machine:vm_halloween_0: 10008
+  vending_machine:empty_vending_machine_5: 10009
+FLINT:
+  hyronic_friend:empty: 9999
+  hyronic_friend:next_button: 9998
+  hyronic_friend:previous_button: 9997
+  hyronic_friend:setting_active: 9996
+GOLD_NUGGET:
+  battlepass:air: 500
+  battlepass:locked: 501
+  battlepass:unlocked: 502
+  battlepass:reward_unclaimed: 503
+  battlepass:reward_claimed: 504
+  battlepass:questbook: 505
+  battlepass:questbook_gray: 506
+  battlepass:reward_locked_gray: 507
+  battlepass:reward_locked_green: 508

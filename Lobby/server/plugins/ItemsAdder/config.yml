@@ -1,30 +1,27 @@
-# Download it here: https://black-minecraft.com/resources/27/
 metrics: true
 update-checker: true
 resource-pack:
-  uuid: d69238f2-b7ce-30b0-8262-17cd9490f29d
-  apply-during-chunk-load-phase: true
-  apply-on-join: false
   hosting:
     no-host:
       enabled: false
     lobfile:
       enabled: false
     self-host:
-      enabled: false
+      enabled: true
       server-ip: 127.0.0.1
       pack-port: 8163
     external-host:
       enabled: false
       url: ''
       skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
-  kick-player-on-decline: true
-  kick-player-on-fail: true
+  apply-on-join: true
+  kick-player-on-decline: false
+  kick-player-on-fail: false
   delay-ticks: 1
   notify-other-plugins-interfering: true
   title:
     enabled: true
-  atlas_support: true
+  1_19_3_atlas_support: true
   fix_force_unicode_font_images: true
   expert_users:
     allow_other_plugins_resourcepacks: false
@@ -48,8 +45,9 @@ resource-pack:
     compress-png-files: true
     compress-json-files: true
     generate-custom-armors-textures:
-      vanilla: true
+      vanilla_1_17: true
       optifine: true
+      vanilla: true
     disable-overwrite-leather-armor-layers-textures: false
     fix_transparent_noteblocks: false
     ignore-files-ext:
@@ -68,6 +66,7 @@ resource-pack:
     - _iainternal
     merge_other_plugins_resourcepacks_folders:
     - ModelEngine/resource pack
+    - CustomNameplates/ResourcePack
   items:
     CustomModelData-starting-value:
       ALL: 10000
@@ -78,42 +77,46 @@ resource-pack:
       enabled: true
       allow_non_player: true
     other: true
+  uuid: d69238f2-b7ce-30b0-8262-17cd9490f29d
+  apply-during-chunk-load-phase: true
+  atlas_support: true
 config_files:
   lang: en
   dictionaries-lang: en
   force-sync-loading: false
 blocks:
+  fix-liquids-flow: true
+  fix-floating-blocks: true
+  fix-glitched-blocks:
+    enabled: true
+    only-new-chunks: false
+  cancel-break-wrong-tool:
+    enabled: true
+    send-actionbar: true
+  campfire_enhancements:
+    enable: true
+    unlit_on_place: true
+    allow_any_item: true
+    drop_when_broken: false
+  convert-vanilla-blocks:
+    enabled: false
+    only-new-chunks: true
+  remove-unused-palettes-on-region-save: false
   custom:
-    note: true
     mushroom: true
     chorus: true
+    note: true
     wire: false
-    fire: false
+    fire: true
   worlds:
   - '*'
   - example_world_*
   - '*_example_nether'
   - '!example_disabled_blocks_world'
   - '!example_disabled_blocks_world_*'
-  campfire_enhancements:
-    enable: true
-    unlit_on_place: true
-    allow_any_item: true
-    drop_when_broken: false
-  cancel-break-wrong-tool:
-    enabled: true
-    send-actionbar: true
-  fix-liquids-flow: true
-  fix-floating-blocks: true
-  fix-glitched-blocks:
-    enabled: true
-    only-new-chunks: false
-  convert-vanilla-blocks:
-    enabled: false
-    only-new-chunks: true
-  remove-unused-palettes-on-region-save: false
 items:
   fix-show-attack-and-damage-as-lore: true
+  give_death_location_maps: false
   hide-custom-durability-lore: true
   fix_trades_guis_match_custom_items:
     itemsadder_trade_machines: true
@@ -133,7 +136,7 @@ items:
 liquids:
   enabled: true
 huds:
-  enabled: true
+  enabled: false
   force_color:
     enabled: false
     color: '#FFFFFF'
@@ -147,6 +150,7 @@ cooldown_bars:
 loots:
   allow-loots-drop-from-spawners-using-silk-touch: true
 mobs:
+  disable-MOB-behaviour__DISABLE_AT_YOUR_OWN_RISK: false
   enabled: true
 compatibility:
   worldguard:
@@ -190,7 +194,7 @@ effects:
   hide-scoreboard-numbers: false
   hide-scoreboard-numbers-old-clients: false
   text-effects:
-    enabled: true
+    enabled: false
     customitem-name-and-lore:
       enabled: true
     chat:
@@ -226,8 +230,10 @@ recipes:
     enabled: true
   custom-recipes:
     unlock:
-      automatically: true
       all-on-join: false
+      on-pickup: {}
+      on-item-click: {}
+      automatically: true
   remove-vanilla-recipes:
     enabled: true
     list:
@@ -235,11 +241,8 @@ recipes:
       IRON_INGOT: false
 player_stats:
   save_type: CUSTOM_NBT # CUSTOM_NBT, PLAYER_DAT
-show_plugin_logo_on_enable: true
 debug:
   benchmark: false
-  resourcepacks:
-    log_player_install: false
   items:
     log-files-loading: false
     log-files-reloading: false
@@ -268,11 +271,10 @@ debug:
     log-convert-vanilla-blocks: false
     log-fix-bugged-blocks: false
     log-unusual-block-break: false
-  blocks-populators:
+  worlds-populators:
     log-loading: false
     log-loading-disabled: false
     log-loading-no-populators: false
-    log-generation: false
   trees-populators:
     log-loading: false
     log-loading-disabled: false
@@ -310,3 +312,11 @@ debug:
     log-entities-loading-disabled: false
   issues:
     log_font_image_replace_json_syntax_exception: true
+  blocks-populators:
+    log-generation: false
+    log-loading: false
+    log-loading-disabled: false
+    log-loading-no-populators: false
+  resourcepacks:
+    log_player_install: false
+show_plugin_logo_on_enable: true

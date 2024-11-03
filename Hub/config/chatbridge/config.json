@@ -1,0 +1,10 @@
+{
+    "aes_key": "ThisIstheSecret",
+    "name": "MyClientName",
+    "password": "MyClientPassword",
+    "server_hostname": "127.0.0.1",
+    "server_port": 30001,
+    "enable": true,
+    "debug": false,
+    "client_to_query_online": null
+}

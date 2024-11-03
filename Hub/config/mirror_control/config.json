@@ -1,0 +1,25 @@
+{
+    "permissions": {
+        "start": 2,
+        "sync": 2,
+        "stop": 2,
+        "restart": 2,
+        "list": 1
+    },
+    "this_server": {
+        "world_directory": "world/"
+    },
+    "servers": {
+        "default": {
+            "name": null,
+            "location": "/home/server/server/[11451]mirror",
+            "target_world_location": "/home/server/server/[11451]mirror/server/world",
+            "command": "screen -dmS mirror bash -c 'python -m mcdreforged'",
+            "rcon": {
+                "enable": true,
+                "port": 19198,
+                "passwd": "pa55wdHere!"
+            }
+        }
+    }
+}

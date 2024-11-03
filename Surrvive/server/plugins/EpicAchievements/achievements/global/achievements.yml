@@ -1,0 +1,31 @@
+apple-lover:
+  type: CONSUME
+  name: "Apple Lover"
+  description:
+    - "&fEat many apples!"
+  items:
+    - APPLE
+  game-modes:
+    - SURVIVAL
+  tiers:
+    1:
+      required-amount: 10
+      points: 25
+      rewards: []
+
+gatherer:
+  type: PICKUP
+  name: "Gatherer"
+  description:
+    - "&fPick up items."
+  tiers:
+    1:
+      required-amount: 32
+      points: 10
+      rewards: []
+    2:
+      required-amount: 64
+      points: 15
+    3:
+      required-amount: 128
+      points: 20

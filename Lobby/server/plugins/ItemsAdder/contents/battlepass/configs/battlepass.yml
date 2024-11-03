@@ -1,0 +1,120 @@
+info:
+  namespace: battlepass
+items:
+  air:
+    display_name: ' '
+    permission: battlepass.air
+    resource:
+      material: GOLD_NUGGET
+      model_id: 500
+      generate: false
+      model_path: battlepass/air
+  locked:
+    display_name: ' '
+    permission: battlepass.locked
+    resource:
+      material: GOLD_NUGGET
+      model_id: 501
+      generate: false
+      model_path: battlepass/locked
+  unlocked:
+    display_name: ' '
+    permission: battlepass.unlocked
+    resource:
+      material: GOLD_NUGGET
+      model_id: 502
+      generate: false
+      model_path: battlepass/unlocked
+  reward_unclaimed:
+    display_name: ' '
+    permission: battlepass.reward_unclaimed
+    resource:
+      material: GOLD_NUGGET
+      model_id: 503
+      generate: false
+      model_path: battlepass/reward_unclaimed
+  reward_claimed:
+    display_name: ' '
+    permission: battlepass.reward_claimed
+    resource:
+      material: GOLD_NUGGET
+      model_id: 504
+      generate: false
+      model_path: battlepass/reward_claimed
+  questbook:
+    display_name: ' '
+    permission: battlepass.questbook
+    resource:
+      material: GOLD_NUGGET
+      model_id: 505
+      generate: false
+      model_path: battlepass/questbook
+  questbook_gray:
+    display_name: ' '
+    permission: battlepass.questbook_gray
+    resource:
+      material: GOLD_NUGGET
+      model_id: 506
+      generate: false
+      model_path: battlepass/questbook_gray
+  reward_locked_gray:
+    display_name: ' '
+    permission: battlepass.reward_locked_gray
+    resource:
+      material: GOLD_NUGGET
+      model_id: 507
+      generate: false
+      model_path: battlepass/reward_locked_gray
+  reward_locked_green:
+    display_name: ' '
+    permission: battlepass.reward_locked_green
+    resource:
+      material: GOLD_NUGGET
+      model_id: 508
+      generate: false
+      model_path: battlepass/reward_locked_green
+font_images:
+  bp_portal:
+    path: "font/battlepass/portal.png"
+    permission: "bp.portal"
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 48
+  bp_daily_quests:
+    path: "font/battlepass/daily_quests.png"
+    permission: "bp.daily_quests"
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 56
+  bp_week:
+    path: "font/battlepass/week.png"
+    permission: "bp.week"
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 48
+  bp_quest_overview:
+    path: "font/battlepass/quest_overview.png"
+    permission: "bp.quest_overview"
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 56
+  bp_rewards:
+    path: "font/battlepass/rewards.png"
+    permission: "bp.rewards"
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 48
+  progress_bar:
+    path: "font/battlepass/progress_bar.png"
+    permission: "bp.progress_bar"
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  bp:
+    path: "font/battlepass/bp.png"
+    permission: "bp.bp"
+    show_in_gui: false
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8

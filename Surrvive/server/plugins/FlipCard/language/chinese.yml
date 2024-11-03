@@ -1,0 +1,58 @@
+# Error
+error-args: "&#98FB98[FlipCard] &c命令使用错误，如果需要帮助，请使用/flipcard help！"
+error-only-in-game: "&#98FB98[FlipCard] &c您必须在游戏中使用此命令！"
+error-player-not-found: "&#98FB98[FlipCard] &c我们找不到该玩家！"
+error-miss-permission: "&#98FB98[FlipCard] &c您没有权限使用此命令！"
+error-save-item-not-found: "&#98FB98[FlipCard] &cWe can't find this save item called %item%!"
+
+# Command Help
+command-help: |
+  &#98FB98&lFlipCard &7由@rtz1020制作
+  &f/flipcard forceopen <playerName> <UIConfigName> &7- 为玩家打开翻牌UI。
+  &f/flipcard reload &7- 重新加载配置。
+  &f/flipcard save <fileName> &7- 保存主手物品。
+  &f/flipcard givetimes <playerName> <UIConfigName> <times>
+  &f/flipcard addtimes <playerName> <UIConfigName> <times>
+  &f/flipcard gettimes <playerName> <UIConfigName> <times>
+  &c/flipcard open <UIConfigName> &7- 消耗一个翻牌UI剩余时间，为自己开始一次翻牌。
+  &e/flipcard reopen <UIConfigName> &7- 如果未超时，则重新打开翻牌UI。
+# Command Tips
+command-reload-complete: "&#98FB98[FlipCard] &f插件已重新加载！"
+command-save-complete: "&#98FB98[FlipCard] &f主手物品已保存！"
+command-main-could-not-find-config: "&#98FB98[FlipCard] &f找不到配置文件！"
+
+# Command Times
+command-settimes-success: "&#98FB98[FlipCard] &f成功将%player%的%uiconfig%剩余次数设置为%value%！"
+command-addtimes-success: "&#98FB98[FlipCard] &f成功将%player%的%uiconfig%剩余次数增加%value%！"
+
+# Preview GUI
+display-gui-title-timer: " &7预览：&f {timer}"
+display-gui-title: " &7预览"
+
+# Main GUI
+main-gui-title-timer: " &7剩余次数：&d&l{timer}"
+main-gui-price-not-enough: "%price%不足。"
+main-gui-condition-not-meet: "条件不满足。"
+main-gui-max-flip-max: "此卡牌只能翻转%max%次。"
+main-gui-max-total-max: "此UI最多只能翻转%max%张卡牌。"
+main-gui-have-cost: "&e花费：%price%"
+main-gui-time-runs-out: "&#98FB98[FlipCard] &f时间已用尽！"
+main-gui-no-enough-space-dropped: "&#98FB98[FlipCard] &c您的库存空间不足：%amount%x&f%display% &c放下！"
+
+# Animation
+animation-flipping: "&a&l翻牌中"
+animation-flip-fail: "&c&l失败"
+animation-shuffling: "&c&l洗牌中"
+
+# System
+reward-get-fail: "&#98FB98[FlipCard] &c请联系管理员，因为未获得相应的奖励！"
+could-not-load-file: "&#98FB98[FlipCard] &c无法加载。"
+command-error: "&#98FB98[FlipCard] &c命令出错，请联系管理员。"
+reopen-message: "&#98FB98[FlipCard] &f翻牌UI暂时关闭，您有%time%秒&f&n[点击这里]"
+reopen-fail: "&#98FB98[FlipCard] &c重新打开失败，FlipCard已超时或不存在。"
+gettimes: "&#98FB98[FlipCard] &f此玩家剩余%times%次打开此类型的翻牌UI。"
+open-fail: "&#98FB98[FlipCard] &c您没有足够的剩余次数。"
+give-save-item: "&#98FB98[FlipCard] &fGive %player% save item %item% x%amount%!"
+
+# Placeholder
+price-placeholder-default: "%display% x%amount%"

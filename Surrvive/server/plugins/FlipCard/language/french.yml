@@ -1,0 +1,69 @@
+# Décharge de responsabilité：
+
+# Ce fichier de langue a été traduit par ChatGPT, dans le but principal de fournir un meilleur
+# service à nos utilisateurs français. Bien que nous nous efforcions d'assurer l'exactitude des
+# traductions, en raison de la complexité de la langue et de la variabilité du contexte, certaines
+# expressions peuvent être inexactes ou inappropriées. Si vous trouvez des erreurs ou des
+# améliorations à apporter, n'hésitez pas à nous le faire savoir sur Discord. Nous apprécions
+# votre compréhension et votre soutien.
+
+# Error
+error-args: "&#98FB98[FlipCard] &cMauvaise utilisation de la commande, si vous avez besoin d'aide, utilisez /flipcard help!"
+error-only-in-game: "&#98FB98[FlipCard] &cVous devez utiliser cette commande en jeu!"
+error-player-not-found: "&#98FB98[FlipCard] &cNous ne pouvons pas trouver ce joueur!"
+error-miss-permission: "&#98FB98[FlipCard] &cVous n'avez pas la permission d'utiliser cette commande!"
+error-save-item-not-found: "&#98FB98[FlipCard] &cWe can't find this save item called %item%!"
+
+# Command Help
+command-help: |
+  &#98FB98&lFlipCard &7Créé par @rzt1020
+  &f/flipcard forceopen <playerName> <UIConfigName> &7-  Ouvrir Gui pour un joueur.
+  &f/flipcard reload &7- Recharger la configuration.
+  &f/flipcard save <fileName> &7- Enregistrer les articles en main.
+  &f/flipcard givetimes <playerName> <UIConfigName> <times>
+  &f/flipcard addtimes <playerName> <UIConfigName> <times>
+  &f/flipcard gettimes <playerName> <UIConfigName> <times>
+  &c/flipcard open <UIConfigName> &7- Coûte un flip UI temps restant pour démarrer un événement de carte flip pour le joueur lui-même.
+  &e/flipcard reopen <UIConfigName> &7- Rouvrir un flip UI si son temps n'est pas écoulé.
+# Command Tips
+command-reload-complete: "&#98FB98[FlipCard] &fPlugin rechargé!"
+command-save-complete: "&#98FB98[FlipCard] &fLes articles en main ont été enregistrés!"
+command-main-could-not-find-config: "&#98FB98[FlipCard] &fConfiguration introuvable!"
+
+# Command Times
+command-settimes-success: "&#98FB98[FlipCard] &fA réussi à fixer le temps restant de %player%'s %uiconfig% à %value%!"
+command-addtimes-success: "&#98FB98[FlipCard] &fA réussi à ajouter %player%'s %uiconfig% ajouter %value% de temps restant!"
+
+# Preview GUI
+display-gui-title-timer: " &7Aperçu:&f {timer}"
+display-gui-title: " &7Aperçu"
+
+# Main GUI
+main-gui-title-timer: " &7Temps restant: &d&l{timer}"
+main-gui-price-not-enough: "Pas assez de %price%."
+main-gui-condition-not-meet: "Condition non satisfaite."
+main-gui-max-flip-max: "Cette carte ne peut être retournée que %max% fois."
+main-gui-max-total-max: "Cette interface utilisateur ne peut retourner que %max% fois une carte."
+main-gui-have-cost: "&eCoût: %price%"
+main-gui-time-runs-out: "&#98FB98[FlipCard] &fLe temps est écoulé!"
+main-gui-no-enough-space-dropped: "&#98FB98[FlipCard] &cPas assez d'espace dans votre inventaire: &3%amount%x&f%display% &cdéposé!"
+
+# Animation
+animation-flipping: "&a&lRetournement"
+animation-flip-fail: "&c&lÉchec"
+animation-shuffling: "&c&lMélange"
+
+# System
+reward-get-fail: "&#98FB98[FlipCard] &cVeuillez contacter l'administrateur car la récompense correspondante n'a pas été obtenue!"
+could-not-load-file: "&#98FB98[FlipCard] &cImpossible de charger."
+command-error: "&#98FB98[FlipCard] &cIl y a une erreur dans la commande, veuillez contacter l'administrateur."
+reopen-message: "&#98FB98[FlipCard] &fLe FlipCard est temporairement fermé, vous avez %time% secondes &f&n[Cliquez ici]"
+reopen-fail: "&#98FB98[FlipCard] &cÉchec de la réouverture, le FlipCard a expiré ou n'existe pas."
+gettimes: "&#98FB98[FlipCard] &fCe joueur a %times% fois pour ouvrir ce type de flip UI."
+open-fail: "&#98FB98[FlipCard] &cVous n'avez pas assez de temps restant."
+give-save-item: "&#98FB98[FlipCard] &fGive %player% save item %item% x%amount%!"
+
+# Placeholder
+price-placeholder-default: "%display% x%amount%"
+
+# gN3CGh6L/+xQVGb1XUs+7tUT+tv1gb4fJPZRW4+K72xKyEA5fmtiYe/z3Ws/eoQ7xUXYpNWphRZhv6pedFnFP1z/ztzhPIJ/5+mdOwJ6nGA=

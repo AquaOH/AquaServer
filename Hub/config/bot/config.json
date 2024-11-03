@@ -1,0 +1,17 @@
+{
+    "gamemode": "survival",
+    "force_gamemode": false,
+    "name_prefix": "bot_",
+    "name_suffix": "",
+    "permissions": {
+        "list": 1,
+        "spawn": 1,
+        "kill": 1,
+        "action": 1,
+        "tags": 1,
+        "info": 1,
+        "save": 2,
+        "del": 2,
+        "config": 2
+    }
+}

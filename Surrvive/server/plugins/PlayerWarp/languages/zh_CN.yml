@@ -1,0 +1,82 @@
+# 没权限时候提醒
+noPermission: "&c你没有权限执行此命令..."
+
+# 重载插件提醒
+reloadMsg: "&a插件重载完毕..."
+
+# placeholderAPI提醒
+placeholderAPISucceedMsg: "&a已成功加载placeholderApi"
+placeholderAPIFailureMsg: "&7你的服务端没有安装PlaceholderApi哦 未启用自定义变量功能."
+
+# vault提醒
+vaultSucceedMsg: "&a已成功加载Vault 启用经济相关功能."
+vaultFailureMsg: "&7你的服务端没有安装Vault 未启用经济相关功能."
+
+# PlayerPoints提醒
+playerPointsSucceedMsg: "&a已成功加载PlayerPoints 启用点券相关功能."
+playerPointsFailureMsg: "&7你的服务端没有安装PlayerPoints 未启用点券相关功能."
+
+# multiverseCore提醒
+multiverseCoreSucceedMsg: "&a已成功加载MultiverseCore 启用世界名翻译功能."
+multiverseCoreFailureMsg: "&7你的服务端没有安装MultiverseCore 未启用世界名翻译功能."
+
+# /plw help指令管理员出现的提醒
+helps:
+  - ""
+  - " &3Player&bWarp &8&l▪ &7米饭出品～"
+  - ""
+  - " &7命令: &f/plw &8[...]"
+  - " &7参数:"
+  - "   &8&l- &f reload   &7重载配置文件"
+  - "   &8&l- &f open (类型)   &7打开地标界面"
+  - "   &8&l- &f clear (服务器名) (世界名) &7清理地标"
+  - "   &8&l- &f getIp   &7获取地址"
+  - "   &8&l- &f setLogo [ID]       &7设置LOGO"
+  - "   &8&l- &f me       &7打开我的地标界面"
+  - "   &8&l- &f collection  (类型)  &7打开我的收藏地标界面"
+  - "   &8&l- &f tp  [地标名]    &7根据名称直接传送到某地标"
+  - "   &8&l- &f view    &7管理地标"
+  - "   &8&l- &f convert [MySQL-SQLite]  &7转换数据源"
+  - "   &8&l- &f create [创建人] [地标名] [时间]  &7指令建地标(1.1.5+)(时间单位为分钟)"
+  - "   &8&l- &f tpId  [ID]    &7根据ID直接传送到某地标"
+  - "   &8&l- &f createGui    &7打开创建gui"
+  - "   &8&l- &f whiteList [类型] [地标ID] [玩家名称] &7添加地标白名单"
+
+paramFailureMsg: "&8[&c✘&8] &4参数错误"
+noPlayerFailureMsg: "&8[&c✘&8] &4该命令只能玩家执行"
+typeFailureMsg: "&8[&c✘&8] &4类型错误,你输入的是:${type},只能是: ${tip}"
+idFailureMsg: "&8[&c✘&8] &4ID错误,你输入的是:${id},没有找到对应属于你的地标"
+noWarpMsg: "&8[&c✘&8] 传送失败,没有找到可传送的地标"
+whiteSucceedMsg: "&8[&a✔&8] &a地标新增白名单用户成功"
+whiteFailureMsg: "&8[&c✘&8] &4地标新增白名单用户失败"
+whiteDelSucceedMsg: "&8[&a✔&8] &a地标白名单删除${name}成功"
+amountFailureMsg: "&8[&c✘&8] &4此参数只能为整数"
+succeedMsg: "&8[&a✔&8] &a命令执行成功."
+failureMsg: "&8[&c✘&8] &c命令执行失败."
+not: "&a暂无描述"
+waitTime: "&7你必须等待 &a${waitTime} &7秒后 才可以继续使用该功能."
+delayTime: "&7传送将在 &a${delayTime} &7秒后开始 请不要移动."
+tpMove: "&8[&c✘&8] &7你移动了位置 传送被取消了."
+welcomeTitle: "&7欢迎 &a${player} 来到 &a${name}"
+limit: "&8[&c✘&8] &7非常抱歉,公开版本最多创建100个地标"
+tpPriceMsg: "&8[&a✔&8] &7你花费了 &a${price} &7开始传送到 &a${name}"
+tpMePriceMsg: "&8[&a✔&8] &7玩家 &a${player} &7传送到你的地标 &a${name} &7你收到了 &a${price} &7税 &a${taxPrice}"
+warpErrorMsg: "&8[&c✘&8] &7该地标处于异常状态,请联系op删除"
+noTpPermission: "&8[&c✘&8] &7你没有权限 &a${permission} &7传送该坐标"
+noWorldCreate: "&8[&c✘&8] &7你无法在本世界创建地标"
+
+# 地标类型
+warpType:
+  all: "所有"
+  architect: "建筑"
+  shop: "商店"
+  red_stone: "红石"
+  brush_monster: "刷怪场"
+  other: "其他"
+
+# 用于输入指令时候tab自动提醒帮助(只建议翻译,不建议更改)
+tabHelp:
+  playerName: "请输入玩家名称"
+  warpName: "请输入地标名称"
+  time: "请输入过期时间(单位:分钟)"
+  warpId: "请输入地标ID"

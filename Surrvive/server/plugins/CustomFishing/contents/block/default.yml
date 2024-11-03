@@ -1,0 +1,90 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+apple_crate:
+  show-in-fishfinder: false
+  disable-stat: true
+  nick: 一桶苹果
+  block: barrel
+  velocity:
+    horizontal: 1.07
+    vertical: 1.5
+  properties:
+    directional-6: true
+    storage:
+      apple_1:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_2:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_3:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_4:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_5:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_6:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_7:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+      apple_8:
+        item: APPLE
+        amount: 1~2
+        chance: 0.8
+carrot_crate:
+  show-in-fishfinder: false
+  disable-stat: true
+  nick: 一桶萝卜
+  block: barrel
+  velocity:
+    horizontal: 1.07
+    vertical: 1.5
+  properties:
+    directional-6: true
+    storage:
+      carrot_1:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_2:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_3:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_4:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_5:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_6:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_7:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8
+      carrot_8:
+        item: CARROT
+        amount: 1~2
+        chance: 0.8

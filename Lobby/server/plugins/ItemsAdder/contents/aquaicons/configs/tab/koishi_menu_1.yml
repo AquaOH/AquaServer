@@ -1,0 +1,10 @@
+info:
+  namespace: "aquaicons"
+  
+font_images:
+  koishi_menu_1: 
+    path: "tab/koishi_menu_1.png" 
+    symbol: "鑐"
+    show_in_gui: false
+    scale_ratio: 36
+    y_position: 8

@@ -1,0 +1,106 @@
+info:
+  namespace: customcrops
+items:
+  rosywoodm_stage_1:
+    display_name: "甜蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/rosywoodm_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  rosywoodm_stage_2:
+    display_name: "甜蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/rosywoodm_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  rosywoodm_stage_3:
+    display_name: "甜蘑菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/rosywoodm_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  rosywoodm_seeds:
+    #display_name: "Tomato Seeds"
+    display_name: "甜蘑菇种子"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/rosywoodm_seeds
+  rosywoodm:
+    #display_name: "Tomato"
+    display_name: 甜蘑菇
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/rosywoodm
+  rosywoodm_silver_star:
+    display_name: 甜蘑菇(银星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/rosywoodm_silver_star
+  rosywoodm_golden_star:
+    display_name: 甜蘑菇(金星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/rosywoodm_golden_star     
+loots:
+  blocks:
+    rosywoodm_stage_1:
+      type: customcrops:rosywoodm_stage_1
+      items:
+        result_1:
+          item: customcrops:rosywoodm_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    rosywoodm_stage_2:
+      type: customcrops:rosywoodm_stage_2
+      items:
+        result_1:
+          item: customcrops:rosywoodm_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    rosywoodm_stage_3:
+      type: customcrops:rosywoodm_stage_3
+      items:
+        result_1:
+          item: customcrops:rosywoodm_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

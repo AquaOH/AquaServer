@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "customcrops:mushrooms/lentinus_edodeswl",
+		"1": "customcrops:mushrooms/lentinus_edodeswl1",
+		"particle": "customcrops:mushrooms/lentinus_edodeswl"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 10],
+			"to": [7, 2, 12],
+			"faces": {
+				"north": {"uv": [13, 1, 15, 5], "texture": "#0"},
+				"east": {"uv": [13, 1, 15, 4], "texture": "#0"},
+				"south": {"uv": [11, 1, 13, 5], "texture": "#0"},
+				"west": {"uv": [13, 1, 15, 5], "texture": "#0"},
+				"up": {"uv": [12, 1, 14, 5], "texture": "#0"},
+				"down": {"uv": [14, 1, 16, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10, 0, 4],
+			"to": [12, 3, 6],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [12, 0, 14, 3], "texture": "#0"},
+				"south": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [12, 1, 14, 4], "texture": "#0"},
+				"up": {"uv": [11, 1, 13, 4], "texture": "#0"},
+				"down": {"uv": [14, 3, 16, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 3, 3],
+			"to": [13, 4, 7],
+			"faces": {
+				"north": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"east": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"south": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"west": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"up": {"uv": [11, 6, 16, 11], "texture": "#1"},
+				"down": {"uv": [10, 0, 16, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 2, 10],
+			"to": [7, 3, 12],
+			"faces": {
+				"north": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"east": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"south": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"west": {"uv": [8, 11, 14, 13], "texture": "#0"},
+				"up": {"uv": [6, 10, 9, 13], "texture": "#1"},
+				"down": {"uv": [10, 0, 16, 6], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

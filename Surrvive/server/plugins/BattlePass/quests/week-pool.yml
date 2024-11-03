@@ -1,0 +1,508 @@
+quests:
+  '1': # 任务 ID
+    name: 第 %week% 周 - 矿工 # 任务名称
+    type: block-break # 任务类型
+    variable: coal_ore # 玩家需要破坏的方块
+    required-progress: 100 # 玩家需要破坏煤矿方块的次数
+    points: 100 # 完成任务后获得的积分
+    item: # 在菜单中显示的物品
+      material: diamond_pickaxe:0
+      amount: 1
+      name: '&e矿工'
+      lore:
+      - '&7挖掘 &e100 个煤矿'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '3': # 任务 ID
+    name: 第 %week% 周 - 高级社交 # 任务名称
+    type: chat # 任务类型
+    variable: none
+    required-progress: 150 # 玩家需要在聊天中发送消息的次数
+    points: 100 # 完成任务后获得的积分
+    exclusive: premium # 仅限高级会员
+    item: # 在菜单中显示的物品
+      material: paper:0
+      amount: 1
+      name: '&e仅限高级会员 - 社交'
+      lore:
+      - '&7在聊天中发送 &e150 条消息'
+      - '&7&o仅限高级会员专享。'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '4':
+    name: 第 %week% 周 - 金钱
+    type: block-place
+    variable: gold_block
+    required-progress: 100
+    points: 100
+    item:
+      material: gold_block:0
+      name: '&e金钱'
+      lore:
+      - '&7放置 &e50 个金块'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '5':
+    name: 第 %week% 周 - 准备战斗
+    type: craft
+    variable: diamond_sword
+    required-progress: 1
+    points: 100
+    item:
+      material: diamond_sword:0
+      name: '&e准备战斗'
+      lore:
+      - '&7制作 &e一把钻石剑'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '6':
+    name: 第 %week% 周 - 农夫
+    type: milk
+    variable: none
+    required-progress: 5
+    points: 100
+    item:
+      material: milk_bucket:0
+      name: '&e农夫'
+      lore:
+      - '&7挤 &e5 头奶牛'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '7':
+    name: 第 %week% 周 - 铁匠
+    type: smelt
+    variable: iron_ingot
+    required-progress: 20
+    points: 100
+    item:
+      material: iron_ingot:0
+      name: '&e铁匠'
+      lore:
+      - '&7熔炼 &e20 个铁矿石'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '8':
+    name: 第 %week% 周 - 农夫 2
+    type: shear
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: white_wool:0
+      name: '&e农夫 2'
+      lore:
+      - '&7剪 &e100 只羊'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '9':
+    name: 第 %week% 周 - 宠物
+    type: tame
+    variable: wolf
+    required-progress: 1
+    points: 100
+    item:
+      material: monster_egg:0
+      name: '&e宠物'
+      lore:
+      - '&7驯服 &e1 只狼'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '100':
+    name: 第 %week% 周 - 骑士
+    type: ride-mob
+    variable: horse
+    required-progress: 1
+    points: 100
+    item:
+      material: saddle:0
+      name: '&e骑士'
+      lore:
+      - '&7骑 &e1 匹马'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '11':
+    name: 第 %week% 周 - 魔法
+    type: regenerate
+    variable: none
+    required-progress: 50
+    points: 100
+    item:
+      material: apple:0
+      amount: 1
+      name: '&e魔法'
+      lore:
+      - '&7恢复 &e50 点生命值'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '12':
+    name: 第 %week% 周 - 探险家
+    type: move
+    variable: none
+    required-progress: 10000
+    points: 100
+    item:
+      material: paper:0
+      amount: 1
+      name: '&e探险家'
+      lore:
+      - '&7行走 &e10000 米'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '13':
+    name: 第 %week% 周 - 游泳者
+    type: swim
+    variable: none
+    required-progress: 500
+    points: 100
+    item:
+      material: water_bucket:0
+      amount: 1
+      name: '&e游泳者'
+      lore:
+      - '&7游泳 &e500 米'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '14':
+    name: 第 %week% 周 - 活跃
+    type: login
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: clock:0
+      name: '&e活跃'
+      lore:
+      - '&7登录 &e100 次'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '15':
+    name: 第 %week% 周 - 杀手
+    type: kill-player
+    variable: none
+    required-progress: 1
+    points: 100
+    item:
+      material: wooden_sword:0
+      name: '&e杀手'
+      lore:
+      - '&7击杀 &e1 名玩家'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '16':
+    name: 第 %week% 周 - 刷怪者
+    type: kill-mob
+    variable: zombie
+    required-progress: 100
+    points: 100
+    item:
+      material: gold_sword:0
+      name: '&e刷怪者'
+      lore:
+      - '&7击杀 &e100 个僵尸'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '17':
+    name: 第 %week% 周 - 磨损
+    type: item-break
+    variable: stone_pickaxe
+    required-progress: 1
+    points: 100
+    item:
+      material: stone_pickaxe:0
+      name: '&e磨损'
+      lore:
+      - '&7摧毁 &e1 把石镐'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '18':
+    name: 第 %week% 周 - 刷怪者 2
+    type: gain-experience
+    variable: none
+    required-progress: 500
+    points: 100
+    item:
+      material: experience_bottle:0
+      name: '&e刷怪者 2'
+      lore:
+      - '&7获得 &e500 经验值'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '19':
+    name: 第 %week% 周 - 渔夫
+    type: fish
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: fishing_rod:0
+      name: '&e渔夫'
+      lore:
+      - '&7钓到 &e100 条鱼'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '20':
+    name: 第 %week% 周 - 新手
+    type: execute-command
+    variable: /help
+    required-progress: 1
+    points: 100
+    item:
+      material: saddle:0
+      name: '&e新手'
+      lore:
+      - '&7执行命令 &e/help'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '21': # 任务 ID
+    name: 第 %week% 周 - 矿工 # 任务名称
+    type: block-break # 任务类型
+    variable: coal_ore # 玩家需要破坏的方块
+    required-progress: 100 # 玩家需要破坏煤矿方块的次数
+    points: 100 # 完成任务后获得的积分
+    item: # 在菜单中显示的物品
+      material: diamond_pickaxe:0
+      amount: 1
+      name: '&e矿工'
+      lore:
+      - '&7挖掘 &e100 个煤矿'
+      - ''
+      - '&7进度 &e%progress_bar%'
+  '22': # 任务 ID
+    name: 第 %week% 周 - 社交 # 任务名称
+    type: chat # 任务类型
+    variable: none
+    required-progress: 300 # 玩家需要在聊天中发送消息的次数
+    points: 100 # 完成任务后获得的积分
+    item: # 在菜单中显示的物品
+      material: paper:0
+      amount: 1
+      name: '&e社交'
+      lore:
+      - '&7在聊天中发送 &e300 条消息'
+      - ''
+      - '&7进度 &e%progress_bar%'
+  '24':
+    name: 第 %week% 周 - 金钱
+    type: block-place
+    variable: gold_block
+    required-progress: 100
+    points: 100
+    item:
+      material: gold_block:0
+      name: '&e金钱'
+      lore:
+      - '&7放置 &e100 个金块'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '25':
+    name: 第 %week% 周 - 准备战斗
+    type: craft
+    variable: diamond_sword
+    required-progress: 1
+    points: 100
+    item:
+      material: diamond_sword:0
+      name: '&e准备战斗'
+      lore:
+      - '&7制作 &e一把钻石剑'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '26':
+    name: 第 %week% 周 - 农夫
+    type: milk
+    variable: none
+    required-progress: 5
+    points: 100
+    item:
+      material: milk_bucket:0
+      name: '&e农夫'
+      lore:
+      - '&7挤 &e5 头奶牛'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '27':
+    name: 第 %week% 周 - 铁匠
+    type: smelt
+    variable: iron_ingot
+    required-progress: 20
+    points: 100
+    item:
+      material: iron_ingot:0
+      name: '&e铁匠'
+      lore:
+      - '&7熔炼 &e20 个铁矿石'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '28':
+    name: 第 %week% 周 - 农夫 2
+    type: shear
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: white_wool:0
+      name: '&e农夫 2'
+      lore:
+      - '&7剪 &e100 只羊'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '29':
+    name: 第 %week% 周 - 宠物
+    type: tame
+    variable: wolf
+    required-progress: 1
+    points: 100
+    item:
+      material: monster_egg:0
+      name: '&e宠物'
+      lore:
+      - '&7驯服 &e1 只狼'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '30':
+    name: 第 %week% 周 - 骑士
+    type: ride-mob
+    variable: horse
+    required-progress: 1
+    points: 100
+    item:
+      material: saddle:0
+      name: '&e骑士'
+      lore:
+      - '&7骑 &e1 匹马'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '31':
+    name: 第 %week% 周 - 魔法
+    type: regenerate
+    variable: none
+    required-progress: 50
+    points: 100
+    item:
+      material: apple:0
+      amount: 1
+      name: '&e魔法'
+      lore:
+      - '&7恢复 &e50 点生命值'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '32':
+    name: 第 %week% 周 - 探险家
+    type: move
+    variable: none
+    required-progress: 10000
+    points: 100
+    item:
+      material: paper:0
+      amount: 1
+      name: '&e探险家'
+      lore:
+      - '&7行走 &e10000 米'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '33':
+    name: 第 %week% 周 - 游泳者
+    type: swim
+    variable: none
+    required-progress: 500
+    points: 100
+    item:
+      material: water_bucket:0
+      amount: 1
+      name: '&e游泳者'
+      lore:
+      - '&7游泳 &e500 米'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '34':
+    name: 第 %week% 周 - 活跃
+    type: login
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: clock:0
+      name: '&e活跃'
+      lore:
+      - '&7登录 &e100 次'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '35':
+    name: 第 %week% 周 - 杀手
+    type: kill-player
+    variable: none
+    required-progress: 1
+    points: 100
+    item:
+      material: wooden_sword:0
+      name: '&e杀手'
+      lore:
+      - '&7击杀 &e1 名玩家'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '36':
+    name: 第 %week% 周 - 刷怪者
+    type: kill-mob
+    variable: zombie
+    required-progress: 100
+    points: 100
+    item:
+      material: gold_sword:0
+      name: '&e刷怪者'
+      lore:
+      - '&7击杀 &e100 个僵尸'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '37':
+    name: 第 %week% 周 - 磨损
+    type: item-break
+    variable: stone_pickaxe
+    required-progress: 1
+    points: 100
+    item:
+      material: stone_pickaxe:0
+      name: '&e磨损'
+      lore:
+      - '&7摧毁 &e1 把石镐'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '38':
+    name: 第 %week% 周 - 刷怪者 2
+    type: gain-experience
+    variable: none
+    required-progress: 500
+    points: 100
+    item:
+      material: experience_bottle:0
+      name: '&e刷怪者 2'
+      lore:
+      - '&7获得 &e500 经验值'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '39':
+    name: 第 %week% 周 - 渔夫
+    type: fish
+    variable: none
+    required-progress: 100
+    points: 100
+    item:
+      material: fishing_rod:0
+      name: '&e渔夫'
+      lore:
+      - '&7钓到 &e100 条鱼'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+  '40':
+    name: 第 %week% 周 - 新手
+    type: execute-command
+    variable: /help
+    required-progress: 1
+    points: 100
+    item:
+      material: saddle:0
+      name: '&e新手'
+      lore:
+      - '&7执行命令 &e/help'
+      - ''
+      - '&7进度 &e%total_progress%&7/&e%required_progress%'
+actions-version: 2

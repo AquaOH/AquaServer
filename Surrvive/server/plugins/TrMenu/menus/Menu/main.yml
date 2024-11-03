@@ -1,0 +1,192 @@
+Title:
+- '&f%img_offset_-88%&f%img_main%'
+
+Title-Update: 1
+
+#建议每一个之间空一行，习惯，看起来不那么乱
+Layout:
+  - 'AAABBBCCJ' #菜单的边框
+  - 'AAABBBCCK'
+  - 'AAADDDEEL'
+  - 'FFFDDDEEM' #菜单的边框
+  - 'GGGGGHHII'
+  - 'GGGGGHHII'
+
+
+
+Events:
+  Open: #开启菜单的事件
+    - condition: perm *trmenu.use #检测玩家是否拥有menu.admin的权限（kether的写法）
+      actions: #拥有执行的动作（菜单正常打开）
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+        - 'delay: 2'
+        - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+
+      deny: #没有执行的动作（菜单被return动作中断）
+        - 'tell: &c你不是管理员'
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: <r#2:75:100>你还不是管理员哦！'
+        - 'return'
+  Close: #菜单关闭的事件
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-2'
+    - 'delay: 3'
+    - 'sound: BLOCK_NOTE_BLOCK_BELL-1-1'
+
+
+Icons: 
+  A: 
+    display: 
+      material: "source:IA:aqua_items:empty"
+      name: '&{#6BC2EB}领域传送'
+      lore: 
+        - ' &{#3c8dc3}自由地在服务器间跳转!'
+    actions: 
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-2'
+        - 'force-open: teleport'
+  B:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#D79729}全球市场'
+      lore:
+        - '&{#C18825}玩家间的自由贸易'       
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE-1-1'
+        - 'force-close'
+        - 'command: gmp market gui' 
+  C:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#cf5dc9}好友系统'
+      lore:
+        - '&{#ba54b5}好友申请、传送与邮箱' 
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-1'
+        - 'force-close'
+        - 'command: hyronicfriends' 
+        
+  D:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#5BA84D}游戏商城'
+      lore:
+        - '&{#529745}游戏内方块、物品 系统交易'       
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_BIT-1-1'
+        - 'force-close'
+        - 'command: pw open shops'      
+  E:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#B74848}Wiki'
+      lore:
+        - '&{#A44141}请参阅wiki.ecnumc.club'     
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'tell: &f点击&awiki.ecnumc.club&f查阅wiki'  
+  F:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#BE8BF4}地标'
+      lore:
+        - ' &f쀊&a：玩家地标'
+        - ' &f쀋&b：系统地标'        
+    actions:
+      left: 
+        - 'force-close'
+        - 'command: playerwarp open' 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+      right: 
+        - 'force-close'
+        - 'command: pw' 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+  G:
+    display:
+      material: source:IA:aqua_items:empty
+      name: '&{#B74848}活跃系统'
+      lore:
+        - '&{#A44141}各种活跃奖励：签到/礼包/战令/在线'      
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'force-open: activity'  
+  H:
+    display:
+      material: source:IA:aqua_items:empty
+      name: '&{#3C8DC3}Rank商店'
+      lore:
+        - '&{#367FAF}Rank进化'       
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'force-open: perm'  
+  I:
+    display:
+      material: source:IA:aqua_items:empty
+      name: '&{#D79729}成就'
+      lore:
+        - '&{#C18825}玩家成就&奖励' 
+        - '&c暂未开放'     
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        #- 'command: epicachievements'
+
+  J:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#CDC1FF}个人档案'
+      lore:
+        - '&{#A594F9}个人事务管理：余额/家/称号/Rank/圈地/商铺'       
+    actions:
+      all: 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'force-open: wallet'  
+
+  K:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#27AE60}邮箱'
+      lore:
+        - ' &f쀊&a：好友邮箱'
+        - ' &f쀋&b：市场邮箱'        
+    actions:
+      left: #左键操作触发
+        - 'force-close'
+        - 'command: mailbox' 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+      right: #右键操作触发
+        - 'force-close'
+        - 'command: globalmarketplus mailbox gui' 
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+
+  L:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#27AE60}垃圾桶'
+      lore:
+        - ' &a公共垃圾桶'
+        - ' &b请给有需要的人帮助吧'     
+    actions:
+      all: 
+        - 'force-close'
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'
+        - 'command: eclean trash'  
+
+
+  M:
+    display:
+      material: "source:IA:aqua_items:empty"
+      name: '&{#27AE60}PVP'
+      lore:
+        - '&aPVP模式开关'
+        - '当前状态：%togglepvp_state%'    
+    update: 1
+    actions:
+      all: 
+        - 'command: pvp'  
+        - 'sound: BLOCK_NOTE_BLOCK_CHIME-1-2'

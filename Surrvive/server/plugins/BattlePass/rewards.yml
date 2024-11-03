@@ -1,0 +1,1833 @@
+'money1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e100'
+  commands:
+    - 'eco give %player% 100'
+'money2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e200'
+  commands:
+    - 'eco give %player% 200'
+'money3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e300'
+  commands:
+    - 'eco give %player% 300'
+'money4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e400'
+  commands:
+    - 'eco give %player% 400'
+'money5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e500'
+  commands:
+    - 'eco give %player% 500'
+'money6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e600'
+  commands:
+    - 'eco give %player% 600'
+'money7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e700'
+  commands:
+    - 'eco give %player% 700'
+'money8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e800'
+  commands:
+    - 'eco give %player% 800'
+'money9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e900'
+  commands:
+    - 'eco give %player% 900'
+'money10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1000'
+  commands:
+    - 'eco give %player% 1000'
+'money11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1100'
+  commands:
+    - 'eco give %player% 1100'
+'money12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1200'
+  commands:
+    - 'eco give %player% 1200'
+'money13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1300'
+  commands:
+    - 'eco give %player% 1300'
+'money14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1400'
+  commands:
+    - 'eco give %player% 1400'
+'money15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1500'
+  commands:
+    - 'eco give %player% 1500'
+'exp1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a10'
+  commands:
+    - 'rpg admin exp give wlm123 main 10'
+'exp2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a20'
+  commands:
+    - 'rpg admin exp give wlm123 main 20'
+'exp3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a30'
+  commands:
+    - 'rpg admin exp give wlm123 main 30'
+'exp4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a40'
+  commands:
+    - 'rpg admin exp give wlm123 main 40'
+'exp5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a50'
+  commands:
+    - 'rpg admin exp give wlm123 main 50'
+'exp6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a60'
+  commands:
+    - 'rpg admin exp give wlm123 main 60'
+'exp7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a70'
+  commands:
+    - 'rpg admin exp give wlm123 main 70'
+'exp8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a80'
+  commands:
+    - 'rpg admin exp give wlm123 main 80'
+'exp9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a90'
+  commands:
+    - 'rpg admin exp give wlm123 main 90'
+'exp10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a100'
+  commands:
+    - 'rpg admin exp give wlm123 main 100'
+'exp11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a110'
+  commands:
+    - 'rpg admin exp give wlm123 main 110'
+'exp12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a120'
+  commands:
+    - 'rpg admin exp give wlm123 main 120'
+'exp13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a130'
+  commands:
+    - 'rpg admin exp give wlm123 main 130'
+'exp14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a140'
+  commands:
+    - 'rpg admin exp give wlm123 main 140'
+'exp15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a150'
+  commands:
+    - 'rpg admin exp give wlm123 main 150'
+#
+'diamond1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&b 钻石'
+  commands:
+    - 'give %player% DIAMOND 2'
+'diamond2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&b 钻石'
+  commands:
+    - 'give %player% DIAMOND 4'
+'diamond3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&b 钻石'
+  commands:
+    - 'give %player% DIAMOND 6'
+'emerald1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&a 绿宝石'
+  commands:
+    - 'give %player% EMERALD 2'
+'emerald2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&a 绿宝石'
+  commands:
+    - 'give %player% EMERALD 4'
+'emerald3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&a 绿宝石'
+  commands:
+    - 'give %player% EMERALD 6'
+'ironingot1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 2'
+'ironingot2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 4'
+'ironingot3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 6'
+'ironingot4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 8'
+'ironingot5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 10'
+'ironingot6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 16'
+'ironingot7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f20&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 20'
+'ironingot8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 24'
+'ironingot9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f28&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 28'
+'ironingot10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 32'
+'ironingot11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 36'
+'ironingot12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 42'
+'ironingot13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f48&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 48'
+'ironingot14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f52&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 52'
+'ironingot15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64&f 铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 64'
+'goldingot1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 2'
+'goldingot2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 4'
+'goldingot3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 6'
+'goldingot4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 8'
+'goldingot5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 10'
+'goldingot6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 16'
+'goldingot7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f20&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 20'
+'goldingot8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 24'
+'goldingot9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f28&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 28'
+'goldingot10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 32'
+'goldingot11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 36'
+'goldingot12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 42'
+'goldingot13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f48&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 48'
+'goldingot14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f52&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 52'
+'goldingot15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64&6 金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 64'
+'coal1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&7 煤炭'
+  commands:
+    - 'give %player% COAL 8'
+'coal2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16&7 煤炭'
+  commands:
+    - 'give %player% COAL 16'
+'coal3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32&7 煤炭'
+  commands:
+    - 'give %player% COAL 32'
+'coal4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&7 煤炭'
+  commands:
+    - 'give %player% COAL 8'
+'coal5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&7 煤炭'
+  commands:
+    - 'give %player% COAL 10'
+'coal6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16&7 煤炭'
+  commands:
+    - 'give %player% COAL 16'
+'coal7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f20&7 煤炭'
+  commands:
+    - 'give %player% COAL 20'
+'coal8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24&7 煤炭'
+  commands:
+    - 'give %player% COAL 24'
+'coal9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f28&7 煤炭'
+  commands:
+    - 'give %player% COAL 28'
+'coal10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32&7 煤炭'
+  commands:
+    - 'give %player% COAL 32'
+'coal11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36&7 煤炭'
+  commands:
+    - 'give %player% COAL 36'
+'coal12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42&7 煤炭'
+  commands:
+    - 'give %player% COAL 42'
+'coal13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f48&7 煤炭'
+  commands:
+    - 'give %player% COAL 48'
+'coal14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f52&7 煤炭'
+  commands:
+    - 'give %player% COAL 52'
+'coal15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64&7 煤炭'
+  commands:
+    - 'give %player% COAL 64'
+'goldblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f1&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 1'
+'goldblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 2'
+'goldblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f3&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 3'
+'goldblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 4'
+'goldblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f5&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 5'
+'goldblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 6'
+'goldblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f7&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 7'
+'goldblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 8'
+'goldblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f9&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 9'
+'goldblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 10'
+'goldblock11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f11&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 11'
+'goldblock12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f12&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 12'
+'goldblock13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f13&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 13'
+'goldblock14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f14&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 14'
+'goldblock15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f15&f 金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 15'
+'diamondblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f1&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 1'
+'diamondblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 2'
+'diamondblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f3&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 3'
+'diamondblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 4'
+'diamondblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f5&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 5'
+'diamondblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 6'
+'diamondblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f7&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 7'
+'diamondblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 8'
+'diamondblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f9&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 9'
+'diamondblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 10'
+'diamondblock11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f11&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 11'
+'diamondblock12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f12&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 12'
+'diamondblock13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f13&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 13'
+'diamondblock14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f14&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 14'
+'diamondblock15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f15&f 钻石快'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 15'
+'emeraldblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f1&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 1'
+'emeraldblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 2'
+'emeraldblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f3&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 3'
+'emeraldblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 4'
+'emeraldblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f5&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 5'
+'emeraldblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 6'
+'emeraldblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f7&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 7'
+'emeraldblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 8'
+'emeraldblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f9&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 9'
+'emeraldblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 10'
+'emeraldblock11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f11&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 11'
+'emeraldblock12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f12&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 12'
+'emeraldblock13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f13&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 13'
+'emeraldblock14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f14&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 14'
+'emeraldblock15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f15&f 绿宝石快'
+  commands:
+    - 'give %player% EMERALD_BLOCK 15'
+'ironblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f1&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 1'
+'ironblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 2'
+'ironblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f3&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 3'
+'ironblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 4'
+'ironblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f5&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 5'
+'ironblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f6&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 6'
+'ironblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f7&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 7'
+'ironblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 8'
+'ironblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f9&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 9'
+'ironblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f10&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 10'
+'ironblock11': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f11&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 11'
+'ironblock12': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f12&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 12'
+'ironblock13': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f13&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 13'
+'ironblock14': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f14&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 14'
+'ironblock15': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f15&f 铁快'
+  commands:
+    - 'give %player% IRON_BLOCK 15'
+
+
+
+
+    # PREMIUM SECTION!
+'premiummoney1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e200'
+  commands:
+    - 'eco give %player% 200'
+'premiummoney2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e400'
+  commands:
+    - 'eco give %player% 400'
+'premiummoney3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e600'
+  commands:
+    - 'eco give %player% 600'
+'premiummoney4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e800'
+  commands:
+    - 'eco give %player% 800'
+'premiummoney5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1000'
+  commands:
+    - 'eco give %player% 1000'
+'premiummoney6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1200'
+  commands:
+    - 'eco give %player% 1200'
+'premiummoney7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1400'
+  commands:
+    - 'eco give %player% 1400'
+'premiummoney8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1600'
+  commands:
+    - 'eco give %player% 1600'
+'premiummoney9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e1800'
+  commands:
+    - 'eco give %player% 1800'
+'premiummoney10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&e&l硬币 X &e2000'
+  commands:
+    - 'eco give %player% 2000'
+'premiumexp1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a20'
+  commands:
+    - 'rpg admin exp give wlm123 main 20'
+'premiumexp2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a40'
+  commands:
+    - 'rpg admin exp give wlm123 main 40'
+'premiumexp3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a60'
+  commands:
+    - 'rpg admin exp give wlm123 main 60'
+'premiumexp4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a80'
+  commands:
+    - 'rpg admin exp give wlm123 main 80'
+'premiumexp5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a100'
+  commands:
+    - 'rpg admin exp give wlm123 main 100'
+'premiumexp6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a120'
+  commands:
+    - 'rpg admin exp give wlm123 main 120'
+'premiumexp7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a140'
+  commands:
+    - 'rpg admin exp give wlm123 main 140'
+'premiumexp8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a160'
+  commands:
+    - 'rpg admin exp give wlm123 main 160'
+'premiumexp9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a180'
+  commands:
+    - 'rpg admin exp give wlm123 main 180'
+'premiumexp10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&a&l经验 x &a200'
+  commands:
+    - 'rpg admin exp give wlm123 main 200'
+'premiumironingot1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 16'
+'premiumironingot2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 24'
+'premiumironingot3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f30 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 30'
+'premiumironingot4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 36'
+'premiumironingot5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 42'
+'premiumironingot6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f56 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 56'
+'premiumironingot7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 64'
+'premiumironingot8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f112 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 112'
+'premiumironingot9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 126'
+'premiumironingot10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f142 &f铁锭'
+  commands:
+    - 'give %player% IRON_INGOT 142'
+'premiumgoldingot1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 16'
+'premiumgoldingot2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 24'
+'premiumgoldingot3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f30 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 30'
+'premiumgoldingot4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 36'
+'premiumgoldingot5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 42'
+'premiumgoldingot6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f56 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 56'
+'premiumgoldingot7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 64'
+'premiumgoldingot8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f112 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 112'
+'premiumgoldingot9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 126'
+'premiumgoldingot10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f142 &6金锭'
+  commands:
+    - 'give %player% GOLD_INGOT 142'
+'premiumcoal1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &7煤炭'
+  commands:
+    - 'give %player% COAL 16'
+'premiumcoal2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24 &7煤炭'
+  commands:
+    - 'give %player% COAL 24'
+'premiumcoal3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f30 &7煤炭'
+  commands:
+    - 'give %player% COAL 30'
+'premiumcoal4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36 &7煤炭'
+  commands:
+    - 'give %player% COAL 36'
+'premiumcoal5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42 &7煤炭'
+  commands:
+    - 'give %player% COAL 42'
+'premiumcoal6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f56 &7煤炭'
+  commands:
+    - 'give %player% COAL 56'
+'premiumcoal7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &7煤炭'
+  commands:
+    - 'give %player% COAL 64'
+'premiumcoal8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f112 &7煤炭'
+  commands:
+    - 'give %player% COAL 112'
+'premiumcoal9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &7煤炭'
+  commands:
+    - 'give %player% COAL 126'
+'premiumcoal10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f142 &7煤炭'
+  commands:
+    - 'give %player% COAL 142'
+'premiumdiamond1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 16'
+'premiumdiamond2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 24'
+'premiumdiamond3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f30 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 30'
+'premiumdiamond4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 36'
+'premiumdiamond5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 42'
+'premiumdiamond6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f56 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 56'
+'premiumdiamond7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 64'
+'premiumdiamond8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f112 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 112'
+'premiumdiamond9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 126'
+'premiumdiamond10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f142 &b钻石'
+  commands:
+    - 'give %player% DIAMOND 142'
+'premiumemerald1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 16'
+'premiumemerald2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f24 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 24'
+'premiumemerald3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f30 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 30'
+'premiumemerald4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f36 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 36'
+'premiumemerald5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f42 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 42'
+'premiumemerald6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f56 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 56'
+'premiumemerald7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 64'
+'premiumemerald8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f112 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 112'
+'premiumemerald9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 126'
+'premiumemerald10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f142 &a绿宝石'
+  commands:
+    - 'give %player% EMERALD 142'
+'premiumemeraldblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 2'
+'premiumemeraldblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 4'
+'premiumemeraldblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 8'
+'premiumemeraldblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 16'
+'premiumemeraldblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 32'
+'premiumemeraldblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 64'
+'premiumemeraldblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f100 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 100'
+'premiumemeraldblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 126'
+'premiumemeraldblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f148 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 148'
+'premiumemeraldblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f156 &a绿宝石块'
+  commands:
+    - 'give %player% EMERALD_BLOCK 156'
+'premiumdiamondblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 2'
+'premiumdiamondblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 4'
+'premiumdiamondblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 8'
+'premiumdiamondblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 16'
+'premiumdiamondblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 32'
+'premiumdiamondblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 64'
+'premiumdiamondblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f100 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 100'
+'premiumdiamondblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 126'
+'premiumdiamondblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f148 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 148'
+'premiumdiamondblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f156 &b钻石块'
+  commands:
+    - 'give %player% DIAMOND_BLOCK 156'
+'premiumironblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 2'
+'premiumironblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 4'
+'premiumironblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 8'
+'premiumironblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 16'
+'premiumironblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 32'
+'premiumironblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 64'
+'premiumironblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f100 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 100'
+'premiumironblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 126'
+'premiumironblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f148 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 148'
+'premiumironblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f156 &f铁块'
+  commands:
+    - 'give %player% IRON_BLOCK 156'
+'premiumgoldblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 2'
+'premiumgoldblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 4'
+'premiumgoldblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 8'
+'premiumgoldblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 16'
+'premiumgoldblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 32'
+'premiumgoldblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 64'
+'premiumgoldblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f100 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 100'
+'premiumgoldblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 126'
+'premiumgoldblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f148 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 148'
+'premiumgoldblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f156 &6金块'
+  commands:
+    - 'give %player% GOLD_BLOCK 156'
+'premiumcoalblock1': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f2 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 2'
+'premiumcoalblock2': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f4 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 4'
+'premiumcoalblock3': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f8 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 8'
+'premiumcoalblock4': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f16 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 16'
+'premiumcoalblock5': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f32 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 32'
+'premiumcoalblock6': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f64 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 64'
+'premiumcoalblock7': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f100 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 100'
+'premiumcoalblock8': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f126 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 126'
+'premiumcoalblock9': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f148 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 148'
+'premiumcoalblock10': # The id of the reward
+  type: command
+  name: '{#FFFF00}&l| &f高级通行证'
+  lore-addon:
+    - ' {#696969}■ &8+&f156 &7煤炭块'
+  commands:
+    - 'give %player% COAL_BLOCK 156'

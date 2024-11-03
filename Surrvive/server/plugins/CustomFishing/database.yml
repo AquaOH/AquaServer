@@ -1,0 +1,80 @@
+config-version: "36"
+
+# 文件:
+#   JSON
+#   YAML
+#
+# 本地数据库
+#   SQLite
+#   H2 (比SQLite更推荐)
+#
+# 远程数据库
+#   MySQL
+#   MariaDB (比MySQL更推荐)
+#   MongoDB
+#
+data-storage-method: "MySQL"
+
+SQLite:
+  file: "sqlite"
+  table-prefix: "customfishing"
+
+H2:
+  file: "h2"
+  table-prefix: "customfishing"
+
+MySQL:
+  host: "192.168.6.230"
+  port: "3306"
+  user: "customfishing"
+  password: "Aqua7296"
+  database: "customfishing"
+  connection-parameters: "?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8"
+  Pool-Settings:
+    max-pool-size: 10
+    min-idle: 10
+    max-lifetime: 180000
+    keep-alive-time: 60000
+    time-out: 20000
+  table-prefix: "customfishing"
+
+MariaDB:
+  host: "localhost"
+  port: "3306"
+  user: "root"
+  password: "password"
+  database: "minecraft"
+  connection-parameters: "?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8"
+  Pool-Settings:
+    max-pool-size: 10
+    min-idle: 10
+    max-lifetime: 180000
+    keep-alive-time: 60000
+    time-out: 20000
+  table-prefix: "customfishing"
+
+MongoDB:
+  host: "localhost"
+  port: "27017"
+  #user: 'root'
+  #password: 'password'
+  # 如果此部分不为空，它将覆盖上面的配置
+  # https://www.mongodb.com/docs/manual/reference/connection-string/
+  connection-uri: ""
+  database: "minecraft"
+  collection-prefix: "customfishing"
+
+# 如果您使用的是远程数据库，Redis是可选的
+# 如果您不知道如何使用Redis，请不要启用它
+Redis:
+  enable: false
+  host: "localhost"
+  password: ""
+  #password: "123456"
+  port: 6379
+  use-ssl: false
+  MaxTotal: 10
+  MaxIdle: 10
+  MinIdle: 1
+  MaxWaitMillis: 30000
+  MinEvictableIdleTimeMillis: 1800000

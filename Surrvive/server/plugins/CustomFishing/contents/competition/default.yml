@@ -1,0 +1,125 @@
+# 注意：这些是插件的默认配置
+# 并不一定意味着玩家会有良好的游戏体验。我们希望您能根据自己的想法
+# 创建自定义配置，让玩家体验到您服务器的独特之处。
+
+weekend_competition:
+  # TOTAL_SCORE
+  # CATCH_AMOUNT
+  # MAX_SIZE
+  # MIN_SIZE
+  # TOTAL_SIZE
+  # RANDOM
+  goal: CATCH_AMOUNT
+  # 可选
+  # 1-7
+  start-weekday:
+    - 6
+    - 7
+  # 可选
+  start-time:
+    - '9:30'
+    - '14:30'
+    - '20:00'
+  # 秒数
+  duration: 300
+  # 开始比赛的最小玩家数
+  min-players: 2
+  skip-actions:
+    broadcast:
+      type: broadcast
+      value:
+        - '由于玩家人数不足，钓鱼比赛未能按计划开始。'
+  bossbar:
+    enable: true
+    color: WHITE
+    overlay: PROGRESS
+    text:
+      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>剩余时间: <#E6E6FA>{seconds}s <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>您的排名: <#E6E6FA>{rank} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>第一名玩家: <#E6E6FA>{1_player}'
+      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>剩余时间: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>您的分数: <#E6E6FA>{score_formatted} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>第一名分数: <#E6E6FA>{1_score}'
+      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>剩余时间: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>获胜条件: <#E6E6FA>{goal}'
+    refresh-rate: 20
+    switch-interval: 200
+    only-show-to-participants: true
+  actionbar:
+    enable: false
+    text:
+      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>剩余时间: <#E6E6FA>{seconds}s <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>您的排名: <#E6E6FA>{rank} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>第一名玩家: <#E6E6FA>{1_player}'
+      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>剩余时间: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>您的分数: <#E6E6FA>{score_formatted} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>第一名分数: <#E6E6FA>{1_score}'
+      - '<gradient:#F0F8FF:#87CEFA>#F0F8FF>剩余时间: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA>#F0F8FF>获胜条件: <#E6E6FA>{goal}'
+    refresh-rate: 5
+    switch-interval: 200
+    only-show-to-participants: true
+  start-actions:
+    broadcast:
+      type: broadcast
+      value:
+        - '<#D4F2E7>◤─────────────────────────◥'
+        - ''
+        - '                    <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>钓鱼比赛'
+        - ''
+        - '             <#E1FFFF>目标:'
+        - '                    <#B0C4DE>尽可能多地捕鱼'
+        - '                 <#B0C4DE>开始钓鱼以参与比赛！'
+        - ''
+        - '<#D4F2E7>◣─────────────────────────◢'
+  end-actions:
+    broadcast:
+      type: broadcast
+      value:
+        - '<#D4F2E7>◤─────────────────────────◥'
+        - ''
+        - '                    <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>钓鱼比赛'
+        - ''
+        - '      <#E1FFFF>结果:'
+        - '              <gradient:#FFF8DC:#FFD700:#FFF8DC>第一名: {1_player} - {1_score}'
+        - '              <gradient:#F5FFFA:#F5F5F5:#F5FFFA>第二名: {2_player} - {2_score}'
+        - '              <gradient:#D2B48C:#CD853F:#D2B48C>第三名: {3_player} - {3_score}'
+        - ''
+        - '<#D4F2E7>◣─────────────────────────◢'
+  participate-actions:
+    message:
+      type: message
+      value:
+        - '您已加入比赛。祝你好运！'
+
+  # 参与比赛的要求
+  participate-requirements: {}
+
+  # 奖励
+  rewards:
+    1:
+      command_action:
+        type: command
+        value:
+          - 'money give {player} 200'
+      messages_action:
+        type: message
+        value:
+          - '<#FF4500>[第一名] 恭喜！您获得了一等奖！'
+    2:
+      command_action:
+        type: command
+        value:
+          - 'money give {player} 100'
+      messages_action:
+        type: message
+        value:
+          - '<#FF4500>[第二名] 与冠军失之交臂，再接再厉！'
+    3:
+      command_action:
+        type: command
+        value:
+          - 'money give {player} 100'
+      messages_action:
+        type: message
+        value:
+          - '<#FF4500>[第三名] 很棒的成绩，但是需要继续努力！'
+    participation:
+      command_action:
+        type: command
+        value:
+          - 'money give {player} 10'
+      messages_action:
+        type: message
+        value:
+          - '<#FF4500>感谢参与！'

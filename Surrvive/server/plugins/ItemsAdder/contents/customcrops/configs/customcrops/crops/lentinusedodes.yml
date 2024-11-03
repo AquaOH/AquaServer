@@ -1,0 +1,108 @@
+info:
+  namespace: customcrops
+items:
+  lentinus_edodes_stage_1:
+    display_name: "香菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/lentinus_edodes_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lentinus_edodes_stage_2:
+    display_name: "香菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/lentinus_edodes_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lentinus_edodes_stage_3:
+    display_name: "香菇"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/lentinus_edodes_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lentinus_edodes_seeds:
+    #display_name: "Tomato Seeds"
+    display_name: 香菇SEEDS
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mushrooms/lentinus_edodes_seeds
+  lentinus_edodes:
+    #display_name: "Tomato"
+    display_name: 香菇
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/lentinus_edodes
+      
+  lentinus_edodes_silver_star:
+    display_name: 香菇(Silver Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/lentinus_edodes_silver_star
+  lentinus_edodes_golden_star:
+    display_name: 香菇(Golden Star)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: mushrooms/lentinus_edodes_golden_star     
+      
+loots:
+  blocks:
+    lentinus_edodes_stage_1:
+      type: customcrops:lentinus_edodes_stage_1
+      items:
+        result_1:
+          item: customcrops:lentinus_edodes_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    lentinus_edodes_stage_2:
+      type: customcrops:lentinus_edodes_stage_2
+      items:
+        result_1:
+          item: customcrops:lentinus_edodes_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    lentinus_edodes_stage_3:
+      type: customcrops:lentinus_edodes_stage_3
+      items:
+        result_1:
+          item: customcrops:lentinus_edodes_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

@@ -1,0 +1,105 @@
+info:
+  namespace: customcrops
+items:
+  eggplant_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/eggplant/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  eggplant_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/eggplant/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  eggplant_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/eggplant/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  eggplant_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/eggplant/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  eggplant_seeds:
+    display_name: "茄子种子"
+    #display_name: 茄子种子
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/eggplant/eggplant_seeds
+  eggplant:
+    display_name: "茄子"
+    #display_name: 茄子
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/eggplant/eggplant
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  eggplant_silver_star:
+    display_name: "茄子 (银星)"
+    #display_name: 茄子(银星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/eggplant/eggplant_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  eggplant_golden_star:
+    display_name: "茄子 (金星)"
+    #display_name: 茄子(金星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: item/crops/eggplant/eggplant_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+categories:
+  customcrops_eggplant:
+    enabled: true
+    icon: customcrops:eggplant
+    name: 'Eggplant'
+    items:
+      - customcrops:eggplant
+      - customcrops:eggplant_silver_star
+      - customcrops:eggplant_golden_star
+      - customcrops:eggplant_seeds
+      - customcrops:eggplant_stage_1
+      - customcrops:eggplant_stage_2
+      - customcrops:eggplant_stage_3
+      - customcrops:eggplant_stage_4
+      - customcrops:eggplant_stage_5

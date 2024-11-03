@@ -1,0 +1,46 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃  HuskTowns town role config  ┃
+# ┃    Developed by William278   ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┣╸ This file is for configuring town roles and associated privileges.
+# ┣╸ Each role is mapped to a weight, identifying its hierarchical position. Each weight is also mapped to the role name.
+# ┣╸ Config Help: https://william278.net/docs/husktowns/config-files
+# ┗╸ Documentation: https://william278.net/docs/husktowns/roles
+
+# Map of role weight IDs to display names
+names:
+  '1': Resident
+  '2': Trustee
+  '3': Mayor
+# Map of role weight IDs to privileges
+roles:
+  '1':
+  - deposit
+  - chat
+  - claim_plot
+  - spawn
+  '2':
+  - set_farm
+  - set_plot
+  - manage_plot_members
+  - trusted_access
+  - unclaim
+  - claim
+  - set_greeting
+  - set_farewell
+  - invite
+  - set_spawn
+  - manage_relations
+  - spawn_privacy
+  - view_logs
+  '3':
+  - set_bio
+  - evict
+  - promote
+  - demote
+  - withdraw
+  - level_up
+  - set_rules
+  - rename
+  - set_color
+  - declare_war

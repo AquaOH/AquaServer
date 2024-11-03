@@ -1,0 +1,168 @@
+quests:
+  1:
+    name: '周 | 合成2个炼药台'
+    type: craft
+    variable: BREWING_STAND:0
+    required-progress: 8
+    points: 100.0
+    item:
+      material: BREWING_STAND:0
+      amount: 1
+      name: '{#ffc74f}⚐ &8| {#ffc74f}合成2个炼药台'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}2&7个炼药台.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成2个炼药台'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃100.0'
+  2:
+    name: '周 | 合成16把石剑'
+    type: craft
+    variable: STONE_SWORD:0
+    required-progress: 16
+    points: 50.0
+    item:
+      material: STONE_SWORD:0
+      amount: 1
+      name: '{#ffc74f}🗡 &8| {#ffc74f}合成16把石剑'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}16&7把石剑&7.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成16把石剑'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃50.0'
+  3:
+    name: '周 | 合成4把铁剑'
+    type: craft
+    variable: IRON_SWORD:0
+    required-progress: 4
+    points: 100.0
+    item:
+      material: IRON_SWORD:0
+      amount: 1
+      name: '{#ffc74f}🗡 &8| {#ffc74f}合成4把铁剑'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}4&7把铁剑.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成4把铁剑'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃100.0'
+  4:
+    name: '周 | 合成4把金剑'
+    type: craft
+    variable: GOLDEN_SWORD:0
+    required-progress: 4
+    points: 150.0
+    item:
+      material: GOLDEN_SWORD:0
+      amount: 1
+      name: '{#ffc74f}🗡 &8| {#ffc74f}合成4把金剑'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}4&7把金剑.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成4把金剑'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃150.0'
+  5:
+    name: '周 | 合成2把钻石剑'
+    type: craft
+    exclusive: premium
+    variable: DIAMOND_SWORD:0
+    required-progress: 2
+    points: 250.0
+    item:
+      material: DIAMOND_SWORD:0
+      amount: 1
+      name: '{#ffc74f}🗡 &8| {#ffc74f}合成2把钻石剑'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7合成{#ffc74f}2&7把钻石剑&7.'
+        - ''
+        - '{#ffc74f}&l信息'
+        - ' &8■ &7目标: {#ffc74f}合成2把钻石剑'
+        - ' &8■ &7进度: {#ffc74f}%total_progress%&8/{#ffc74f}%required_progress%'
+        - ''
+        - '{#ffc74f}&l进度'
+        - ' %progress_bar% &8| {#ffc74f}%percentage_progress%'
+        - ''
+        - '{#ffc74f}&7奖励'
+        - ' &8- {#ffff00}⛃250.0'
+  6:
+    name: '周 | 种植64个胡萝卜'
+    type: block-break
+    variable: CARROTS:0
+    required-progress: 64
+    points: 250.0
+    exclusive: premium
+    item:
+      material: CARROT:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植64个胡萝卜'
+      lore:
+        - '{#ff0000}&l[!] 需要高级通行证'
+        - ''
+        - '&7完成该任务所需条件:'
+        - '&7种植{#faad1e}64&7个胡萝卜.'
+        - ''
+        - '{#faad1e}&l信息'
+        - ' &8■ &7目标: {#faad1e}种植64个胡萝卜'
+        - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+        - ''
+        - '{#faad1e}&l进度'
+        - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+        - ''
+        - '{#faad1e}&7奖励'
+        - ' &8- {#ffff00}⛃250.0'
+  7:
+    name: '周 | 种植64个马铃薯'
+    type: block-break
+    variable: POTATOES:0
+    required-progress: 64
+    points: 250.0
+    item:
+      material: POTATO:0
+      amount: 1
+      name: '{#faad1e}⚘ &8| {#faad1e}种植64个马铃薯'
+      lore:
+        - '&7完成该任务所需条件:'
+        - '&7种植{#faad1e}64&7个马铃薯.'
+        - ''
+        - '{#faad1e}&l信息'
+        - ' &8■ &7目标: {#faad1e}种植64个马铃薯'
+        - ' &8■ &7进度: {#faad1e}%total_progress%&8/{#faad1e}%required_progress%'
+        - ''
+        - '{#faad1e}&l进度'
+        - ' %progress_bar% &8| {#faad1e}%percentage_progress%'
+        - ''
+        - '{#faad1e}&7奖励'
+        - ' &8- {#ffff00}⛃250.0'
